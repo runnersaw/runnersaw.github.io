@@ -2,21 +2,28 @@
 <html>
 <head>
 <link type="text/css" rel="stylesheet" href="resume.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 <title>About Sawyer Vaughan</title>
 </head>
 <body>
 	<div id="container">
 		<div id="header">
 			SAWYER VAUGHAN 
-			<a 
 			<a href="https://www.facebook.com/sawyer.vaughan" target="_blank">
 				<img id="facebook" src="facebook.png"/>
+			</a>
+			<a href="https://www.twitter.com/runnersaw" target="_blank">
+				<img id="twitter" src="twitter.png"/>
+			</a>
+			<a href="https://github.com/runnersaw" target="_blank">
+				<img id="github" src="github.png"/>
 			</a>
 		</div>
 		<div id="sidebar">
 			<img id="pic" src="OlinF2013.jpg"/>
 			<p>About Me</p>
-			<ul >
+			<ul>
 				<li>Thing</li>
 				<li>Thing</li>
 				<li>Thing</li>
@@ -25,13 +32,27 @@
 				<li>Thing</li>
 				<li>Thing</li>
 				<li>Thing</li>
-				<li>Thing</li>
-				<li>Thing</li>
+				<li id="Thing">Thing</li>
+				<li id="thing2">Thing</li>
 				<li>Thing</li>
 			</ul>
 		</div>
 		<div id="footer">Contact</div>
-		<div id="right">Whassup homie<br><br><br><br><br><br><br><br><br><br><br><br><br><br>NM</div>
+		<div id="right">
+			<h3 class="accordion">ABOUT</h3>
+            <div>
+                <p class="accordioninside">I'm the first section!</p>
+            </div>
+            <h3 class="accordion">WORK</h3>
+            <div>
+                <p class="accordioninside">I'm the 2 section!</p>
+            </div>
+            <h3 class="accordion">OTHER</h3>
+            <div>
+                <p class="accordioninside">I'm the 3 section!</p>
+            </div>
+		</div>
 	</div>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>

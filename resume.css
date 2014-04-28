@@ -65,9 +65,8 @@ height: 80vh;
 margin-left: 35vw;
 margin-top: 9vh;
 margin-right: 0;
-margin-bottom: 9vh;
+margin-bottom: 0;
 width: 60vw;
-background-color: #ffffaa;
 font-size: 6vh;
 font-family: Times, sans-serif;
 }
@@ -85,7 +84,23 @@ float: right;
 width: 5vh;
 height: 5vh;
 margin-top: 1.5vh;
-margin-right: 5vh;
+margin-right: 2.5vh;
+}
+
+#github {
+float: right;
+width: 5vh;
+height: 5vh;
+margin-top: 1.5vh;
+margin-right: 2.5vh;
+}
+
+#twitter {
+float: right;
+width: 5vh;
+height: 5vh;
+margin-top: 1.5vh;
+margin-right: 2.5vh;
 }
 
 html {
@@ -125,4 +140,17 @@ text-align: left;
 
 * {
 border: 0;
+margin: 0;
+}
+
+.accordion {
+background-color: gray;
+font-family: Impact;
+border-radius: 3px;
+margin-top: 1vh;
+}
+
+.accordioninside {
+font-family: serif;
+font-size: .5em;
 }
