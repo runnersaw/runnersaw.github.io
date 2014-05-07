@@ -237,6 +237,7 @@ font-size: .5em;
 #work-navigation {
 	margin-top: 10vh;
 	position: relative;
+	width: 25vw;
 }
 
 .work-nav-left {
@@ -249,12 +250,15 @@ font-size: .5em;
 	clear:left;
 	margin-top: 1vh;
 	font-size: 2em;
+	float: left;
+	display: inline-block;
 }
 
 #content-container {
 	width: 70vw;
-	position: relative;
+	position: fixed;
 	left: 30vw;
-	height:90vh;
 	top:10vh;
+	float:right;
+	clear: right;
 }
