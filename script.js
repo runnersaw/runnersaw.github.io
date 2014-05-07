@@ -10,7 +10,6 @@ $(document).ready(function() {
   	$footer.html('Contact');
   });
   $('#stocks').click(function() {
-    alert('load')
     $('#content-container').load('stocks.html')
   })
 });
