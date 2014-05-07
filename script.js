@@ -12,4 +12,10 @@ $(document).ready(function() {
   $('#stocks').click(function() {
     $('#content-container').load('stocks.html')
   })
+  $('#robot').click(function() {
+    $('#content-container').load('carl.html')
+  })
+  $('#basketball').click(function() {
+    $('#content-container').load('basketball.html')
+  })
 });
