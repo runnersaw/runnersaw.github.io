@@ -11,6 +11,6 @@ $(document).ready(function() {
   });
   $('#stocks').click(function() {
     alert('load')
-    $('#content-container').load('stocks.html #container')
+    $('#content-container').load('stocks.html')
   })
 });
