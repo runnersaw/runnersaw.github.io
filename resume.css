@@ -233,3 +233,28 @@ margin-top: 1vh;
 font-family: serif;
 font-size: .5em;
 }
+
+#work-navigation {
+	margin-top: 10vh;
+	position: relative;
+}
+
+.work-nav-left {
+	position: relative;
+	left: 0;
+	width: 23vw;
+	padding-right: 2vw;
+	text-align: right;
+	background-color: #AAAAAA;
+	clear:left;
+	margin-top: 1vh;
+	font-size: 2em;
+}
+
+#content-container {
+	width: 70vw;
+	position: relative;
+	left: 30vw;
+	height:90vh;
+	top:10vh;
+}

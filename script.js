@@ -9,4 +9,8 @@ $(document).ready(function() {
   	$footer.animate({height: "-=30vh"}, 500);
   	$footer.html('Contact');
   });
+  $('#stocks').click(function() {
+    alert('load')
+    $('#content-container').load('stocks.html #container')
+  })
 });
