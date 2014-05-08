@@ -18,4 +18,7 @@ $(document).ready(function() {
   $('#basketball').click(function() {
     $('#content-container').load('basketball.html')
   })
+  $('#stocks').css( 'cursor', 'pointer' );
+  $('#basketball').css( 'cursor', 'pointer' );
+  $('#robot').css( 'cursor', 'pointer' );
 });
