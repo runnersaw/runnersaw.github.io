@@ -257,11 +257,13 @@ font-size: .5em;
 	width: 70vw;
 	position: absolute;
 	left: 30vw;
-	top:10vh;
+	top:8vh;
 	float:right;
 	clear: right;
 	overflow: auto;
-	height: 80vh;
+	height: 87vh;
+	padding-bottom: 2vh;
+	padding-top: 2vh;
 }
 
 #top {
