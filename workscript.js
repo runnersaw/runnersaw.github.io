@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   $('#stocks').click(function() {
     $('#content-container').fadeOut(200);
-    $('#content-container').load('stocks.html');
+    setTimeout(function() {$('#content-container').load('stocks.html');}, 200);
     $('#content-container').fadeIn(200);
     if (workActivated!='stocks') {
       $('.work-nav-left').css('background-color', '#AAAAAA');
