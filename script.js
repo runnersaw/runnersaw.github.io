@@ -1,7 +1,10 @@
 $(document).ready(function() {
+  photoWidth = $('#top-photo').width();
+  topHeight = $('#top').height();
+  margin = (topHeight-photoWidth)/2.0;
+  $('#top-photo').css({'margin-top':margin});
+
   var footerActivated = false;
-  var workActivated = 'none';
-  $('#right').accordion({collapsible: true, active: false});
   $footer = $('#footer');
   $footer.css('cursor','pointer');
   $footer.click(function() {
@@ -15,35 +18,4 @@ $(document).ready(function() {
       footerActivated = true;
     }
   });
-  $('#stocks').click(function() {
-    $('#content-container').load('stocks.html');
-    if (workActivated!='stocks') {
-      $('.work-nav-left').css('background-color', '#AAAAAA');
-      $('.work-nav-left').animate({ width: '23vw'}, 200);
-      $(this).css('background-color', '#999999');
-      $(this).animate({ width: '+=2vw'}, 200);
-      workActivated = 'stocks';
-    };
-  });
-  $('#robot').click(function() {
-    $('#content-container').load('carl.html');
-    if (workActivated!='robot') {
-      $('.work-nav-left').css('background-color', '#AAAAAA');
-      $('.work-nav-left').animate({ width: '23vw'}, 200);
-      $(this).css('background-color', '#999999');
-      $(this).animate({ width: '+=2vw'}, 200);
-      workActivated = 'robot';
-    };
-  });
-  $('#basketball').click(function() {
-    $('#content-container').load('basketball.html');
-    if (workActivated!='basketball') {
-      $('.work-nav-left').css('background-color', '#AAAAAA');
-      $('.work-nav-left').animate({ width: '23vw'}, 200);
-      $(this).css('background-color', '#999999');
-      $(this).animate({ width: '+=2vw'}, 200);
-      workActivated = 'basketball';
-    };
-  });
-  $('.work-nav-left').css( 'cursor', 'pointer' );
 });
