@@ -2,7 +2,9 @@ $(document).ready(function() {
   var workActivated = 'none';
 
   $('#stocks').click(function() {
+    $('#content-container').fadeOut(200);
     $('#content-container').load('stocks.html');
+    $('#content-container').fadeIn(200);
     if (workActivated!='stocks') {
       $('.work-nav-left').css('background-color', '#AAAAAA');
       $('.work-nav-left').animate({ width: '23vw'}, 200);
