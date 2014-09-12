@@ -107,7 +107,7 @@ a:link {
 	text-decoration: none;
 }
 a:visited {
-	color:#111111;
+	color:#555555;
 	text-decoration:none;
 }
 a:hover {
@@ -251,18 +251,18 @@ font-size: .5em;
 	font-size: 2em;
 	float: left;
 	display: inline-block;
-	cursor: pointer;
 }
 
 #content-container {
-	width: 68vw;
+	width: 70vw;
 	position: absolute;
 	left: 30vw;
-	top:10vh;
+	top:8vh;
 	float:right;
 	clear: right;
 	overflow: auto;
-	height: 83vh;
+	padding-bottom: 7vh;
+	padding-top: 2vh;
 }
 
 #top {
@@ -277,29 +277,12 @@ font-size: .5em;
 #top-title {
 	margin-top: 12vh;
 	left:0;
-	width: 80vw;
+	width: 100vw;
 }
 
 #top-text {
 	margin-top: 5vh;
-	width: 70vw;
-	position: absolute;
-	left: 0;
-	padding-left: 5vw;
-	padding-right: 5vw;
-}
-
-#top-photo {
-	width: 15vw;
-	height: 15vw;
-	border-radius: 7.5vw;
-	-webkit-border-radius: 7.5vw;
-	-moz-border-radius: 7.5vw;
-	background: url(OlinF2013.jpg) no-repeat;
-	background-size: 15vw 15vw;
-	position: absolute;
-	left: 80vw;
-	top:0;
+	width: 100vw;
 }
 
 #bottom {
@@ -311,20 +294,15 @@ font-size: .5em;
 }
 
 .bottom {
-	position: relative;
 	display: inline-block;
-	margin-top: 5vh;
 	margin-left: 4vw;
 	width: 28vw;
-	height:35vh;
-	border: 3px solid black;
-	border-radius: 15px;
-	box-shadow: 10px 10px 8px;
+	height:45vh;
 }
 
 .bottom-title {
 	width: 100%;
-	margin-top: 3vh;
+	margin-top: 8vh;
 }
 
 .bottom-text {
@@ -341,7 +319,7 @@ div.navbar a {
     z-index: 10;
 }
 
-div.bottom-button a {
+div.bottom-botton a {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -351,15 +329,13 @@ div.bottom-button a {
     padding-top: 1vh;
 }
 
-.bottom-button {
-	position: absolute;
+.bottom-botton {
+	position:relative;
 	width: 10vw;
 	height: 5vh;
-	left: 9vw;
-	bottom: 3vh;
+	margin-top: 5vh;
 	background-color: #11ff11;
-	border-radius: 8px;
+	border-radius: 3px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px solid black;
 }
