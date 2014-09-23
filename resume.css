@@ -1,20 +1,44 @@
 #header {
-height: 8vh;
+	height: 8vh;
 
-margin-left: 0;
-margin-right: 0;
-width: 100vw;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100vw;
 
-border:0;
+	border:0;
 
-background-color: #3F3f3f;
+	background-color: #666666;
 
-font-size:6vh;
-font-family: Impact, sans-serif;
-position: fixed;
-top: 0;
-left: 0;
-z-index:100;
+	font-size:6vh;
+	font-family: Impact, sans-serif;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index:100;
+}
+
+#footer-text {
+	background-color:#666666; 
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	
+	border-bottom: 10px solid black;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	
+	border-top: 10px solid black;
 }
 
 #title {
@@ -71,7 +95,7 @@ width: 100vw;
 
 border: 0;
 
-background-color: #3F3f3f;
+background-color: white;
 
 text-align:center;
 font-size:4vh;
@@ -173,6 +197,14 @@ margin-right: 2.5vh;
 }
 
 #twitter {
+float: right;
+width: 5vh;
+height: 5vh;
+margin-top: 1.5vh;
+margin-right: 2.5vh;
+}
+
+#linkedin {
 float: right;
 width: 5vh;
 height: 5vh;
@@ -282,10 +314,10 @@ font-size: .5em;
 
 #top-text {
 	margin-top: 5vh;
-	width: 70vw;
+	width: 60vw;
 	position: absolute;
 	left: 0;
-	padding-left: 5vw;
+	padding-left: 10vw;
 	padding-right: 5vw;
 }
 
@@ -295,10 +327,10 @@ font-size: .5em;
 	border-radius: 7.5vw;
 	-webkit-border-radius: 7.5vw;
 	-moz-border-radius: 7.5vw;
-	background: url(OlinF2013.jpg) no-repeat;
+	background: url(official.png) no-repeat;
 	background-size: 15vw 15vw;
 	position: absolute;
-	left: 80vw;
+	left: 75vw;
 	top:0;
 }
 
@@ -361,5 +393,39 @@ div.bottom-button a {
 	border-radius: 8px;
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px solid black;
+	-webkit-box-shadow: 2px 2px 5px 5px #AAA inset;
+	-moz-box-shadow: 2px 2px 5px 5px #AAA inset;
+	box-shadow: 2px 2px 5px 5px #AAA inset;
+}
+
+#pic-2048 {
+	height: 40%;
+	width:80%;
+}
+
+.footer-selection {
+	position: absolute;
+	top:10vh;
+	width:20vw;
+}
+
+.footer-selection {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	width:20vw;
+}
+
+.footer-pic {
+	width: 15vh;
+	height: 15vh;
+}
+
+#about-rant-container {
+	position: absolute;
+	top: 15vh;
+	width: 70vw;
+	left: 15vw;
+	text-align: center;
+	font-size: 3vh;
 }

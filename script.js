@@ -5,16 +5,17 @@ $(document).ready(function() {
   $('#top-photo').css({'margin-top':margin});
 
   var footerActivated = false;
+  $footertext = $('#footer-text');
   $footer = $('#footer');
-  $footer.css('cursor','pointer');
-  $footer.click(function() {
+  $footertext.css('cursor','pointer');
+  $footertext.click(function() {
     if (footerActivated) {
       $footer.animate({height: "-=30vh"}, 200);
-      $footer.html('Contact');
+      $('.arrow-down').addClass('arrow-up').removeClass('arrow-down');
       footerActivated = false;
     } else {
       $footer.animate({height: "+=30vh"}, 200)
-      $footer.html('<div>Contact</div><div><ul><li>About Me</li><li>Previous Work</li><li><a href="onlineresume.pdf">Resume</a></li></ul></div>');
+      $('.arrow-up').addClass('arrow-down').removeClass('arrow-up');
       footerActivated = true;
     }
   });

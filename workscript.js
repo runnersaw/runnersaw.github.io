@@ -1,5 +1,7 @@
 $(document).ready(function() {
   var workActivated = 'none';
+  $('#chatbot').hide();
+  $('#breadboard').hide();
 
   $('#stocks').click(function() {
     if (workActivated!='stocks') {
