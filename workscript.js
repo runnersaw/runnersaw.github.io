@@ -7,6 +7,8 @@ $(document).ready(function() {
     if (workActivated!='stocks') {
       $('#content-container').fadeOut(200);
       setTimeout(function() {$('#content-container').load('stocks.html');}, 200);
+      var width = $('#webpage').width();
+      $('.webpage').height(9/16.0*width);
       $('#content-container').fadeIn(200);
       $('.work-nav-left').css('background-color', '#AAAAAA');
       $('.work-nav-left').animate({ width: '23vw'}, 200);
