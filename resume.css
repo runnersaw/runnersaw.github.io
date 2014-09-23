@@ -404,6 +404,12 @@ div.bottom-button a {
 	margin-left: 10%
 }
 
+#pic-2048 {
+	height: 50%;
+	width:50%;
+	margin-left: 25%
+}
+
 .footer-selection {
 	position: absolute;
 	top:10vh;
