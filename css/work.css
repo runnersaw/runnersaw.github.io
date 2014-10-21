@@ -1,0 +1,126 @@
+#header {
+height: 8vh;
+
+margin-left: 0;
+margin-right: 0;
+width: 100vw;
+
+border:0;
+
+background-color: #3F3f3f;
+
+font-size:6vh;
+font-family: Impact, sans-serif;
+position: fixed;
+top: 0;
+left: 0;
+z-index:100;
+}
+
+#title {
+	width:36vw;
+	position:relative;
+	top:0;
+	margin-left: 0;
+	margin-right: 0;
+	display: inline-block;
+	text-align: center;
+}
+
+#mainpage {
+	margin-left: 10vw;
+	width:5vw;
+	text-align: center;
+}
+
+#about {
+	width:3vw;
+	text-align: center;
+}
+
+#work {
+	width:3vw;
+	text-align: center;
+}
+
+#other {
+	width:3vw;
+	text-align: center;
+}
+
+.navbar {
+	height:2vh;
+	position:relative;
+	text-align: left;
+	border-left: 1px solid #333333;
+	border-right: 1px solid #333333;
+	top:0;
+	font-size:2vh;
+	display: inline-block;
+	float: left;
+	margin-right: 0;
+	margin-left: 0;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+	font-family: sans-serif;
+}
+
+a.navbar-link:link {
+	color:#000000;
+	text-decoration:none;
+}
+a.navbar-link:visited {
+	color:#000000;
+	text-decoration:none;
+}
+a.navbar-link:hover {
+	color:#000000;
+	text-decoration:none;
+}
+a.navbar-link:active {
+	color:#000000;
+	text-decoration:none;
+}
+
+a:link {
+	color:#000000;
+	text-decoration:none;
+}
+a:visited {
+	color:#333333;
+	text-decoration:none;
+}
+a:hover {
+	color:#0000AA;
+	text-decoration:underline;
+}
+a:active {
+	color:#0000FF;
+	text-decoration:underline;
+}
+
+#facebook {
+float: right;
+width: 5vh;
+height: 5vh;
+margin-top: 1.5vh;
+margin-right: 15vh;
+}
+
+#github {
+float: right;
+width: 5vh;
+height: 5vh;
+margin-top: 1.5vh;
+margin-right: 2.5vh;
+}
+
+#twitter {
+float: right;
+width: 5vh;
+height: 5vh;
+margin-top: 1.5vh;
+margin-right: 2.5vh;
+}
