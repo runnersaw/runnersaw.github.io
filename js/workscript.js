@@ -2,11 +2,11 @@ $(document).ready(function() {
   var workActivated = 'none';
   $('#chatbot').hide();
   $('#breadboard').hide();
-
+  
   $('#stocks').click(function() {
     if (workActivated!='stocks') {
       $('#content-container').fadeOut(200);
-      setTimeout(function() {$('#content-container').load('stocks.html');}, 200);
+      setTimeout(function() {$('#content-container').load('work/stocks.html');}, 200);
       var width = $('#webpage').width();
       $('.webpage').height(9/16.0*width);
       $('#content-container').fadeIn(200);
@@ -21,7 +21,7 @@ $(document).ready(function() {
   $('#robot').click(function() {
     if (workActivated!='robot') {
       $('#content-container').fadeOut(200);
-      setTimeout(function() {$('#content-container').load('carl.html');}, 200);
+      setTimeout(function() {$('#content-container').load('work/carl.html');}, 200);
       $('#content-container').fadeIn(200);
       $('.work-nav-left').css('background-color', '#AAAAAA');
       $('.work-nav-left').animate({ width: '23vw'}, 200);
@@ -34,7 +34,7 @@ $(document).ready(function() {
   $('#basketball').click(function() {
     if (workActivated!='basketball') {
       $('#content-container').fadeOut(200);
-      setTimeout(function() {$('#content-container').load('basketball.html');}, 200);
+      setTimeout(function() {$('#content-container').load('work/basketball.html');}, 200);
       $('#content-container').fadeIn(200);
       $('.work-nav-left').css('background-color', '#AAAAAA');
       $('.work-nav-left').animate({ width: '23vw'}, 200);
@@ -47,7 +47,7 @@ $(document).ready(function() {
   $('#breadboard').click(function() {
     if (workActivated!='breadboard') {
       $('#content-container').fadeOut(200);
-      setTimeout(function() {$('#content-container').load('breadboard.html');}, 200);
+      setTimeout(function() {$('#content-container').load('work/breadboard.html');}, 200);
       $('#content-container').fadeIn(200);
       $('.work-nav-left').css('background-color', '#AAAAAA');
       $('.work-nav-left').animate({ width: '23vw'}, 200);
@@ -60,7 +60,7 @@ $(document).ready(function() {
   $('#2048').click(function() {
     if (workActivated!='2048') {
       $('#content-container').fadeOut(200);
-      setTimeout(function() {$('#content-container').load('2048.html');}, 200);
+      setTimeout(function() {$('#content-container').load('work/2048.html');}, 200);
       $('#content-container').fadeIn(200);
       $('.work-nav-left').css('background-color', '#AAAAAA');
       $('.work-nav-left').animate({ width: '23vw'}, 200);
@@ -73,7 +73,7 @@ $(document).ready(function() {
   $('#chess').click(function() {
     if (workActivated!='chess') {
       $('#content-container').fadeOut(200);
-      setTimeout(function() {$('#content-container').load('chess.html');}, 200);
+      setTimeout(function() {$('#content-container').load('work/chess.html');}, 200);
       $('#content-container').fadeIn(200);
       $('.work-nav-left').css('background-color', '#AAAAAA');
       $('.work-nav-left').animate({ width: '23vw'}, 200);
@@ -86,7 +86,7 @@ $(document).ready(function() {
   $('#chatbot').click(function() {
     if (workActivated!='chatbot') {
       $('#content-container').fadeOut(200);
-      setTimeout(function() {$('#content-container').load('chatbot.html');}, 200);
+      setTimeout(function() {$('#content-container').load('work/chatbot.html');}, 200);
       $('#content-container').fadeIn(200);
       $('.work-nav-left').css('background-color', '#AAAAAA');
       $('.work-nav-left').animate({ width: '23vw'}, 200);
