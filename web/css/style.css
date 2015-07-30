@@ -287,9 +287,9 @@ a.rightarrow{
 	display:inline-block;
 	}
 a.portdown{
-	margin:4em 0 3em 1em;
+	margin:4em 0 3em 0;
 	display:inline-block;
-	}
+}
 /*------FOOTER STARTS---------*/
 .footer{
 	background: url(../images/footerbg.jpg);
