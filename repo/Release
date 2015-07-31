@@ -1,0 +1,9 @@
+Origin: hacksaw's repo
+Label: hacksaw's repo
+Suite: stable
+Version: 1.0
+Codename: hacksaw
+Architectures: iphoneos-arm
+Components: main
+Description: hacksaw's repo
+MD5Sum:
