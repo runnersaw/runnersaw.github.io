@@ -2,14 +2,14 @@ Package: com.runnersaw.bcool
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Sawyer Vaughan <sawyervaughan@gmail.com>
-Depends: mobilesubstrate preferenceloader
+Depends: mobilesubstrate, preferenceloader
 Filename: debs//bcool/com.runnersaw.bcool.deb
-Size: 9974
-MD5sum: f1b9e53b91b6bf8d9cba51c907b12773
-SHA1: df39bf1a30646d1d1c3ad8d869dfbfb88937dfc1
-SHA256: a1e0368d8074f71bf66f7d59e2b1d6a129a26c06f99ebe3e6571f792370be80a
+Size: 9994
+MD5sum: d41bec7e7d57ebb7b99efa411910e605
+SHA1: fc814b112418521e797ca7d6db4ade7cc998ebbf
+SHA256: d68d2e3330facdbe2173347217ee8ce9a194649f95224183e4acc3dee89be3fa
 Section: Tweaks
-Description: Changes app badges to a "B". 
+Description: Changes the badge for every app to be a "B". Note: Be sure to disable before uninstalling app, otherwise badges will remain. Note 2: this seems not to work for apps that have never been opened, and Newsstand.
 Author: Sawyer Vaughan <sawyervaughan@gmail.com>
-Depiction: http://runnersaw.github.io/depic/bcool/index.html
+Depiction: http://runnersaw.github.io/depic/index.html
 Name: BCool
