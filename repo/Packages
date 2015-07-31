@@ -2,9 +2,9 @@ Package: com.runnersaw.bcool
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Sawyer Vaughan <sawyervaughan@gmail.com>
-Depends: 
+Depends: mobilesubstrate preferenceloader
 Filename: debs//bcool/com.runnersaw.bcool.deb
-Size: 9982
+Size: 9974
 MD5sum: f1b9e53b91b6bf8d9cba51c907b12773
 SHA1: df39bf1a30646d1d1c3ad8d869dfbfb88937dfc1
 SHA256: a1e0368d8074f71bf66f7d59e2b1d6a129a26c06f99ebe3e6571f792370be80a
