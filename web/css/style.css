@@ -399,7 +399,7 @@ p.copy-right a{
 	text-decoration:none;
 }
 
-// here my custom stuff starts 
+/* here my custom stuff starts */
 .skill-grid {
 	background-color: #000000;
 	padding-top: #000000;
@@ -407,7 +407,7 @@ p.copy-right a{
 }
 
  /*----- top-top -----*/
- // BIG
+ /* BIG */
 @media (max-width:1280px){
  	.years p {
 		width: 60%;
@@ -420,7 +420,7 @@ p.copy-right a{
 	}
 }
 
-// PRETTY BIG
+/* PRETTY BIG */
 @media (max-width:1024px){
 	.container {
 		width:80%;
@@ -458,7 +458,7 @@ p.copy-right a{
 	}
 }
 
-// MEDIUM SIZE
+/* MEDIUM SIZE */
 @media (max-width:768px){
 	.container {
 		width:80%;
@@ -542,7 +542,7 @@ p.copy-right a{
 	}
 }
 
-// SMALL
+/* SMALL */
 @media (max-width:640px){
 	.container {
 		width:80%;
@@ -643,7 +643,7 @@ p.copy-right a{
 	}
 }
 
-// TINY
+/* TINY */
 @media (max-width:480px){
 	.container {
 		width:90%;
@@ -768,6 +768,8 @@ p.copy-right a{
 		left: 47%;
 	}
 }
+
+/* REALLY TINY */
 @media (max-width:320px){
 	.container {
 		width:90%;
