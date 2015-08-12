@@ -402,8 +402,8 @@ p.copy-right a{
 /* here my custom stuff starts */
 .skill-grid {
 	background-color: #000000;
-	padding-top: #000000;
-	padding-bottom: #000000;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
 
  /*----- top-top -----*/
