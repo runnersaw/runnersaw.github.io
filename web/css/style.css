@@ -404,7 +404,11 @@ p.copy-right a{
 	background-color: #000000;
 	padding-top: 1px;
 	padding-bottom: 1px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.portfolio-grid p {
+	height:4em;
 }
 
  /*----- top-top -----*/
