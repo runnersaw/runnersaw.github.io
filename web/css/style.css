@@ -183,9 +183,10 @@ a.arrow{
 }
 /*------Skill-Section STARTS---------*/
 .skills{
-	min-height:600px;
+	min-height:400px;
 	background:#20191B;
 	position:relative;
+	padding-bottom: 8em;
 }
 .skill-section h2{
 	color:#C6C3C5;
@@ -225,10 +226,10 @@ a.arrow{
 	display:inline-block;
 }
 a.down{
-	padding:4em 0 0 2em;
 	display:inline-block;
 	position: absolute;
-    left:46%;
+    left:50%;
+    margin-left: -24px;
 }
 /*------Skill-Section Ends---------*/
 /*------Portfolio-Section STARTS---------*/
@@ -408,7 +409,7 @@ p.copy-right a{
 }
 
 .portfolio-grid p {
-	height:4em;
+	height:5em;
 }
 
  /*----- top-top -----*/
@@ -519,7 +520,8 @@ p.copy-right a{
 	a.down {
 		padding: 0;
 		position: absolute;
-		left: 47%;
+	    left:50%;
+	    margin-left: -24px;
 	}
 	.skills {
 		padding: 0 0 5em 0;
@@ -603,7 +605,8 @@ p.copy-right a{
 	a.down {
 		padding: 0;
 		position: absolute;
-		left: 47%;
+	    left:50%;
+	    margin-left: -24px;
 	}
 	.skills {
 		padding: 0 0 5em 0;
@@ -709,7 +712,8 @@ p.copy-right a{
 	a.down {
 		padding: 0;
 		position: absolute;
-		left: 45%;
+	    left:50%;
+	    margin-left: -24px;
 	}
 	.skills {
 		padding: 0 0 5em 0;
@@ -844,7 +848,8 @@ p.copy-right a{
 	a.down {
 		padding: 0;
 		position: absolute;
-		left: 45%;
+	    left:50%;
+	    margin-left: -24px;
 	}
 	.skills {
 		padding: 0 0 5em 0;
