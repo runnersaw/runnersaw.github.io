@@ -398,7 +398,14 @@ p.copy-right a{
 	color:#FFF;
 	text-decoration:none;
 }
+
+// here my custom stuff starts 
+.skills {
+	background-color: #000000;
+}
+
  /*----- top-top -----*/
+ // BIG
 @media (max-width:1280px){
  	.years p {
 		width: 60%;
@@ -410,6 +417,8 @@ p.copy-right a{
 		width: 90%;
 	}
 }
+
+// PRETTY BIG
 @media (max-width:1024px){
 	.container {
 		width:80%;
@@ -446,6 +455,8 @@ p.copy-right a{
 		padding: 1.2em 0 0.8em 0;
 	}
 }
+
+// MEDIUM SIZE
 @media (max-width:768px){
 	.container {
 		width:80%;
@@ -528,6 +539,8 @@ p.copy-right a{
 		padding: 0 0 10em;
 	}
 }
+
+// SMALL
 @media (max-width:640px){
 	.container {
 		width:80%;
@@ -627,6 +640,8 @@ p.copy-right a{
 		margin: 0.3em 0 0.3em;
 	}
 }
+
+// TINY
 @media (max-width:480px){
 	.container {
 		width:90%;
