@@ -7,9 +7,11 @@
 html,body{
 	font-family: 'Lato', sans-serif;
 }
+
 .clear{
 	clear:both;
 }
+
 body a{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -17,16 +19,20 @@ body a{
 	-ms-transition:0.5s all;
 	-o-transition:0.5s all;
 }
+
 body input[type="text"],body input[type="submit"],body textarea,body input[type="button"]{
 	-webkit-appearance:none;
 }
+
 /*------ HEADERBG STARTS---------*/
 .headerbg{
 	background: url(../images/bannerbg.png);
 	min-height:700px;
 	width:100%;
 	background-size:cover;
+	position:relative;
 }
+
 /*------ HEADER STARTS---------*/
 .header{
 	background:rgba(0, 0, 0, 0.24);
@@ -34,6 +40,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 /*------ CONTAINER STARTS---------*/
 .container{
 	width:70%;
+	height: 100%;
 }
 /*------ LOGO STARTS---------*/
 .logo{
@@ -69,10 +76,13 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 /*------ BANNER STARTS---------*/
 .banner{
   	position: absolute;
-	width: 86%;
+  	left:0;
+  	right:0;
+  	top:100px;
+  	bottom:0;
 }
 .banner-info{
-	width: 70%;
+	width: 100%;
 	float: right;
 }
 .bannerlogo{
@@ -109,8 +119,6 @@ a.downarrow  span{
 a.downarrow{
   	display: block;
 	position: absolute;
-	top: 370px;
-	left: 17%;
 }
 .bannerhead{
 	position: relative;
@@ -178,7 +186,6 @@ a.downarrow{
 	display:inline-block;
 }
 a.arrow{
-	margin:2em 0 4em 0;
 	display:inline-block;
 }
 /*------Skill-Section STARTS---------*/
@@ -186,7 +193,7 @@ a.arrow{
 	min-height:400px;
 	background:#20191B;
 	position:relative;
-	padding-bottom: 8em;
+	padding-bottom: 88px;
 }
 .skill-section h2{
 	color:#C6C3C5;
@@ -260,11 +267,7 @@ a.down{
 .portfolio-grids{
 	padding-top:2em;
 }
-.portfolio-grid{
-	display:inline-block;
-}
 .portfolio-grid p{
-	margin:3em 1em 0 1em;
 	color:#504A4C;
 	line-height:25px;
 }
@@ -276,6 +279,7 @@ a.rightarrow  span{
 	width:30.5px;
 	background:url(../images/rightarw.png);
 	display:inline-block;
+	cursor: pointer;
 }
 a.rightarrow{
 	margin-top:1em;
@@ -288,7 +292,6 @@ a.rightarrow{
 	display:inline-block;
 	}
 a.portdown{
-	margin:4em 0 3em 0;
 	display:inline-block;
 }
 /*------FOOTER STARTS---------*/
@@ -384,7 +387,6 @@ a.portdown{
 	height:48px;
 	width:48px;
 	background:url(../images/up.png);
-	margin-top:2em;
 	display:inline-block;
 }
 /*---- copy-right -----*/
@@ -408,8 +410,14 @@ p.copy-right a{
 	margin-bottom: 10px;
 }
 
-.portfolio-grid p {
-	height:5em;
+.skill-grids .col-md-3 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.skill-text {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .link-img {
@@ -417,14 +425,102 @@ p.copy-right a{
 	height: 30px;
 }
 
+.about-link {
+	color: white;
+	font-weight: bold;
+}
+
+.scroll-down {
+    left:50%;
+    margin-left: -24px;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 48px;
+    height:48px;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+.scroll-up {
+    left:50%;
+    margin-left: -24px;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 48px;
+    height:48px;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+.scroll-down-no-margin {
+	margin-left: 0;
+}
+
+.portfolio-grid a img {
+	max-width: 310px;
+}
+
+@media (min-width:992px){
+	.portfolio-grid p {
+		height:15vh;
+	}
+	.portfolio-grid h2 {
+		height:10vh;
+	}
+}
+
+#display-box {
+	z-index: 10000;
+	background-color:white;
+	position:fixed; 
+	top:5%;
+	left:50%;
+	width: 90%;
+	height: 90%;
+	max-width: 500px;
+	transform: translate(-50%, 0);
+	box-shadow: 0 0 10px 5px;
+}
+
+#close-display {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	cursor:pointer;
+}
+
+#close-display img {
+	width: 100%;
+	height: 100%;
+}
+
+#display-picture {
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	max-height:70vh;
+}
+
+#display-picture img {
+	width: 100%;
+	height: 100%;
+
+    margin: auto;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: 100%;
+}
+
  /*----- top-top -----*/
  /* BIG */
 @media (max-width:1280px){
  	.years p {
 		width: 60%;
-	}
-	.portfolio-grid p {
-		margin: 2em 0em 0 0em;
 	}
 	.footer-left p {
 		width: 90%;
@@ -438,9 +534,6 @@ p.copy-right a{
 	}
  	.years p {
 		width: 80%;
-	}
-	.portfolio-grid p {
-		margin: 2em 0em 0 0em;
 	}
 	.footer-left p {
 		width: 90%;
@@ -456,10 +549,6 @@ p.copy-right a{
 	}
 	.banner-info {
 		top: 110px;
-	}
-	a.downarrow {
-		top: 341px;
-		left: 23%;
 	}
 	.years {
 		margin-bottom: 2em;
@@ -477,9 +566,6 @@ p.copy-right a{
  	.years p {
 		width: 80%;
 	}
-	.portfolio-grid p {
-		margin: 2em 0em 0 0em;
-	}
 	.footer-left p {
 		width: 90%;
 	}
@@ -497,10 +583,6 @@ p.copy-right a{
 		width: 100%;
 		left: 2%;
 	}
-	a.downarrow {
-		top: 241px;
-		left: 32%;
-	}
 	.years {
 		margin-bottom: 2em;
 	}
@@ -517,7 +599,7 @@ p.copy-right a{
 		margin: 0.5em 0 0 0;
 	}
 	.skill-grid {
-		padding: 1.5em 0;
+		padding: 1em 0;
 	}
 	.skill-grids {
 		padding: 1em 0;
@@ -525,8 +607,6 @@ p.copy-right a{
 	a.down {
 		padding: 0;
 		position: absolute;
-	    left:50%;
-	    margin-left: -24px;
 	}
 	.skills {
 		padding: 0 0 5em 0;
@@ -534,17 +614,11 @@ p.copy-right a{
 	.skill-section h2 {
 		margin-top: 1.5em;
 	}
-	a.arrow {
-		margin: 1em 0 2em 0;
-	}
 	.portfolio-grids {
 		padding-top: 1em;
 	}
 	.portfolio-grid {
 		padding: 0 0 2em 0;
-	}
-	a.portdown {
-		margin: 2em 0 2em 0em;
 	}
 	.contact-section h2 {
 		padding-top: 0.5em;
@@ -562,9 +636,6 @@ p.copy-right a{
  	.years p {
 		width: 100%;
 	}
-	.portfolio-grid p {
-		margin: 2em 0em 0 0em;
-	}
 	.footer-left p {
 		width: 90%;
 	}
@@ -582,10 +653,6 @@ p.copy-right a{
 		width: 100%;
 		left: 2%;
 	}
-	a.downarrow {
-		top: 241px;
-		left: 32%;
-	}
 	.years {
 		margin-bottom: 2em;
 	}
@@ -602,7 +669,7 @@ p.copy-right a{
 		margin: 0.5em 0 0 0;
 	}
 	.skill-grid {
-		padding: 1.5em 0;
+		padding: 1em 0;
 	}
 	.skill-grids {
 		padding: 1em 0;
@@ -610,8 +677,6 @@ p.copy-right a{
 	a.down {
 		padding: 0;
 		position: absolute;
-	    left:50%;
-	    margin-left: -24px;
 	}
 	.skills {
 		padding: 0 0 5em 0;
@@ -619,17 +684,11 @@ p.copy-right a{
 	.skill-section h2 {
 		margin-top: 1.5em;
 	}
-	a.arrow {
-		margin: 1em 0 2em 0;
-	}
 	.portfolio-grids {
 		padding-top: 1em;
 	}
 	.portfolio-grid {
 		padding: 0 0 2em 0;
-	}
-	a.portdown {
-		margin: 2em 0 2em 0em;
 	}
 	.contact-section h2 {
 		padding-top: 0.5em;
@@ -666,9 +725,6 @@ p.copy-right a{
 		line-height: 1.6em;
 		padding: 0.5em 0 0 0;
 	}
-	.portfolio-grid p {
-		margin: 2em 0em 0 0em;
-	}
 	.footer-left p {
 		width: 100%;
 		margin: 0.8em 0 0 0;
@@ -688,10 +744,6 @@ p.copy-right a{
 		left: 0%;
 		text-align: center;
 	}
-	a.downarrow {
-		top: 201px;
-		left: 42%;
-	}
 	.years {
 		margin-bottom: 2em;
 	}
@@ -709,7 +761,7 @@ p.copy-right a{
 		margin: 0.5em 0 0 0;
 	}
 	.skill-grid {
-		padding: 1.5em 0;
+		padding: 1em 0;
 	}
 	.skill-grids {
 		padding: 1em 0;
@@ -717,8 +769,6 @@ p.copy-right a{
 	a.down {
 		padding: 0;
 		position: absolute;
-	    left:50%;
-	    margin-left: -24px;
 	}
 	.skills {
 		padding: 0 0 5em 0;
@@ -726,17 +776,11 @@ p.copy-right a{
 	.skill-section h2 {
 		margin-top: 0.5em;
 	}
-	a.arrow {
-		margin: 1em 0 2em 0;
-	}
 	.portfolio-grids {
 		padding-top: 1em;
 	}
 	.portfolio-grid {
 		padding: 0 0 2em 0;
-	}
-	a.portdown {
-		margin: 1em 0 2em 0em;
 	}
 	.contact-section h2 {
 		padding-top: 0.5em;
@@ -797,7 +841,6 @@ p.copy-right a{
 		padding: 0.5em 0 0 0;
 	}
 	.portfolio-grid p {
-		margin: 1.2em 0em 0 0em;
 		line-height: 1.5em;
 	}
 	.footer-left p {
@@ -819,10 +862,6 @@ p.copy-right a{
 		width: 100%;
 		left: 0%;
 		text-align: center;
-	}
-	a.downarrow {
-		top: 171px;
-		left: 42%;
 	}
 	.years {
 		margin-bottom: 1.5em;
@@ -853,8 +892,6 @@ p.copy-right a{
 	a.down {
 		padding: 0;
 		position: absolute;
-	    left:50%;
-	    margin-left: -24px;
 	}
 	.skills {
 		padding: 0 0 5em 0;
@@ -863,17 +900,11 @@ p.copy-right a{
 		margin-top: 0.5em;
 		font-size: 1.6em;
 	}
-	a.arrow {
-		margin: 1em 0 2em 0;
-	}
 	.portfolio-grids {
 		padding-top: 1em;
 	}
 	.portfolio-grid {
 		padding: 0 0 2em 0;
-	}
-	a.portdown {
-		margin: 1em 0 2em 0em;
 	}
 	.contact-section h2 {
 		padding-top: 0.5em;

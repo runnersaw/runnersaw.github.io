@@ -14,244 +14,247 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		<script type="text/javascript" src="web/js/move-top.js"></script>
-		<script type="text/javascript" src="web/js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
+	<script type="text/javascript" src="web/js/move-top.js"></script>
+	<script type="text/javascript" src="web/js/easing.js"></script>
+	<script type="text/javascript" src="web/js/main.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 			});
-		</script>
+		});
+	</script>
 </head>
 <body>
- <div id="top-top" class="headerbg">
-	   <div class="header">
-			  <div class="container">
-				   <div class="logo">
+	<div id="display-box" style="display: none;">
+		<div id="close-display"><img src="./web/images/exit.png"></div>
+		<div id="display-picture"><img></div>
+		<div id="display-text">
+			<h3></h3>
+			<p></p>
+		</div>
+	</div>
+	<div id="top-top" class="headerbg">
+		<div id="popup"></div>
+			<div class="header">
+				<div class="container">
+					<div class="logo">
 						<a href="#">Resume</a>
-				   </div>
-				  <div class="nav">
-					 <ul>
-						 <li><a class="scroll" href="#about">ABOUT</a></li>
-						 <li><a class="scroll" href="#skills">SKILLS</a></li>
-						 <li><a class="scroll" href="#port">PORTFOLIO</a></li>
-						 <li><a class="scroll" href="#contact">CONTACT</a></li>
-					 </ul>
-				 </div>
+					</div>
+					<div class="nav">
+						<ul>
+							<li><a class="scroll" href="#about">ABOUT</a></li>
+							<li><a class="scroll" href="#skills">SKILLS</a></li>
+							<li><a class="scroll" href="#port">PORTFOLIO</a></li>
+							<li><a class="scroll" href="#contact">CONTACT</a></li>
+						</ul>
+					</div>
 					<div class="clear"></div>
-			  </div>
-	   </div>
-	   <div class="banner">
-	      <div class="container">
-		     <div class="banner-info">
-			      <div class="bannerlogo">
-					  <img src="web/images/diamond.png">
-			      </div>
-			      <div class="bannerhead">
-				      <h2>My name is <span>Sawyer Vaughan</span></h2>
-				      <h3>Programmer</h3>
-				      <p>I am an Electrical and Computer engineering major currently studying at the Franklin W. Olin College of Engineering. </p>
-					  <a class="downarrow scroll" href="#about"><span> </span></a>
-			      </div>
-			 </div>
-			 <div class="clear"></div>
-		  </div>
-	  </div>
- </div>
- <div class="content">
-	   <div id="about" class="about">
-		 <div class="container">
-			   <div class="header-section text-center">
-				  <h2><span> </span>ABOUT<span> </span></h2>
-				  </div>
-				 <span><p>I am an Electrical and Computer Engineering major at the Olin College of Engineering. I enjoy working on electrical and embedded systems, but programming is my larger passion.</p></span>
-					 
-			  <div class="years">	 
-				<h4><b>2014</b></h4>
-				 <span><h4>Android Developer <strong>PartySpot</strong></h4></span>
-				 <p><i>I was an Android developer on the team that created PartySpot, a collaborative music application. PartySpot enabled collaborative playlists and synchronization of music. </i></p>
-			  </div> 
+				</div>
+			</div>
+			<div class="banner">
+				<div class="container">
+					<div class="banner-info">
+						<div class="bannerlogo">
+							<img src="web/images/diamond.png">
+						</div>
+						<div class="bannerhead">
+							<h2>My name is <span>Sawyer Vaughan</span></h2>
+							<h3>Programmer</h3>
+							<p>I am an Electrical and Computer Engineer currently studying at the Olin College of Engineering. </p>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<a class="downarrow scroll-down" href="#about"><span> </span></a>
+			</div>
+		</div>
+		<div id="about" class="about">
+			<div class="container">
+				<div class="header-section text-center">
+					<h2><span> </span>ABOUT<span> </span></h2>
+				</div>
+				<span><p>I am an Electrical and Computer Engineer studying at the Olin College of Engineering. I enjoy working on electrical and embedded systems, but programming is my larger passion.</p></span>
+				<br>
 				
-			  <div class="years">	 		
-				 <h4><b>2014</b></h4>
-				 <span><h4>Android Developer <strong>Response Care</strong></h4></span>
-				 <p><i>I was an Android developer for Response Care. Response Care helps caregivers provide quality care, safety and security for eldercare and senior living by providing state-of-the-art, reliable communications</i></p>
-			  </div> 
+				<div class="years">	 		
+					<h4><b>2014</b></h4>
+					<span><h4>Android Developer | <strong>Response Care</strong></h4></span>
+					<p><i>I was an Android developer for Response Care. Response Care helps caregivers provide quality care, safety and security for eldercare and senior living by providing state-of-the-art, reliable communications.</i></p>
+				</div> 
+					 
+				<div class="years">	 
+					<h4><b>2015</b></h4>
+					<span><h4>App Developer | <strong>Games for Pebble</strong></h4></span>
+					<p><i>I created Games for Pebble, an application for Pebble smartwatches. The application, coded in the C language, currently features seven games and has been installed ten thousand times. <a href="https://apps.getpebble.com/applications/54f65e8a13cdff61490000b6" target="_blank" class="about-link">View the app here</a>.</i></p>
+				</div> 
 					
-			   <div class="years">	 	
-				 <h4><b>2015</b></h4>
-				 <span><h4>iOS Developer <strong>Boolio</strong></h4></span>
-				 <div class="labs">
-					 <p><i>I am the sole iOS developer for Boolio. Boolio is a social questions app.</i></p>
-			     </div>
-			  </div>
-				 <a class="arrow scroll" href="#skills"><span> </span></a>
-		  </div>
-	  </div>
+				<div class="years">	 	
+					<h4><b>2015</b></h4>
+					<span><h4>Lead iOS Developer | <strong>Boolio</strong></h4></span>
+					<div class="labs">
+						<p><i>I am the sole iOS developer for Boolio. Boolio is a social questions app. See more at <a href="http://boolio.io" target="_blank" class="about-link">boolio.io</a>.</i></p>
+					</div>
+				</div>
+			</div>
+			<a class="arrow scroll-down scroll-down-no-margin" href="#skills"><span> </span></a>
+		</div>
 
-	  <div id="skills" class="skills">
-	  <div class="container">
-	     <div class="skills-grids">
-			  <div class="skill-section text-center">
-				  <h2><span> </span>SKILLS<span> </span></h2>
-			  </div>
-					  <div class="services_grids">
-						  <div id="canvas">
-								<div class="skill-grids text-center">
-										<div class="col-md-3">	
-											<div class="skill-grid skills-black">
-												 <h3>iOS</h3>	
-											 </div>								  
-										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												 <h3>SWIFT</h3>	
-											 </div>								  
-										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												 <h3>OBJECTIVE C</h3>	
-											 </div>								  
-										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												 <h3>ANDROID</h3>	
-											 </div>								  
-										</div>
-										<div class="clearfix"> </div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												 <h3>JAVA</h3>	
-											 </div>								  
-										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												 <h3>PYTHON</h3>	
-											 </div>								  
-										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												 <h3>C</h3>	
-											 </div>								  
-										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												 <h3>AJAX</h3>	
-											 </div>								  
-										</div>
-										<div class="clearfix"> </div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												 <h3>HTML</h3>	
-											 </div>								  
-										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												 <h3>CSS</h3>	
-											 </div>								  
-										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												 <h3>JAVASCRIPT</h3>	
-											 </div>								  
-										</div>
-										<div class="col-md-3">	
-											<div class="skill-grid">
-												 <h3>NODE.JS</h3>	
-											 </div>								  
-										</div>
-										<div class="clearfix"> </div>
-								  </div>
-						   </div>
-					  </div>
-					
-					<!--/-->
-			 </div>
-		 </div>
-		   <a class="down scroll" href="#port"><span> </span></a>
-	  </div>
-	  </div>
+		<div id="skills" class="skills">
+			<div class="container">
+				<div class="skills-grids">
+					<div class="skill-section text-center">
+						<h2><span> </span>SKILLS<span> </span></h2>
+					</div>
+					<div class="services_grids">
+						<div id="canvas">
+							<div class="skill-grids text-center">
+								<div class="col-md-3">	
+									<div class="skill-grid skills-black">
+										<h3 class="skill-text">iOS</h3>	
+									</div>								  
+								</div>
+								<div class="col-md-3">	
+									<div class="skill-grid">
+										<h3 class="skill-text">SWIFT</h3>	
+									</div>								  
+								</div>
+								<div class="col-md-3">	
+									<div class="skill-grid">
+										<h3 class="skill-text">OBJECTIVE C</h3>	
+									</div>								  
+								</div>
+								<div class="col-md-3">	
+									<div class="skill-grid">
+										<h3 class="skill-text">ANDROID</h3>	
+									</div>								  
+								</div>
+								<div class="clearfix"> </div>
+								<div class="col-md-3">	
+									<div class="skill-grid">
+										<h3 class="skill-text">JAVA</h3>	
+									</div>								  
+								</div>
+								<div class="col-md-3">	
+									<div class="skill-grid">
+										<h3 class="skill-text">PYTHON</h3>	
+									</div>								  
+								</div>
+								<div class="col-md-3">	
+									<div class="skill-grid">
+										<h3 class="skill-text">C</h3>	
+									</div>								  
+								</div>
+								<div class="col-md-3">	
+									<div class="skill-grid">
+										<h3 class="skill-text">AJAX</h3>	
+									</div>								  
+								</div>
+								<div class="clearfix"> </div>
+								<div class="col-md-3">	
+									<div class="skill-grid">
+										<h3 class="skill-text">HTML</h3>	
+									</div>								  
+								</div>
+								<div class="col-md-3">	
+									<div class="skill-grid">
+										<h3 class="skill-text">CSS</h3>	
+									</div>								  
+								</div>
+								<div class="col-md-3">	
+									<div class="skill-grid">
+										<h3 class="skill-text">JAVASCRIPT</h3>	
+									</div>								  
+								</div>
+								<div class="col-md-3">	
+									<div class="skill-grid">
+										<h3 class="skill-text">NODE.JS</h3>	
+									</div>								  
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="down scroll-down" href="#port"><span> </span></a>
+		</div>
 
-		 <div id="port" class="Portfolio">
-			  <div class="Portfolio-section text-center">
-			      <h2><span> </span>PORTFOLIO<span> </span></h2>
-			  </div>
-			  <div class="container">
-				  <div class="portfolio-grids">
-					  <div class="portfolio-grid col-md-4">
-						 <a href="#"><img src="web/images/monitr1.png"></a>
-						  <h2>BOOLIO</h2>
-						  <p>I was the sole iOS developer for our Boolio app. Boolio is an app for social questions.</p>
-						  <a class="rightarrow" href="#"><span> </span></a>
-					  </div>
-					  <div class="portfolio-grid col-md-4">
-						 <a href="#"><img src="web/images/monitr1.png"></a>
-						  <h2>GAMES FOR PEBBLE</h2>
-						  <p>A collection of games for the Pebble smartwatch.</p>
-						  <a class="rightarrow" href="#"><span> </span></a>
-					  </div>
-					  <div class="portfolio-grid col-md-4">
-						 <a href="#"><img src="web/images/monitr1.png"></a>
-						  <h2>PARTYSPOT</h2>
-						  <p>An Android app using the Spotify SDK that includes collaborative playlists and music synchronization. </p>
-						  <a class="rightarrow" href="#"><span> </span></a>
-					  </div>
-					  <div class="clear"> </div>
-				  </div>
-				  <a class="portdown scroll" href="#contact"><span> </span></a>
-				  
-			  </div>
-		 </div>
-  </div>
+		<div id="port" class="Portfolio">
+			<div class="Portfolio-section text-center">
+				<h2><span> </span>PORTFOLIO<span> </span></h2>
+			</div>
+			<div class="container">
+				<div class="portfolio-grids">
+					<div class="portfolio-grid col-md-4">
+						<a href="#"><img src="web/images/monitr1.png"></a>
+						<h2>BOOLIO</h2>
+						<p>I was the sole iOS developer for our Boolio app. Boolio is an app for social questions.</p>
+						<a class="rightarrow" id="boolio-button"><span> </span></a>
+					</div>
+					<div class="portfolio-grid col-md-4">
+						<a href="#"><img src="web/images/monitr1.png"></a>
+						<h2>GAMES FOR PEBBLE</h2>
+						<p>A collection of games for the Pebble smartwatch.</p>
+						<a class="rightarrow" id="games-button"><span> </span></a>
+					</div>
+					<div class="portfolio-grid col-md-4">
+						<a href="#"><img src="web/images/monitr1.png"></a>
+						<h2>PARTYSPOT</h2>
+						<p>An Android app using the Spotify SDK that includes collaborative playlists and music synchronization. </p>
+						<a class="rightarrow" id="partyspot-button"><span> </span></a>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			<a class="portdown scroll-down scroll-down-no-margin" href="#contact"><span> </span></a>
+		</div>
+	</div>
 
-  <div  id="contact" class="footer">
-      <div class="container">
-	  
-		   <div class="contact-section text-center">
-			  <h2><span> </span>CONTACT<span> </span></h2>
-		  </div>
-		 <div class="row">
-		 
-			 <div class="col-md-6">
-				  <div class="footer-left">
+	<div  id="contact" class="footer" style="min-height:0;">
+		<div class="container">
+
+			<div class="contact-section text-center">
+				<!--<h2><span> </span>CONTACT<span> </span></h2>-->
+			</div>
+			<div class="row">
+
+				<div class="col-md-6">
+					<div class="footer-left">
 						<div class="social-icons">
-						   <a href="https://www.linkedin.com/pub/sawyer-vaughan/a4/723/43b"><img class="link-img" src="web/images/in.png"></a>
-						   <!--<a href="#"><img src="web/images/twt.png"></a>-->
-						   <a href="https://www.facebook.com/sawyer.vaughan"><img class="link-img" src="web/images/fb.png"></a>
-						   <a href="https://github.com/runnersaw"><img class="link-img" src="web/images/gh.png"></a>
-					   </div>
-					   <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-					   quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh
-					   id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-					   Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-					   ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
-				  </div>
-			 </div>
-			  
-			  <div class="col-md-6">
-				  <div class="footer-right">
-				 <div class="form">
-				 <form>
-					 <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-					 <input type="text" class="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
-					 <textarea rows="2" cols="70" onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
-					 <div class="clear"> </div>
-					 <input type="submit" value="SEND"> 
-				 </form>
-				 </div>
-				  </div>
-				  <div class="clear"></div>
-				   <!--<p class="copy-right">Copyright &copy; 2014 Resume. All rights reserved</p>-->
-			  </div>
-		 </div>
-	 </div>
-	 <a class="up scroll" href="#top-top"><span> </span></a>
-	  
- </div>
- 
- </body>
- </html>
+							<a href="https://www.linkedin.com/pub/sawyer-vaughan/a4/723/43b" target="_blank"><img class="link-img" src="web/images/in.png"></a>
+							<!--<a href="#"><img src="web/images/twt.png"></a>-->
+							<a href="https://www.facebook.com/sawyer.vaughan" target="_blank"><img class="link-img" src="web/images/fb.png"></a>
+							<a href="https://github.com/runnersaw" target="_blank"><img class="link-img" src="web/images/gh.png"></a>
+						</div>
+						<p></p>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<!--
+					<div class="footer-right">
+					<div class="form">
+					<form>
+					<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+					<input type="text" class="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}">
+					<textarea rows="2" cols="70" onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
+					<div class="clear"> </div>
+					<input type="submit" value="SEND"> 
+					</form>
+					</div>
+					</div>
+					<div class="clear"></div>-->
+					<!--<p class="copy-right">Copyright &copy; 2014 Resume. All rights reserved</p>-->
+				</div>
+			</div>
+		</div>
+		<a class="up scroll-up" href="#top-top"><span> </span></a>
+
+	</div>
+
+</body>
+</html>
  
    
