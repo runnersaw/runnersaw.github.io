@@ -98,7 +98,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	padding:0;
 }
 .bannerhead h2 span{
-	color:#F1E9F2;
+	color:#615959;
 	font-weight:bolder;
 	font-size:1.2em;
 }
@@ -108,7 +108,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
     font-size:2.5em;
 }
 .bannerhead p{
-    color:#F1E9F2;
+    color:#ffffff;
 }
 a.downarrow  span{
  	height:48px;

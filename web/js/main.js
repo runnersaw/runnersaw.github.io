@@ -30,7 +30,7 @@ $(document).ready(function() {
 
 function setGamesDisplay() {
 	setDisplayVars(
-		"./web/images/boolio.png", 
+		"./web/images/games_pebble.png", 
 		"Games for Pebble", 
 		"Games for Pebble is an application written for Pebble smartwatches in C. "+
 		"The application comes with seven games, including a very complex chess game against an AI. "+
@@ -42,7 +42,7 @@ function setGamesDisplay() {
 
 function setPartyspotDisplay() {
 	setDisplayVars(
-		"./web/images/boolio.png", 
+		"./web/images/partyspot.png", 
 		"PartySpot", 
 		"PartySpot is an Android application devloped to enable users to collaborate on their music playlists. "+
 		"The application enables the hosts of a party to create a playlist. "+
