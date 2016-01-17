@@ -27,21 +27,31 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</script>
 </head>
 <body>
-	<div id="display-box" style="display: none;">
-		<div id="close-display"><img src="./web/images/exit.png"></div>
-		<div id="display-picture"><img></div>
-		<div id="display-text">
-			<h3></h3>
-			<p></p>
+	<div id="display-box-container">
+		<div id="display-box" style="display: none;">
+			<div id="close-display"><img src="./web/images/exit.png"></div>
+			<div id="display-picture"><img></div>
+			<div id="display-text">
+				<h3></h3>
+				<p></p>
+			</div>
 		</div>
 	</div>
 	<div id="top-top" class="headerbg">
 		<div id="popup"></div>
 			<div class="header">
 				<div class="container">
-					<div class="logo">
+					<!--<div class="logo">
 						<a href="#">Resume</a>
+					</div>-->
+
+					<div class="social-icons">
+						<a href="https://www.linkedin.com/pub/sawyer-vaughan/a4/723/43b" target="_blank"><img class="link-img" src="web/images/in.png"></a>
+						<!--<a href="#"><img src="web/images/twt.png"></a>-->
+						<!--<a href="https://www.facebook.com/sawyer.vaughan" target="_blank"><img class="link-img" src="web/images/fb.png"></a>-->
+						<a href="https://github.com/runnersaw" target="_blank"><img class="link-img" src="web/images/gh.png"></a>
 					</div>
+
 					<div class="nav">
 						<ul>
 							<li><a class="scroll" href="#about">ABOUT</a></li>
@@ -67,7 +77,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="clear"></div>
 				</div>
-				<a class="downarrow scroll-down" href="#about"><span> </span></a>
+				<!--<a class="downarrow scroll-down" href="#about"><span> </span></a>-->
 			</div>
 		</div>
 		<div id="about" class="about">
@@ -98,7 +108,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 			</div>
-			<a class="arrow scroll-down scroll-down-no-margin" href="#skills"><span> </span></a>
+			<!--<a class="arrow scroll-down scroll-down-no-margin" href="#skills"><span> </span></a>-->
 		</div>
 
 		<div id="skills" class="skills">
@@ -178,7 +188,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 				</div>
 			</div>
-			<a class="down scroll-down" href="#port"><span> </span></a>
+			<!--<a class="down scroll-down" href="#port"><span> </span></a>-->
 		</div>
 
 		<div id="port" class="Portfolio">
@@ -187,36 +197,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			<div class="container">
 				<div class="portfolio-grids">
-					<div class="portfolio-grid col-md-4">
-						<a href="#"><img src="web/images/boolio-header.png"></a>
-						<h2>BOOLIO</h2>
-						<p>I am the lead iOS developer for our Boolio app. Boolio is an app for social questions.</p>
-						<a class="rightarrow" id="boolio-button"><span> </span></a>
-					</div>
-					<div class="portfolio-grid col-md-4">
-						<a href="#"><img src="web/images/games-header.png"></a>
+						<div class="portfolio-grid col-md-4 portfolio-button" id="boolio-button">
+							<img src="web/images/boolio-header.png">
+							<h2>BOOLIO</h2>
+							<p>I am the lead iOS developer for our Boolio app. Boolio is an app for social questions.</p>
+							<a class="rightarrow"><span> </span></a>
+						</div>
+					<div class="portfolio-grid col-md-4 portfolio-button" id="games-button">
+						<img src="web/images/games-header.png">
 						<h2>GAMES FOR PEBBLE</h2>
 						<p>A collection of games for the Pebble smartwatch.</p>
-						<a class="rightarrow" id="games-button"><span> </span></a>
+						<a class="rightarrow"><span> </span></a>
 					</div>
-					<div class="portfolio-grid col-md-4">
-						<a href="#"><img src="web/images/partyspot-header.png"></a>
+					<div class="portfolio-grid col-md-4 portfolio-button" id="partyspot-button">
+						<img src="web/images/partyspot-header.png">
 						<h2>PARTYSPOT</h2>
 						<p>An Android app using the Spotify SDK that includes collaborative playlists and music synchronization. </p>
-						<a class="rightarrow" id="partyspot-button"><span> </span></a>
+						<a class="rightarrow"><span> </span></a>
 					</div>
 					<div class="clear"> </div>
 				</div>
 			</div>
-			<a class="portdown scroll-down scroll-down-no-margin" href="#contact"><span> </span></a>
+			<!--<a class="portdown scroll-down scroll-down-no-margin" href="#contact"><span> </span></a>-->
 		</div>
 	</div>
 
-	<div  id="contact" class="footer" style="min-height:0;">
+	<!--<div  id="contact" class="footer" style="min-height:0;">
 		<div class="container">
 
 			<div class="contact-section text-center">
-				<!--<h2><span> </span>CONTACT<span> </span></h2>-->
+				<!--<h2><span> </span>CONTACT<span> </span></h2>--
 			</div>
 			<div class="row">
 
@@ -224,7 +234,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="footer-left">
 						<div class="social-icons">
 							<a href="https://www.linkedin.com/pub/sawyer-vaughan/a4/723/43b" target="_blank"><img class="link-img" src="web/images/in.png"></a>
-							<!--<a href="#"><img src="web/images/twt.png"></a>-->
+							<!--<a href="#"><img src="web/images/twt.png"></a>--
 							<a href="https://www.facebook.com/sawyer.vaughan" target="_blank"><img class="link-img" src="web/images/fb.png"></a>
 							<a href="https://github.com/runnersaw" target="_blank"><img class="link-img" src="web/images/gh.png"></a>
 						</div>
@@ -246,13 +256,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					</div>
 					<div class="clear"></div>-->
-					<!--<p class="copy-right">Copyright &copy; 2014 Resume. All rights reserved</p>-->
+					<!--<p class="copy-right">Copyright &copy; 2014 Resume. All rights reserved</p>--
 				</div>
 			</div>
 		</div>
-		<a class="up scroll-up" href="#top-top"><span> </span></a>
+		<!--<a class="up scroll-up" href="#top-top"><span> </span></a>--
 
-	</div>
+	</div>-->
 
 </body>
 </html>

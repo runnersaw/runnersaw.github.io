@@ -9,8 +9,13 @@ $(document).ready(function() {
 		setGamesDisplay();
 	});
 	$("#close-display").click(function() {
-		var div = $("#display-box");
-		div.css("display", "none");
+		hideDisplay();
+	});
+	$("#display-box-container").click(function() {
+		hideDisplay();
+	});
+	$("#display-box").click(function(event) {
+		event.stopPropagation();
 	});
 
 	$('a[href^="#"]').on('click', function(event) {
@@ -26,6 +31,7 @@ $(document).ready(function() {
 
 	});
 
+	hideDisplay();
 });
 
 function setGamesDisplay() {
@@ -76,6 +82,15 @@ function setDisplayVars(img, title, textContent) {
 }
 
 function showDisplay() {
-		var div = $("#display-box");
-		div.css("display", "");
+	var container = $("#display-box-container");
+	container.css("display", "");
+	var box = $("#display-box");
+	box.css("display", "");
+}
+
+function hideDisplay() {
+	var container = $("#display-box-container");
+	container.css("display", "none");
+	var box = $("#display-box");
+	box.css("display", "none");
 }
