@@ -54,7 +54,7 @@ function setPartyspotDisplay() {
 		"The application enables the hosts of a party to create a playlist. "+
 		"PartySpot synchronizes their music playback so that music throughout the house is playing at the same time, on the same song. "+
 		"Guests can suggest songs, which the host can easily add to the playlist. "+
-		"See the app's source and get it <a href='http://griffintschurwald.com/PartySpot' target='_blank' style='font-weight:bold'>here</a>. "
+		"See the app's source and get it <a href='http://griffint.github.io/PartySpot' target='_blank' style='font-weight:bold'>here</a>. "
 	);
 	showDisplay();
 }
