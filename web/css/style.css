@@ -26,8 +26,8 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 
 /*------ HEADERBG STARTS---------*/
 .headerbg{
-	background: url(../images/bannerbg.png);
-	min-height:700px;
+	/*background: url(../images/bannerbg.png);*/
+	min-height:500px;
 	width:100%;
 	background-size:cover;
 	position:relative;
@@ -35,7 +35,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 
 /*------ HEADER STARTS---------*/
 .header{
-	background:rgba(0, 0, 0, 0.24);
+	background:rgba(0, 0, 0, 0.05);
 }
 /*------ CONTAINER STARTS---------*/
 .container{
@@ -78,7 +78,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
   	position: absolute;
   	left:0;
   	right:0;
-  	top:100px;
+  	top:0;
   	bottom:0;
 }
 .banner-info{
@@ -106,9 +106,10 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	color:#281D24;
 	font-weight:bolder;
     font-size:2.5em;
+    margin-bottom: 20px;
 }
 .bannerhead p{
-    color:#ffffff;
+    font-size: 1.5em;
 }
 a.downarrow  span{
  	height:48px;
@@ -126,7 +127,8 @@ a.downarrow{
 }
 .banner-info{
 	position: relative;
-	top: 182px;
+	top: 50%;
+	transform: translateY(-50%);
 	left: 11%;
 }
 /*------ About STARTS---------*/
