@@ -24,39 +24,19 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	-webkit-appearance:none;
 }
 
-/*------ HEADERBG STARTS---------*/
 .headerbg{
-	/*background: url(../images/bannerbg.png);*/
 	min-height:500px;
 	width:100%;
 	background-size:cover;
 	position:relative;
 }
-
-/*------ HEADER STARTS---------*/
 .header{
 	background:rgba(0, 0, 0, 0.05);
 }
-/*------ CONTAINER STARTS---------*/
 .container{
 	width:70%;
 	height: 100%;
 }
-/*------ LOGO STARTS---------*/
-.logo{
-	float:left;
-	margin:0.5em 0 0.5em 0em;
-}
-.logo a{
-	color:#B5A9B7;
-	font-size:1.9em;
-}
-.logo a:hover{
-	color:#B5A9B7;
-    text-decoration:none;
-}
-/*------ LOGO ENDS---------*/
-/*------ TOPNAV STARTS---------*/
 .nav{
 	float:right;
 }
@@ -81,21 +61,11 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
   	top:0;
   	bottom:0;
 }
-.banner-info{
-	width: 100%;
-	float: right;
-}
-.bannerlogo{
-	float: left;
-	margin-top: 0.8em;
-}
-.bannerhead{
-	float:right;
-}
 .bannerhead h2{
 	color: #888888;
 	margin:0;
 	padding:0;
+	font-size: 2.5em;
 }
 .bannerhead h2 span{
 	color:#444444;
@@ -105,8 +75,9 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 .bannerhead h3{
 	color:#281D24;
 	font-weight:bolder;
-    font-size:2.5em;
+    font-size:2em;
     margin-bottom: 20px;
+    margin-top:20px;
 }
 .bannerhead p{
     font-size: 1.5em;
@@ -124,8 +95,11 @@ a.downarrow{
 .bannerhead{
 	position: relative;
 	width: 90%;
+	float:right;
 }
 .banner-info{
+	width: 100%;
+	float: right;
 	position: relative;
 	top: 50%;
 	-ms-transform: translateY(-50%);
@@ -133,7 +107,6 @@ a.downarrow{
 	-moz-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
-	left: 11%;
 }
 /*------ About STARTS---------*/
 .about{
@@ -566,7 +539,7 @@ p.copy-right a{
 /* PRETTY BIG */
 @media (max-width:1024px){
 	.container {
-		width:80%;
+		width:90%;
 	}
  	.years p {
 		width: 80%;
@@ -574,17 +547,8 @@ p.copy-right a{
 	.footer-left p {
 		width: 90%;
 	}
-	.banner-info {
-		width: 80%;
-	}
 	.footer-right input[type="text"], .footer-right textarea {
 		width: 87%;
-	}
-	.headerbg {
-		min-height: 591px;
-	}
-	.banner-info {
-		top: 110px;
 	}
 	.years {
 		margin-bottom: 2em;
@@ -596,6 +560,9 @@ p.copy-right a{
 
 /* MEDIUM SIZE */
 @media (max-width:768px){
+	.headerbg {
+		min-height: 600px;
+	}
 	.container {
 		width:80%;
 	}
@@ -605,31 +572,14 @@ p.copy-right a{
 	.footer-left p {
 		width: 90%;
 	}
-	.banner-info {
-		width: 80%;
-	}
 	.footer-right input[type="text"], .footer-right textarea {
 		width: 100%;
-	}
-	.headerbg {
-		min-height:500px;
-	}
-	.banner-info {
-		top: 112px;
-		width: 100%;
-		left: 2%;
 	}
 	.years {
 		margin-bottom: 2em;
 	}
 	.header-section h2 {
 		padding: 1.2em 0 0.8em 0;
-	}
-	.bannerhead {
-		width: 84%;
-	}
-	.banner {
-		width: 100%;
 	}
 	.years h4, .years span h4 {
 		margin: 0.5em 0 0 0;
@@ -639,6 +589,9 @@ p.copy-right a{
 	}
 	.skill-grids {
 		padding: 1em 0;
+	}
+	.bannerhead {
+		width: 100%;
 	}
 	a.down {
 		padding: 0;
@@ -667,40 +620,20 @@ p.copy-right a{
 
 /* SMALL */
 @media (max-width:640px){
-	.container {
-		width:80%;
-	}
  	.years p {
 		width: 100%;
 	}
 	.footer-left p {
 		width: 90%;
 	}
-	.banner-info {
-		width: 80%;
-	}
 	.footer-right input[type="text"], .footer-right textarea {
 		width: 100%;
-	}
-	.headerbg {
-		min-height:500px;
-	}
-	.banner-info {
-		top: 112px;
-		width: 100%;
-		left: 2%;
 	}
 	.years {
 		margin-bottom: 2em;
 	}
 	.header-section h2 {
 		padding: 1.2em 0 0.8em 0;
-	}
-	.bannerhead {
-		width: 84%;
-	}
-	.banner {
-		width: 100%;
 	}
 	.years h4, .years span h4 {
 		margin: 0.5em 0 0 0;
@@ -747,17 +680,10 @@ p.copy-right a{
 	.logo {
 		margin: 0.3em 0 0.5em 0em;
 	}
-	.bannerhead h3 {
-		font-size: 2em;
-		margin: 0.3em 0 0.3em;
-	}
 }
 
 /* TINY */
 @media (max-width:480px){
-	.container {
-		width:90%;
-	}
  	.years p {
 		width: 100%;
 		line-height: 1.6em;
@@ -767,19 +693,11 @@ p.copy-right a{
 		width: 100%;
 		margin: 0.8em 0 0 0;
 	}
-	.banner-info {
-		width: 80%;
-	}
 	.footer-right input[type="text"], .footer-right textarea {
 		width: 100%;
 	}
-	.headerbg {
-		min-height: 457px;
-	}
 	.banner-info {
-		top: 36px;
-		width: 100%;
-		left: 0%;
+		padding-top:96px;
 		text-align: center;
 	}
 	.years {
@@ -788,12 +706,6 @@ p.copy-right a{
 	.header-section h2 {
 		padding: 0.8em 0 0.5em 0;
 		line-height:1.5em;
-	}
-	.bannerhead {
-		width: 100%;
-	}
-	.banner {
-		width: 100%;
 	}
 	.years h4, .years span h4 {
 		margin: 0.5em 0 0 0;
@@ -844,18 +756,9 @@ p.copy-right a{
 		float:none;
 		text-align:center;
 	}
-	.bannerhead h3 {
-		font-size: 1.6em;
-		margin: 0.3em 0 0.3em;
-	}
 	.nav {
 		float: none;
 		text-align:center;
-	}
-	.bannerlogo {
-		float: none;
-		margin-top: 0em;
-		text-align: center;
 	}
 	.skill-grid h3 {
 		font-size: 1.5em;
@@ -868,9 +771,6 @@ p.copy-right a{
 
 /* REALLY TINY */
 @media (max-width:320px){
-	.container {
-		width:90%;
-	}
 	.header div.container,.banner div.container{
 		padding:0;
 	}
@@ -886,21 +786,9 @@ p.copy-right a{
 		width: 100%;
 		margin: 0.8em 0 0 0;
 	}
-	.banner-info {
-		width: 80%;
-	}
 	.footer-right input[type="text"], .footer-right textarea {
 		width: 100%;
 		padding: 0.8em;
-	}
-	.headerbg {
-		min-height: 409px;
-	}
-	.banner-info {
-		top: 36px;
-		width: 100%;
-		left: 0%;
-		text-align: center;
 	}
 	.years {
 		margin-bottom: 1.5em;
@@ -912,12 +800,6 @@ p.copy-right a{
 	}
 	.about div.container{
 		padding:0;
-	} 
-	.bannerhead {
-		width: 100%;
-	}
-	.banner {
-		width: 100%;
 	}
 	.years h4, .years span h4 {
 		margin: 0.5em 0 0 0;
@@ -970,18 +852,9 @@ p.copy-right a{
 		float:none;
 		text-align:center;
 	}
-	.bannerhead h3 {
-		font-size: 1.4em;
-		margin: 0.3em 0 0.3em;
-	}
 	.nav {
 		float: none;
 		text-align:center;
-	}
-	.bannerlogo {
-		float: none;
-		margin-top: 0em;
-		text-align: center;
 	}
 	.skill-grid h3 {
 		font-size: 1.5em;
@@ -989,9 +862,6 @@ p.copy-right a{
 	.up {
 		bottom: 1%;
 		left: 47%;
-	}
-	.bannerhead h2 {
-		font-size: 1.8em;
 	}
 	.Portfolio-section h2 {
 		font-size: 1.6em;
