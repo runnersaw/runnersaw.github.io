@@ -29,3 +29,19 @@ Description: Finally, no more annoying volume pop-up over the video you're watch
 Author: Sawyer Vaughan <sawyervaughan@gmail.com>
 Depiction: http://runnersaw.github.io/depic/hud/index.html
 Name: Minimal HUD
+
+Package: com.sawyervaughan.pebblesmstweak
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Sawyer Vaughan
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2)
+Filename: debs//textsender/com.sawyervaughan.pebblesmstweak.deb
+Size: 31296
+MD5sum: 39B060FB3FE71F16E9F2A50ECB2B8B29
+SHA1: 06F85ED256DB8B79EB7F021F71A291655E69A64E
+SHA256: 4E83CD9AA7C724CFF27B5017786050ABE374599B61AA4C296D95DD544A90C237
+Section: Tweaks
+Description: This app allows you to send texts directly from your Pebble Time watch. You can choose a contact by inputting text, dictating, or choosing a recent contact. You can then dictate a message, type with the watch, or select from a customizable list of presets. 
+Author: Sawyer Vaughan
+Depiction: http://runnersaw.github.io/depic/textsender/index.html
+Name: TextSender for Pebble
