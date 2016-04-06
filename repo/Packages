@@ -14,22 +14,6 @@ Author: Sawyer Vaughan <sawyervaughan@gmail.com>
 Depiction: http://runnersaw.github.io/depic/index.html
 Name: BCool
 
-Package: com.runnersaw.hud
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Sawyer Vaughan <sawyervaughan@gmail.com>
-Depends: mobilesubstrate
-Filename: debs//hud/com.runnersaw.hud.deb
-Size: 5978
-MD5sum: B0B6B76A708E0F4881E322C4E88AA05E
-SHA1: DF6882A91236206D508CD79D3D036AE21DE10A4F
-SHA256: 7774A6D860D875358275B7F6B30DEB0FC038D381AEE251D8E42FF2A105C77C25
-Section: Tweaks
-Description: Finally, no more annoying volume pop-up over the video you're watching! Minimal HUD shows a tiny display when you change the volume that will never get in your way.
-Author: Sawyer Vaughan <sawyervaughan@gmail.com>
-Depiction: http://runnersaw.github.io/depic/hud/index.html
-Name: Minimal HUD
-
 Package: com.sawyervaughan.pebblesmstweak
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -37,11 +21,27 @@ Maintainer: Sawyer Vaughan
 Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2)
 Filename: debs//textsender/com.sawyervaughan.pebblesmstweak.deb
 Size: 31296
-MD5sum: 39B060FB3FE71F16E9F2A50ECB2B8B29
-SHA1: 06F85ED256DB8B79EB7F021F71A291655E69A64E
-SHA256: 4E83CD9AA7C724CFF27B5017786050ABE374599B61AA4C296D95DD544A90C237
+MD5sum: 39b060fb3fe71f16e9f2a50ecb2b8b29
+SHA1: 06f85ed256db8b79eb7f021f71a291655e69a64e
+SHA256: 4e83cd9aa7c724cff27b5017786050abe374599b61aa4c296d95dd544a90c237
 Section: Tweaks
 Description: This app allows you to send texts directly from your Pebble Time watch. You can choose a contact by inputting text, dictating, or choosing a recent contact. You can then dictate a message, type with the watch, or select from a customizable list of presets. 
 Author: Sawyer Vaughan
 Depiction: http://runnersaw.github.io/depic/textsender/index.html
 Name: TextSender for Pebble
+
+Package: com.runnersaw.hud
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sawyer Vaughan <sawyervaughan@gmail.com>
+Depends: mobilesubstrate
+Filename: debs//hud/com.runnersaw.hud.deb
+Size: 5978
+MD5sum: b0b6b76a708e0f4881e322c4e88aa05e
+SHA1: df6882a91236206d508cd79d3d036ae21de10a4f
+SHA256: 7774a6d860d875358275b7f6b30deb0fc038d381aee251d8e42ff2a105c77c25
+Section: Tweaks
+Description: Finally, no more annoying volume pop-up over the video you're watching! Minimal HUD shows a tiny display when you change the volume that will never get in your way.
+Author: Sawyer Vaughan <sawyervaughan@gmail.com>
+Depiction: http://runnersaw.github.io/depic/hud/index.html
+Name: Minimal HUD
