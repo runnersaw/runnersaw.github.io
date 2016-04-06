@@ -82,16 +82,6 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 .bannerhead p{
     font-size: 1.5em;
 }
-a.downarrow  span{
- 	height:48px;
-    width:48px;
-    background:url(../images/down.png);
-    display:inline-block;
-}
-a.downarrow{
-  	display: block;
-	position: absolute;
-}
 .bannerhead{
 	position: relative;
 	width: 90%;
@@ -137,7 +127,6 @@ a.downarrow{
 .about span p{
 	color: gray;
 	line-height: 2em;
-	margin-bottom: 4em;
 	width: 71%;
 	margin: 0 auto;
 }
@@ -151,21 +140,8 @@ a.downarrow{
 	width: 45%;
 	margin:0 auto;
 }
-.labs p{
-	width: 50%;
-	margin: 0 auto;
-}
 .years h4,.years span h4{
 	margin-top:1em;
-}
-.arrow span{
-	height:48px;
-	width:48px;
-	background:url(../images/bwn.png);
-	display:inline-block;
-}
-a.arrow{
-	display:inline-block;
 }
 /*------Skill-Section STARTS---------*/
 .skills{
@@ -538,9 +514,6 @@ p.copy-right a{
 
 /* PRETTY BIG */
 @media (max-width:1024px){
-	.container {
-		width:90%;
-	}
  	.years p {
 		width: 80%;
 	}
@@ -549,9 +522,6 @@ p.copy-right a{
 	}
 	.footer-right input[type="text"], .footer-right textarea {
 		width: 87%;
-	}
-	.years {
-		margin-bottom: 2em;
 	}
 	.header-section h2 {
 		padding: 1.2em 0 0.8em 0;
@@ -566,20 +536,11 @@ p.copy-right a{
 	.container {
 		width:80%;
 	}
- 	.years p {
-		width: 80%;
-	}
 	.footer-left p {
 		width: 90%;
 	}
 	.footer-right input[type="text"], .footer-right textarea {
 		width: 100%;
-	}
-	.years {
-		margin-bottom: 2em;
-	}
-	.header-section h2 {
-		padding: 1.2em 0 0.8em 0;
 	}
 	.years h4, .years span h4 {
 		margin: 0.5em 0 0 0;
@@ -632,12 +593,6 @@ p.copy-right a{
 	.years {
 		margin-bottom: 2em;
 	}
-	.header-section h2 {
-		padding: 1.2em 0 0.8em 0;
-	}
-	.years h4, .years span h4 {
-		margin: 0.5em 0 0 0;
-	}
 	.skill-grid {
 		padding: 1em 0;
 	}
@@ -667,9 +622,6 @@ p.copy-right a{
 	.footer {
 		padding: 0 0 10em;
 	}
-	.about span p {
-		margin-bottom: 2em;
-	}
 	.nav ul{
 		margin:0;
 		padding:0;
@@ -685,9 +637,7 @@ p.copy-right a{
 /* TINY */
 @media (max-width:480px){
  	.years p {
-		width: 100%;
 		line-height: 1.6em;
-		padding: 0.5em 0 0 0;
 	}
 	.footer-left p {
 		width: 100%;
@@ -700,15 +650,9 @@ p.copy-right a{
 		padding-top:96px;
 		text-align: center;
 	}
-	.years {
-		margin-bottom: 2em;
-	}
 	.header-section h2 {
 		padding: 0.8em 0 0.5em 0;
 		line-height:1.5em;
-	}
-	.years h4, .years span h4 {
-		margin: 0.5em 0 0 0;
 	}
 	.skill-grid {
 		padding: 1em 0;
@@ -740,7 +684,6 @@ p.copy-right a{
 		padding: 0 0 6em;
 	}
 	.about span p {
-		margin-bottom: 2em;
 		width: 100%;
 		line-height: 1.6em;
 	}
@@ -774,11 +717,6 @@ p.copy-right a{
 	.header div.container,.banner div.container{
 		padding:0;
 	}
- 	.years p {
-		width: 100%;
-		line-height: 1.6em;
-		padding: 0.5em 0 0 0;
-	}
 	.portfolio-grid p {
 		line-height: 1.5em;
 	}
@@ -790,19 +728,11 @@ p.copy-right a{
 		width: 100%;
 		padding: 0.8em;
 	}
-	.years {
-		margin-bottom: 1.5em;
-	}
 	.header-section h2 {
-		padding: 0.8em 0 0.5em 0;
-		line-height:1.5em;
 		font-size: 1.6em;
 	}
 	.about div.container{
 		padding:0;
-	}
-	.years h4, .years span h4 {
-		margin: 0.5em 0 0 0;
 	}
 	.skill-grid {
 		padding: 1em 0;
@@ -834,11 +764,6 @@ p.copy-right a{
 	}
 	.footer {
 		padding: 0 0 6em;
-	}
-	.about span p {
-		margin-bottom: 2em;
-		width: 100%;
-		line-height: 1.6em;
 	}
 	.nav ul{
 		margin:0;
