@@ -1,3 +1,36 @@
+Package: com.runnersaw.bcool
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sawyer Vaughan <sawyervaughan@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Filename: debs//bcool/com.runnersaw.bcool.deb
+Size: 9994
+MD5sum: d41bec7e7d57ebb7b99efa411910e605
+SHA1: fc814b112418521e797ca7d6db4ade7cc998ebbf
+SHA256: d68d2e3330facdbe2173347217ee8ce9a194649f95224183e4acc3dee89be3fa
+Section: Tweaks
+Description: Changes the badge for every app to be a "B". Note: Be sure to disable before uninstalling app, otherwise badges will remain. Note 2: this seems not to work for apps that have never been opened, and Newsstand.
+Author: Sawyer Vaughan <sawyervaughan@gmail.com>
+Depiction: http://runnersaw.github.io/depic/index.html
+Name: BCool
+
+Package: com.runnersaw.hud
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Sawyer Vaughan <sawyervaughan@gmail.com>
+Depends: mobilesubstrate
+Filename: debs//hud/com.runnersaw.hud.deb
+Size: 5978
+MD5sum: B0B6B76A708E0F4881E322C4E88AA05E
+SHA1: DF6882A91236206D508CD79D3D036AE21DE10A4F
+SHA256: 7774A6D860D875358275B7F6B30DEB0FC038D381AEE251D8E42FF2A105C77C25
+Section: Tweaks
+Description: Finally, no more annoying volume pop-up over the video you're watching! Minimal HUD shows a tiny display when you change the volume that will never get in your way.
+Author: Sawyer Vaughan <sawyervaughan@gmail.com>
+Depiction: http://runnersaw.github.io/depic/hud/index.html
+Name: Minimal HUD
+
+Package: com.sawyervaughan.pebblesmstweak
 Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: Sawyer Vaughan
