@@ -1,9 +1,9 @@
-Origin: hacksaw's repo
-Label: hacksaw's repo
-Suite: stable
-Version: 1.0
-Codename: hacksaw
-Architectures: iphoneos-arm
-Components: main
-Description: hacksaw's repo
 MD5Sum:
+ ac153960476468a62e86be631391404c 1766 Packages
+ a8e2358965036ffe5bd532f805216f45 930 Packages.bz2
+SHA1:
+ 0758c3ab6b1c67d41f32b87f0cb34272a4b789e5 1766 Packages
+ 7751128f6a30dc46e690bcbb1bf5c624d06a557b 930 Packages.bz2
+SHA256:
+ 80889555a88c52fafb32692f960c080de33e23fda95f6b8fcd4d7d0cd839e100 1766 Packages
+ 2719b7250782811299502a6a3b42b80fb4e6e6c805befeb8584e63c06bd4f9a4 930 Packages.bz2
