@@ -8,7 +8,7 @@ Size: 9994
 MD5sum: d41bec7e7d57ebb7b99efa411910e605
 SHA1: fc814b112418521e797ca7d6db4ade7cc998ebbf
 SHA256: d68d2e3330facdbe2173347217ee8ce9a194649f95224183e4acc3dee89be3fa
-Section: Tweaks
+Section: Beta Tweaks
 Description: Changes the badge for every app to be a "B". Note: Be sure to disable before uninstalling app, otherwise badges will remain. Note 2: this seems not to work for apps that have never been opened, and Newsstand.
 Author: Sawyer Vaughan <sawyervaughan@gmail.com>
 Depiction: http://runnersaw.github.io/depic/index.html
