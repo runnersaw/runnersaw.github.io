@@ -217,6 +217,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 .portfolio-grid p{
 	color:#504A4C;
 	line-height:1.5em;
+	height:80px;
 }
 .portfolio-grid h2{
 	height:75px;
