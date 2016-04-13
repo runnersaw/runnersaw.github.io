@@ -27,15 +27,15 @@ Name: Minimal HUD
 Author: Sawyer Vaughan <sawyervaughan@gmail.com>
 
 Package: com.sawyervaughan.pebblesmstweak
-Version: 1.0.0-226
+Version: 1.0.0-232
 Section: Tweaks
 Maintainer: Sawyer Vaughan
 Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2), firmware (>= 8.0)
 Architecture: iphoneos-arm
 Filename: ./debs/textsender/com.sawyervaughan.pebblesmstweak.deb
-Size: 78184
-Installed-Size: 496
-MD5sum: 9c3095eab3ab2a533006340dbdf1b4e0
+Size: 89904
+Installed-Size: 544
+MD5sum: 90dedf3623e51bb76c2872c9bcfe62b9
 Description: This app allows you to send texts directly from your Pebble Time watch. You can choose a contact by inputting text, dictating, or choosing a recent contact. You can then dictate a message, type with the watch, or select from a customizable list of presets.
 Name: TextSender for Pebble
 Author: Sawyer Vaughan
