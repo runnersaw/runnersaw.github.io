@@ -1,4 +1,4 @@
 runnersaw.github.io
 ===================
 
-My public website
+My public website, hosted at sawyervaughan.com, or runnersaw.github.io. 
