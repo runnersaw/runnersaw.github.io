@@ -1,37 +1,35 @@
 $(document).ready(function() {
 	$("#partyspot-button").click(function() {
-		setPartyspotDisplay();
+		window.location = "./web/pages/partyspot.html";
 	});
 	$("#boolio-button").click(function() {
-		setBoolioDisplay();
+		window.location = "./web/pages/boolio.html";
 	});
 	$("#games-button").click(function() {
-		setGamesDisplay();
+		window.location = "./web/pages/games.html";
 	});
-	$("#close-display").click(function() {
-		hideDisplay();
+	$("#pppp-button").click(function() {
+		window.location = "./web/pages/pppp.html";
 	});
-	$("#display-box-container").click(function() {
-		hideDisplay();
+	$("#hud-button").click(function() {
+		window.location = "./web/pages/hud.html";
 	});
-	$("#display-box").click(function(event) {
-		event.stopPropagation();
-	});
-
-	$('a[href^="#"]').on('click', function(event) {
-
-	    var target = $( $(this).attr('href') );
-
-	    if( target.length ) {
-	        event.preventDefault();
-	        $('html, body').animate({
-	            scrollTop: target.offset().top
-	        }, 500);
-	    }
-
+	$("#carl-button").click(function() {
+		window.location = "./web/pages/carl.html";
 	});
 
-	hideDisplay();
+	// $('a[href^="#"]').on('click', function(event) {
+
+	//     var target = $( $(this).attr('href') );
+
+	//     if( target.length ) {
+	//         event.preventDefault();
+	//         $('html, body').animate({
+	//             scrollTop: target.offset().top
+	//         }, 500);
+	//     }
+
+	// });
 });
 
 function setGamesDisplay() {
@@ -70,27 +68,4 @@ function setBoolioDisplay() {
 		"See more at <a href='http://boolio.io' style='font-weight:bold' target='_blank'>boolio.io</a>. "
 	);
 	showDisplay();
-}
-
-function setDisplayVars(img, title, textContent) {
-	var i = $("#display-picture img");
-	i.attr("src",img);
-	var t = $("#display-text h3");
-	t.html(title);
-	var x = $("#display-text p");
-	x.html(textContent);
-}
-
-function showDisplay() {
-	var container = $("#display-box-container");
-	container.css("display", "");
-	var box = $("#display-box");
-	box.css("display", "");
-}
-
-function hideDisplay() {
-	var container = $("#display-box-container");
-	container.css("display", "none");
-	var box = $("#display-box");
-	box.css("display", "none");
 }

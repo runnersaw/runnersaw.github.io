@@ -25,7 +25,6 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 }
 
 .headerbg{
-	min-height:500px;
 	width:100%;
 	background-size:cover;
 	position:relative;
@@ -35,8 +34,8 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 }
 .social-icons {
 	display: inline-block;
-	padding-top:0.5em;
-	padding-bottom:0.5em;
+	padding-top:7px;
+	padding-bottom:7px;
 }
 .social-icons a img{
 	margin-right:0.5em;
@@ -70,11 +69,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 /*------ HEADER ENDS---------*/
 /*------ BANNER STARTS---------*/
 .banner{
-  	position: absolute;
-  	left:0;
-  	right:0;
-  	top:0;
-  	bottom:0;
+	height:400px;
 }
 .bannerhead h2{
 	color: #888888;
@@ -204,6 +199,9 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	background:#ffffff;
 	text-align:center;
 }
+.portfolio-grid {
+	margin-bottom:3em;
+}
 .portfolio-section h2{
 	color:#91898D;
 }
@@ -217,17 +215,28 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 .portfolio-grid p{
 	color:#504A4C;
 	line-height:1.5em;
-	height:80px;
+	height:4em;
 }
 .portfolio-grid h2{
-	height:75px;
+	position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 .portfolio-grid img{
 	width:100%;
-	max-width:300px;
+	max-width:250px;
 }
 .portfolio-grid a img {
 	max-width: 310px;
+}
+.portfolio-title {
+	height:120px;
 }
 .portfolio-button {
 	cursor:pointer;
@@ -242,6 +251,7 @@ a.rightarrow span{
 }
 a.rightarrow{
 	margin-top:1em;
+	margin-bottom:1em;
 	display:inline-block;
 }
 #display-box {
@@ -253,8 +263,11 @@ a.rightarrow{
 	width: 90%;
 	height: 90%;
 	max-width: 500px;
-	transform: translate(-50%, 0);
-	-webkit-transform: translate(-50%, 0);
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
 	box-shadow: 0 0 10px 5px;
 }
 #display-box-container {
@@ -300,6 +313,12 @@ a.rightarrow{
 }
 
 /* BIG */
+@media (max-width:1200px){
+	.portfolio-grid p {
+		height:6em;
+	}
+}
+
 @media (max-width:1024px){
  	.years p {
 		width: 80%;
@@ -309,19 +328,28 @@ a.rightarrow{
 	}
 }
 
+@media (max-width:992px){
+	.portfolio-grid {
+		margin-bottom:1em;
+	}
+	.portfolio-title {
+		height:80px;
+	}
+	.portfolio-grid p {
+		height:3em;
+	}
+}
+
 /* MEDIUM SIZE */
 @media (max-width:768px){
-	.headerbg {
-		min-height: 600px;
+	.banner {
+		height: 500px;
 	}
 	.container {
 		width:80%;
 	}
 	.years h4, .years span h4 {
 		margin: 0.5em 0 0 0;
-	}
-	.skill-grid {
-		padding: 1em 0;
 	}
 	.bannerhead {
 		width: 100%;
@@ -331,7 +359,7 @@ a.rightarrow{
 		padding-bottom:1em;
 	}
 	.portfolio-grid {
-		padding: 0 0 2em 0;
+		margin: 0 0 2em 0;
 	}
 	.footer {
 		padding: 0 0 10em;
@@ -345,12 +373,6 @@ a.rightarrow{
 	}
 	.years {
 		margin-bottom: 2em;
-	}
-	.skill-grid {
-		padding: 1em 0;
-	}
-	.portfolio-grid {
-		padding: 0 0 2em 0;
 	}
 	.nav ul{
 		margin:0;
@@ -370,18 +392,11 @@ a.rightarrow{
 		line-height: 1.6em;
 	}
 	.banner-info {
-		padding-top:96px;
 		text-align: center;
 	}
 	.section-title {
 		padding: 0.8em 0 0.5em 0;
 		line-height:1.5em;
-	}
-	.skill-grid {
-		padding: 1em 0;
-	}
-	.portfolio-grid {
-		padding: 0 0 2em 0;
 	}
 	.about span p {
 		width: 100%;
@@ -400,11 +415,16 @@ a.rightarrow{
 		text-align:center;
 	}
 	.nav {
-		float: none;
 		text-align:center;
 	}
 	.skill-grid h3 {
 		font-size: 1.5em;
+	}
+	.portfolio-title {
+		height:120px;
+	}
+	.portfolio-grid p {
+		height:5em;
 	}
 }
 
@@ -422,9 +442,6 @@ a.rightarrow{
 	.skill-grid {
 		padding: 1em 0;
 	}
-	.portfolio-grid {
-		padding: 0 0 2em 0;
-	}
 	.footer {
 		padding: 0 0 6em;
 	}
@@ -432,16 +449,9 @@ a.rightarrow{
 		margin:0;
 		padding:0;
 	}
-	.nav ul li {
-		margin: 0.5em 0.2em;
-	}
 	.logo {
 		margin: 0.8em 0 0em 0em;
 		float:none;
-		text-align:center;
-	}
-	.nav {
-		float: none;
 		text-align:center;
 	}
 	.skill-grid h3 {
