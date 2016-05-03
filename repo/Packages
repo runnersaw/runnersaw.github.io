@@ -40,3 +40,17 @@ Description: This app allows you to send texts directly from your Pebble Time wa
 Name: TextSender for Pebble (Beta)
 Author: Sawyer Vaughan
 
+Package: com.sawyervaughan.pebblesmstweak
+Version: 1.0.0-256
+Section: Tweaks
+Maintainer: Sawyer Vaughan
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2), firmware (>= 8.0)
+Architecture: iphoneos-arm
+Filename: ./com.sawyervaughan.pebblesmstweak.deb
+Size: 64664
+Installed-Size: 264
+MD5sum: 91e12dc23297cdaff7ba45e78880e143
+Description: This app allows you to send texts directly from your Pebble Time watch. You can choose a contact by inputting text, dictating, or choosing a recent contact. You can then dictate a message, type with the watch, or select from a customizable list of presets.
+Name: TextSender for Pebble
+Author: Sawyer Vaughan
+
