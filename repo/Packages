@@ -13,18 +13,20 @@ Name: BCool
 Author: Sawyer Vaughan <sawyervaughan@gmail.com>
 
 Package: com.runnersaw.hud
-Version: 1.0-1
+Version: 1.2-1
 Section: Tweaks
-Maintainer: Sawyer Vaughan <sawyervaughan@gmail.com>
-Depends: mobilesubstrate
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Architecture: iphoneos-arm
 Filename: ./debs/hud/com.runnersaw.hud.deb
-Size: 5978
-Installed-Size: 72
-MD5sum: b0b6b76a708e0f4881e322c4e88aa05e
-Description: Finally, no more annoying volume pop-up over the video you're watching! Minimal HUD shows a tiny display when you change the volume that will never get in your way.
+Size: 21234
+Installed-Size: 146
+MD5sum: 68ccd54be0635e8155298d31b30cd0e8
+Description: alternative volume level pop-up display
 Name: Minimal HUD
 Author: Sawyer Vaughan <sawyervaughan@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=minimalhudDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=minimalhudDp
 
 Package: com.sawyervaughan.pebblesmstweak
 Version: 1.0.0-272
