@@ -29,15 +29,15 @@ Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=minimalhudD
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=minimalhudDp
 
 Package: com.sawyervaughan.pebblesmstweak
-Version: 1.0.0-314
+Version: 1.0.0-315
 Section: Tweaks
 Maintainer: Sawyer Vaughan
 Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2), firmware (>= 8.0)
 Architecture: iphoneos-arm
 Filename: ./debs/textsender/com.sawyervaughan.pebblesmstweak.deb
-Size: 71986
+Size: 72100
 Installed-Size: 312
-MD5sum: c8f1809b31134c3349a2d63bfa94aca3
+MD5sum: 0b8a0e54fcb472fd2cf4fe0029e8eedb
 Description: This app allows you to send texts directly from your Pebble Time watch. You can choose a contact by inputting text, dictating, or choosing a recent contact. You can then dictate a message, type with the watch, or select from a customizable list of presets.
 Name: TextSender for Pebble Beta
 Author: Sawyer Vaughan
