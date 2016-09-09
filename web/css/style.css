@@ -236,7 +236,10 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	max-width: 310px;
 }
 .portfolio-title {
-	height:120px;
+	height:80px;
+}
+.portfolio-date {
+	height:20px;
 }
 .portfolio-button {
 	cursor:pointer;
@@ -316,6 +319,9 @@ a.rightarrow{
 @media (max-width:1200px){
 	.portfolio-grid p {
 		height:6em;
+	}
+	.portfolio-title {
+		height: 100px;
 	}
 }
 
@@ -421,7 +427,7 @@ a.rightarrow{
 		font-size: 1.5em;
 	}
 	.portfolio-title {
-		height:120px;
+		height:100px;
 	}
 	.portfolio-grid p {
 		height:5em;
@@ -464,5 +470,8 @@ a.rightarrow{
 	.footer-right input[type="submit"] {
 		float: none;
 		width:100%
+	}
+	.portfolio-grid p {
+		height:8em;
 	}
 }
