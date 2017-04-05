@@ -1,8 +1,0 @@
-boolio
-games for pebble
-partyspot
-2048
-stock tracker
-fpgaguitar
-basketball
-line following robot
