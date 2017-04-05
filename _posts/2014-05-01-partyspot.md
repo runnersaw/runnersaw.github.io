@@ -9,6 +9,5 @@ image: /assets/images/partyspot-header-bg.png
 displayimage: /assets/images/partyspot-header.png
 description: partyspot.html
 shortdescription: An Android app using the Spotify SDK that includes collaborative playlists and music synchronization.
-date:   2017-03-31 08:16:17 -0700
 categories: jekyll update
 ---
