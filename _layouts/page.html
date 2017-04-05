@@ -1,0 +1,65 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+{% include head.html %}
+<link href="/assets/css/project.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="top-top" class="headerbg">
+		<div id="popup"></div>
+			<div class="header">
+				<div class="container">
+					<div class="back-button">
+						<ul>
+							<li><a class="scroll" href="/">BACK</a></li>
+						</ul>
+					</div>
+
+					<div class="nav">
+						<ul>
+							<li><a class="scroll" href="mailto:sawyer.vaughan@students.olin.edu">CONTACT</a></li>
+						</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="project">
+				<div class="container">
+					<div class="project-info">
+						<div class="project-title">
+							<h2>{{ page.project }}</h2>
+						</div>
+						<div class="project-below">
+							<div class="project-role">
+								<h4>{{ page.role }}</h4>
+							</div>
+							<div class="project-date">
+								<h4>{{ page.time }}</h4>
+							</div>
+						</div>
+						<div class="project-image">
+						{% if page.image %}
+							<img class="image" src="{{ page.image }}">
+						{% endif %}
+						{% if page.video %}
+							<iframe class="image" width="560" height="315" src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
+						{% endif %}
+						</div>
+						<div class="project-description">
+							{% include {{ page.description }} %}
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+
+</body>
+</html>
+
