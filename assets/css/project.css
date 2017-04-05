@@ -1,0 +1,141 @@
+/*----
+	Author: W3layouts
+	Author URL: http://w3layouts.com
+	License: Creative Commons Attribution 3.0 Unported
+	License URL: http://creativecommons.org/licenses/by/3.0/
+---*/
+.back-button{
+	float:left;
+}
+.back-button ul {
+	padding-left:0;
+}
+.back-button ul li{
+	display:inline-block;
+	margin:1em 0 0 1.5em;
+}
+.back-button ul li a{
+	color:#B5A9B7;
+}
+.back-button ul li a:hover{
+	color:gray;
+	text-decoration:none;
+}
+.project-title {
+	margin-top:2em;
+	margin-bottom:2em;
+}
+.project-title h2 {
+	color: #888888;
+	margin:0;
+	padding:0;
+	font-size: 3em;
+	text-align: center;
+}
+.project-role {
+	float: left;
+	display: inline-block;
+}
+.project-date {
+	float: right;
+	display: inline-block;
+}
+.project-below {
+	height:2.5em;
+	width:100%;
+	display: inline-block;
+}
+.project-description {
+	float: left;
+	display: inline-block;
+	margin-bottom: 4em;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 300px;
+    max-width: 100%;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+.large-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 400px;
+    max-width: 200%;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+.project-description h4 {
+	line-height: 1.5em;
+}
+.project-below div h4 {
+	font-weight: bold;
+}
+
+/* BIG */
+@media (max-width:1200px){
+}
+
+@media (max-width:1024px){
+}
+
+@media (max-width:992px){
+}
+
+/* MEDIUM SIZE */
+@media (max-width:768px){
+	.project-title {
+		margin-top:1em;
+		margin-bottom:1em;
+	}
+}
+
+/* SMALL */
+@media (max-width:640px){
+	.back-button ul{
+		margin:0;
+		padding:0;
+	}
+	.back-button ul li {
+		margin: 1.2em 0.5em;
+	}
+	.project-role {
+		float: none;
+		display: block;
+	}
+	.project-date {
+		float: none;
+		display: block;
+	}
+	.project-role h4 {
+		text-align: center;
+	}
+	.project-date h4 {
+		text-align: center;
+	}
+}
+
+/* TINY */
+@media (max-width:480px){
+	.back-button ul{
+		margin:0;
+		padding:0;
+	}
+	.back-button ul li {
+		margin: 0.8em 0.5em;
+	}
+	.back-button {
+		text-align:center;
+	}
+}
+
+/* REALLY TINY */
+@media (max-width:320px){
+	.back-button ul{
+		margin:0;
+		padding:0;
+	}
+}
