@@ -1,5 +1,11 @@
 [
 	{
+		"company":"Google",
+		"year":"2017-PRESENT",
+		"title":"Software Developer",
+		"description":"I am a Software Developer working at Google on the Google Drive iOS application."
+	},
+	{
 		"company":"Onshape",
 		"year":"2016",
 		"title":"iOS Developer",
