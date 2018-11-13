@@ -9,19 +9,19 @@
 		"company":"Onshape",
 		"year":"2016",
 		"title":"iOS Developer",
-		"description":"I worked as an iOS Developer intern at Onshape. Learn more about Onshape at <a href='https://www.onshape.com' target='_blank' class='about-link'>onshape.com</a>."
+		"description":"I worked as an iOS Developer intern at Onshape. Learn more about Onshape at <a href='https://www.onshape.com' target='_blank' rel="noopener" class='about-link'>onshape.com</a>."
 	},
 	{
 		"company":"Boolio",
 		"year":"2015",
 		"title":"Co-Founder and Lead iOS Developer",
-		"description":"I was a co-founder and the Lead iOS Developer for Boolio. Boolio is a social questions app for iOS and Android. See more at <a href='http://boolio.io' target='_blank' class='about-link'>boolio.io</a>."
+		"description":"I was a co-founder and the Lead iOS Developer for Boolio. Boolio is a social questions app for iOS and Android. See more at <a href='http://boolio.io' target='_blank' rel="noopener" class='about-link'>boolio.io</a>."
 	},
 	{
 		"company":"Games for Pebble",
 		"year":"2015",
 		"title":"App Developer",
-		"description":"I created Games for Pebble, an application for Pebble smartwatches. The application, coded in the C language, currently features seven games and has been installed over twenty thousand times. <a href='https://apps.getpebble.com/applications/54f65e8a13cdff61490000b6' target='_blank' class='about-link'>View the app here</a>."
+		"description":"I created Games for Pebble, an application for Pebble smartwatches. The application, coded in the C language, currently features seven games and has been installed over twenty thousand times. <a href='https://apps.getpebble.com/applications/54f65e8a13cdff61490000b6' target='_blank' rel="noopener" class='about-link'>View the app here</a>."
 	},
 	{
 		"company":"Response Care",
