@@ -1,0 +1,7 @@
+#contentContainer { position: relative; z-index: 2; background-color: #DDD4B3; font-family: Arial; font-size: 10pt; padding: 10px; color: black; width: 750px; box-sizing: border-box; }
+
+@media only screen and (max-width: 768px) { #contentContainer { width: 100%; } }
+
+@media only screen and (max-width: 600px) { #contentContainer { /* Use flex to place text before right rail. */ display: flex; flex-direction: column; } #textContainer { order: 1; } #rightRail { order: 2; width: 100%; margin: 0; box-sizing: border-box; } }
+
+/*# sourceMappingURL=chapters.css.map */

@@ -1,0 +1,233 @@
+@keyframes fadeIn { from { opacity: 0; }
+  to { opacity: 1; } }
+
+@keyframes fadeOut { from { opacity: 1; }
+  to { opacity: 0; } }
+
+@keyframes expand { from { aspect-ratio: 99999; }
+  to { aspect-ratio: 1.5; } }
+
+@keyframes collapse { from { aspect-ratio: 1.5; }
+  to { aspect-ratio: 99999; } }
+
+#interactiveContent { display: block; position: relative; z-index: 1; max-width: 750px; color: white; background-color: black; }
+
+.interactiveContentFullSize { max-width: 750px; aspect-ratio: 1.5; }
+
+.interactiveContentExpanded { aspect-ratio: 1.5; animation: expand ease-in-out 1s; }
+
+.interactiveContentCollapsed { aspect-ratio: 99999; animation: collapse ease-in-out 1s; }
+
+.interactiveContentCollapsedInitial { aspect-ratio: 99999; }
+
+#interactiveContentBackground { overflow: hidden; z-index: 2; background-image: url(/crossing_preview/images/backgroundNew.jpg); background-size: cover; }
+
+#interactiveContentBackgroundImage { width: 100%; height: 100%; }
+
+#interactiveContentBackgroundOverlayImage { width: 100%; height: 100%; }
+
+#interactiveContentImage { min-width: 200%; min-height: 125%; position: relative; cursor: grab; }
+
+#interactiveContentImage:active { cursor: grabbing; }
+
+#interactiveContentImageNonInteractive { width: 100%; height: 100%; object-fit: contain; background-color: black; }
+
+#interactiveContentMenuContainer { display: block; position: absolute; bottom: 12px; left: 12px; width: 284px; background-color: rgba(60, 42, 16, 0.6); padding: 4px 8px 8px 8px; z-index: 4; box-shadow: 6px 6px 2px #00000055; }
+
+.interactiveContentMenuContainerInitial { opacity: 0; pointer-events: none; }
+
+.interactiveContentMenuContainerHidden { opacity: 0; pointer-events: none; animation: fadeOut ease-in-out 1s; }
+
+.interactiveContentMenuContainerShown { opacity: 1; animation: fadeIn ease-in-out 1s; }
+
+@media only screen and (max-width: 600px) { #interactiveContentMenuContainer { position: relative; bottom: unset; left: unset; margin-right: auto; width: unset; box-shadow: unset; } #interactiveContentMenuContainerBackground { background: #DDD4B3; padding: 8px; } .interactiveContentMenuContainerInitial { opacity: 1; pointer-events: unset; } .interactiveContentMenuContainerHidden { opacity: 1; pointer-events: unset; animation: unset; } .interactiveContentMenuContainerShown { opacity: 1; animation: unset; } }
+
+#interactiveContentMenu { display: block; color: black; background-color: #584930C0; text-align: left; }
+
+#interactiveContentMenuTitle { color: #e6d8bb; /* TODO: Update to Rocky. */ font-family: Arial; font-size: 18pt; font-weight: bold; padding-left: 12px; padding-right: 12px; padding-top: 4px; }
+
+#interactiveContentMenuChapter { /* TODO: Update to Rocky. */ font-family: Arial; font-size: 12pt; font-weight: bold; color: #a28b6e; background-color: #331e16; padding-left: 12px; padding-right: 12px; padding-top: 2px; }
+
+#interactiveContentMenuSubtitle { font-family: Arial; font-size: 10pt; color: white; padding-left: 12px; padding-right: 12px; padding-top: 8px; padding-bottom: 8px; }
+
+#interactiveContentMenuButtonContainer { display: flex; padding-left: 12px; padding-right: 12px; padding-bottom: 8px; flex-wrap: wrap; row-gap: 4px; }
+
+.interactiveContentMenuButton { font-family: Arial; font-size: 9pt; font-weight: bold; text-align: left; color: white; cursor: pointer; flex-grow: 1; flex-basis: 30%; white-space: nowrap; }
+
+.interactiveContentMenuButtonDisabled { color: gray; }
+
+.interactiveContentMenuButtonText { padding-left: 0px; }
+
+.interactiveContentMenuButtonImage { width: 9px; }
+
+.invisible { opacity: 0; }
+
+.hidden { display: none !important; }
+
+.backgroundFadeIn { animation: fadeIn ease-in-out 1s; opacity: 1; }
+
+.backgroundFadeOut { animation: fadeOut ease-in-out 1s; opacity: 0; }
+
+.captionsFadeIn { animation: fadeIn ease-in-out 0.25s; opacity: 1; }
+
+.captionsFadeOut { animation: fadeOut ease-in-out 0.25s; opacity: 0; }
+
+/* Video player */
+#interactiveVideoPlayer { position: absolute; top: 0; width: 100%; z-index: 3; background: black; }
+
+#videoPlayerContainer { position: absolute; top: 0; left: 0; right: 0; bottom: 40px; }
+
+#videoPlayerPlaceholder { position: absolute; width: 100%; height: 100%; cursor: pointer; background-color: black; }
+
+#videoPlayerPlaceholderContainer { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; max-width: 512px; height: 100%; background-size: cover; z-index: 1; }
+
+#videoPlayerPlaceholderImage { width: 100%; height: 100%; object-fit: contain; }
+
+.videoPlayerPlaceholderText { position: absolute; top: 0; left: 0; padding: 8px; text-align: right; color: black; width: 30%; }
+
+.videoPlayerPlaceholderTextContent { width: 100%; margin-left: auto; }
+
+#videoPlayerPlaceholderTextByline { margin: 4px 0 4px 0; font-weight: bold; }
+
+#videoPlayerPlaceholderTextClickToPlay { text-transform: uppercase; font-weight: bold; }
+
+.videoPlayerPlaceholderTextDivider { width: 100%; background-color: black; height: 1px; }
+
+#videoPlayerPlaceholderText-2 { top: 22%; left: 56%; }
+
+#videoPlayerPlaceholderTextHeader-2 { color: #503F28; }
+
+#videoPlayerPlaceholderText-3 { top: unset; left: unset; right: 0; bottom: 0; color: white; width: 40%; }
+
+#videoPlayerPlaceholderTextHeader-3 { color: #B29E83; }
+
+#videoPlayerPlaceholderTextDivider-3 { background-color: white; }
+
+#videoPlayerPlaceholderTextContent-3 { width: 75%; }
+
+#videoPlayerPlaceholderTextHeader-4 { color: #503F28; }
+
+#videoPlayerPlaceholderText-5 { left: unset; right: 0; }
+
+#videoPlayerPlaceholderTextHeader-5 { color: #503F28; }
+
+#videoPlayerPlaceholderText-6 { top: unset; left: unset; right: 0; bottom: 0; }
+
+#videoPlayerPlaceholderTextHeader-6 { color: #503F28; }
+
+#videoPlayerPlaceholderText-7 { top: unset; left: unset; right: 0; bottom: 0; }
+
+#videoPlayerPlaceholderTextHeader-7 { color: black; }
+
+#videoPlayerPlaceholderText-9, #videoPlayerPlaceholderText-10 { top: unset; bottom: 0; text-align: left; color: white; }
+
+#videoPlayerPlaceholderTextHeader-9, #videoPlayerPlaceholderTextHeader-10 { color: white; }
+
+#videoPlayerPlaceholderTextDivider-9, #videoPlayerPlaceholderTextDivider-10 { background-color: white; }
+
+#videoPlayerPlaceholderText-11 { top: 56%; left: unset; right: 0; color: white; width: 40%; }
+
+#videoPlayerPlaceholderTextHeader-11 { color: white; }
+
+#videoPlayerPlaceholderTextDivider-11 { color: white; }
+
+#videoPlayerPlaceholderTextContent-11 { width: 75%; }
+
+#videoPlayerPlaceholderText-12, #videoPlayerPlaceholderText-13 { top: unset; left: unset; right: 0; bottom: 0; color: white; }
+
+#videoPlayerPlaceholderTextHeader-12, #videoPlayerPlaceholderTextHeader-13 { color: white; }
+
+#videoPlayerPlaceholderTextDivider-12, #videoPlayerPlaceholderTextDivider-13 { background-color: white; }
+
+#videoPlayerPlaceholderText-14 { text-align: left; color: white; }
+
+#videoPlayerPlaceholderTextHeader-14 { color: white; }
+
+#videoPlayerPlaceholderTextDivider-14 { background-color: white; }
+
+#videoPlayerPlaceholderText-15 { top: unset; bottom: 0; text-align: left; color: white; }
+
+#videoPlayerPlaceholderTextHeader-15 { color: white; }
+
+#videoPlayerPlaceholderTextDivider-15 { background-color: white; }
+
+#videoPlayerPlaceholderText-16 { top: 18%; left: unset; right: 0; text-align: left; }
+
+#videoPlayerPlaceholderTextHeader-16 { color: black; }
+
+#videoPlayerPlaceholderText-21 { top: unset; left: unset; right: 0; bottom: 5%; }
+
+#videoPlayerPlaceholderTextHeader-21 { color: black; }
+
+#videoPlayerPlaceholderText-23 { top: unset; left: unset; right: 0; bottom: 0; color: white; }
+
+#videoPlayerPlaceholderTextHeader-23 { color: white; }
+
+#videoPlayerPlaceholderTextDivider-23 { background-color: white; }
+
+#videoPlayerPlaceholderText-24 { color: white; text-align: left; width: 50%; }
+
+#videoPlayerPlaceholderTextHeader-24 { color: white; }
+
+#videoPlayerPlaceholderTextDivider-24 { background-color: white; }
+
+#videoPlayerPlaceholderTextContent-24 { width: 80%; margin-left: unset; margin-right: auto; }
+
+#videoPlayerPlaceholderText-26 { left: unset; right: 0; color: white; text-align: left; }
+
+#videoPlayerPlaceholderTextDivider-26 { background-color: white; }
+
+#videoPlayerPlaceholderText-27 { top: unset; left: unset; right: 0; bottom: 0; }
+
+#videoPlayerPlaceholderTextHeader-27 { color: black; }
+
+#videoPlayerPlaceholderText-32 { top: unset; left: unset; right: 0; bottom: 0; color: white; }
+
+#videoPlayerPlaceholderTextHeader-32 { color: white; }
+
+#videoPlayerPlaceholderTextDivider-32 { background-color: white; }
+
+#videoPlayerPlaceholderText-33 { top: unset; left: 50%; bottom: 0; transform: translateX(-50%); color: white; text-align: center; }
+
+#videoPlayerPlaceholderTextHeader-33 { color: white; }
+
+#videoPlayerPlaceholderTextDivider-33 { background-color: white; }
+
+.videoPlayerPlaceholderTextHeader { color: #937D5A; margin: 0 0 4px 0; font-size: 2.5em; font-family: impact; text-shadow: 4px 4px 4px #00000044; }
+
+#videoPlayer { width: 100%; height: 100%; }
+
+#videoPlayerControls { position: absolute; width: 100%; height: 40px; bottom: 0; display: flex; align-items: center; color: #614A3B; }
+
+#videoPlayerControls > * { display: inline; margin-left: 4px; margin-right: 4px; }
+
+#videoPlayerControls a { cursor: pointer; }
+
+#playbackBar { background: linear-gradient(#745847, #15110d); flex-grow: 1; height: 10px; }
+
+#playbackSelector { background: blue; width: 20px; height: 100%; position: relative; float: left; }
+
+/* Photo player */
+#interactivePhotoPlayer { position: absolute; top: 0; width: 100%; z-index: 3; background: black; }
+
+#photoPlayerContainer { position: absolute; top: 0; left: 0; right: 0; bottom: 40px; }
+
+#photoPlayer { width: 100%; height: 100%; }
+
+#photoPlayerControls { position: absolute; width: 100%; height: 40px; bottom: 0; display: flex; align-items: center; color: #614A3B; font-family: impact; text-transform: uppercase; font-size: 1.25em; }
+
+#photoPlayerControls > * { display: inline; margin-left: 4px; margin-right: 4px; }
+
+#photoPlayerControls a { cursor: pointer; }
+
+#photoPlayerControls a:hover { color: #fff; text-decoration: none; }
+
+#photoSlideCaption { width: 100%; bottom: 0; left: 0; position: absolute; min-height: 100px; max-height: 100%; background: red; padding: 12px; box-sizing: border-box; }
+
+.photoSlideCaptionText { width: 100%; max-height: 100%; text-align: left; display: inline-block; }
+
+.photoSlide { width: 100%; height: 100%; top: 0; left: 0; position: absolute; object-fit: contain; opacity: 0; transition: opacity 0.5s linear; }
+
+.photoSlideShown { opacity: 1; }
+
+/*# sourceMappingURL=interactiveContent.css.map */

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88115230-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<title>The Crossing Story</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/crossing_preview/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/chapters.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/fonts.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/interactiveContent.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/crossing_preview/js/interactiveContent.js"></script>
+
+</head>
+<center>
+<body bgcolor="##000000">
+
+	<div class="header">
+	</div>
+
+	<div id="flashcontent" style="display: none; position: relative; z-index: 1; background-color:##000000; color: #ffffff; font-family: Arial; font-weight: bold; font-size: 18pt; width: 750px; @& width: 750px; background-image: url(/crossing_preview/images/backgroundNew.jpg);">
+		To view this content you must download and install Adobe Flash Player <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">here</a>.
+	</div>
+
+	<div id="interactiveContent">
+    <div id="interactiveContentBackground" class="interactiveContentCollapsedInitial">
+        
+            <img id="interactiveContentImageNonInteractive" class="invisible" src="/crossing_preview/images/part12/interactive_background.jpg" draggable="false">
+        
+    </div>
+    <div id="interactiveContentMenuContainerBackground">
+        <div id="interactiveContentMenuContainer" class="interactiveContentMenuContainerInitial">
+            <div id="interactiveContentMenu">
+                <div id="interactiveContentMenuTitle">
+                    TESTED FAITH
+                </div>
+
+                
+                    <div id="interactiveContentMenuChapter">
+                        CHAPTER 12 OF 33
+                    </div>
+                
+
+                <div id="interactiveContentMenuSubtitle">
+                    Less than two months after losing Mark and Kathy in the crash, the Brantner family faces another tragedy.
+                </div>
+
+                <div id="interactiveContentMenuButtonContainer">
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="storyClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Story</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="videoClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Video</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="documentsClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Documents</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="photosClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Photos</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="discussClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Discuss</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="seriesIndexClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Series Index</p4>
+                            </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div id="interactiveVideoPlayer" class="interactiveContentFullSize invisible hidden">
+            <div id="videoPlayerContainer">
+                <div id="videoPlayerPlaceholder" onclick="playVideoClicked()">
+                    <div id="videoPlayerPlaceholderContainer" style="background-image: url(/crossing_preview/images/part12/video_placeholder.jpg">
+                        <div id="videoPlayerPlaceholderText-12" class="videoPlayerPlaceholderText">
+                            <h2 id="videoPlayerPlaceholderTextHeader-12" class="videoPlayerPlaceholderTextHeader">TESTED FAITH</h2>
+                            <div id="videoPlayerPlaceholderTextContent-12" class="videoPlayerPlaceholderTextContent">
+                                <div id="videoPlayerPlaceholderTextDivider-12" class="videoPlayerPlaceholderTextDivider"></div>
+                                <p id="videoPlayerPlaceholderTextByline">Video by Tim Skillern</p>
+                                <p>Friends and family recall the devastating loss of another Brantner boy.</p>
+                                <p id="videoPlayerPlaceholderTextClickToPlay">Click play to begin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <video id="videoPlayer" preload="none">
+                    <source src="/videos/part12/video12.mp4">
+                </video>
+            </div>
+            <div id="videoPlayerControls">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <a onclick="closeVideoClicked()">
+                        CHAPTER MENU
+                    </a>
+                </div>
+                <a onclick="playVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
+                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                </a>
+                <a onclick="closeVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
+                </a>
+                <div id="playbackBar">
+                    <div id="playbackSelector"></div>
+                </div>
+                <p4 id="timeText">0:00</p4>
+            </div>
+        </div>
+    
+    <div id="interactivePhotoPlayer" class="interactiveContentFullSize invisible hidden">
+        <div id="photoPlayerContainer">
+            <div id="photoPlayerPhotoContainer">
+                
+                
+                    
+                
+            </div>
+            <div id="photoSlideCaption" class="invisible hidden">
+                
+                    
+                
+            </div>
+        </div>
+        <div id="photoPlayerControls">
+            <div>
+                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                <a onclick="closePhotoClicked()">
+                    <p>CHAPTER MENU</p>
+                </a>
+            </div>
+            <a onclick="previousPhotoClicked()">
+                <img src='/crossing_preview/images/rewind.svg'>
+            </a>
+            <a onclick="playPhotoClicked()">
+                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
+                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+            </a>
+            <a onclick="nextPhotoClicked()">
+                <img src='/crossing_preview/images/fast_forward.svg'>
+            </a>
+            <a onclick="captionsClicked()">
+                <p4>Captions</p4>
+            </a>
+            <p4 id="photoSlideshowState"></p4>
+        </div>
+    </div>
+</div>
+
+
+	<div id="contentContainer" align="left">
+
+		<div id="rightRail" class="rightRail">
+			<div class="photoBucket">
+				<div id="photoBucketImageContainer">
+					<img id="photoBucketImage" src="/crossing_preview/images/part12/story12.jpg" border="1">
+				</div>
+				Chris Schneider &copy; The Rocky
+
+				<div class="photoBucketCaption">
+					Katherine Brantner has leaned heavily on her faith in God to cope with all the heartbreak in her life. She lost two children in the bus crash and another son in a car accident two months later. "There's nothing you can do about it," she says. "You have to ask him every day to help you through it."
+					<ul><li>
+						
+							<a href="#" onclick="photosClicked();" style="color: #000000; font-size: 12px; font-weight: bold;">More chapter 12 photos</a>
+						
+					</li></ul>
+				</div>
+			</div>
+
+			<div class="railBin">
+	<h3>Crossing chapters</h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color: #fff; font-weight: bold;">
+		Jump to:&nbsp;&nbsp;
+		<select id="jumper" onchange="if(this.value != '')location=this.value;">
+			<option value="/chapters/"></option>
+			<option id="jump_1" value="/chapters/1/">Chapter 1: ECHOES</option>
+			<option id="jump_2" value="/chapters/2/">Chapter 2: SIX DEGREES</option>
+			<option id="jump_3" value="/chapters/3/">Chapter 3: A TYPICAL MORNING</option>
+			<option id="jump_4" value="/chapters/4/">Chapter 4: ON THE CUSP</option>
+			<option id="jump_5" value="/chapters/5/">Chapter 5: 63 INCHES</option>
+			<option id="jump_6" value="/chapters/6/">Chapter 6: ALL OUT</option>
+			<option id="jump_7" value="/chapters/7/">Chapter 7: MEMORIES</option>
+			<option id="jump_8" value="/chapters/8/">Chapter 8: QUESTIONS</option>
+			<option id="jump_9" value="/chapters/9/">Chapter 9: TRIAL</option>
+			<option id="jump_10" value="/chapters/10/">Chapter 10: VERDICT</option>
+			<option id="jump_11" value="/chapters/11/">Chapter 11: REVERBERATIONS</option>
+			<option id="jump_12" value="/chapters/12/">Chapter 12: TESTED FAITH</option>
+			<option id="jump_13" value="/chapters/13/">Chapter 13: HOPE</option>
+			<option id="jump_14" value="/chapters/14/">Chapter 14: MELODY</option>
+			<option id="jump_15" value="/chapters/15/">Chapter 15: SILENCE</option>
+			<option id="jump_16" value="/chapters/16/">Chapter 16: DRIVER'S SEAT</option>
+			<option id="jump_17" value="/chapters/17/">Chapter 17: ALIVE</option>
+			<option id="jump_18" value="/chapters/18/">Chapter 18: LOSING EVERYTHING</option>
+			<option id="jump_19" value="/chapters/19/">Chapter 19: DEC. 14	</option>
+			<option id="jump_20" value="/chapters/20/">Chapter 20: LAST RUN</option>
+			<option id="jump_21" value="/chapters/21/">Chapter 21: PUSHING ON</option>
+			<option id="jump_22" value="/chapters/22/">Chapter 22: COMPLICATED GRIEF</option>
+			<option id="jump_23" value="/chapters/23/">Chapter 23: COINCIDENCE?</option>
+			<option id="jump_24" value="/chapters/24/">Chapter 24: IN THE SHADOWS</option>
+			<option id="jump_25" value="/chapters/25/">Chapter 25: MOVING ON</option>
+			<option id="jump_26" value="/chapters/26/">Chapter 26: HEARTBREAK</option>
+			<option id="jump_27" value="/chapters/27/">Chapter 27: NEVER SAY NEVER</option>
+			<option id="jump_28" value="/chapters/28/">Chapter 28: A CHRISTMAS WISH</option>
+			<option id="jump_29" value="/chapters/29/">Chapter 29: NEW LIFE</option>
+			<option id="jump_30" value="/chapters/30/">Chapter 30: FILLING THE VOID</option>
+			<option id="jump_31" value="/chapters/31/">Chapter 31: THE JUDGE</option>
+			<option id="jump_32" value="/chapters/32/">Chapter 32: PERSPECTIVE</option>
+			<option id="jump_33" value="/chapters/33/">Chapter 33: LEGACY</option>
+			<option id="jump_34" value="/chapters/34/">EPILOGUE</option>
+			<option id="jump_35" value="/extras/1/">EXTRAS</option>
+		</select>
+	</span>
+</div>
+
+
+			<div class="railBin">
+	<h3>Tools</h3>
+	<h4>Chapter 12 menu</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="/chapters/index/#part12">Series index</a></li>
+					<li><a href="#" onclick="chapterIndexClicked();">Chapter index</a></li>
+				</ul>
+			</td>
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Discuss</a></li>
+					<li><a href="/crossing_preview/images/part12/docs/Chapter12_anno.pdf" target="_blank">Sources</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<h4>Story tools</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Contact us</a></li>
+					<li><a href="/crossing_preview/images/part12/docs/print12.pdf" target="_blank">Story in print</a> (.pdf)</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+			
+				<div class="railBin" style="height: 130px;">
+	<h3>Video</h3>
+	<a href="#" onclick="videoClicked();">
+		<img src="/crossing_preview/videos/part12/still12.jpg" style="float: left; border: 1px solid #000; margin: 5px 10px 0 10px;" title="Friends and family recall the devastating loss of another Brantner boy.">
+	</a>
+	<p style="color: #DCD4B3;">Friends and family recall the devastating loss of another Brantner boy.</p>
+	<img src="/crossing_preview/images/arrow.gif" />
+	<a href="#" onclick="videoClicked();">Watch video</a>
+</div>
+
+			
+
+			
+				
+
+
+			
+
+			<div class="railBin">
+	<h3>Related content</h3>
+	<img src="/crossing_preview/images/survivors.jpg" style="float: left; border: 1px solid ##000; margin: -3px 10px 0 10px; @& margin: 0px 10px 0 10px;"><p style="color: #DCD4B3;">
+	<h4 style="margin-top: -10px;">Crossing forums</h4>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/DenverForumC.m4v">Forum at the Rocky Mountain News in Denver.</a>
+	<br>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/GreeleyForumC.mp4">Forum at the Union Colony Civic Center in Greeley.</a>
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="color: #fff; font-weight: bold;">
+			Podcasts:&nbsp;&nbsp;
+			<select name="podcasts" onchange="if(this.value != '')location=this.value;" style="margin-left: 20px;">
+				<option value="">--Select a Crossing podcast--</option>
+				<option value="/podcasts/01.mp3">Chapter 1</option>
+				<option value="/podcasts/02.mp3">Chapter 2</option>
+				<option value="/podcasts/03.mp3">Chapter 3</option>
+				<option value="/podcasts/04.mp3">Chapter 4</option>
+				<option value="/podcasts/05.mp3">Chapter 5</option>
+				<option value="/podcasts/06.mp3">Chapter 6</option>
+				<option value="/podcasts/07.mp3">Chapter 7</option>
+				<option value="/podcasts/08.mp3">Chapter 8</option>
+				<option value="/podcasts/09.mp3">Chapter 9</option>
+				<option value="/podcasts/10.mp3">Chapter 10</option>
+				<option value="/podcasts/11.mp3">Chapter 11</option>
+				<option value="/podcasts/12.mp3">Chapter 12</option>
+				<option value="/podcasts/13.mp3">Chapter 13</option>
+				<option value="/podcasts/14.mp3">Chapter 14</option>
+				<option value="/podcasts/15.mp3">Chapter 15</option>
+				<option value="/podcasts/16.mp3">Chapter 16</option>
+				<option value="/podcasts/17.mp3">Chapter 17</option>
+				<option value="/podcasts/18.mp3">Chapter 18</option>
+				<option value="/podcasts/19.mp3">Chapter 19</option>
+				<option value="/podcasts/20.mp3">Chapter 20</option>
+				<option value="/podcasts/21.mp3">Chapter 21</option>
+				<option value="/podcasts/22.mp3">Chapter 22</option>
+				<option value="/podcasts/23.mp3">Chapter 23</option>
+				<option value="/podcasts/24.mp3">Chapter 24</option>
+				<option value="/podcasts/25.mp3">Chapter 25</option>
+				<option value="/podcasts/26.mp3">Chapter 26</option>
+				<option value="/podcasts/27.mp3">Chapter 27</option>
+				<option value="/podcasts/28.mp3">Chapter 28</option>
+				<option value="/podcasts/29.mp3">Chapter 29</option>
+				<option value="/podcasts/30.mp3">Chapter 30</option>
+				<option value="/podcasts/31.mp3">Chapter 31</option>
+				<option value="/podcasts/32.mp3">Chapter 32</option>
+				<option value="/podcasts/33.mp3">Chapter 33</option>
+				<option value="/podcasts/34.mp3">Epilogue</option>
+			</select>
+		</span>
+	</p>
+</div>
+
+
+			<div class="railBin">
+	<h3>Acknowledgements</h3>
+	<div style="margin-left: 10px;">
+		<p style="color: #DCD4B3; font-size: 8pt;">"The Crossing" could only be told with the help of many people:</p>
+		<p style="color: #DCD4B3; font-size: 8pt;">- The more than 80 people touched by the tragedy of Dec. 14, 1961, who agreed to tell their stories.<br>- Bill and Mary Bohlender, who helped unearth numerous historic documents and provided numerous insights.<br>- Virginia Shelton and Mary Shelton Shafer, who provided numerous insights and access to attorney Jim Shelton's files.<br>- Keith Blue, who provided numerous insights.<br>- Peggy Ford and the staff at the City of Greeley Museums, Barbara Dey and the Hart Library staff at the Colorado History Museum and former Rocky librarian Carol Kasel, who all assisted with research.</p>
+	</div>
+</div>
+
+
+			<a name="contact"></a>
+<div id="contact" class="railBin">
+	<h3>Contact the series team</h3>
+	<ul>
+		<li>Reporter: <a href="mailto:writerkev@hotmail.com?subject=The%20Crossing">Kevin Vaughan</a></li>
+		<li>Photographer: <a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing">Chris Schneider</a></li>
+		<li>Video: <a href="mailto:timskillern@gmail.com?subject=The%20Crossing">Tim Skillern</a> & <a href="mailto:laressa@denverpromostudios.com?subject=The%20Crossing">Laressa Bachelor</a></li>
+		<li>Print designer: <a href="mailto:armandoarrieta10@gmail.com?subject=The%20Crossing">Armando Arrieta</a></li>
+		<li>Web designer: <a href="mailto:kharpe01@syr.edu?subject=The%20Crossing">Ken Harper</a></li>
+		<li>Web producer: <a href="mailto:">Forrest Stewart</a></li>
+		<li>Web developer: <a href="mailto:ck.nguyen79@gmail.com?subject=The%20Crossing">Chris Nguyen</a></li>
+		<li>Copy editor: <a href="mailto:diannerose@comcast.net?subject=The%20Crossing">Dianne Rose</a></li>
+		<li>Photo editor: <a href="mailto:dkrakel@gmail.com?subject=The%20Crossing">Dean Krakel</a></li>
+		<li>Imager: <a href="mailto:mariegriffin@gmail.com?subject=The%20Crossing">Marie Griffin</a></li>
+		<li>Interactive editor: <a href="mailto:michaelnoe@gmail.com?subject=The%20Crossing">Mike Noe</a></li>
+		<li>Project editor: <a href="mailto:carolhanner@gmail.com?subject=The%20Crossing">Carol Hanner</a></li>
+	</ul>
+</div>
+
+		</div>
+
+		<div id="textContainer">
+			<div style="font-size: 14pt; font-weight: bold; color: #473B2D;">
+	THE CROSSING: <span style="font-weight: normal; color: #8B6F57;">TESTED FAITH</span>
+</div>
+
+	<div style="font-size: 10pt; font-weight: bold; color: #8B6F57;">CHAPTER 12 OF 33</div>
+
+
+			<br>
+			<div style="font-size: 10pt; font-weight: bold; color: #473B2D;">
+	By
+	<a href="mailto:writerkev@hotmail.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Kevin Vaughan</a>
+	<br>
+	Photos by
+	<a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Chris Schneider</a>
+</div>
+
+
+			<p>How much sorrow should one family have to endure?  Having buried two of their eight children after the accident at the crossing, Joe and Katherine Brantner faced that question on Feb. 7, 1962.</p>
+<p>Early that morning, 12-year-old Bobby Brantner stood out in the barn, cleaning up after the morning milking.
+Joe approached him.</p>
+<p>It had been 55 days since Bobby's 6-year-old brother, Mark, and 9-year-old sister, Kathy, had died at the crossing.</p>
+<p>Bobby had missed the crash because he'd ridden to school early with his older brother, Johnny, to discuss a project with a teacher.</p>
+<p>In those 55 days, Bobby hadn't yet gotten back onto the school bus. Every day, Johnny had driven him to Meeker Junior High in Greeley.</p>
+<p>That was going to change.</p>
+<p>"It's too much trouble for John to take you to school," Joe Brantner told Bobby.</p>
+<p>"You have to ride the bus."</p>
+<p>Bobby washed up, grabbed some breakfast, walked out front, got on the bus.</p>
+<p>That morning, Johnny, 16, got into his prized two-tone Chevy. Another brother, 14-year-old Jimmy, jumped in with him.</p>
+<p>They drove off.</p>
+<p><b>A hard life, a good life</b></p>
+<p>Joe Brantner and Katherine Morton married on June 6, 1942, at Holy Family Catholic Church in Denver.</p>
+<p>They had their first baby, a daughter they called Susie, 11 months later. Johnny was born in 1945.</p>
+<p>During World War II, Joe operated machinery at the Remington Arms plant in Lakewood and worked as a mechanic, but he longed to have his own farm.</p>
+<p>So in the spring of 1946, Joe and Katherine bought 320 dormant acres about three miles east of U.S. 85, not far from the Auburn school, near a Union Pacific rail line.</p>
+<p>They moved their young, growing family into a rundown, two-bedroom house where transients had huddled for several years.</p>
+<p>The kids kept coming &#151; Jimmy in 1947, Bobby in 1949, Kathy in 1952, Mark in 1955, Paul in 1960, Mary in 1961.</p>
+<p>Along the way, they built a big, new home with dormer windows and green asbestos siding.</p>
+<p>They worshipped at St. Nicholas Catholic Church in Platteville.</p>
+<p>They worked long hours, raising crops to support their dairy operation.</p>
+<p>All the kids pitched in, driving the truck out in the fields, helping milk the cows each morning and evening around 5.</p>
+<p>"You can go wherever you want," Joe would tell his sons, "as long as you're home by milking time."</p>
+<p>If anything needed to be done, they did it.</p>
+<p>When the grain truck threw a rod, Joe and his older boys had the engine in and out of it three times before it finally chugged back to life.</p>
+<p>Long before Bobby could drive, he could weld.</p>
+<p>It was a weary-in-the-bones life, but a good one.</p>
+<p>Years later, Bob Brantner would say of his parents, "They're the best people I've ever known."</p>
+<p>But Dec. 14, 1961, broke Joe and Katherine Brantner's hearts.</p>
+<p>Alerted to the crash by a neighbor, they rushed the quarter mile to the crossing, where they found Mark and Kathy dead.</p>
+<p>Gone was Mark, the curious little boy who wanted to know how everything worked, who lay down on the living room floor one day with a catalog and carefully copied down the names of all the toys he wanted for Christmas.</p>
+<p>Gone was Kathy, the neat little girl who kept her side of her bedroom spotless, who fumed at the mess on her sister's side.</p>
+<p>But the grief would have to wait as Joe and Katherine dealt with the chaos in front of them.</p>
+<p>Joe and a neighbor, Albert Bindel, got their cars, loaded up as many injured children as they could find and floored it for the hospital.</p>
+<p>That day is a blur to 57-year-old Bob Brantner now.</p>
+<p>When he looks back through the haze of 45 years, he sees snapshots and film clips.</p>
+<p>Being called out of class by someone, the principal, maybe. Descending the stairs at school to find Johnny and Jimmy waiting near the front door.</p>
+<p>Finding a crush of people at his house. Walking the 500 yards to the crossing.</p>
+<p>Seeing the mangled last few feet of the bus, sheared clean, resting on one side of the tracks. Peering into the front section of the bus. Turning to walk away, his head down.</p>
+<p>In that moment, a newspaper photographer snapped a picture, then asked him if he knew anyone on the bus.</p>
+<p>That photograph ran in papers all over the country and in other parts of the world. Bobby was flooded with good wishes, cards and notes.</p>
+<p><b>Miles out of their way</b></p>
+<p>The numbness of that day had hardly started to wear off when Feb. 7, 1962, arrived.</p>
+<p>Johnny and Jimmy jumped in the Chevy.</p>
+<p>Johnny headed south, then west toward LaSalle, instead of north, then west toward Greeley &#151; his normal route to school. Some would later speculate that he and Jimmy were trying to avoid the crossing where their little brother and sister died.</p>
+<p>But that made no sense &#151; avoiding the crossing meant going miles out of their way.</p>
+<p>Instead, Johnny probably decided to stop at the Mobil station in LaSalle, where he pumped gas after school to pay for his car.</p>
+<p>Whatever the reason for taking a different route, the boys never made it to school.</p>
+<p>As Johnny approached an intersection, a pickup crossed his path.</p>
+<p>Johnny's Chevy slammed into the driver's side of the truck, and both vehicles spun to a stop off the road.</p>
+<p>Johnny was thrown out.</p>
+<p>He died at 11:25 a.m. at the hospital in Greeley.</p>
+<p>Jimmy suffered debilitating wounds: broken hips, knees and legs and &#151; worse &#151; a terrible head injury that would plague him all his life.</p>
+<p>As word of the accident spread, friends and neighbors rushed to be with the Brantners.</p>
+<p>They offered prayers and words of comfort. Many wondered the same thing:</p>
+<p>How could such a thing happen to a family that had been wounded so badly already?</p>
+<p>The Brantners buried Johnny in Linn Grove Cemetery, next to Mark and Kathy. Joe and Katherine spent 21 days at Jimmy's bedside as he lay unconscious. They helped him through months of fighting his way back.</p>
+<p><b>'Faith brought us through'</b></p>
+<p>The reminders of Katherine Brantner's life are everywhere in her Greeley home.</p>
+<p>On a shelf in her bedroom rest two small black-and-white photographs of Mark and Kathy, each of them smiling innocently.</p>
+<p>Photo albums next to a wingback chair in the living room burst with pictures, many showing her 11 grandchildren and 11 great-grandchildren.</p>
+<p>Her husband is gone. Joe died Aug. 9, 2004, two months after they celebrated their 62nd anniversary. But his handiwork covers the walls &#151; a clock set in a piece of glimmering lacquered driftwood, photographs from their mountain trips framed in rust-stained barn wood, a wind chime he built using thinly cut pieces of mocha and caramel rock.</p>
+<p>Katherine moves slowly. She leans on a cane for support.</p>
+<p>She also leans on God, just as she and Joe did in the wake of their losses.</p>
+<p>"Life has been hard," she says, "but then, God didn't promise us a rose garden.</p>
+<p>"Our faith brought us through all these tragedies. If it wasn't for our faith and our friends, we couldn't have gotten through it."</p>
+<p>She questioned God a few times over the years. Each time, she came to the same conclusion.</p>
+<p>"In the end, he's there to give you strength and helps you through it," she says.</p>
+<p>Her mind replays Dec. 14, 1961, and all that she lost after that morning.</p>
+<p>Back then, after the deaths of Mark and Kathy, and after the death of Johnny and the injuries to Jimmy, she could not have imagined that many years in the future Dec. 14 would again be a day of sorrow for her family.</p>
+<p><b>NEXT:</b> <a href="/crossing_preview/chapters/13/" style="color: #000000;">Hope</a></p>
+
+
+		</div>
+	</div>
+
+	<br>
+
+	<div class="footer">
+	<!-- agreement -->
+	<p style="float: right; text-align: right;">2007 &copy; Rocky Mountain New Archives, Western History Collection, Denver Public Library<br /><a href="disclaimer.html">User Agreement</a><br /><a href="#contact">Questions? Comments? Talk to Us</a></p>
+	<!-- /agreement -->
+</div>
+
+</body>
+</center>
+</html>

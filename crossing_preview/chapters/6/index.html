@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88115230-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<title>The Crossing Story</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/crossing_preview/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/chapters.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/fonts.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/interactiveContent.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/crossing_preview/js/interactiveContent.js"></script>
+
+</head>
+<center>
+<body bgcolor="##000000">
+
+	<div class="header">
+	</div>
+
+	<div id="flashcontent" style="display: none; position: relative; z-index: 1; background-color:##000000; color: #ffffff; font-family: Arial; font-weight: bold; font-size: 18pt; width: 750px; @& width: 750px; background-image: url(/crossing_preview/images/backgroundNew.jpg);">
+		To view this content you must download and install Adobe Flash Player <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">here</a>.
+	</div>
+
+	<div id="interactiveContent">
+    <div id="interactiveContentBackground" class="interactiveContentCollapsedInitial">
+        
+            <img id="interactiveContentImageNonInteractive" class="invisible" src="/crossing_preview/images/part6/interactive_background.jpg" draggable="false">
+        
+    </div>
+    <div id="interactiveContentMenuContainerBackground">
+        <div id="interactiveContentMenuContainer" class="interactiveContentMenuContainerInitial">
+            <div id="interactiveContentMenu">
+                <div id="interactiveContentMenuTitle">
+                    ALL OUT
+                </div>
+
+                
+                    <div id="interactiveContentMenuChapter">
+                        CHAPTER 6 OF 33
+                    </div>
+                
+
+                <div id="interactiveContentMenuSubtitle">
+                    The Fords turn to family, faith and horses as they learn how to live without Jimmy, the oldest boy.
+                </div>
+
+                <div id="interactiveContentMenuButtonContainer">
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="storyClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Story</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="videoClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Video</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="documentsClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Documents</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="photosClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Photos</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="discussClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Discuss</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="seriesIndexClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Series Index</p4>
+                            </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div id="interactiveVideoPlayer" class="interactiveContentFullSize invisible hidden">
+            <div id="videoPlayerContainer">
+                <div id="videoPlayerPlaceholder" onclick="playVideoClicked()">
+                    <div id="videoPlayerPlaceholderContainer" style="background-image: url(/crossing_preview/images/part6/video_placeholder.jpg">
+                        <div id="videoPlayerPlaceholderText-6" class="videoPlayerPlaceholderText">
+                            <h2 id="videoPlayerPlaceholderTextHeader-6" class="videoPlayerPlaceholderTextHeader">ALL OUT</h2>
+                            <div id="videoPlayerPlaceholderTextContent-6" class="videoPlayerPlaceholderTextContent">
+                                <div id="videoPlayerPlaceholderTextDivider-6" class="videoPlayerPlaceholderTextDivider"></div>
+                                <p id="videoPlayerPlaceholderTextByline">Video by Tim Skillern</p>
+                                <p>The Fords' loss of their oldest boy, Jimmy, leaves a hole in their hearts.</p>
+                                <p id="videoPlayerPlaceholderTextClickToPlay">Click play to begin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <video id="videoPlayer" preload="none">
+                    <source src="/videos/part6/video6.mp4">
+                </video>
+            </div>
+            <div id="videoPlayerControls">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <a onclick="closeVideoClicked()">
+                        CHAPTER MENU
+                    </a>
+                </div>
+                <a onclick="playVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
+                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                </a>
+                <a onclick="closeVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
+                </a>
+                <div id="playbackBar">
+                    <div id="playbackSelector"></div>
+                </div>
+                <p4 id="timeText">0:00</p4>
+            </div>
+        </div>
+    
+    <div id="interactivePhotoPlayer" class="interactiveContentFullSize invisible hidden">
+        <div id="photoPlayerContainer">
+            <div id="photoPlayerPhotoContainer">
+                
+                
+                    
+                
+            </div>
+            <div id="photoSlideCaption" class="invisible hidden">
+                
+                    
+                
+            </div>
+        </div>
+        <div id="photoPlayerControls">
+            <div>
+                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                <a onclick="closePhotoClicked()">
+                    <p>CHAPTER MENU</p>
+                </a>
+            </div>
+            <a onclick="previousPhotoClicked()">
+                <img src='/crossing_preview/images/rewind.svg'>
+            </a>
+            <a onclick="playPhotoClicked()">
+                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
+                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+            </a>
+            <a onclick="nextPhotoClicked()">
+                <img src='/crossing_preview/images/fast_forward.svg'>
+            </a>
+            <a onclick="captionsClicked()">
+                <p4>Captions</p4>
+            </a>
+            <p4 id="photoSlideshowState"></p4>
+        </div>
+    </div>
+</div>
+
+
+	<div id="contentContainer" align="left">
+
+		<div id="rightRail" class="rightRail">
+			<div class="photoBucket">
+				<div id="photoBucketImageContainer">
+					<img id="photoBucketImage" src="/crossing_preview/images/part6/story6.jpg" border="1">
+				</div>
+				Courtesy Loretta Ford
+
+				<div class="photoBucketCaption">
+					Jimmy, the oldest Ford brother, stands with his horse. Jimmy, 13, died in the school bus-train accident of Dec. 14, 1961.
+					<ul><li>
+						
+							<a href="#" onclick="photosClicked();" style="color: #000000; font-size: 12px; font-weight: bold;">More chapter 6 photos</a>
+						
+					</li></ul>
+				</div>
+			</div>
+
+			<div class="railBin">
+	<h3>Crossing chapters</h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color: #fff; font-weight: bold;">
+		Jump to:&nbsp;&nbsp;
+		<select id="jumper" onchange="if(this.value != '')location=this.value;">
+			<option value="/chapters/"></option>
+			<option id="jump_1" value="/chapters/1/">Chapter 1: ECHOES</option>
+			<option id="jump_2" value="/chapters/2/">Chapter 2: SIX DEGREES</option>
+			<option id="jump_3" value="/chapters/3/">Chapter 3: A TYPICAL MORNING</option>
+			<option id="jump_4" value="/chapters/4/">Chapter 4: ON THE CUSP</option>
+			<option id="jump_5" value="/chapters/5/">Chapter 5: 63 INCHES</option>
+			<option id="jump_6" value="/chapters/6/">Chapter 6: ALL OUT</option>
+			<option id="jump_7" value="/chapters/7/">Chapter 7: MEMORIES</option>
+			<option id="jump_8" value="/chapters/8/">Chapter 8: QUESTIONS</option>
+			<option id="jump_9" value="/chapters/9/">Chapter 9: TRIAL</option>
+			<option id="jump_10" value="/chapters/10/">Chapter 10: VERDICT</option>
+			<option id="jump_11" value="/chapters/11/">Chapter 11: REVERBERATIONS</option>
+			<option id="jump_12" value="/chapters/12/">Chapter 12: TESTED FAITH</option>
+			<option id="jump_13" value="/chapters/13/">Chapter 13: HOPE</option>
+			<option id="jump_14" value="/chapters/14/">Chapter 14: MELODY</option>
+			<option id="jump_15" value="/chapters/15/">Chapter 15: SILENCE</option>
+			<option id="jump_16" value="/chapters/16/">Chapter 16: DRIVER'S SEAT</option>
+			<option id="jump_17" value="/chapters/17/">Chapter 17: ALIVE</option>
+			<option id="jump_18" value="/chapters/18/">Chapter 18: LOSING EVERYTHING</option>
+			<option id="jump_19" value="/chapters/19/">Chapter 19: DEC. 14	</option>
+			<option id="jump_20" value="/chapters/20/">Chapter 20: LAST RUN</option>
+			<option id="jump_21" value="/chapters/21/">Chapter 21: PUSHING ON</option>
+			<option id="jump_22" value="/chapters/22/">Chapter 22: COMPLICATED GRIEF</option>
+			<option id="jump_23" value="/chapters/23/">Chapter 23: COINCIDENCE?</option>
+			<option id="jump_24" value="/chapters/24/">Chapter 24: IN THE SHADOWS</option>
+			<option id="jump_25" value="/chapters/25/">Chapter 25: MOVING ON</option>
+			<option id="jump_26" value="/chapters/26/">Chapter 26: HEARTBREAK</option>
+			<option id="jump_27" value="/chapters/27/">Chapter 27: NEVER SAY NEVER</option>
+			<option id="jump_28" value="/chapters/28/">Chapter 28: A CHRISTMAS WISH</option>
+			<option id="jump_29" value="/chapters/29/">Chapter 29: NEW LIFE</option>
+			<option id="jump_30" value="/chapters/30/">Chapter 30: FILLING THE VOID</option>
+			<option id="jump_31" value="/chapters/31/">Chapter 31: THE JUDGE</option>
+			<option id="jump_32" value="/chapters/32/">Chapter 32: PERSPECTIVE</option>
+			<option id="jump_33" value="/chapters/33/">Chapter 33: LEGACY</option>
+			<option id="jump_34" value="/chapters/34/">EPILOGUE</option>
+			<option id="jump_35" value="/extras/1/">EXTRAS</option>
+		</select>
+	</span>
+</div>
+
+
+			<div class="railBin">
+	<h3>Tools</h3>
+	<h4>Chapter 6 menu</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="/chapters/index/#part6">Series index</a></li>
+					<li><a href="#" onclick="chapterIndexClicked();">Chapter index</a></li>
+				</ul>
+			</td>
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Discuss</a></li>
+					<li><a href="/crossing_preview/images/part6/docs/Chapter6_anno.pdf" target="_blank">Sources</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<h4>Story tools</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Contact us</a></li>
+					<li><a href="/crossing_preview/images/part6/docs/print06.pdf" target="_blank">Story in print</a> (.pdf)</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+			
+				<div class="railBin" style="height: 130px;">
+	<h3>Video</h3>
+	<a href="#" onclick="videoClicked();">
+		<img src="/crossing_preview/videos/part6/still6.jpg" style="float: left; border: 1px solid #000; margin: 5px 10px 0 10px;" title="The Fords' loss of their oldest boy, Jimmy, leaves a hole in their hearts.">
+	</a>
+	<p style="color: #DCD4B3;">The Fords' loss of their oldest boy, Jimmy, leaves a hole in their hearts.</p>
+	<img src="/crossing_preview/images/arrow.gif" />
+	<a href="#" onclick="videoClicked();">Watch video</a>
+</div>
+
+			
+
+			
+				
+
+
+			
+
+			<div class="railBin">
+	<h3>Related content</h3>
+	<img src="/crossing_preview/images/survivors.jpg" style="float: left; border: 1px solid ##000; margin: -3px 10px 0 10px; @& margin: 0px 10px 0 10px;"><p style="color: #DCD4B3;">
+	<h4 style="margin-top: -10px;">Crossing forums</h4>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/DenverForumC.m4v">Forum at the Rocky Mountain News in Denver.</a>
+	<br>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/GreeleyForumC.mp4">Forum at the Union Colony Civic Center in Greeley.</a>
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="color: #fff; font-weight: bold;">
+			Podcasts:&nbsp;&nbsp;
+			<select name="podcasts" onchange="if(this.value != '')location=this.value;" style="margin-left: 20px;">
+				<option value="">--Select a Crossing podcast--</option>
+				<option value="/podcasts/01.mp3">Chapter 1</option>
+				<option value="/podcasts/02.mp3">Chapter 2</option>
+				<option value="/podcasts/03.mp3">Chapter 3</option>
+				<option value="/podcasts/04.mp3">Chapter 4</option>
+				<option value="/podcasts/05.mp3">Chapter 5</option>
+				<option value="/podcasts/06.mp3">Chapter 6</option>
+				<option value="/podcasts/07.mp3">Chapter 7</option>
+				<option value="/podcasts/08.mp3">Chapter 8</option>
+				<option value="/podcasts/09.mp3">Chapter 9</option>
+				<option value="/podcasts/10.mp3">Chapter 10</option>
+				<option value="/podcasts/11.mp3">Chapter 11</option>
+				<option value="/podcasts/12.mp3">Chapter 12</option>
+				<option value="/podcasts/13.mp3">Chapter 13</option>
+				<option value="/podcasts/14.mp3">Chapter 14</option>
+				<option value="/podcasts/15.mp3">Chapter 15</option>
+				<option value="/podcasts/16.mp3">Chapter 16</option>
+				<option value="/podcasts/17.mp3">Chapter 17</option>
+				<option value="/podcasts/18.mp3">Chapter 18</option>
+				<option value="/podcasts/19.mp3">Chapter 19</option>
+				<option value="/podcasts/20.mp3">Chapter 20</option>
+				<option value="/podcasts/21.mp3">Chapter 21</option>
+				<option value="/podcasts/22.mp3">Chapter 22</option>
+				<option value="/podcasts/23.mp3">Chapter 23</option>
+				<option value="/podcasts/24.mp3">Chapter 24</option>
+				<option value="/podcasts/25.mp3">Chapter 25</option>
+				<option value="/podcasts/26.mp3">Chapter 26</option>
+				<option value="/podcasts/27.mp3">Chapter 27</option>
+				<option value="/podcasts/28.mp3">Chapter 28</option>
+				<option value="/podcasts/29.mp3">Chapter 29</option>
+				<option value="/podcasts/30.mp3">Chapter 30</option>
+				<option value="/podcasts/31.mp3">Chapter 31</option>
+				<option value="/podcasts/32.mp3">Chapter 32</option>
+				<option value="/podcasts/33.mp3">Chapter 33</option>
+				<option value="/podcasts/34.mp3">Epilogue</option>
+			</select>
+		</span>
+	</p>
+</div>
+
+
+			<div class="railBin">
+	<h3>Acknowledgements</h3>
+	<div style="margin-left: 10px;">
+		<p style="color: #DCD4B3; font-size: 8pt;">"The Crossing" could only be told with the help of many people:</p>
+		<p style="color: #DCD4B3; font-size: 8pt;">- The more than 80 people touched by the tragedy of Dec. 14, 1961, who agreed to tell their stories.<br>- Bill and Mary Bohlender, who helped unearth numerous historic documents and provided numerous insights.<br>- Virginia Shelton and Mary Shelton Shafer, who provided numerous insights and access to attorney Jim Shelton's files.<br>- Keith Blue, who provided numerous insights.<br>- Peggy Ford and the staff at the City of Greeley Museums, Barbara Dey and the Hart Library staff at the Colorado History Museum and former Rocky librarian Carol Kasel, who all assisted with research.</p>
+	</div>
+</div>
+
+
+			<a name="contact"></a>
+<div id="contact" class="railBin">
+	<h3>Contact the series team</h3>
+	<ul>
+		<li>Reporter: <a href="mailto:writerkev@hotmail.com?subject=The%20Crossing">Kevin Vaughan</a></li>
+		<li>Photographer: <a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing">Chris Schneider</a></li>
+		<li>Video: <a href="mailto:timskillern@gmail.com?subject=The%20Crossing">Tim Skillern</a> & <a href="mailto:laressa@denverpromostudios.com?subject=The%20Crossing">Laressa Bachelor</a></li>
+		<li>Print designer: <a href="mailto:armandoarrieta10@gmail.com?subject=The%20Crossing">Armando Arrieta</a></li>
+		<li>Web designer: <a href="mailto:kharpe01@syr.edu?subject=The%20Crossing">Ken Harper</a></li>
+		<li>Web producer: <a href="mailto:">Forrest Stewart</a></li>
+		<li>Web developer: <a href="mailto:ck.nguyen79@gmail.com?subject=The%20Crossing">Chris Nguyen</a></li>
+		<li>Copy editor: <a href="mailto:diannerose@comcast.net?subject=The%20Crossing">Dianne Rose</a></li>
+		<li>Photo editor: <a href="mailto:dkrakel@gmail.com?subject=The%20Crossing">Dean Krakel</a></li>
+		<li>Imager: <a href="mailto:mariegriffin@gmail.com?subject=The%20Crossing">Marie Griffin</a></li>
+		<li>Interactive editor: <a href="mailto:michaelnoe@gmail.com?subject=The%20Crossing">Mike Noe</a></li>
+		<li>Project editor: <a href="mailto:carolhanner@gmail.com?subject=The%20Crossing">Carol Hanner</a></li>
+	</ul>
+</div>
+
+		</div>
+
+		<div id="textContainer">
+			<div style="font-size: 14pt; font-weight: bold; color: #473B2D;">
+	THE CROSSING: <span style="font-weight: normal; color: #8B6F57;">ALL OUT</span>
+</div>
+
+	<div style="font-size: 10pt; font-weight: bold; color: #8B6F57;">CHAPTER 6 OF 33</div>
+
+
+			<br>
+			<div style="font-size: 10pt; font-weight: bold; color: #473B2D;">
+	By
+	<a href="mailto:writerkev@hotmail.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Kevin Vaughan</a>
+	<br>
+	Photos by
+	<a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Chris Schneider</a>
+</div>
+
+
+			<p>A wiry whip of a man steps onto an old overturned bucket, throws his right leg over the back of a chestnut horse and pushes and pulls his way on.</p>
+<p>The horse isn't saddled, but that's no problem. Nor does it matter that the man is 54 years old, and has diabetes, and has just knocked out his front teeth, again. Bruce Ford's been rambunctious all his life, and he's rambunctious still.</p>
+<p>He's ready to do a little business. A man has pulled into the yard in front of his ranch northeast of Kersey, looking to buy two horses.</p>
+<p>Bruce rides one horse around a small pen on a postcard-perfect afternoon, puffy clouds hanging overhead, sunshine bouncing off his craggy face.</p>
+<p>A minute later, he slides off the horse, pries open the animal's mouth and shows the man its teeth. They talk price.</p>
+<p>There's an offer and a counteroffer, then a third horse enters the deal.</p>
+<p>After some more bartering, they agree on a price, shake hands. Bruce leads two of the horses out of the pen and toward a long white trailer. He chuckles.</p>
+<p>"A day at the 9-to-5," he says.</p>
+<p><b>A boy remembered</b></p>
+<p>Glen Ford plops in a comfortable chair in the living room of his mother's home near Kersey, just a few yards from Bruce's house.</p>
+<p>He rests his left hand up against his face, sets his blue baseball cap on his right knee.</p>
+<p>Bruce rocks back and forth a few feet away. His well-worn jeans are tucked into a dusty pair of boots, silver spurs sticking out above the heels. His handlebar mustache curls into twin silver-dollar-size hoops below his wire-frame glasses.</p>
+<p>The two cut up, bust each other's chops, chuckle now and then. They laugh at the stories about their big brother, Jimmy.</p>
+<p>He was two years older than Glen, four years older than Bruce. If there was one thing he loved even more than his horse, it was playing baseball. He played so much, and for so long, that he'd wear out his brothers. And it was dangerous to try to quit before Jimmy was ready.</p>
+<p>If you wanted to stop, you'd better give him a fat pitch that he could hit a long way so you could make it to the house.</p>
+<p>"If you went to the house before, he'd hit you with a ball, or he'd throw the bat and hit you with it," Glen says. "I mean, you had to make sure that he was far enough away from all that junk so that you could gas to the house.</p>
+<p>"You'd better keep running."</p>
+<p>That was just the way it was with the three sons of Jim Ford, a bricklayer and cowboy, and his curly-haired wife, Loretta.</p>
+<p>They named their first son James Vaughn Ford after his father and Loretta's brother, Chester Vaughn Morey, an infantryman who died in Italy in World War II.</p>
+<p>When their second son came along, they called him Glen Elmeron Ford, his middle name coming from his grandfather. And when Loretta was pregnant for the third time, she knew &mdash; just knew &mdash; it would be a girl, and that she'd call her Mary Colleen.</p>
+<p>Jimmy and Glen, 4 and 2, had other ideas. They loved going to the stock-car races, loved rooting for their favorite driver, Bruce Ruth.</p>
+<p>We're going to call our little brother Bruce, they'd tell their mother.</p>
+<p>When Loretta gave birth, it was a boy, and she and Jim named him Bruce Eugene Ford.</p>
+<p>Loretta laughs at the story. She is a kindly woman who tilts her head slightly and smiles when she talks about her family.</p>
+<p>Her voice shakes a little, perhaps the result of a small stroke. But her mind is sharp, and her memory of her three hell-bent-for-leather boys is keen.</p>
+<p>Whatever they were doing, they knew only one way: all out.</p>
+<p>They charged for the house on their horses &mdash; exactly what they weren't supposed to do.</p>
+<p>They ran through the sagebrush, barefoot half the time, BB guns in their hands. They dashed into the house at day's end and tossed their pants right there, a lizard squirming free and scampering across the floor. They swam in the irrigation ditch in the summer, ice-skated on the pond in the winter.</p>
+<p><b>Losing Jimmy</b></p>
+<p>On Dec. 14, 1961, the three Ford brothers bounded onto their school bus, in such a hurry they didn't kneel in prayer with their mother as they did most mornings.</p>
+<p>A minute later, Jim headed to town with Loretta to take her to her housecleaning job. They came to the crossing, saw the front of a school bus in a heap on its side, saw the last few feet torn away.</p>
+<p>They found 13-year-old Jimmy, by the tracks, dead.</p>
+<p>They came upon 9-year-old Bruce, crumpled on the ground, a trickle of blood leaking from his ears and nose.</p>
+<p>He looked dead. Loretta bent down, called his name. Bruce moaned quietly. His right arm, collarbone and some ribs were broken.</p>
+<p>He would remain unconscious for five days with a head injury.</p>
+<p>Just then, 11-year-old Glen and another boy stumbled out of the hulk of the bus. The collision had knocked out Glen's front teeth, rubbed great hunks of skin off his face, gashed his forehead, slashed his leg. Cinders clouded his eyes, leaving him temporarily blind. Still, he was in pretty good shape.</p>
+<p>The boys were both home by Christmas. New saddles waited under the tree on Christmas morning.</p>
+<p>They missed their brother, but they were still boys. They stuck close together, as they always had.</p>
+<p>They rode their horses, Prince Tiny and Pepino. They romped through the fields. They skated and swam.</p>
+<p>They still played baseball, but it wasn't the same without Jimmy.</p>
+<p>In 1964, Jim and Loretta sold their 160-acre farm &mdash; the one that had belonged to his father &mdash; and headed to Oregon. Jim could work year-round there, bricking fireplaces in the mild climate. But six months later, they packed up and returned to Colorado.</p>
+<p>They tried Oregon twice more before coming back home for good in January 1970.</p>
+<p>Amid all the change, several constants remained in their lives. They loved each other. They believed in God. They understood, as Bruce puts it now, that death is a part of life.</p>
+<p>And, always, they rode horses.</p>
+<p><b>Rodeo kings</b></p>
+<p>By the late 1960s, Glen and Bruce had both tasted rodeo, both felt the surge of adrenaline when they would "get on" in an arena filled with a raucous crowd.</p>
+<p>Glen earned his professional card eight seconds at a time, hanging onto the back of a snorting, slobbering 1,500-pound bull with only one thing on its mind &mdash; throwing him off. Later, he rode bucking horses, bareback, and he was pretty good at that, too.</p>
+<p>His best year was 1976, when he finished 12th in the world in bareback riding and made it to the National Finals, the Super Bowl of rodeos. Only the top 15 in the world in each event get invited.</p>
+<p>The rodeo life provided Glen a decent living.</p>
+<p>In 1980, he bought back 35 acres of his parents' original farm, where he and his wife, Jane, raised their three sons.</p>
+<p>Bruce found his place in rodeo, too &mdash; despite a doctor's warning to avoid anything that could lead to a knock on the head, despite his father's insistence that he wear an old plastic football helmet before he climbed onto a horse.</p>
+<p>Bareback was Bruce's joy. While Glen found success and happiness in the arena &mdash; and made enough money to pay off his farm by the time he was 40 &mdash; Bruce found something else. Stardom.</p>
+<p>Before he was done, he was a five-time world champion. A 19-time qualifier for the National Finals Rodeo. The first rodeo cowboy to win $100,000 in a year and one of the first to take home $1 million in a career.</p>
+<p>Bruce gave it up in 2000, settling down on the ranch where he and his wife, Susie, brought up their kids. Horses remain his life's work, in the rodeo schools he has operated for more than 30 years and in the horse-trading business he runs.</p>
+<p>"It's the same reward I got from rodeoing," he says of horse trading. "You sell one good and it's just like winning the day money. You buy an old bum, it's like kickin' over the neck, I guess, and getting bucked off."</p>
+<p>Glen got out earlier, in 1991. But, as with his little brother, don't think he doesn't still get on. He'll break a colt once in a while.</p>
+<p>As Glen talks about walking away, a twinge of regret creeps in.</p>
+<p>"If I had it to do all over again," he says, "I'd do it just a little harder."</p>
+<p>But by the time he ambled out of the rodeo arena for good, he'd found something else he enjoyed.</p>
+<p>It had happened in 1984. His wife, Jane, called him one day, told him the school district where she worked needed someone. Glen went down, filled out the paperwork. Then he started a job that took him closer to the crossing than he could ever have imagined.</p>
+<p><b>NEXT:</b> <a href="/crossing_preview/chapters/7/" style="color: #000000;">Memories</a></p>
+
+		</div>
+	</div>
+
+	<br>
+
+	<div class="footer">
+	<!-- agreement -->
+	<p style="float: right; text-align: right;">2007 &copy; Rocky Mountain New Archives, Western History Collection, Denver Public Library<br /><a href="disclaimer.html">User Agreement</a><br /><a href="#contact">Questions? Comments? Talk to Us</a></p>
+	<!-- /agreement -->
+</div>
+
+</body>
+</center>
+</html>

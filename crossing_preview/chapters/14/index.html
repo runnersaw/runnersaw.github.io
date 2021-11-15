@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88115230-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<title>The Crossing Story</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/crossing_preview/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/chapters.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/fonts.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/interactiveContent.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/crossing_preview/js/interactiveContent.js"></script>
+
+</head>
+<center>
+<body bgcolor="##000000">
+
+	<div class="header">
+	</div>
+
+	<div id="flashcontent" style="display: none; position: relative; z-index: 1; background-color:##000000; color: #ffffff; font-family: Arial; font-weight: bold; font-size: 18pt; width: 750px; @& width: 750px; background-image: url(/crossing_preview/images/backgroundNew.jpg);">
+		To view this content you must download and install Adobe Flash Player <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">here</a>.
+	</div>
+
+	<div id="interactiveContent">
+    <div id="interactiveContentBackground" class="interactiveContentCollapsedInitial">
+        
+            <img id="interactiveContentImageNonInteractive" class="invisible" src="/crossing_preview/images/part14/interactive_background.jpg" draggable="false">
+        
+    </div>
+    <div id="interactiveContentMenuContainerBackground">
+        <div id="interactiveContentMenuContainer" class="interactiveContentMenuContainerInitial">
+            <div id="interactiveContentMenu">
+                <div id="interactiveContentMenuTitle">
+                    MELODY
+                </div>
+
+                
+                    <div id="interactiveContentMenuChapter">
+                        CHAPTER 14 OF 33
+                    </div>
+                
+
+                <div id="interactiveContentMenuSubtitle">
+                    Two men who loved 8-year-old April Melody Freeman view her death through different lenses.
+                </div>
+
+                <div id="interactiveContentMenuButtonContainer">
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="storyClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Story</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="videoClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Video</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="documentsClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Documents</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="photosClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Photos</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="discussClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Discuss</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="seriesIndexClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Series Index</p4>
+                            </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div id="interactiveVideoPlayer" class="interactiveContentFullSize invisible hidden">
+            <div id="videoPlayerContainer">
+                <div id="videoPlayerPlaceholder" onclick="playVideoClicked()">
+                    <div id="videoPlayerPlaceholderContainer" style="background-image: url(/crossing_preview/images/part14/video_placeholder.jpg">
+                        <div id="videoPlayerPlaceholderText-14" class="videoPlayerPlaceholderText">
+                            <h2 id="videoPlayerPlaceholderTextHeader-14" class="videoPlayerPlaceholderTextHeader">MELODY</h2>
+                            <div id="videoPlayerPlaceholderTextContent-14" class="videoPlayerPlaceholderTextContent">
+                                <div id="videoPlayerPlaceholderTextDivider-14" class="videoPlayerPlaceholderTextDivider"></div>
+                                <p id="videoPlayerPlaceholderTextByline">Video by Tim Skillern</p>
+                                <p>Young G. Freeman and his son, Smith Freeman, remember a daughter and sister.</p>
+                                <p id="videoPlayerPlaceholderTextClickToPlay">Click play to begin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <video id="videoPlayer" preload="none">
+                    <source src="/videos/part14/video14.mp4">
+                </video>
+            </div>
+            <div id="videoPlayerControls">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <a onclick="closeVideoClicked()">
+                        CHAPTER MENU
+                    </a>
+                </div>
+                <a onclick="playVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
+                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                </a>
+                <a onclick="closeVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
+                </a>
+                <div id="playbackBar">
+                    <div id="playbackSelector"></div>
+                </div>
+                <p4 id="timeText">0:00</p4>
+            </div>
+        </div>
+    
+    <div id="interactivePhotoPlayer" class="interactiveContentFullSize invisible hidden">
+        <div id="photoPlayerContainer">
+            <div id="photoPlayerPhotoContainer">
+                
+                
+                    
+                
+            </div>
+            <div id="photoSlideCaption" class="invisible hidden">
+                
+                    
+                
+            </div>
+        </div>
+        <div id="photoPlayerControls">
+            <div>
+                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                <a onclick="closePhotoClicked()">
+                    <p>CHAPTER MENU</p>
+                </a>
+            </div>
+            <a onclick="previousPhotoClicked()">
+                <img src='/crossing_preview/images/rewind.svg'>
+            </a>
+            <a onclick="playPhotoClicked()">
+                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
+                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+            </a>
+            <a onclick="nextPhotoClicked()">
+                <img src='/crossing_preview/images/fast_forward.svg'>
+            </a>
+            <a onclick="captionsClicked()">
+                <p4>Captions</p4>
+            </a>
+            <p4 id="photoSlideshowState"></p4>
+        </div>
+    </div>
+</div>
+
+
+	<div id="contentContainer" align="left">
+
+		<div id="rightRail" class="rightRail">
+			<div class="photoBucket">
+				<div id="photoBucketImageContainer">
+					<img id="photoBucketImage" src="/crossing_preview/images/part14/story14.jpg" border="1">
+				</div>
+				Chris Schneider &copy; The Rocky
+
+				<div class="photoBucketCaption">
+					Young G. Freeman stands near the grave of his daughter, April Melody Freeman, in Linn Grove Cemetery near Greeley. Freeman, as he prefers to be called, believes she'll be reincarnated, or maybe already has been.
+					<ul><li>
+						
+							<a href="#" onclick="photosClicked();" style="color: #000000; font-size: 12px; font-weight: bold;">More chapter 14 photos</a>
+						
+					</li></ul>
+				</div>
+			</div>
+
+			<div class="railBin">
+	<h3>Crossing chapters</h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color: #fff; font-weight: bold;">
+		Jump to:&nbsp;&nbsp;
+		<select id="jumper" onchange="if(this.value != '')location=this.value;">
+			<option value="/chapters/"></option>
+			<option id="jump_1" value="/chapters/1/">Chapter 1: ECHOES</option>
+			<option id="jump_2" value="/chapters/2/">Chapter 2: SIX DEGREES</option>
+			<option id="jump_3" value="/chapters/3/">Chapter 3: A TYPICAL MORNING</option>
+			<option id="jump_4" value="/chapters/4/">Chapter 4: ON THE CUSP</option>
+			<option id="jump_5" value="/chapters/5/">Chapter 5: 63 INCHES</option>
+			<option id="jump_6" value="/chapters/6/">Chapter 6: ALL OUT</option>
+			<option id="jump_7" value="/chapters/7/">Chapter 7: MEMORIES</option>
+			<option id="jump_8" value="/chapters/8/">Chapter 8: QUESTIONS</option>
+			<option id="jump_9" value="/chapters/9/">Chapter 9: TRIAL</option>
+			<option id="jump_10" value="/chapters/10/">Chapter 10: VERDICT</option>
+			<option id="jump_11" value="/chapters/11/">Chapter 11: REVERBERATIONS</option>
+			<option id="jump_12" value="/chapters/12/">Chapter 12: TESTED FAITH</option>
+			<option id="jump_13" value="/chapters/13/">Chapter 13: HOPE</option>
+			<option id="jump_14" value="/chapters/14/">Chapter 14: MELODY</option>
+			<option id="jump_15" value="/chapters/15/">Chapter 15: SILENCE</option>
+			<option id="jump_16" value="/chapters/16/">Chapter 16: DRIVER'S SEAT</option>
+			<option id="jump_17" value="/chapters/17/">Chapter 17: ALIVE</option>
+			<option id="jump_18" value="/chapters/18/">Chapter 18: LOSING EVERYTHING</option>
+			<option id="jump_19" value="/chapters/19/">Chapter 19: DEC. 14	</option>
+			<option id="jump_20" value="/chapters/20/">Chapter 20: LAST RUN</option>
+			<option id="jump_21" value="/chapters/21/">Chapter 21: PUSHING ON</option>
+			<option id="jump_22" value="/chapters/22/">Chapter 22: COMPLICATED GRIEF</option>
+			<option id="jump_23" value="/chapters/23/">Chapter 23: COINCIDENCE?</option>
+			<option id="jump_24" value="/chapters/24/">Chapter 24: IN THE SHADOWS</option>
+			<option id="jump_25" value="/chapters/25/">Chapter 25: MOVING ON</option>
+			<option id="jump_26" value="/chapters/26/">Chapter 26: HEARTBREAK</option>
+			<option id="jump_27" value="/chapters/27/">Chapter 27: NEVER SAY NEVER</option>
+			<option id="jump_28" value="/chapters/28/">Chapter 28: A CHRISTMAS WISH</option>
+			<option id="jump_29" value="/chapters/29/">Chapter 29: NEW LIFE</option>
+			<option id="jump_30" value="/chapters/30/">Chapter 30: FILLING THE VOID</option>
+			<option id="jump_31" value="/chapters/31/">Chapter 31: THE JUDGE</option>
+			<option id="jump_32" value="/chapters/32/">Chapter 32: PERSPECTIVE</option>
+			<option id="jump_33" value="/chapters/33/">Chapter 33: LEGACY</option>
+			<option id="jump_34" value="/chapters/34/">EPILOGUE</option>
+			<option id="jump_35" value="/extras/1/">EXTRAS</option>
+		</select>
+	</span>
+</div>
+
+
+			<div class="railBin">
+	<h3>Tools</h3>
+	<h4>Chapter 14 menu</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="/chapters/index/#part14">Series index</a></li>
+					<li><a href="#" onclick="chapterIndexClicked();">Chapter index</a></li>
+				</ul>
+			</td>
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Discuss</a></li>
+					<li><a href="/crossing_preview/images/part14/docs/Chapter14_anno.pdf" target="_blank">Sources</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<h4>Story tools</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Contact us</a></li>
+					<li><a href="/crossing_preview/images/part14/docs/print14.pdf" target="_blank">Story in print</a> (.pdf)</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+			
+				<div class="railBin" style="height: 130px;">
+	<h3>Video</h3>
+	<a href="#" onclick="videoClicked();">
+		<img src="/crossing_preview/videos/part14/still14.jpg" style="float: left; border: 1px solid #000; margin: 5px 10px 0 10px;" title="Young G. Freeman and his son, Smith Freeman, remember a daughter and sister.">
+	</a>
+	<p style="color: #DCD4B3;">Young G. Freeman and his son, Smith Freeman, remember a daughter and sister.</p>
+	<img src="/crossing_preview/images/arrow.gif" />
+	<a href="#" onclick="videoClicked();">Watch video</a>
+</div>
+
+			
+
+			
+				
+
+
+			
+
+			<div class="railBin">
+	<h3>Related content</h3>
+	<img src="/crossing_preview/images/survivors.jpg" style="float: left; border: 1px solid ##000; margin: -3px 10px 0 10px; @& margin: 0px 10px 0 10px;"><p style="color: #DCD4B3;">
+	<h4 style="margin-top: -10px;">Crossing forums</h4>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/DenverForumC.m4v">Forum at the Rocky Mountain News in Denver.</a>
+	<br>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/GreeleyForumC.mp4">Forum at the Union Colony Civic Center in Greeley.</a>
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="color: #fff; font-weight: bold;">
+			Podcasts:&nbsp;&nbsp;
+			<select name="podcasts" onchange="if(this.value != '')location=this.value;" style="margin-left: 20px;">
+				<option value="">--Select a Crossing podcast--</option>
+				<option value="/podcasts/01.mp3">Chapter 1</option>
+				<option value="/podcasts/02.mp3">Chapter 2</option>
+				<option value="/podcasts/03.mp3">Chapter 3</option>
+				<option value="/podcasts/04.mp3">Chapter 4</option>
+				<option value="/podcasts/05.mp3">Chapter 5</option>
+				<option value="/podcasts/06.mp3">Chapter 6</option>
+				<option value="/podcasts/07.mp3">Chapter 7</option>
+				<option value="/podcasts/08.mp3">Chapter 8</option>
+				<option value="/podcasts/09.mp3">Chapter 9</option>
+				<option value="/podcasts/10.mp3">Chapter 10</option>
+				<option value="/podcasts/11.mp3">Chapter 11</option>
+				<option value="/podcasts/12.mp3">Chapter 12</option>
+				<option value="/podcasts/13.mp3">Chapter 13</option>
+				<option value="/podcasts/14.mp3">Chapter 14</option>
+				<option value="/podcasts/15.mp3">Chapter 15</option>
+				<option value="/podcasts/16.mp3">Chapter 16</option>
+				<option value="/podcasts/17.mp3">Chapter 17</option>
+				<option value="/podcasts/18.mp3">Chapter 18</option>
+				<option value="/podcasts/19.mp3">Chapter 19</option>
+				<option value="/podcasts/20.mp3">Chapter 20</option>
+				<option value="/podcasts/21.mp3">Chapter 21</option>
+				<option value="/podcasts/22.mp3">Chapter 22</option>
+				<option value="/podcasts/23.mp3">Chapter 23</option>
+				<option value="/podcasts/24.mp3">Chapter 24</option>
+				<option value="/podcasts/25.mp3">Chapter 25</option>
+				<option value="/podcasts/26.mp3">Chapter 26</option>
+				<option value="/podcasts/27.mp3">Chapter 27</option>
+				<option value="/podcasts/28.mp3">Chapter 28</option>
+				<option value="/podcasts/29.mp3">Chapter 29</option>
+				<option value="/podcasts/30.mp3">Chapter 30</option>
+				<option value="/podcasts/31.mp3">Chapter 31</option>
+				<option value="/podcasts/32.mp3">Chapter 32</option>
+				<option value="/podcasts/33.mp3">Chapter 33</option>
+				<option value="/podcasts/34.mp3">Epilogue</option>
+			</select>
+		</span>
+	</p>
+</div>
+
+
+			<div class="railBin">
+	<h3>Acknowledgements</h3>
+	<div style="margin-left: 10px;">
+		<p style="color: #DCD4B3; font-size: 8pt;">"The Crossing" could only be told with the help of many people:</p>
+		<p style="color: #DCD4B3; font-size: 8pt;">- The more than 80 people touched by the tragedy of Dec. 14, 1961, who agreed to tell their stories.<br>- Bill and Mary Bohlender, who helped unearth numerous historic documents and provided numerous insights.<br>- Virginia Shelton and Mary Shelton Shafer, who provided numerous insights and access to attorney Jim Shelton's files.<br>- Keith Blue, who provided numerous insights.<br>- Peggy Ford and the staff at the City of Greeley Museums, Barbara Dey and the Hart Library staff at the Colorado History Museum and former Rocky librarian Carol Kasel, who all assisted with research.</p>
+	</div>
+</div>
+
+
+			<a name="contact"></a>
+<div id="contact" class="railBin">
+	<h3>Contact the series team</h3>
+	<ul>
+		<li>Reporter: <a href="mailto:writerkev@hotmail.com?subject=The%20Crossing">Kevin Vaughan</a></li>
+		<li>Photographer: <a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing">Chris Schneider</a></li>
+		<li>Video: <a href="mailto:timskillern@gmail.com?subject=The%20Crossing">Tim Skillern</a> & <a href="mailto:laressa@denverpromostudios.com?subject=The%20Crossing">Laressa Bachelor</a></li>
+		<li>Print designer: <a href="mailto:armandoarrieta10@gmail.com?subject=The%20Crossing">Armando Arrieta</a></li>
+		<li>Web designer: <a href="mailto:kharpe01@syr.edu?subject=The%20Crossing">Ken Harper</a></li>
+		<li>Web producer: <a href="mailto:">Forrest Stewart</a></li>
+		<li>Web developer: <a href="mailto:ck.nguyen79@gmail.com?subject=The%20Crossing">Chris Nguyen</a></li>
+		<li>Copy editor: <a href="mailto:diannerose@comcast.net?subject=The%20Crossing">Dianne Rose</a></li>
+		<li>Photo editor: <a href="mailto:dkrakel@gmail.com?subject=The%20Crossing">Dean Krakel</a></li>
+		<li>Imager: <a href="mailto:mariegriffin@gmail.com?subject=The%20Crossing">Marie Griffin</a></li>
+		<li>Interactive editor: <a href="mailto:michaelnoe@gmail.com?subject=The%20Crossing">Mike Noe</a></li>
+		<li>Project editor: <a href="mailto:carolhanner@gmail.com?subject=The%20Crossing">Carol Hanner</a></li>
+	</ul>
+</div>
+
+		</div>
+
+		<div id="textContainer">
+			<div style="font-size: 14pt; font-weight: bold; color: #473B2D;">
+	THE CROSSING: <span style="font-weight: normal; color: #8B6F57;">MELODY</span>
+</div>
+
+	<div style="font-size: 10pt; font-weight: bold; color: #8B6F57;">CHAPTER 14 OF 33</div>
+
+
+			<br>
+			<div style="font-size: 10pt; font-weight: bold; color: #473B2D;">
+	By
+	<a href="mailto:writerkev@hotmail.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Kevin Vaughan</a>
+	<br>
+	Photos by
+	<a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Chris Schneider</a>
+</div>
+
+
+			<p>The two men visit the grave from time to time, but they never go together.</p>
+<p>The pink granite headstone sits at the west end of Linn Grove Cemetery outside Greeley, just a few steps from the graves of two other children who died the day the train cut through the school bus.</p>
+<p>Spelled out in big block letters is the name both men share.</p>
+<p><i>FREEMAN</i></p>
+<p>And the name of the little girl they both miss.</p>
+<p><i>April Melody</i></p>
+<p><i>Feb. 20, 1953 &mdash; Dec. 14, 1961</i></p>
+<p>The headstone carries the girl's zodiac sign, birth flower and birthstone &mdash; two fish for Pisces, a violet bloom and an amethyst.</p>
+<p>A series of musical notes is carved into the stone above an inscription.</p>
+<p><i>In our hearts, there rings a melody.</i></p>
+<p>One man is an aging cowboy who is divorced and lives alone, who occupies himself with reruns of <i>Who Wants to Be a Millionaire</i>, who talks of living for another 150 years.</p>
+<p>The other is a middle-aged man who sells security doors and window-well covers, who is busy with his own vibrant family.</p>
+<p>One man believes that Melody went to another world and will return as someone else &mdash; maybe even has already.</p>
+<p>The other believes Melody is in heaven, and that if he's lucky enough, he will earn his way there one day and be reunited with her.</p>
+<p>One is her father. The other is her brother.</p>
+<p><strong>A mind of his own</strong></p>
+<p>The door to Apartment 302 stands slightly ajar, a grubby old saddle blanket acting as a doorstop. After a knock, a shrill voice answers &mdash; "Yeah?"</p>
+<p>The door opens.</p>
+<p>The man looks like he just climbed down from a horse. His boots and scruffy white corduroy pants are worn and smudged with dirt. His plaid Western shirt has been on him for a couple of days. His battered straw hat has seen plenty of sun and dust.</p>
+<p>He is 77 years old. His name is Young G. Freeman. But that's not what he wants to be called anymore. He is now Freeman G. Young, in his own mind, if not legally. He often ignores mail and phone messages left in his old name. Everyone just calls him Freeman.</p>
+<p>When he talks, it's not always clear whether he believes the things he's saying or whether he's yanking someone's chain.</p>
+<p>He says that women are "murderesses" because they feed their husbands red meat. He's a vegetarian.</p>
+<p>He says he wants to master the secrets of a long life, and he figures people in the Himalayas are his best bet.</p>
+<p>"Go there for four or five years and get the color of my hair back," he says, "and get rid of the wrinkles."</p>
+<p>He grew up in Fruita on Colorado's Western Slope, started "cowboying" &mdash; as he calls it &mdash; in 1943, and married his wife, Elizabeth, in 1950. By the fall of 1961, they had six children: Joy, April Melody, Smith, Gay, Flint and Starr. They lived on a farm along U.S. 34, a bit more than a mile from the Auburn school.</p>
+<p><strong>Happy girl</strong></p>
+<p>That morning 45 years ago started out as ordinary as any other in the Freeman household.</p>
+<p>The school bus pulled up outside the small farmhouse. Joy, 10, Melody, 8, and Smith, 7, climbed on and made their way to a seat on the right side.</p>
+<p>Melody was a happy girl with long, curly black hair and dimples. She didn't so much walk from one place to another as skip. She slid all the way in against the window. Smith &mdash; called "Smitty" by his friends &mdash; sat in the middle, and Joy was on the aisle.</p>
+<p>A short time later, in the aftermath of the accident, Smith awoke on the railroad tracks. His first thought was to walk home. Joy found him. She had a nasty gash in her arm. Smith's head was cut open and he had a slight concussion. They walked with two boys to a farmhouse.</p>
+<p>Their father was already in Greeley when he heard a sketchy radio report about a collision involving a train and a school bus. He didn't think it was the bus his kids were on, but he headed home anyway.</p>
+<p>As he talks about that day, Freeman's raspy voice breaks for a moment. He sits at a cheap folding table in the club room of his Greeley apartment building. His mind is herky-jerky &mdash; one minute, he's talking about Colorado's rivers. The next, he's on to some piece of trivia he picked up on <i>Millionaire</i>.</p>
+<p>"Do you want to go to the cemetery?" he asks suddenly.</p>
+<p>A few minutes later, inside Linn Grove, he walks among the monuments, finds the pink stone.</p>
+<p>"She was my favorite girl," he says. "I had a saddle for her and a little horse for her. She was going to be my cowgirl."</p>
+<p>That permanently shrill rasp of a voice cracks.</p>
+<p><strong>Ghostly sight</strong></p>
+<p>Smith Freeman, like his father, decided what people will call him and what they won't. He no longer is called "Smitty" by anyone.</p>
+<p>He is 52 years old, a husband, a father of six, including 13-year-old April Dawn. She was named in part for his lost sister, in part because he always loved the name.</p>
+<p>He sits in the living room of his century-old home in the foothills west of Berthoud, thinking back to the accident. To the weeks and months after it. To the toys sent by well-wishers &mdash; a tractor-trailer rig with a crank-up rear door to let in the plastic animals, a windup car that would break into pieces when it smashed into the wall.</p>
+<p>He remembers the night he awakened on the bottom bunk in his bedroom and looked toward the open door. Hovering there was an apparition, about 4 1/2 feet tall, glowing white, with fuzzy edges.</p>
+<p>"It's like what you'd see in the movies," he says. "I just thought, 'Well, maybe it's my sister saying 'hi,' or maybe it's not.' But who knows?</p>
+<p>"It was scary."</p>
+<p>He can recall, too, the day he finally felt the full impact of losing his sister &mdash; the one who would roughhouse with him and tell their parents he'd thrown a snowball outside, even when he hadn't.</p>
+<p>He thinks he was alone. He may have cried.</p>
+<p>"It's like I'm outside and here comes a breeze," he says. "All the feelings just came and finally settled on me."</p>
+<p><strong>Thinking of the future</strong></p>
+<p>Freeman talks on the trip back from the cemetery.</p>
+<p>"I don't like to be around those goddamned guys who only want to reminisce and talk about the past," he says. "To hell with the past. Think of the future."</p>
+<p>He is hard of hearing &mdash; the result of a near-electrocution when his harvesting combine touched an electrical line. He has a nasty scar on one hand and three toes burned off one foot.</p>
+<p>"I don't let that hold me down," he says. "I only got 150 more years to go, so I can handle it."</p>
+<p>How did he handle Melody's death?</p>
+<p>"When your time's up, when your time's up &mdash; you're going to go across," he says.</p>
+<p>Where is Melody today?</p>
+<p>"She may be in another nation," he says. "She may be in the spirit world. I don't know. If it's for me to know, I'll find out."</p>
+<p><strong>The Creator's will</strong></p>
+<p>Smith Freeman talks about the lingering effects of the accident, the fallout on his family.</p>
+<p>Television images of war, of bodies strewn about, make him feel like throwing up. He and his sister, Joy, have talked only once &mdash; maybe a decade ago &mdash; about losing Melody, about surviving. Even then, they just nibbled around the edges of their memories. Joy doesn't want to talk about it for the newspaper.</p>
+<p>Smith is close to his mother, Elizabeth Freeman, who lives in Fort Collins. But he seldom sees his father. Sometimes, when he talks with his brother, he'll say "your dad," not "our dad."</p>
+<p>"We don't agree on very many things," Smith says. "We have completely different belief systems, and I don't think he's going to change."</p>
+<p>Smith doesn't believe in reincarnation. He visits Melody's grave every year or two, and he is confident he knows where she is today.</p>
+<p>"The good news is, according to the Bible, children go straight to heaven," he says. "With children there is no 'if.' "</p>
+<p>He does share a few things with his father. They both hope to see Melody again some day. And they both accept that some things remain a mystery to them.</p>
+<p>What happened at the crossing on Dec. 14, 1961, was the work of the Creator, Smith says, and that's not for him to understand &mdash; at least not now, he says.</p>
+<p>"Clearly God, who created us, thought I should have that experience and live through it," he says.</p>
+<p><b>NEXT:</b> <a href="/crossing_preview/chapters/15/" style="color: #000000;">Silence</a></p>
+
+
+		</div>
+	</div>
+
+	<br>
+
+	<div class="footer">
+	<!-- agreement -->
+	<p style="float: right; text-align: right;">2007 &copy; Rocky Mountain New Archives, Western History Collection, Denver Public Library<br /><a href="disclaimer.html">User Agreement</a><br /><a href="#contact">Questions? Comments? Talk to Us</a></p>
+	<!-- /agreement -->
+</div>
+
+</body>
+</center>
+</html>

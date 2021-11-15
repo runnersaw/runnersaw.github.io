@@ -1,0 +1,53 @@
+#intro-content { max-width: 750px; aspect-ratio: 1.5; /* relative in order to position other divs absolute. */ position: relative; }
+
+.intro-content-stack { position: absolute; left: 0; top: 0; right: 0; bottom: 0; width: 100%; height: 100%; }
+
+#intro-background-image { object-fit: cover; }
+
+.background-fade-in { animation: fadeIn ease-in-out 4s; }
+
+#intro-skip { position: absolute; left: 0; bottom: 0; padding-left: 8px; padding-bottom: 8px; }
+
+#intro-skip-text { font-family: arial; font-size: 1.5em; color: white; }
+
+.invisible { opacity: 0; }
+
+.intro-text-container { position: relative; text-align: left; padding: 8px 0 8px 0; }
+
+.intro-text { font-family: impact; font-size: 5em; color: #937D5A; text-shadow: 4px 4px 4px #000000bb; }
+
+@media only screen and (max-width: 768px) { .intro-text { font-size: 6.5vw; } }
+
+#intro-text-1 { padding-left: 1em; }
+
+#intro-text-2 { padding-left: 2em; }
+
+#intro-text-3 { padding-left: 3em; }
+
+#intro-text-highlight { color: white; }
+
+.intro-text-fade-in { animation: fadeIn ease-in-out 1s; opacity: 1; }
+
+.intro-text-fade-in-slow { animation: fadeIn ease-in-out 2s; opacity: 1; }
+
+.intro-text-fade-out { animation: fadeOut ease-in-out 1s; opacity: 0; }
+
+@keyframes fadeIn { from { opacity: 0; }
+  to { opacity: 1; } }
+
+@keyframes fadeOut { from { opacity: 1; }
+  to { opacity: 0; } }
+
+@keyframes imageFadeIn { from { opacity: 0; }
+  to { opacity: 0.5; } }
+
+@keyframes imageFadeOut { from { opacity: 0.5; }
+  to { opacity: 0; } }
+
+.intro-side-image { position: absolute; right: 0; top: 0; width: 50%; aspect-ratio: 1; object-fit: cover; }
+
+.intro-image-fade-in { animation: imageFadeIn ease-in-out 1s; opacity: 0.5; }
+
+.intro-image-fade-out { animation: imageFadeOut ease-in-out 1s; opacity: 0; }
+
+/*# sourceMappingURL=intro.css.map */

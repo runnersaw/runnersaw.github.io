@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88115230-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<title>The Crossing Story</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/crossing_preview/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/chapters.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/fonts.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/interactiveContent.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/crossing_preview/js/interactiveContent.js"></script>
+
+</head>
+<center>
+<body bgcolor="##000000">
+
+	<div class="header">
+	</div>
+
+	<div id="flashcontent" style="display: none; position: relative; z-index: 1; background-color:##000000; color: #ffffff; font-family: Arial; font-weight: bold; font-size: 18pt; width: 750px; @& width: 750px; background-image: url(/crossing_preview/images/backgroundNew.jpg);">
+		To view this content you must download and install Adobe Flash Player <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">here</a>.
+	</div>
+
+	<div id="interactiveContent">
+    <div id="interactiveContentBackground" class="interactiveContentCollapsedInitial">
+        
+            <img id="interactiveContentImageNonInteractive" class="invisible" src="/crossing_preview/images/part32/interactive_background.jpg" draggable="false">
+        
+    </div>
+    <div id="interactiveContentMenuContainerBackground">
+        <div id="interactiveContentMenuContainer" class="interactiveContentMenuContainerInitial">
+            <div id="interactiveContentMenu">
+                <div id="interactiveContentMenuTitle">
+                    PERSPECTIVE
+                </div>
+
+                
+                    <div id="interactiveContentMenuChapter">
+                        CHAPTER 32 OF 33
+                    </div>
+                
+
+                <div id="interactiveContentMenuSubtitle">
+                    Time changes everything for some people and nothing for others.
+                </div>
+
+                <div id="interactiveContentMenuButtonContainer">
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="storyClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Story</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="videoClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Video</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="documentsClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Documents</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="photosClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Photos</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="discussClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Discuss</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="seriesIndexClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Series Index</p4>
+                            </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div id="interactiveVideoPlayer" class="interactiveContentFullSize invisible hidden">
+            <div id="videoPlayerContainer">
+                <div id="videoPlayerPlaceholder" onclick="playVideoClicked()">
+                    <div id="videoPlayerPlaceholderContainer" style="background-image: url(/crossing_preview/images/part32/video_placeholder.jpg">
+                        <div id="videoPlayerPlaceholderText-32" class="videoPlayerPlaceholderText">
+                            <h2 id="videoPlayerPlaceholderTextHeader-32" class="videoPlayerPlaceholderTextHeader">PERSPECTIVE</h2>
+                            <div id="videoPlayerPlaceholderTextContent-32" class="videoPlayerPlaceholderTextContent">
+                                <div id="videoPlayerPlaceholderTextDivider-32" class="videoPlayerPlaceholderTextDivider"></div>
+                                <p id="videoPlayerPlaceholderTextByline">Video by Tim Skillern</p>
+                                <p>Time changes perspective for many survivors.</p>
+                                <p id="videoPlayerPlaceholderTextClickToPlay">Click play to begin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <video id="videoPlayer" preload="none">
+                    <source src="/videos/part32/video32.mp4">
+                </video>
+            </div>
+            <div id="videoPlayerControls">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <a onclick="closeVideoClicked()">
+                        CHAPTER MENU
+                    </a>
+                </div>
+                <a onclick="playVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
+                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                </a>
+                <a onclick="closeVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
+                </a>
+                <div id="playbackBar">
+                    <div id="playbackSelector"></div>
+                </div>
+                <p4 id="timeText">0:00</p4>
+            </div>
+        </div>
+    
+    <div id="interactivePhotoPlayer" class="interactiveContentFullSize invisible hidden">
+        <div id="photoPlayerContainer">
+            <div id="photoPlayerPhotoContainer">
+                
+                
+                    
+                
+            </div>
+            <div id="photoSlideCaption" class="invisible hidden">
+                
+                    
+                
+            </div>
+        </div>
+        <div id="photoPlayerControls">
+            <div>
+                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                <a onclick="closePhotoClicked()">
+                    <p>CHAPTER MENU</p>
+                </a>
+            </div>
+            <a onclick="previousPhotoClicked()">
+                <img src='/crossing_preview/images/rewind.svg'>
+            </a>
+            <a onclick="playPhotoClicked()">
+                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
+                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+            </a>
+            <a onclick="nextPhotoClicked()">
+                <img src='/crossing_preview/images/fast_forward.svg'>
+            </a>
+            <a onclick="captionsClicked()">
+                <p4>Captions</p4>
+            </a>
+            <p4 id="photoSlideshowState"></p4>
+        </div>
+    </div>
+</div>
+
+
+	<div id="contentContainer" align="left">
+
+		<div id="rightRail" class="rightRail">
+			<div class="photoBucket">
+				<div id="photoBucketImageContainer">
+					<img id="photoBucketImage" src="/crossing_preview/images/part32/story32.jpg" border="1">
+				</div>
+				Chris Schneider &copy; The Rocky
+
+				<div class="photoBucketCaption">
+					Becky Alles Badley looks through a box of condolence letters and cards sent to her parents after her sister, Linda Alles, died on Dec. 14, 1961. Becky has kept the mementos of the sister she never got to meet, who died eight weeks before she was born.
+					<ul><li>
+						
+							<a href="#" onclick="photosClicked();" style="color: #000000; font-size: 12px; font-weight: bold;">More chapter 32 photos</a>
+						
+					</li></ul>
+				</div>
+			</div>
+
+			<div class="railBin">
+	<h3>Crossing chapters</h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color: #fff; font-weight: bold;">
+		Jump to:&nbsp;&nbsp;
+		<select id="jumper" onchange="if(this.value != '')location=this.value;">
+			<option value="/chapters/"></option>
+			<option id="jump_1" value="/chapters/1/">Chapter 1: ECHOES</option>
+			<option id="jump_2" value="/chapters/2/">Chapter 2: SIX DEGREES</option>
+			<option id="jump_3" value="/chapters/3/">Chapter 3: A TYPICAL MORNING</option>
+			<option id="jump_4" value="/chapters/4/">Chapter 4: ON THE CUSP</option>
+			<option id="jump_5" value="/chapters/5/">Chapter 5: 63 INCHES</option>
+			<option id="jump_6" value="/chapters/6/">Chapter 6: ALL OUT</option>
+			<option id="jump_7" value="/chapters/7/">Chapter 7: MEMORIES</option>
+			<option id="jump_8" value="/chapters/8/">Chapter 8: QUESTIONS</option>
+			<option id="jump_9" value="/chapters/9/">Chapter 9: TRIAL</option>
+			<option id="jump_10" value="/chapters/10/">Chapter 10: VERDICT</option>
+			<option id="jump_11" value="/chapters/11/">Chapter 11: REVERBERATIONS</option>
+			<option id="jump_12" value="/chapters/12/">Chapter 12: TESTED FAITH</option>
+			<option id="jump_13" value="/chapters/13/">Chapter 13: HOPE</option>
+			<option id="jump_14" value="/chapters/14/">Chapter 14: MELODY</option>
+			<option id="jump_15" value="/chapters/15/">Chapter 15: SILENCE</option>
+			<option id="jump_16" value="/chapters/16/">Chapter 16: DRIVER'S SEAT</option>
+			<option id="jump_17" value="/chapters/17/">Chapter 17: ALIVE</option>
+			<option id="jump_18" value="/chapters/18/">Chapter 18: LOSING EVERYTHING</option>
+			<option id="jump_19" value="/chapters/19/">Chapter 19: DEC. 14	</option>
+			<option id="jump_20" value="/chapters/20/">Chapter 20: LAST RUN</option>
+			<option id="jump_21" value="/chapters/21/">Chapter 21: PUSHING ON</option>
+			<option id="jump_22" value="/chapters/22/">Chapter 22: COMPLICATED GRIEF</option>
+			<option id="jump_23" value="/chapters/23/">Chapter 23: COINCIDENCE?</option>
+			<option id="jump_24" value="/chapters/24/">Chapter 24: IN THE SHADOWS</option>
+			<option id="jump_25" value="/chapters/25/">Chapter 25: MOVING ON</option>
+			<option id="jump_26" value="/chapters/26/">Chapter 26: HEARTBREAK</option>
+			<option id="jump_27" value="/chapters/27/">Chapter 27: NEVER SAY NEVER</option>
+			<option id="jump_28" value="/chapters/28/">Chapter 28: A CHRISTMAS WISH</option>
+			<option id="jump_29" value="/chapters/29/">Chapter 29: NEW LIFE</option>
+			<option id="jump_30" value="/chapters/30/">Chapter 30: FILLING THE VOID</option>
+			<option id="jump_31" value="/chapters/31/">Chapter 31: THE JUDGE</option>
+			<option id="jump_32" value="/chapters/32/">Chapter 32: PERSPECTIVE</option>
+			<option id="jump_33" value="/chapters/33/">Chapter 33: LEGACY</option>
+			<option id="jump_34" value="/chapters/34/">EPILOGUE</option>
+			<option id="jump_35" value="/extras/1/">EXTRAS</option>
+		</select>
+	</span>
+</div>
+
+
+			<div class="railBin">
+	<h3>Tools</h3>
+	<h4>Chapter 32 menu</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="/chapters/index/#part32">Series index</a></li>
+					<li><a href="#" onclick="chapterIndexClicked();">Chapter index</a></li>
+				</ul>
+			</td>
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Discuss</a></li>
+					<li><a href="/crossing_preview/images/part32/docs/Chapter32_anno.pdf" target="_blank">Sources</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<h4>Story tools</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Contact us</a></li>
+					<li><a href="/crossing_preview/images/part32/docs/print32.pdf" target="_blank">Story in print</a> (.pdf)</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+			
+				<div class="railBin" style="height: 130px;">
+	<h3>Video</h3>
+	<a href="#" onclick="videoClicked();">
+		<img src="/crossing_preview/videos/part32/still32.jpg" style="float: left; border: 1px solid #000; margin: 5px 10px 0 10px;" title="Time changes perspective for many survivors.">
+	</a>
+	<p style="color: #DCD4B3;">Time changes perspective for many survivors.</p>
+	<img src="/crossing_preview/images/arrow.gif" />
+	<a href="#" onclick="videoClicked();">Watch video</a>
+</div>
+
+			
+
+			
+				
+
+
+			
+
+			<div class="railBin">
+	<h3>Related content</h3>
+	<img src="/crossing_preview/images/survivors.jpg" style="float: left; border: 1px solid ##000; margin: -3px 10px 0 10px; @& margin: 0px 10px 0 10px;"><p style="color: #DCD4B3;">
+	<h4 style="margin-top: -10px;">Crossing forums</h4>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/DenverForumC.m4v">Forum at the Rocky Mountain News in Denver.</a>
+	<br>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/GreeleyForumC.mp4">Forum at the Union Colony Civic Center in Greeley.</a>
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="color: #fff; font-weight: bold;">
+			Podcasts:&nbsp;&nbsp;
+			<select name="podcasts" onchange="if(this.value != '')location=this.value;" style="margin-left: 20px;">
+				<option value="">--Select a Crossing podcast--</option>
+				<option value="/podcasts/01.mp3">Chapter 1</option>
+				<option value="/podcasts/02.mp3">Chapter 2</option>
+				<option value="/podcasts/03.mp3">Chapter 3</option>
+				<option value="/podcasts/04.mp3">Chapter 4</option>
+				<option value="/podcasts/05.mp3">Chapter 5</option>
+				<option value="/podcasts/06.mp3">Chapter 6</option>
+				<option value="/podcasts/07.mp3">Chapter 7</option>
+				<option value="/podcasts/08.mp3">Chapter 8</option>
+				<option value="/podcasts/09.mp3">Chapter 9</option>
+				<option value="/podcasts/10.mp3">Chapter 10</option>
+				<option value="/podcasts/11.mp3">Chapter 11</option>
+				<option value="/podcasts/12.mp3">Chapter 12</option>
+				<option value="/podcasts/13.mp3">Chapter 13</option>
+				<option value="/podcasts/14.mp3">Chapter 14</option>
+				<option value="/podcasts/15.mp3">Chapter 15</option>
+				<option value="/podcasts/16.mp3">Chapter 16</option>
+				<option value="/podcasts/17.mp3">Chapter 17</option>
+				<option value="/podcasts/18.mp3">Chapter 18</option>
+				<option value="/podcasts/19.mp3">Chapter 19</option>
+				<option value="/podcasts/20.mp3">Chapter 20</option>
+				<option value="/podcasts/21.mp3">Chapter 21</option>
+				<option value="/podcasts/22.mp3">Chapter 22</option>
+				<option value="/podcasts/23.mp3">Chapter 23</option>
+				<option value="/podcasts/24.mp3">Chapter 24</option>
+				<option value="/podcasts/25.mp3">Chapter 25</option>
+				<option value="/podcasts/26.mp3">Chapter 26</option>
+				<option value="/podcasts/27.mp3">Chapter 27</option>
+				<option value="/podcasts/28.mp3">Chapter 28</option>
+				<option value="/podcasts/29.mp3">Chapter 29</option>
+				<option value="/podcasts/30.mp3">Chapter 30</option>
+				<option value="/podcasts/31.mp3">Chapter 31</option>
+				<option value="/podcasts/32.mp3">Chapter 32</option>
+				<option value="/podcasts/33.mp3">Chapter 33</option>
+				<option value="/podcasts/34.mp3">Epilogue</option>
+			</select>
+		</span>
+	</p>
+</div>
+
+
+			<div class="railBin">
+	<h3>Acknowledgements</h3>
+	<div style="margin-left: 10px;">
+		<p style="color: #DCD4B3; font-size: 8pt;">"The Crossing" could only be told with the help of many people:</p>
+		<p style="color: #DCD4B3; font-size: 8pt;">- The more than 80 people touched by the tragedy of Dec. 14, 1961, who agreed to tell their stories.<br>- Bill and Mary Bohlender, who helped unearth numerous historic documents and provided numerous insights.<br>- Virginia Shelton and Mary Shelton Shafer, who provided numerous insights and access to attorney Jim Shelton's files.<br>- Keith Blue, who provided numerous insights.<br>- Peggy Ford and the staff at the City of Greeley Museums, Barbara Dey and the Hart Library staff at the Colorado History Museum and former Rocky librarian Carol Kasel, who all assisted with research.</p>
+	</div>
+</div>
+
+
+			<a name="contact"></a>
+<div id="contact" class="railBin">
+	<h3>Contact the series team</h3>
+	<ul>
+		<li>Reporter: <a href="mailto:writerkev@hotmail.com?subject=The%20Crossing">Kevin Vaughan</a></li>
+		<li>Photographer: <a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing">Chris Schneider</a></li>
+		<li>Video: <a href="mailto:timskillern@gmail.com?subject=The%20Crossing">Tim Skillern</a> & <a href="mailto:laressa@denverpromostudios.com?subject=The%20Crossing">Laressa Bachelor</a></li>
+		<li>Print designer: <a href="mailto:armandoarrieta10@gmail.com?subject=The%20Crossing">Armando Arrieta</a></li>
+		<li>Web designer: <a href="mailto:kharpe01@syr.edu?subject=The%20Crossing">Ken Harper</a></li>
+		<li>Web producer: <a href="mailto:">Forrest Stewart</a></li>
+		<li>Web developer: <a href="mailto:ck.nguyen79@gmail.com?subject=The%20Crossing">Chris Nguyen</a></li>
+		<li>Copy editor: <a href="mailto:diannerose@comcast.net?subject=The%20Crossing">Dianne Rose</a></li>
+		<li>Photo editor: <a href="mailto:dkrakel@gmail.com?subject=The%20Crossing">Dean Krakel</a></li>
+		<li>Imager: <a href="mailto:mariegriffin@gmail.com?subject=The%20Crossing">Marie Griffin</a></li>
+		<li>Interactive editor: <a href="mailto:michaelnoe@gmail.com?subject=The%20Crossing">Mike Noe</a></li>
+		<li>Project editor: <a href="mailto:carolhanner@gmail.com?subject=The%20Crossing">Carol Hanner</a></li>
+	</ul>
+</div>
+
+		</div>
+
+		<div id="textContainer">
+			<div style="font-size: 14pt; font-weight: bold; color: #473B2D;">
+	THE CROSSING: <span style="font-weight: normal; color: #8B6F57;">PERSPECTIVE</span>
+</div>
+
+	<div style="font-size: 10pt; font-weight: bold; color: #8B6F57;">CHAPTER 32 OF 33</div>
+
+
+			<br>
+			<div style="font-size: 10pt; font-weight: bold; color: #473B2D;">
+	By
+	<a href="mailto:writerkev@hotmail.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Kevin Vaughan</a>
+	<br>
+	Photos by
+	<a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Chris Schneider</a>
+</div>
+
+
+			<p>Time. It creeps by slowly in sad times and thunders past in happy ones. Sometimes, it stands as still as the granite monuments in a cemetery, as the face of a cherished child captured in a third-grade photograph.</p>
+<p>Forty-five years have passed since a powerful locomotive ripped through the Auburn community.</p>
+<p>For some people, it might as well have been 100 years ago, for all the impact it had on their lives. For others, the crash is as close as yesterday.</p>
+<p>Not long ago, Alice Paxton rolled a piece of yellow legal paper into her typewriter. She wrote her own obituary. In a few lines, she recounted her life. Her birth in 1925. Her marriage to Jim Paxton in 1945. The places she worked over the years &mdash; Cook's Drug Store, Denver Dry, Hested's Department Store, State Bank, Monfort.</p>
+<p>She left only one spot blank: the date of her death.</p>
+<p>To the top of the page she paper-clipped a photograph, a wallet-sized studio shot of her in a baby blue blouse with a frilly collar and a sapphire jacket.</p>
+<p>She knows that when she dies, there will be no one else to compose an obituary. Her only children, Marilyn and Jan, lost their lives at the crossing. Her husband, Jim, died on Nov. 27, 2005, after a three-month battle with a stomach infection.</p>
+<p>"I know I'm alone now," she says, a sense of resignation in her voice. "I'm completely alone. I have brothers, but that isn't the same.</p>
+<p>"You're just completely alone in the whole world."</p>
+<p>She still drives out to Sunset Memorial Gardens on the west side of Greeley, walks across the grass to visit the graves of Marilyn and Jan, 13 and 11 when they died, and now Jim.</p>
+<p>"There's one spot in between left for me," she says.</p>
+<p>She still holds the same bitter feelings for Duane Harms, the driver of the school bus that carried her daughters to their deaths. It does not matter to her that he has had a difficult life since leaving Colorado, that his wife and daughter are mentally ill.</p>
+<p>"Well, that's too bad," she says. "I don't feel a bit sorry for him. I'm sorry for them, but not for him &mdash; not a bit.</p>
+<p>"The people that feel sorry for him &mdash; I don't know what they're thinking."</p>
+<p><b>Learning to cry</b></p>
+<p>Juanita Larson feels sorry for him.</p>
+<p>"God bless him," she says.</p>
+<p>Juanita cries, too, for her son, Steve, the clumsy, fast-growing boy she lost at the crossing.</p>
+<p>She wasn't always that way. For years, she thought she had to put on a brave face, that the best way to get beyond the sorrow was to act as though it never happened. For years, her daughters thought Steve's death didn't affect her deeply.</p>
+<p>It did, of course. But she did her crying in the dark, in the middle of the night, into her pillow.</p>
+<p>She felt alone, even with her husband, Art, asleep beside her.</p>
+<p>She tells the story of one night soon after the accident when she lay awake, crying quietly.</p>
+<p>She felt her mother, who had died six months before Steve, kiss her gently on the cheek and tell her it would be OK.</p>
+<p>As she remembers, her eyes redden, and the tears come. She doesn't fight them the way she once did.</p>
+<p>"I think I allow myself to cry more now than I ever did before," she says. "I just didn't allow myself to cry. That's the way we dealt with stuff."</p>
+<p>It's something she could only see many years after Dec. 14, 1961.</p>
+<p>The children who lived through that day are middle-aged now. They, too, see things through the prism of time gone by.</p>
+<p>When he stepped onto the bus that morning, Randy Geisick was 8 years old.</p>
+<p>Duane, his bus driver, was 23 and seemed so much older.</p>
+<p>Duane was the grownup who stuck his arm across the aisle to keep the energetic boy and his friends from bounding off the bus and dashing for the swing set.</p>
+<p>Now, Randy thinks about it and shakes his head. Randy is 53. He realizes that Duane was just a kid.</p>
+<p>Alice Larson Richardson, who was 11 when she got on the bus, thinks the same thing.</p>
+<p>It amazes her "to think now how young he was at the time, and to have that responsibility of taking all of us to school," she says.</p>
+<p>As a wife, as a mother of four grown daughters, as a grandmother, she's amazed that people were able to pick up the pieces and move on.</p>
+<p>"I've always attributed that to the fact that almost all the people in the neighborhood were religious people," she says.</p>
+<p>"And I think that I honestly believe that it was God's guiding hand that guided them through this tough, horrible time."</p>
+<p>As she and her husband, Ron, raised their four girls, they talked about the accident.</p>
+<p>They wondered how parents who lost children kept going through their bleakest days.</p>
+<p>"We sit and think, 'I couldn't have. I would have totally lost it,'" she says. "There was strength back in that little community.</p>
+<p>"We were still a close neighborhood where these kids had all gone to that little school, and we knew everybody. It was just a little old farming community that stuck together."</p>
+<p><b>A time of kindness</b></p>
+<p>Some of those touched by the tragedy marvel at the absolute kindness of strangers in the days and weeks after the crash.</p>
+<p>Becky Badley reaches into a brown grocery sack overflowing with condolence cards mailed to her parents after her sister, Linda Alles, died in the accident.</p>
+<p>A cousin, Nancy Alles, opens a scrapbook, looks at page after page of get-well cards she received as she recovered from a broken back and cracked ribs.</p>
+<p>Jerry Hembry can't forget the stranger who sent him a new coat after reading a newspaper story about him.</p>
+<p>On the morning of the crash, he'd yanked on his jacket as he ran for the bus, but he'd lost it in the confusion after the collision.</p>
+<p>And Vicky Munson Allmer can't forget a soldier named Roy Meek. He wrote letters to her and her two brothers, Gary and Johnny, after they were injured in the accident.</p>
+<p>He asked them each what they wanted for Christmas.</p>
+<p>Gary and Johnny wanted BB guns. Vicky wanted a gold watch.</p>
+<p>Roy Meek sent them.</p>
+<p><b>NEXT:</b> <a href="/crossing_preview/chapters/33/" style="color: #000000;">Legacy</a></p>
+
+
+		</div>
+	</div>
+
+	<br>
+
+	<div class="footer">
+	<!-- agreement -->
+	<p style="float: right; text-align: right;">2007 &copy; Rocky Mountain New Archives, Western History Collection, Denver Public Library<br /><a href="disclaimer.html">User Agreement</a><br /><a href="#contact">Questions? Comments? Talk to Us</a></p>
+	<!-- /agreement -->
+</div>
+
+</body>
+</center>
+</html>

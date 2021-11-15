@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88115230-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<title>The Crossing Story</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/crossing_preview/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/chapters.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/fonts.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/interactiveContent.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/crossing_preview/js/interactiveContent.js"></script>
+
+</head>
+<center>
+<body bgcolor="##000000">
+
+	<div class="header">
+	</div>
+
+	<div id="flashcontent" style="display: none; position: relative; z-index: 1; background-color:##000000; color: #ffffff; font-family: Arial; font-weight: bold; font-size: 18pt; width: 750px; @& width: 750px; background-image: url(/crossing_preview/images/backgroundNew.jpg);">
+		To view this content you must download and install Adobe Flash Player <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">here</a>.
+	</div>
+
+	<div id="interactiveContent">
+    <div id="interactiveContentBackground" class="interactiveContentCollapsedInitial">
+        
+            <img id="interactiveContentImageNonInteractive" class="invisible" src="/crossing_preview/images/part5/interactive_background.jpg" draggable="false">
+        
+    </div>
+    <div id="interactiveContentMenuContainerBackground">
+        <div id="interactiveContentMenuContainer" class="interactiveContentMenuContainerInitial">
+            <div id="interactiveContentMenu">
+                <div id="interactiveContentMenuTitle">
+                    63 INCHES
+                </div>
+
+                
+                    <div id="interactiveContentMenuChapter">
+                        CHAPTER 5 OF 33
+                    </div>
+                
+
+                <div id="interactiveContentMenuSubtitle">
+                    An explosive collision kills 20 children, and grief descends on Auburn.
+                </div>
+
+                <div id="interactiveContentMenuButtonContainer">
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="storyClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Story</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="videoClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Video</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="documentsClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Documents</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="photosClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Photos</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="discussClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Discuss</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="seriesIndexClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Series Index</p4>
+                            </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div id="interactiveVideoPlayer" class="interactiveContentFullSize invisible hidden">
+            <div id="videoPlayerContainer">
+                <div id="videoPlayerPlaceholder" onclick="playVideoClicked()">
+                    <div id="videoPlayerPlaceholderContainer" style="background-image: url(/crossing_preview/images/part5/video_placeholder.jpg">
+                        <div id="videoPlayerPlaceholderText-5" class="videoPlayerPlaceholderText">
+                            <h2 id="videoPlayerPlaceholderTextHeader-5" class="videoPlayerPlaceholderTextHeader">63 INCHES</h2>
+                            <div id="videoPlayerPlaceholderTextContent-5" class="videoPlayerPlaceholderTextContent">
+                                <div id="videoPlayerPlaceholderTextDivider-5" class="videoPlayerPlaceholderTextDivider"></div>
+                                <p id="videoPlayerPlaceholderTextByline">Video by Tim Skillern</p>
+                                <p>The train explodes into the bus, leaving dead and injured children scattered on the cold ground.</p>
+                                <p id="videoPlayerPlaceholderTextClickToPlay">Click play to begin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <video id="videoPlayer" preload="none">
+                    <source src="/videos/part5/video5.mp4">
+                </video>
+            </div>
+            <div id="videoPlayerControls">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <a onclick="closeVideoClicked()">
+                        CHAPTER MENU
+                    </a>
+                </div>
+                <a onclick="playVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
+                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                </a>
+                <a onclick="closeVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
+                </a>
+                <div id="playbackBar">
+                    <div id="playbackSelector"></div>
+                </div>
+                <p4 id="timeText">0:00</p4>
+            </div>
+        </div>
+    
+    <div id="interactivePhotoPlayer" class="interactiveContentFullSize invisible hidden">
+        <div id="photoPlayerContainer">
+            <div id="photoPlayerPhotoContainer">
+                
+                
+                    
+                
+            </div>
+            <div id="photoSlideCaption" class="invisible hidden">
+                
+                    
+                
+            </div>
+        </div>
+        <div id="photoPlayerControls">
+            <div>
+                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                <a onclick="closePhotoClicked()">
+                    <p>CHAPTER MENU</p>
+                </a>
+            </div>
+            <a onclick="previousPhotoClicked()">
+                <img src='/crossing_preview/images/rewind.svg'>
+            </a>
+            <a onclick="playPhotoClicked()">
+                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
+                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+            </a>
+            <a onclick="nextPhotoClicked()">
+                <img src='/crossing_preview/images/fast_forward.svg'>
+            </a>
+            <a onclick="captionsClicked()">
+                <p4>Captions</p4>
+            </a>
+            <p4 id="photoSlideshowState"></p4>
+        </div>
+    </div>
+</div>
+
+
+	<div id="contentContainer" align="left">
+
+		<div id="rightRail" class="rightRail">
+			<div class="photoBucket">
+				<div id="photoBucketImageContainer">
+					<img id="photoBucketImage" src="/crossing_preview/images/part5/story5.jpg" border="1">
+				</div>
+				Jim Hitch &copy; Greeley Tribune/1961
+
+				<div class="photoBucketCaption">
+					Colorado State Patrol Sgt. Adam Robison walks past the front section of the wrecked bus while Marie 'Ruby' Baxter stands over the body of a child. Robison supervised the investigation of the deadliest traffic accident in Colorado history.
+					<ul><li>
+						
+							<a href="#" onclick="photosClicked();" style="color: #000000; font-size: 12px; font-weight: bold;">More chapter 5 photos</a>
+						
+					</li></ul>
+				</div>
+			</div>
+
+			<div class="railBin">
+	<h3>Crossing chapters</h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color: #fff; font-weight: bold;">
+		Jump to:&nbsp;&nbsp;
+		<select id="jumper" onchange="if(this.value != '')location=this.value;">
+			<option value="/chapters/"></option>
+			<option id="jump_1" value="/chapters/1/">Chapter 1: ECHOES</option>
+			<option id="jump_2" value="/chapters/2/">Chapter 2: SIX DEGREES</option>
+			<option id="jump_3" value="/chapters/3/">Chapter 3: A TYPICAL MORNING</option>
+			<option id="jump_4" value="/chapters/4/">Chapter 4: ON THE CUSP</option>
+			<option id="jump_5" value="/chapters/5/">Chapter 5: 63 INCHES</option>
+			<option id="jump_6" value="/chapters/6/">Chapter 6: ALL OUT</option>
+			<option id="jump_7" value="/chapters/7/">Chapter 7: MEMORIES</option>
+			<option id="jump_8" value="/chapters/8/">Chapter 8: QUESTIONS</option>
+			<option id="jump_9" value="/chapters/9/">Chapter 9: TRIAL</option>
+			<option id="jump_10" value="/chapters/10/">Chapter 10: VERDICT</option>
+			<option id="jump_11" value="/chapters/11/">Chapter 11: REVERBERATIONS</option>
+			<option id="jump_12" value="/chapters/12/">Chapter 12: TESTED FAITH</option>
+			<option id="jump_13" value="/chapters/13/">Chapter 13: HOPE</option>
+			<option id="jump_14" value="/chapters/14/">Chapter 14: MELODY</option>
+			<option id="jump_15" value="/chapters/15/">Chapter 15: SILENCE</option>
+			<option id="jump_16" value="/chapters/16/">Chapter 16: DRIVER'S SEAT</option>
+			<option id="jump_17" value="/chapters/17/">Chapter 17: ALIVE</option>
+			<option id="jump_18" value="/chapters/18/">Chapter 18: LOSING EVERYTHING</option>
+			<option id="jump_19" value="/chapters/19/">Chapter 19: DEC. 14	</option>
+			<option id="jump_20" value="/chapters/20/">Chapter 20: LAST RUN</option>
+			<option id="jump_21" value="/chapters/21/">Chapter 21: PUSHING ON</option>
+			<option id="jump_22" value="/chapters/22/">Chapter 22: COMPLICATED GRIEF</option>
+			<option id="jump_23" value="/chapters/23/">Chapter 23: COINCIDENCE?</option>
+			<option id="jump_24" value="/chapters/24/">Chapter 24: IN THE SHADOWS</option>
+			<option id="jump_25" value="/chapters/25/">Chapter 25: MOVING ON</option>
+			<option id="jump_26" value="/chapters/26/">Chapter 26: HEARTBREAK</option>
+			<option id="jump_27" value="/chapters/27/">Chapter 27: NEVER SAY NEVER</option>
+			<option id="jump_28" value="/chapters/28/">Chapter 28: A CHRISTMAS WISH</option>
+			<option id="jump_29" value="/chapters/29/">Chapter 29: NEW LIFE</option>
+			<option id="jump_30" value="/chapters/30/">Chapter 30: FILLING THE VOID</option>
+			<option id="jump_31" value="/chapters/31/">Chapter 31: THE JUDGE</option>
+			<option id="jump_32" value="/chapters/32/">Chapter 32: PERSPECTIVE</option>
+			<option id="jump_33" value="/chapters/33/">Chapter 33: LEGACY</option>
+			<option id="jump_34" value="/chapters/34/">EPILOGUE</option>
+			<option id="jump_35" value="/extras/1/">EXTRAS</option>
+		</select>
+	</span>
+</div>
+
+
+			<div class="railBin">
+	<h3>Tools</h3>
+	<h4>Chapter 5 menu</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="/chapters/index/#part5">Series index</a></li>
+					<li><a href="#" onclick="chapterIndexClicked();">Chapter index</a></li>
+				</ul>
+			</td>
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Discuss</a></li>
+					<li><a href="/crossing_preview/images/part5/docs/Chapter5_anno.pdf" target="_blank">Sources</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<h4>Story tools</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Contact us</a></li>
+					<li><a href="/crossing_preview/images/part5/docs/print05.pdf" target="_blank">Story in print</a> (.pdf)</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+			
+				<div class="railBin" style="height: 130px;">
+	<h3>Video</h3>
+	<a href="#" onclick="videoClicked();">
+		<img src="/crossing_preview/videos/part5/still5.jpg" style="float: left; border: 1px solid #000; margin: 5px 10px 0 10px;" title="The train explodes into the bus, leaving dead and injured children scattered on the cold ground.">
+	</a>
+	<p style="color: #DCD4B3;">The train explodes into the bus, leaving dead and injured children scattered on the cold ground.</p>
+	<img src="/crossing_preview/images/arrow.gif" />
+	<a href="#" onclick="videoClicked();">Watch video</a>
+</div>
+
+			
+
+			
+				
+
+<a name="docs"></a>
+<div id="docs" class="railBin">
+	<h3>Documents</h3>
+	<h4>Chapter 5 documents</h4>
+	<div style="margin-bottom: 8px;"></div>
+	<ul>
+		
+		    
+		
+		    
+		
+		    
+				
+					<li>
+						<a href="/images/part5/docs/da_prosecutor.pdf" target="_blank">Report in Weld County District Attorney's file for the manslaughter case against school bus driver Duane Harms. The document does not indicate who wrote the report or what agency it came from.</a>
+					</li>
+				
+					<li>
+						<a href="/images/part5/docs/witness_interviews.pdf" target="_blank">Transcript of interviews with children on the bus</a>
+					</li>
+				
+					<li>
+						<a href="/images/part5/docs/Greeley_newspaper.pdf" target="_blank">Front page of the Greeley Tribune on Dec. 14, 1961</a>
+					</li>
+				
+					<li>
+						<a href="/images/part5/docs/accident_report.pdf" target="_blank">Accident report and map</a>
+					</li>
+				
+			
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+	</ul>
+</div>
+
+
+			
+
+			<div class="railBin">
+	<h3>Related content</h3>
+	<img src="/crossing_preview/images/survivors.jpg" style="float: left; border: 1px solid ##000; margin: -3px 10px 0 10px; @& margin: 0px 10px 0 10px;"><p style="color: #DCD4B3;">
+	<h4 style="margin-top: -10px;">Crossing forums</h4>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/DenverForumC.m4v">Forum at the Rocky Mountain News in Denver.</a>
+	<br>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/GreeleyForumC.mp4">Forum at the Union Colony Civic Center in Greeley.</a>
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="color: #fff; font-weight: bold;">
+			Podcasts:&nbsp;&nbsp;
+			<select name="podcasts" onchange="if(this.value != '')location=this.value;" style="margin-left: 20px;">
+				<option value="">--Select a Crossing podcast--</option>
+				<option value="/podcasts/01.mp3">Chapter 1</option>
+				<option value="/podcasts/02.mp3">Chapter 2</option>
+				<option value="/podcasts/03.mp3">Chapter 3</option>
+				<option value="/podcasts/04.mp3">Chapter 4</option>
+				<option value="/podcasts/05.mp3">Chapter 5</option>
+				<option value="/podcasts/06.mp3">Chapter 6</option>
+				<option value="/podcasts/07.mp3">Chapter 7</option>
+				<option value="/podcasts/08.mp3">Chapter 8</option>
+				<option value="/podcasts/09.mp3">Chapter 9</option>
+				<option value="/podcasts/10.mp3">Chapter 10</option>
+				<option value="/podcasts/11.mp3">Chapter 11</option>
+				<option value="/podcasts/12.mp3">Chapter 12</option>
+				<option value="/podcasts/13.mp3">Chapter 13</option>
+				<option value="/podcasts/14.mp3">Chapter 14</option>
+				<option value="/podcasts/15.mp3">Chapter 15</option>
+				<option value="/podcasts/16.mp3">Chapter 16</option>
+				<option value="/podcasts/17.mp3">Chapter 17</option>
+				<option value="/podcasts/18.mp3">Chapter 18</option>
+				<option value="/podcasts/19.mp3">Chapter 19</option>
+				<option value="/podcasts/20.mp3">Chapter 20</option>
+				<option value="/podcasts/21.mp3">Chapter 21</option>
+				<option value="/podcasts/22.mp3">Chapter 22</option>
+				<option value="/podcasts/23.mp3">Chapter 23</option>
+				<option value="/podcasts/24.mp3">Chapter 24</option>
+				<option value="/podcasts/25.mp3">Chapter 25</option>
+				<option value="/podcasts/26.mp3">Chapter 26</option>
+				<option value="/podcasts/27.mp3">Chapter 27</option>
+				<option value="/podcasts/28.mp3">Chapter 28</option>
+				<option value="/podcasts/29.mp3">Chapter 29</option>
+				<option value="/podcasts/30.mp3">Chapter 30</option>
+				<option value="/podcasts/31.mp3">Chapter 31</option>
+				<option value="/podcasts/32.mp3">Chapter 32</option>
+				<option value="/podcasts/33.mp3">Chapter 33</option>
+				<option value="/podcasts/34.mp3">Epilogue</option>
+			</select>
+		</span>
+	</p>
+</div>
+
+
+			<div class="railBin">
+	<h3>Acknowledgements</h3>
+	<div style="margin-left: 10px;">
+		<p style="color: #DCD4B3; font-size: 8pt;">"The Crossing" could only be told with the help of many people:</p>
+		<p style="color: #DCD4B3; font-size: 8pt;">- The more than 80 people touched by the tragedy of Dec. 14, 1961, who agreed to tell their stories.<br>- Bill and Mary Bohlender, who helped unearth numerous historic documents and provided numerous insights.<br>- Virginia Shelton and Mary Shelton Shafer, who provided numerous insights and access to attorney Jim Shelton's files.<br>- Keith Blue, who provided numerous insights.<br>- Peggy Ford and the staff at the City of Greeley Museums, Barbara Dey and the Hart Library staff at the Colorado History Museum and former Rocky librarian Carol Kasel, who all assisted with research.</p>
+	</div>
+</div>
+
+
+			<a name="contact"></a>
+<div id="contact" class="railBin">
+	<h3>Contact the series team</h3>
+	<ul>
+		<li>Reporter: <a href="mailto:writerkev@hotmail.com?subject=The%20Crossing">Kevin Vaughan</a></li>
+		<li>Photographer: <a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing">Chris Schneider</a></li>
+		<li>Video: <a href="mailto:timskillern@gmail.com?subject=The%20Crossing">Tim Skillern</a> & <a href="mailto:laressa@denverpromostudios.com?subject=The%20Crossing">Laressa Bachelor</a></li>
+		<li>Print designer: <a href="mailto:armandoarrieta10@gmail.com?subject=The%20Crossing">Armando Arrieta</a></li>
+		<li>Web designer: <a href="mailto:kharpe01@syr.edu?subject=The%20Crossing">Ken Harper</a></li>
+		<li>Web producer: <a href="mailto:">Forrest Stewart</a></li>
+		<li>Web developer: <a href="mailto:ck.nguyen79@gmail.com?subject=The%20Crossing">Chris Nguyen</a></li>
+		<li>Copy editor: <a href="mailto:diannerose@comcast.net?subject=The%20Crossing">Dianne Rose</a></li>
+		<li>Photo editor: <a href="mailto:dkrakel@gmail.com?subject=The%20Crossing">Dean Krakel</a></li>
+		<li>Imager: <a href="mailto:mariegriffin@gmail.com?subject=The%20Crossing">Marie Griffin</a></li>
+		<li>Interactive editor: <a href="mailto:michaelnoe@gmail.com?subject=The%20Crossing">Mike Noe</a></li>
+		<li>Project editor: <a href="mailto:carolhanner@gmail.com?subject=The%20Crossing">Carol Hanner</a></li>
+	</ul>
+</div>
+
+		</div>
+
+		<div id="textContainer">
+			<div style="font-size: 14pt; font-weight: bold; color: #473B2D;">
+	THE CROSSING: <span style="font-weight: normal; color: #8B6F57;">63 INCHES</span>
+</div>
+
+	<div style="font-size: 10pt; font-weight: bold; color: #8B6F57;">CHAPTER 5 OF 33</div>
+
+
+			<br>
+			<div style="font-size: 10pt; font-weight: bold; color: #473B2D;">
+	By
+	<a href="mailto:writerkev@hotmail.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Kevin Vaughan</a>
+	<br>
+	Photos by
+	<a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Chris Schneider</a>
+</div>
+
+
+			<p>The Union Pacific passenger train barreled across the snow-dusted countryside at 79 mph, covering the length of a football field in less than three seconds.</p>
+<p>The streamliner was just outside Greeley, 2 1/2 miles from LaSalle, its last planned stop before Denver's Union Station.</p>
+<p>In the cab of locomotive No. 955 sat Herbert F. Sommers, a striped engineer's hat over his thinning hair and a pack of cigarettes in the front pocket of his overalls. Sommers looked out the window and saw a yellow school bus approaching the crossing ahead of him.</p>
+<p>In the seat across the cab, fireman Melvin C. Swanson saw it, too.</p>
+<p>"I hope he stops," Swanson said as the locomotive rushed toward the crossing. "There's children in that bus."</p>
+<p>Sommers already had blasted the train's air horn. He rose up in his seat, reached for a cord over his head and gave the horn a few short toots, hoping to get the driver's attention. A moment later, the bus lurched onto the tracks.</p>
+<p>Sommers grabbed the brass handle that activated his train's full emergency braking system. He knew even as he jerked the lever that it was too late. His 16-car train, pulled by three engines, would need a mile to stop, and he was no more than 75 feet from the crossing.</p>
+<p><b>Disaster</b></p>
+<p>The violence of the next moment shattered the quiet morning. It was as if a bomb exploded between the rear wheels of the bus. The blunt nose of the locomotive tore into the last few feet of the school bus, shearing off the back end.</p>
+<p>The impact hurled the front section of the bus into a barrel roll. The bus tore down the crossing sign as it tumbled to a stop on its side, landing 192 feet away. Its jumbled frame rails protruded next to a gaping hole where, an instant before, there had been children.</p>
+<p>The locomotive carried the crumpled remains of the rear end of the bus 455 feet, dumping them upright on the other side of the tracks, four twisted seats left in the shattered hulk. The rear axle and dual wheels, ripped free, landed nearby.</p>
+<p>Still more seats flew through the air and collapsed in a pile against a wire fence.</p>
+<p>The crash scattered the children who had been in those seats. In less than four seconds, it was over.</p>
+<p>School bus driver Duane Harms, blown out of the bus, awoke on the ground, got to his feet and stumbled around the scene, bleeding from cuts to his forehead and leg.</p>
+<p>In those first confused moments, he wasn't sure what had happened.</p>
+<p>Then he saw the train, idling down the tracks, and he knew.</p>
+<p>Jerry Hembry, the front-seat passenger, had grabbed the pole next to him, bending it as he fought the overpowering force of the crash.</p>
+<p>The impact had flung him out the huge hole in the back of the bus. He came to his senses as he rolled through a ditch next to the road.</p>
+<p>Children lay around him. A boy next to him was dead.</p>
+<p>Jerry stood up, cut and bruised, his shoulder dislocated, his collarbone broken.</p>
+<p>He knew he had to get help. Despite his injuries, he picked up one little boy in his arms.</p>
+<p>He took the hand of a girl and started walking west, toward a big white farmhouse a few hundred yards down the road.</p>
+<p>"Jerry," one of the younger children said, "this didn't happen. It's a dream, isn't it?"</p>
+<p>Alan Stromberger, who'd been sitting in the third row, found himself on the ground, cold, unable to walk.</p>
+<p>Around him, it was as if someone had opened the rings on a school binder and allowed the wind to blow away the contents. School papers littered the ground. So did seats and glass and metal from the bus. And so did children &mdash; kids he knew &mdash; who moments before had been alive and happy and full of anticipation for Christmas.</p>
+<p>Nancy Alles regained consciousness and heard kids around her moaning, groaning, crying. She did not know that her two cousins lay dead nearby.</p>
+<p><b>Reaction</b></p>
+<p>Albert Bindel, whose 68-acre farm sat next to the tracks just down the road from the crossing, pulled out of his driveway with three of his children, heading toward their Catholic school in Greeley.</p>
+<p>A few seconds later, at the crossing, he stepped out of his '58 Ford, looked around, then jumped back in and gunned it for home.</p>
+<p>He told the kids to go in the house, yelled to his wife, Irene, to call an ambulance and the state patrol, and took off.</p>
+<p>Jim Ford was driving his wife, Loretta, to her house-cleaning job in Greeley when they came upon the scene. At first, Loretta thought a church bus had been hit by the train.</p>
+<p>"No," Jim said, "it's not the church bus &mdash; it's our bus."</p>
+<p>Their three boys had been on it. They found the oldest, 13-year-old Jimmy, dead along the tracks.</p>
+<p>The youngest, Bruce, lay on the ground, knocked out. Their middle boy, Glen, climbed out of the wreckage. His face was battered, he couldn't see and he had a nasty cut on his leg, but he was alive.</p>
+<p>Loretta and Jim Ford prayed over their dead son and the other children.</p>
+<p>Trooper Don Girnt of the Colorado State Patrol was working U.S. 85 south of LaSalle when his radio crackled.</p>
+<p>"Car 19," a dispatcher said, "you've got a school bus-train accident."</p>
+<p>He floored it. By then, Bindel, the farmer who lived nearby, had raced his car into the yard of Joe and Katherine Brantner and their eight children.</p>
+<p>Joe Brantner jumped in the Ford with Bindel, and they rushed the quarter mile to the crossing.</p>
+<p>There, Joe Brantner found the bodies of two of his children, Mark, a kindergartner, and Kathy, a fourth-grader.</p>
+<p>Somehow, Joe Brantner knew his grief would have to wait.</p>
+<p>"Just take me back home and get my station wagon," he told Bindel.</p>
+<p>The two men dashed back to the Brantner farm.</p>
+<p>"Don't go up there," Joe told Katherine.</p>
+<p>A minute later, the two men were back at the crossing, loading injured children into their cars. They picked up Nancy Alles, who had broken vertebrae and ribs. They carried Alice Larson, who was critically hurt with a torn liver and other injuries.</p>
+<p>They grabbed Glen Ford, with cinders in his eyes, and Alan Stromberger, his back broken.</p>
+<p>Girnt, the state trooper, whipped around a corner six minutes after hearing that first radio call. He stopped near the remains of the front section of the bus. He bolted from his white Plymouth. The first thing he saw was a child, dead on the road. Some of the injured children lay in shocked silence. Others cried for help.</p>
+<p>A siren blared in the distance, grew closer. Then another, and another. Medics in ambulances slammed to a stop. Deputy sheriffs and state troopers skidded up to the crossing.</p>
+<p>Phones rang.</p>
+<p>A frantic message passed like a shock wave &mdash; a train hit the bus.</p>
+<p>Parents, dozens in all, tore down the gravel roads to the crossing, to their worst fears. They ran up and down the tracks, where children, dead and alive, were strewn along a path of heartache more than 100 yards long.</p>
+<p>Juanita Larson pulled up. She started to run, to look for her son, Steve, and daughter, Alice. A man with a badge stopped her.</p>
+<p>Just then, Joe Brantner grabbed her.</p>
+<p>His face was brave, his voice strong.</p>
+<p>"Juanita, come with me," he said. "I have Alice, and she's badly hurt, and we have to get her to the hospital."</p>
+<p>Juanita jumped in his station wagon.</p>
+<p>Brantner and Bindel sped for town, their headlights burning, hands jammed hard on their horns. It would be hours before Juanita would find out what happened to Steve.</p>
+<p>Outside the emergency room, Brantner, Bindel and Juanita Larson got the injured kids out of the cars.</p>
+<p>They put Alice on a gurney. Joe Brantner grabbed Juanita again, gave her a hug. Then he put his head against the wall.</p>
+<p>"Both of mine are gone, Juanita," he said, heartbreak in his voice. "Go take care of Alice."</p>
+<p><b>Tragic toll</b></p>
+<p>Girnt and other investigators began calculating the toll of the deadliest traffic accident in Colorado history. In all, 20 children were dead:</p>
+<p>Cindy Dorn, 11, and her cousin, Linda Alles, 10, carrying her brother's wrestling medal for show-and-tell.</p>
+<p>Calvin Craven, celebrating his 10th birthday; his sister, Ellen, 8; and their cousin, Jerry Baxter, 10.</p>
+<p>Kathy Brantner, 9, and Mark Brantner, 6, whose father found them dead, then went to work helping others.</p>
+<p>Jimmy Ford, 13, the cowboy with the square jaw.</p>
+<p>April Freeman, 8, the girl everyone called by her middle name, Melody.</p>
+<p>Kathy Heimbuck, 12, and her sister Pam, 9, who loved her pony, Dopey.</p>
+<p>Steve Larson, 9, the fast-growing Cub Scout.</p>
+<p>Mary Lozano, 10, who scurried to find her purse before getting on the bus.</p>
+<p>Sherry Mitchell, 6, who wanted to see her dad in the hospital instead of getting on the bus.</p>
+<p>Marilyn Paxton, 13, and Jan Paxton, 11 &mdash; the sisters who loved to dance.</p>
+<p>Bobby Smock, 10, a little cowboy with his own chaps.</p>
+<p>Linda Walso, 13, whose mother led the "Auburnettes" 4-H group.</p>
+<p>Elaine White, 11, and her sister, Juleen, 8.</p>
+<p>Sixteen other children, some near death, some battered and bruised, were still alive:</p>
+<p>Nancy Alles, 11, whose brother had gone to the dentist instead of riding the bus.</p>
+<p>Cheryl Brown, 13, who had a Confederate $5 bill in her wallet.</p>
+<p>Bruce Ford, 9, and his brother Glen, 11.</p>
+<p>Joy Freeman, 10, and her brother Smith, 7.</p>
+<p>Randy Geisick, 8, who lost his holiday wrapping paper &mdash; and one shoe &mdash; in the crash.</p>
+<p>Jerry Hembry, 16, the oldest student on the bus.</p>
+<p>Alice Larson, 11, who had swapped seats with her little brother.</p>
+<p>Luis Lozano, 9, who had leaned over the seat to watch two girls color in a book.</p>
+<p>The three Munson children &mdash; Vicky, 6; Gary, 8; and Johnny, 9 &mdash; whose father had dropped them at the bus early so they didn't have to wait in the cold.</p>
+<p>Alan Stromberger, 10, and his sister Debbie, 7.</p>
+<p>Jacquelyn White, 14.</p>
+<p>In the coming weeks, Trooper Girnt, the first officer at the scene, would spend hours measuring the crossing, diagramming its sharp angle.</p>
+<p>He would spend mornings at the side of the road, a stopwatch in his hand, waiting for the train, determining when its headlight came into view.</p>
+<p>He would eventually calculate that the line between life and death was 63 inches wide.</p>
+<p>The bus had almost made it across the tracks.</p>
+<p><b>NEXT:</b> <a href="/crossing_preview/chapters/6/" style="color: #000000;">All out</a></p>
+
+		</div>
+	</div>
+
+	<br>
+
+	<div class="footer">
+	<!-- agreement -->
+	<p style="float: right; text-align: right;">2007 &copy; Rocky Mountain New Archives, Western History Collection, Denver Public Library<br /><a href="disclaimer.html">User Agreement</a><br /><a href="#contact">Questions? Comments? Talk to Us</a></p>
+	<!-- /agreement -->
+</div>
+
+</body>
+</center>
+</html>

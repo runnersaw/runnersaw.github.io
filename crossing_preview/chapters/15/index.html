@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88115230-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<title>The Crossing Story</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/crossing_preview/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/chapters.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/fonts.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/interactiveContent.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/crossing_preview/js/interactiveContent.js"></script>
+
+</head>
+<center>
+<body bgcolor="##000000">
+
+	<div class="header">
+	</div>
+
+	<div id="flashcontent" style="display: none; position: relative; z-index: 1; background-color:##000000; color: #ffffff; font-family: Arial; font-weight: bold; font-size: 18pt; width: 750px; @& width: 750px; background-image: url(/crossing_preview/images/backgroundNew.jpg);">
+		To view this content you must download and install Adobe Flash Player <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">here</a>.
+	</div>
+
+	<div id="interactiveContent">
+    <div id="interactiveContentBackground" class="interactiveContentCollapsedInitial">
+        
+            <img id="interactiveContentImageNonInteractive" class="invisible" src="/crossing_preview/images/part15/interactive_background.jpg" draggable="false">
+        
+    </div>
+    <div id="interactiveContentMenuContainerBackground">
+        <div id="interactiveContentMenuContainer" class="interactiveContentMenuContainerInitial">
+            <div id="interactiveContentMenu">
+                <div id="interactiveContentMenuTitle">
+                    SILENCE
+                </div>
+
+                
+                    <div id="interactiveContentMenuChapter">
+                        CHAPTER 15 OF 33
+                    </div>
+                
+
+                <div id="interactiveContentMenuSubtitle">
+                    Alice Larson Richardson could not escape reminders of Dec. 14, 1961.
+                </div>
+
+                <div id="interactiveContentMenuButtonContainer">
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="storyClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Story</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="videoClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Video</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="documentsClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Documents</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="photosClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Photos</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="discussClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Discuss</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="seriesIndexClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Series Index</p4>
+                            </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div id="interactiveVideoPlayer" class="interactiveContentFullSize invisible hidden">
+            <div id="videoPlayerContainer">
+                <div id="videoPlayerPlaceholder" onclick="playVideoClicked()">
+                    <div id="videoPlayerPlaceholderContainer" style="background-image: url(/crossing_preview/images/part15/video_placeholder.jpg">
+                        <div id="videoPlayerPlaceholderText-15" class="videoPlayerPlaceholderText">
+                            <h2 id="videoPlayerPlaceholderTextHeader-15" class="videoPlayerPlaceholderTextHeader">SILENCE</h2>
+                            <div id="videoPlayerPlaceholderTextContent-15" class="videoPlayerPlaceholderTextContent">
+                                <div id="videoPlayerPlaceholderTextDivider-15" class="videoPlayerPlaceholderTextDivider"></div>
+                                <p id="videoPlayerPlaceholderTextByline">Video by Tim Skillern</p>
+                                <p>Memories of the long-ago accident still surface at odd times for Alice Larson Richardson.</p>
+                                <p id="videoPlayerPlaceholderTextClickToPlay">Click play to begin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <video id="videoPlayer" preload="none">
+                    <source src="/videos/part15/video15.mp4">
+                </video>
+            </div>
+            <div id="videoPlayerControls">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <a onclick="closeVideoClicked()">
+                        CHAPTER MENU
+                    </a>
+                </div>
+                <a onclick="playVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
+                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                </a>
+                <a onclick="closeVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
+                </a>
+                <div id="playbackBar">
+                    <div id="playbackSelector"></div>
+                </div>
+                <p4 id="timeText">0:00</p4>
+            </div>
+        </div>
+    
+    <div id="interactivePhotoPlayer" class="interactiveContentFullSize invisible hidden">
+        <div id="photoPlayerContainer">
+            <div id="photoPlayerPhotoContainer">
+                
+                
+                    
+                
+            </div>
+            <div id="photoSlideCaption" class="invisible hidden">
+                
+                    
+                
+            </div>
+        </div>
+        <div id="photoPlayerControls">
+            <div>
+                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                <a onclick="closePhotoClicked()">
+                    <p>CHAPTER MENU</p>
+                </a>
+            </div>
+            <a onclick="previousPhotoClicked()">
+                <img src='/crossing_preview/images/rewind.svg'>
+            </a>
+            <a onclick="playPhotoClicked()">
+                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
+                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+            </a>
+            <a onclick="nextPhotoClicked()">
+                <img src='/crossing_preview/images/fast_forward.svg'>
+            </a>
+            <a onclick="captionsClicked()">
+                <p4>Captions</p4>
+            </a>
+            <p4 id="photoSlideshowState"></p4>
+        </div>
+    </div>
+</div>
+
+
+	<div id="contentContainer" align="left">
+
+		<div id="rightRail" class="rightRail">
+			<div class="photoBucket">
+				<div id="photoBucketImageContainer">
+					<img id="photoBucketImage" src="/crossing_preview/images/part15/story15.jpg" border="1">
+				</div>
+				Courtesy Art and Juanita Larson
+
+				<div class="photoBucketCaption">
+					Art and Juanita Larson keep a school photograph of their son, Steve, tucked inside their wedding picture.
+					<ul><li>
+						
+							<a href="#" onclick="photosClicked();" style="color: #000000; font-size: 12px; font-weight: bold;">More chapter 15 photos</a>
+						
+					</li></ul>
+				</div>
+			</div>
+
+			<div class="railBin">
+	<h3>Crossing chapters</h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color: #fff; font-weight: bold;">
+		Jump to:&nbsp;&nbsp;
+		<select id="jumper" onchange="if(this.value != '')location=this.value;">
+			<option value="/chapters/"></option>
+			<option id="jump_1" value="/chapters/1/">Chapter 1: ECHOES</option>
+			<option id="jump_2" value="/chapters/2/">Chapter 2: SIX DEGREES</option>
+			<option id="jump_3" value="/chapters/3/">Chapter 3: A TYPICAL MORNING</option>
+			<option id="jump_4" value="/chapters/4/">Chapter 4: ON THE CUSP</option>
+			<option id="jump_5" value="/chapters/5/">Chapter 5: 63 INCHES</option>
+			<option id="jump_6" value="/chapters/6/">Chapter 6: ALL OUT</option>
+			<option id="jump_7" value="/chapters/7/">Chapter 7: MEMORIES</option>
+			<option id="jump_8" value="/chapters/8/">Chapter 8: QUESTIONS</option>
+			<option id="jump_9" value="/chapters/9/">Chapter 9: TRIAL</option>
+			<option id="jump_10" value="/chapters/10/">Chapter 10: VERDICT</option>
+			<option id="jump_11" value="/chapters/11/">Chapter 11: REVERBERATIONS</option>
+			<option id="jump_12" value="/chapters/12/">Chapter 12: TESTED FAITH</option>
+			<option id="jump_13" value="/chapters/13/">Chapter 13: HOPE</option>
+			<option id="jump_14" value="/chapters/14/">Chapter 14: MELODY</option>
+			<option id="jump_15" value="/chapters/15/">Chapter 15: SILENCE</option>
+			<option id="jump_16" value="/chapters/16/">Chapter 16: DRIVER'S SEAT</option>
+			<option id="jump_17" value="/chapters/17/">Chapter 17: ALIVE</option>
+			<option id="jump_18" value="/chapters/18/">Chapter 18: LOSING EVERYTHING</option>
+			<option id="jump_19" value="/chapters/19/">Chapter 19: DEC. 14	</option>
+			<option id="jump_20" value="/chapters/20/">Chapter 20: LAST RUN</option>
+			<option id="jump_21" value="/chapters/21/">Chapter 21: PUSHING ON</option>
+			<option id="jump_22" value="/chapters/22/">Chapter 22: COMPLICATED GRIEF</option>
+			<option id="jump_23" value="/chapters/23/">Chapter 23: COINCIDENCE?</option>
+			<option id="jump_24" value="/chapters/24/">Chapter 24: IN THE SHADOWS</option>
+			<option id="jump_25" value="/chapters/25/">Chapter 25: MOVING ON</option>
+			<option id="jump_26" value="/chapters/26/">Chapter 26: HEARTBREAK</option>
+			<option id="jump_27" value="/chapters/27/">Chapter 27: NEVER SAY NEVER</option>
+			<option id="jump_28" value="/chapters/28/">Chapter 28: A CHRISTMAS WISH</option>
+			<option id="jump_29" value="/chapters/29/">Chapter 29: NEW LIFE</option>
+			<option id="jump_30" value="/chapters/30/">Chapter 30: FILLING THE VOID</option>
+			<option id="jump_31" value="/chapters/31/">Chapter 31: THE JUDGE</option>
+			<option id="jump_32" value="/chapters/32/">Chapter 32: PERSPECTIVE</option>
+			<option id="jump_33" value="/chapters/33/">Chapter 33: LEGACY</option>
+			<option id="jump_34" value="/chapters/34/">EPILOGUE</option>
+			<option id="jump_35" value="/extras/1/">EXTRAS</option>
+		</select>
+	</span>
+</div>
+
+
+			<div class="railBin">
+	<h3>Tools</h3>
+	<h4>Chapter 15 menu</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="/chapters/index/#part15">Series index</a></li>
+					<li><a href="#" onclick="chapterIndexClicked();">Chapter index</a></li>
+				</ul>
+			</td>
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Discuss</a></li>
+					<li><a href="/crossing_preview/images/part15/docs/Chapter15_anno.pdf" target="_blank">Sources</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<h4>Story tools</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Contact us</a></li>
+					<li><a href="/crossing_preview/images/part15/docs/print15.pdf" target="_blank">Story in print</a> (.pdf)</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+			
+				<div class="railBin" style="height: 130px;">
+	<h3>Video</h3>
+	<a href="#" onclick="videoClicked();">
+		<img src="/crossing_preview/videos/part15/still15.jpg" style="float: left; border: 1px solid #000; margin: 5px 10px 0 10px;" title="Memories of the long-ago accident still surface at odd times for Alice Larson Richardson.">
+	</a>
+	<p style="color: #DCD4B3;">Memories of the long-ago accident still surface at odd times for Alice Larson Richardson.</p>
+	<img src="/crossing_preview/images/arrow.gif" />
+	<a href="#" onclick="videoClicked();">Watch video</a>
+</div>
+
+			
+
+			
+				
+
+
+			
+
+			<div class="railBin">
+	<h3>Related content</h3>
+	<img src="/crossing_preview/images/survivors.jpg" style="float: left; border: 1px solid ##000; margin: -3px 10px 0 10px; @& margin: 0px 10px 0 10px;"><p style="color: #DCD4B3;">
+	<h4 style="margin-top: -10px;">Crossing forums</h4>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/DenverForumC.m4v">Forum at the Rocky Mountain News in Denver.</a>
+	<br>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/GreeleyForumC.mp4">Forum at the Union Colony Civic Center in Greeley.</a>
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="color: #fff; font-weight: bold;">
+			Podcasts:&nbsp;&nbsp;
+			<select name="podcasts" onchange="if(this.value != '')location=this.value;" style="margin-left: 20px;">
+				<option value="">--Select a Crossing podcast--</option>
+				<option value="/podcasts/01.mp3">Chapter 1</option>
+				<option value="/podcasts/02.mp3">Chapter 2</option>
+				<option value="/podcasts/03.mp3">Chapter 3</option>
+				<option value="/podcasts/04.mp3">Chapter 4</option>
+				<option value="/podcasts/05.mp3">Chapter 5</option>
+				<option value="/podcasts/06.mp3">Chapter 6</option>
+				<option value="/podcasts/07.mp3">Chapter 7</option>
+				<option value="/podcasts/08.mp3">Chapter 8</option>
+				<option value="/podcasts/09.mp3">Chapter 9</option>
+				<option value="/podcasts/10.mp3">Chapter 10</option>
+				<option value="/podcasts/11.mp3">Chapter 11</option>
+				<option value="/podcasts/12.mp3">Chapter 12</option>
+				<option value="/podcasts/13.mp3">Chapter 13</option>
+				<option value="/podcasts/14.mp3">Chapter 14</option>
+				<option value="/podcasts/15.mp3">Chapter 15</option>
+				<option value="/podcasts/16.mp3">Chapter 16</option>
+				<option value="/podcasts/17.mp3">Chapter 17</option>
+				<option value="/podcasts/18.mp3">Chapter 18</option>
+				<option value="/podcasts/19.mp3">Chapter 19</option>
+				<option value="/podcasts/20.mp3">Chapter 20</option>
+				<option value="/podcasts/21.mp3">Chapter 21</option>
+				<option value="/podcasts/22.mp3">Chapter 22</option>
+				<option value="/podcasts/23.mp3">Chapter 23</option>
+				<option value="/podcasts/24.mp3">Chapter 24</option>
+				<option value="/podcasts/25.mp3">Chapter 25</option>
+				<option value="/podcasts/26.mp3">Chapter 26</option>
+				<option value="/podcasts/27.mp3">Chapter 27</option>
+				<option value="/podcasts/28.mp3">Chapter 28</option>
+				<option value="/podcasts/29.mp3">Chapter 29</option>
+				<option value="/podcasts/30.mp3">Chapter 30</option>
+				<option value="/podcasts/31.mp3">Chapter 31</option>
+				<option value="/podcasts/32.mp3">Chapter 32</option>
+				<option value="/podcasts/33.mp3">Chapter 33</option>
+				<option value="/podcasts/34.mp3">Epilogue</option>
+			</select>
+		</span>
+	</p>
+</div>
+
+
+			<div class="railBin">
+	<h3>Acknowledgements</h3>
+	<div style="margin-left: 10px;">
+		<p style="color: #DCD4B3; font-size: 8pt;">"The Crossing" could only be told with the help of many people:</p>
+		<p style="color: #DCD4B3; font-size: 8pt;">- The more than 80 people touched by the tragedy of Dec. 14, 1961, who agreed to tell their stories.<br>- Bill and Mary Bohlender, who helped unearth numerous historic documents and provided numerous insights.<br>- Virginia Shelton and Mary Shelton Shafer, who provided numerous insights and access to attorney Jim Shelton's files.<br>- Keith Blue, who provided numerous insights.<br>- Peggy Ford and the staff at the City of Greeley Museums, Barbara Dey and the Hart Library staff at the Colorado History Museum and former Rocky librarian Carol Kasel, who all assisted with research.</p>
+	</div>
+</div>
+
+
+			<a name="contact"></a>
+<div id="contact" class="railBin">
+	<h3>Contact the series team</h3>
+	<ul>
+		<li>Reporter: <a href="mailto:writerkev@hotmail.com?subject=The%20Crossing">Kevin Vaughan</a></li>
+		<li>Photographer: <a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing">Chris Schneider</a></li>
+		<li>Video: <a href="mailto:timskillern@gmail.com?subject=The%20Crossing">Tim Skillern</a> & <a href="mailto:laressa@denverpromostudios.com?subject=The%20Crossing">Laressa Bachelor</a></li>
+		<li>Print designer: <a href="mailto:armandoarrieta10@gmail.com?subject=The%20Crossing">Armando Arrieta</a></li>
+		<li>Web designer: <a href="mailto:kharpe01@syr.edu?subject=The%20Crossing">Ken Harper</a></li>
+		<li>Web producer: <a href="mailto:">Forrest Stewart</a></li>
+		<li>Web developer: <a href="mailto:ck.nguyen79@gmail.com?subject=The%20Crossing">Chris Nguyen</a></li>
+		<li>Copy editor: <a href="mailto:diannerose@comcast.net?subject=The%20Crossing">Dianne Rose</a></li>
+		<li>Photo editor: <a href="mailto:dkrakel@gmail.com?subject=The%20Crossing">Dean Krakel</a></li>
+		<li>Imager: <a href="mailto:mariegriffin@gmail.com?subject=The%20Crossing">Marie Griffin</a></li>
+		<li>Interactive editor: <a href="mailto:michaelnoe@gmail.com?subject=The%20Crossing">Mike Noe</a></li>
+		<li>Project editor: <a href="mailto:carolhanner@gmail.com?subject=The%20Crossing">Carol Hanner</a></li>
+	</ul>
+</div>
+
+		</div>
+
+		<div id="textContainer">
+			<div style="font-size: 14pt; font-weight: bold; color: #473B2D;">
+	THE CROSSING: <span style="font-weight: normal; color: #8B6F57;">SILENCE</span>
+</div>
+
+	<div style="font-size: 10pt; font-weight: bold; color: #8B6F57;">CHAPTER 15 OF 33</div>
+
+
+			<br>
+			<div style="font-size: 10pt; font-weight: bold; color: #473B2D;">
+	By
+	<a href="mailto:writerkev@hotmail.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Kevin Vaughan</a>
+	<br>
+	Photos by
+	<a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Chris Schneider</a>
+</div>
+
+
+			<p>Alice Larson Richardson spent most of a lifetime not talking about Dec. 14, 1961.</p>
+<p>She didn't visit it in her mind. She didn't bring it up with her parents.</p>
+<p>But sometimes, with no warning, the crossing would come to her.</p>
+<p>On a cold December day in 1998, she stood in the brown grass at Sunset Memorial Gardens on Greeley's west side to say goodbye to her Aunt Winnie Jo.</p>
+<p>Alice's older sister, Linda Edstrom, turned to her during the graveside service.</p>
+<p>"Alice," she said, "look down."</p>
+<p>There, below Alice, was a simple marble gravestone sunken into the ground. Etched on three weathered brass plates were the name "Steven A. Larson" and two years, 1952 and 1961.</p>
+<p>It was the first time Alice had ever seen the grave of her little brother, the one who had switched seats with her on the bus just before the crash 37 years earlier.</p>
+<p>Emotions welled up in her.</p>
+<p>Sadness, for the boy whose face she sometimes had trouble remembering.</p>
+<p>A twinge of jealousy, that Linda had known where their brother's grave was and she had not.</p>
+<p>Regret, that she'd let so many years pass without coming to find this spot.</p>
+<p><strong>No memory of the day</strong></p>
+<p>It hurt.</p>
+<p>That was the first thing Alice Larson knew when she awakened in the hospital several days after the collision.</p>
+<p>Doctors had taken out her crushed gallbladder and appendix and a piece of her liver. They'd put a half-cast on her fractured right hand.</p>
+<p>They'd patched up her cuts and scrapes.</p>
+<p>Now, finally, she was aware of what was going on around her. She turned her head.</p>
+<p>She saw her father sitting in a big blue chair.</p>
+<p>Alice was confused. She didn't know why she was in the hospital. She couldn't remember the accident.</p>
+<p>"Oh," said Art Larson, a skinny truck driver who grew alfalfa for the cows and horses on his 23-acre farm, "you're finally awake."</p>
+<p>Her father told her a train had hit the school bus, that a few of the children had been hurt, that she was recovering, that everything was fine.</p>
+<p>On a doctor's advice, he didn't tell her that 20 children had died; that the two girls sitting on either side of her, Mary Lozano and Kathy Brantner, were gone; that her little brother, Steve, had already been buried.</p>
+<p>He didn't tell her he'd stood up for bus driver Duane Harms.</p>
+<p>During her three weeks in the hospital, Alice kept asking why Steve and her older sisters, Nancy and Linda, hadn't visited.</p>
+<p>The answer was always the same: They're not allowed up here.</p>
+<p>One night, Alice awoke in the dark and heard Jacquelyn White crying in the bed next to her.</p>
+<p>A nurse was trying to comfort the girl.</p>
+<p>As Alice listened to the muffled conversation, she realized that Jacquelyn's sisters, Elaine and Juleen, were dead.</p>
+<p>That didn't make any sense. Did they get in a car wreck on the way to the hospital to visit Jacquelyn? Hadn't her father told her that only a few people had been hurt?</p>
+<p>"Shhh," the nurse suddenly said, "I think Alice is awake."</p>
+<p>The day before Alice was well enough to go home, her mother came into her room. She had something to tell Alice.</p>
+<p>"The wreck," she said, "was a little bit worse than we told you."</p>
+<p>"I know," Alice answered. "Elaine and Juleen are dead."</p>
+<p>"So is Steven," her mother said.</p>
+<p>Alice broke down.</p>
+<p>But her mother also had a surprise. Linda and Nancy were waiting for her.</p>
+<p>They were shocked at how pale and thin Alice was, but the sisters were happy to see each other.</p>
+<p>When Alice arrived home from the hospital, Steve's things were gone.</p>
+<p>One day, during the months of doctor visits, her mom wheeled the car into Sunset Memorial Gardens. She pointed out some of the graves to Alice &mdash; Steve is over there, the Paxton girls are over there, she said.</p>
+<p>They never got out of the car.</p>
+<p><strong>Moving on</strong></p>
+<p>For the rest of Alice's childhood, the accident simply wasn't spoken of. That's just how things worked &mdash; no grief counseling, no working through the sorrow out loud.</p>
+<p>Not talking about it was easy. Not acknowledging that life had changed was more difficult.</p>
+<p>One night, her mother set the table for six.</p>
+<p>Then she remembered.</p>
+<p>She didn't need a place for Steve, the chubby baby who'd fought rheumatic fever. The boy who'd smashed his thumb on the old iron gate at the Auburn schoolhouse, then calmly examined the mangled flesh at the doctor's office and said, "I really did it up that time, didn't I, Mom?"</p>
+<p>Alice found solace in the outstretched arms of her blue teddy bear.</p>
+<p>A mother who lost her daughter in the bus crash had donated it to the gift exchange for the sixth-grade class.</p>
+<p>Alice got it, and she loved it.</p>
+<p>Her body healed, but she was extremely self-conscious about her scars and the long-healed scrapes on her face that turned splotchy red when she got tired.</p>
+<p>When she dressed for gym, she'd hide her incisions.</p>
+<p>When her friends started wearing bikinis, she stuck to an old one-piece.</p>
+<p>One night, she got all dressed up for a high school dance and twirled around the living room for her parents.</p>
+<p>"You have a big hole in your nylons," her father told her.</p>
+<p>She looked down. It wasn't a hole. It was a scar on her leg, showing through her stockings.</p>
+<p>Alice graduated from high school, studied business management in Denver and took a job in the credit office of the hospital where she'd been a patient after the crash.</p>
+<p>She married Ron Richardson, a Weld County deputy sheriff.</p>
+<p>Though the accident was never discussed, Alice was surrounded by it every day.</p>
+<p>She and Ron built their home on East 20th Street in Greeley, on the same piece of ground where Delta Elementary School once stood &mdash; the school she never reached on that frigid December morning in 1961.</p>
+<p>Their four daughters &mdash; Rhonda, Melissa, Kynda and Tawnya &mdash; attended East Memorial Elementary, opened in 1963 and named in honor of the children who died.</p>
+<p>Every time she walked down the school's main hallway for a parent-teacher conference or a holiday program, she walked past a brass plaque listing those 20 names, with Steven Arthur Larson in the middle row.</p>
+<p>She was doing well, happy, with a great family, but every so often, the memories ambushed her.</p>
+<p>She had told her children about the crash, and one day Kynda announced that she planned to write about it for her college English composition class.</p>
+<p>But Alice couldn't answer many of Kynda's questions, so she sent her to the library.</p>
+<p>Kynda came home with copies of newspaper stories, and Alice sat down to read them.</p>
+<p>They overwhelmed her.</p>
+<p>"I lived through it," she says, "so I didn't think that reading about it would be as hard as it really was. . . . I guess I just spent all those years acting like an ostrich &mdash; if I don't know about it, I don't have to think about it, or deal with it, or something. I don't know why."</p>
+<p><strong>'I don't like this.'</strong></p>
+<p>Sometimes the pain was more visceral.</p>
+<p>When Melissa was a third-grader, Alice volunteered to help shuttle youngsters from East Memorial to the University of Northern Colorado for swimming lessons.</p>
+<p>For many years after the accident, Greeley school leaders required an adult "monitor" on each bus. It was the monitor's job to get out at every railroad crossing and wave the bus forward if the tracks were clear.</p>
+<p>Alice agreed to monitor the swimming trips. She'd ridden the bus after the accident, and it had never bothered her.</p>
+<p>The day came. Alice sat in the front seat. At a railroad crossing in Greeley, Alice stepped out of the bus.</p>
+<p>As she started across the tracks, her knees shook.</p>
+<p>"Why am I doing this?" she thought.</p>
+<p>Panic grabbed her, for no reason and every reason.</p>
+<p>As she tried to calm herself, she felt the awesome responsibility of keeping this busload of kids safe.</p>
+<p>The bus crossed, went on to the college and picked up another group, fresh from the pool. At another crossing, the same thought returned &mdash; "Why am I doing this?"</p>
+<p>Then another one hit her: "I don't like this. I don't like it at all."</p>
+<p>She took one step down toward the street. A train whistle reverberated in the distance.</p>
+<p>She froze on the bus steps. The train wasn't in sight. The red crossing lights were off. The bells were silent. The red-and-white striped arms remained up.</p>
+<p>Finally, the bus driver said, "Sit back down, Mrs. Richardson."</p>
+<p>She moved shakily back to her seat.</p>
+<p>In a few moments, she would carry out her duties, but for a time she just sat there.</p>
+<p>The children, antsy in their seats, didn't understand the delay.</p>
+<p>This is stupid, one said, we could make it.</p>
+<p>We had plenty of time to get across, another one said.</p>
+<p>Alice sat there.</p>
+<p>"Sometimes," she said, "you don't."</p>
+<p><b>NEXT:</b> <a href="/crossing_preview/chapters/16/" style="color: #000000;">Driver's seat</a></p>
+
+
+		</div>
+	</div>
+
+	<br>
+
+	<div class="footer">
+	<!-- agreement -->
+	<p style="float: right; text-align: right;">2007 &copy; Rocky Mountain New Archives, Western History Collection, Denver Public Library<br /><a href="disclaimer.html">User Agreement</a><br /><a href="#contact">Questions? Comments? Talk to Us</a></p>
+	<!-- /agreement -->
+</div>
+
+</body>
+</center>
+</html>

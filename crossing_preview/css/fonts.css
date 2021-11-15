@@ -1,0 +1,35 @@
+.quote { font-family: "Times New Roman"; font-style: normal; font-weight: bold; }
+
+.rockybold { font-family: Rocky; font-style: normal; font-weight: bold; }
+
+.rockybolditalic { font-family: Rocky; font-style: italic; font-weight: bold; }
+
+.rockycondbold { font-family: "Rocky Cond"; font-style: normal; font-weight: bold; }
+
+.rockycondbolditalic { font-family: "Rocky Cond"; font-style: italic; font-weight: bold; }
+
+.rockycondlight { font-family: "Rocky Cond Light"; font-style: normal; font-weight: normal; }
+
+.rockycondlightitalic { font-family: "Rocky Cond Light"; font-style: italic; font-weight: normal; }
+
+.rockycondmedium { font-family: "Rocky Cond Medium"; font-style: normal; font-weight: normal; }
+
+.rockycondmediumitalic { font-family: "Rocky Cond Medium"; font-style: italic; font-weight: normal; }
+
+.rockycondregular { font-family: "Rocky Cond"; font-style: normal; font-weight: normal; }
+
+.rockycondregularitalic { font-family: "Rocky Cond"; font-style: italic; font-weight: normal; }
+
+.rockylight { font-family: "Rocky Light"; font-style: normal; font-weight: normal; }
+
+.rockylightitalic { font-family: "Rocky Light"; font-style: italic; font-weight: normal; }
+
+.rockymedium { font-family: "Rocky Medium"; font-style: normal; font-weight: normal; }
+
+.rockymediumitalic { font-family: "Rocky Medium"; font-style: italic; font-weight: normal; }
+
+.rockyregular { font-family: Rocky; font-style: normal; font-weight: normal; }
+
+.rockyregularitalic { font-family: Rocky; font-style: italic; font-weight: normal; }
+
+/*# sourceMappingURL=fonts.css.map */

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88115230-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<title>The Crossing Story</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/crossing_preview/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/chapters.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/fonts.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/interactiveContent.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/crossing_preview/js/interactiveContent.js"></script>
+
+</head>
+<center>
+<body bgcolor="##000000">
+
+	<div class="header">
+	</div>
+
+	<div id="flashcontent" style="display: none; position: relative; z-index: 1; background-color:##000000; color: #ffffff; font-family: Arial; font-weight: bold; font-size: 18pt; width: 750px; @& width: 750px; background-image: url(/crossing_preview/images/backgroundNew.jpg);">
+		To view this content you must download and install Adobe Flash Player <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">here</a>.
+	</div>
+
+	<div id="interactiveContent">
+    <div id="interactiveContentBackground" class="interactiveContentCollapsedInitial">
+        
+            <img id="interactiveContentImageNonInteractive" class="invisible" src="/crossing_preview/images/part20/interactive_background.jpg" draggable="false">
+        
+    </div>
+    <div id="interactiveContentMenuContainerBackground">
+        <div id="interactiveContentMenuContainer" class="interactiveContentMenuContainerInitial">
+            <div id="interactiveContentMenu">
+                <div id="interactiveContentMenuTitle">
+                    LAST RUN
+                </div>
+
+                
+                    <div id="interactiveContentMenuChapter">
+                        CHAPTER 20 OF 33
+                    </div>
+                
+
+                <div id="interactiveContentMenuSubtitle">
+                    Engineer Herbert F. Sommers is at the throttle of a train in another deadly crash in Adams County.
+                </div>
+
+                <div id="interactiveContentMenuButtonContainer">
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="storyClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Story</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton interactiveContentMenuButtonDisabled">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Video</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="documentsClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Documents</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="photosClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Photos</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="discussClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Discuss</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="seriesIndexClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Series Index</p4>
+                            </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div id="interactiveVideoPlayer" class="invisible hidden disabled"></div>
+    
+    <div id="interactivePhotoPlayer" class="interactiveContentFullSize invisible hidden">
+        <div id="photoPlayerContainer">
+            <div id="photoPlayerPhotoContainer">
+                
+                
+                    
+                
+            </div>
+            <div id="photoSlideCaption" class="invisible hidden">
+                
+                    
+                
+            </div>
+        </div>
+        <div id="photoPlayerControls">
+            <div>
+                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                <a onclick="closePhotoClicked()">
+                    <p>CHAPTER MENU</p>
+                </a>
+            </div>
+            <a onclick="previousPhotoClicked()">
+                <img src='/crossing_preview/images/rewind.svg'>
+            </a>
+            <a onclick="playPhotoClicked()">
+                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
+                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+            </a>
+            <a onclick="nextPhotoClicked()">
+                <img src='/crossing_preview/images/fast_forward.svg'>
+            </a>
+            <a onclick="captionsClicked()">
+                <p4>Captions</p4>
+            </a>
+            <p4 id="photoSlideshowState"></p4>
+        </div>
+    </div>
+</div>
+
+
+	<div id="contentContainer" align="left">
+
+		<div id="rightRail" class="rightRail">
+			<div class="photoBucket">
+				<div id="photoBucketImageContainer">
+					<img id="photoBucketImage" src="/crossing_preview/images/part20/story20.jpg" border="1">
+				</div>
+				Chris Schneider &copy; The Rocky
+
+				<div class="photoBucketCaption">
+					A Union Pacific freight train roars through a crossing on East 96th Avenue in Adams County. It was here that engineer Herbert F. Sommers, who was also at the throttle in the 1961 crash, perished with another crewman in 1965, when their passenger train hit a gasoline tanker truck.
+					<ul><li>
+						
+							<a href="#" onclick="photosClicked();" style="color: #000000; font-size: 12px; font-weight: bold;">More chapter 20 photos</a>
+						
+					</li></ul>
+				</div>
+			</div>
+
+			<div class="railBin">
+	<h3>Crossing chapters</h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color: #fff; font-weight: bold;">
+		Jump to:&nbsp;&nbsp;
+		<select id="jumper" onchange="if(this.value != '')location=this.value;">
+			<option value="/chapters/"></option>
+			<option id="jump_1" value="/chapters/1/">Chapter 1: ECHOES</option>
+			<option id="jump_2" value="/chapters/2/">Chapter 2: SIX DEGREES</option>
+			<option id="jump_3" value="/chapters/3/">Chapter 3: A TYPICAL MORNING</option>
+			<option id="jump_4" value="/chapters/4/">Chapter 4: ON THE CUSP</option>
+			<option id="jump_5" value="/chapters/5/">Chapter 5: 63 INCHES</option>
+			<option id="jump_6" value="/chapters/6/">Chapter 6: ALL OUT</option>
+			<option id="jump_7" value="/chapters/7/">Chapter 7: MEMORIES</option>
+			<option id="jump_8" value="/chapters/8/">Chapter 8: QUESTIONS</option>
+			<option id="jump_9" value="/chapters/9/">Chapter 9: TRIAL</option>
+			<option id="jump_10" value="/chapters/10/">Chapter 10: VERDICT</option>
+			<option id="jump_11" value="/chapters/11/">Chapter 11: REVERBERATIONS</option>
+			<option id="jump_12" value="/chapters/12/">Chapter 12: TESTED FAITH</option>
+			<option id="jump_13" value="/chapters/13/">Chapter 13: HOPE</option>
+			<option id="jump_14" value="/chapters/14/">Chapter 14: MELODY</option>
+			<option id="jump_15" value="/chapters/15/">Chapter 15: SILENCE</option>
+			<option id="jump_16" value="/chapters/16/">Chapter 16: DRIVER'S SEAT</option>
+			<option id="jump_17" value="/chapters/17/">Chapter 17: ALIVE</option>
+			<option id="jump_18" value="/chapters/18/">Chapter 18: LOSING EVERYTHING</option>
+			<option id="jump_19" value="/chapters/19/">Chapter 19: DEC. 14	</option>
+			<option id="jump_20" value="/chapters/20/">Chapter 20: LAST RUN</option>
+			<option id="jump_21" value="/chapters/21/">Chapter 21: PUSHING ON</option>
+			<option id="jump_22" value="/chapters/22/">Chapter 22: COMPLICATED GRIEF</option>
+			<option id="jump_23" value="/chapters/23/">Chapter 23: COINCIDENCE?</option>
+			<option id="jump_24" value="/chapters/24/">Chapter 24: IN THE SHADOWS</option>
+			<option id="jump_25" value="/chapters/25/">Chapter 25: MOVING ON</option>
+			<option id="jump_26" value="/chapters/26/">Chapter 26: HEARTBREAK</option>
+			<option id="jump_27" value="/chapters/27/">Chapter 27: NEVER SAY NEVER</option>
+			<option id="jump_28" value="/chapters/28/">Chapter 28: A CHRISTMAS WISH</option>
+			<option id="jump_29" value="/chapters/29/">Chapter 29: NEW LIFE</option>
+			<option id="jump_30" value="/chapters/30/">Chapter 30: FILLING THE VOID</option>
+			<option id="jump_31" value="/chapters/31/">Chapter 31: THE JUDGE</option>
+			<option id="jump_32" value="/chapters/32/">Chapter 32: PERSPECTIVE</option>
+			<option id="jump_33" value="/chapters/33/">Chapter 33: LEGACY</option>
+			<option id="jump_34" value="/chapters/34/">EPILOGUE</option>
+			<option id="jump_35" value="/extras/1/">EXTRAS</option>
+		</select>
+	</span>
+</div>
+
+
+			<div class="railBin">
+	<h3>Tools</h3>
+	<h4>Chapter 20 menu</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="/chapters/index/#part20">Series index</a></li>
+					<li><a href="#" onclick="chapterIndexClicked();">Chapter index</a></li>
+				</ul>
+			</td>
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Discuss</a></li>
+					<li><a href="/crossing_preview/images/part20/docs/Chapter20_anno.pdf" target="_blank">Sources</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<h4>Story tools</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Contact us</a></li>
+					<li><a href="/crossing_preview/images/part20/docs/print20.pdf" target="_blank">Story in print</a> (.pdf)</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+			
+
+			
+				
+
+<a name="docs"></a>
+<div id="docs" class="railBin">
+	<h3>Documents</h3>
+	<h4>Chapter 20 documents</h4>
+	<div style="margin-bottom: 8px;"></div>
+	<ul>
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+				
+					<li>
+						<a href="/images/part20/docs/train_personnel.pdf" target="_blank">Personnel records for the train's crews.</a>
+					</li>
+				
+			
+		
+	</ul>
+</div>
+
+
+			
+
+			<div class="railBin">
+	<h3>Related content</h3>
+	<img src="/crossing_preview/images/survivors.jpg" style="float: left; border: 1px solid ##000; margin: -3px 10px 0 10px; @& margin: 0px 10px 0 10px;"><p style="color: #DCD4B3;">
+	<h4 style="margin-top: -10px;">Crossing forums</h4>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/DenverForumC.m4v">Forum at the Rocky Mountain News in Denver.</a>
+	<br>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/GreeleyForumC.mp4">Forum at the Union Colony Civic Center in Greeley.</a>
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="color: #fff; font-weight: bold;">
+			Podcasts:&nbsp;&nbsp;
+			<select name="podcasts" onchange="if(this.value != '')location=this.value;" style="margin-left: 20px;">
+				<option value="">--Select a Crossing podcast--</option>
+				<option value="/podcasts/01.mp3">Chapter 1</option>
+				<option value="/podcasts/02.mp3">Chapter 2</option>
+				<option value="/podcasts/03.mp3">Chapter 3</option>
+				<option value="/podcasts/04.mp3">Chapter 4</option>
+				<option value="/podcasts/05.mp3">Chapter 5</option>
+				<option value="/podcasts/06.mp3">Chapter 6</option>
+				<option value="/podcasts/07.mp3">Chapter 7</option>
+				<option value="/podcasts/08.mp3">Chapter 8</option>
+				<option value="/podcasts/09.mp3">Chapter 9</option>
+				<option value="/podcasts/10.mp3">Chapter 10</option>
+				<option value="/podcasts/11.mp3">Chapter 11</option>
+				<option value="/podcasts/12.mp3">Chapter 12</option>
+				<option value="/podcasts/13.mp3">Chapter 13</option>
+				<option value="/podcasts/14.mp3">Chapter 14</option>
+				<option value="/podcasts/15.mp3">Chapter 15</option>
+				<option value="/podcasts/16.mp3">Chapter 16</option>
+				<option value="/podcasts/17.mp3">Chapter 17</option>
+				<option value="/podcasts/18.mp3">Chapter 18</option>
+				<option value="/podcasts/19.mp3">Chapter 19</option>
+				<option value="/podcasts/20.mp3">Chapter 20</option>
+				<option value="/podcasts/21.mp3">Chapter 21</option>
+				<option value="/podcasts/22.mp3">Chapter 22</option>
+				<option value="/podcasts/23.mp3">Chapter 23</option>
+				<option value="/podcasts/24.mp3">Chapter 24</option>
+				<option value="/podcasts/25.mp3">Chapter 25</option>
+				<option value="/podcasts/26.mp3">Chapter 26</option>
+				<option value="/podcasts/27.mp3">Chapter 27</option>
+				<option value="/podcasts/28.mp3">Chapter 28</option>
+				<option value="/podcasts/29.mp3">Chapter 29</option>
+				<option value="/podcasts/30.mp3">Chapter 30</option>
+				<option value="/podcasts/31.mp3">Chapter 31</option>
+				<option value="/podcasts/32.mp3">Chapter 32</option>
+				<option value="/podcasts/33.mp3">Chapter 33</option>
+				<option value="/podcasts/34.mp3">Epilogue</option>
+			</select>
+		</span>
+	</p>
+</div>
+
+
+			<div class="railBin">
+	<h3>Acknowledgements</h3>
+	<div style="margin-left: 10px;">
+		<p style="color: #DCD4B3; font-size: 8pt;">"The Crossing" could only be told with the help of many people:</p>
+		<p style="color: #DCD4B3; font-size: 8pt;">- The more than 80 people touched by the tragedy of Dec. 14, 1961, who agreed to tell their stories.<br>- Bill and Mary Bohlender, who helped unearth numerous historic documents and provided numerous insights.<br>- Virginia Shelton and Mary Shelton Shafer, who provided numerous insights and access to attorney Jim Shelton's files.<br>- Keith Blue, who provided numerous insights.<br>- Peggy Ford and the staff at the City of Greeley Museums, Barbara Dey and the Hart Library staff at the Colorado History Museum and former Rocky librarian Carol Kasel, who all assisted with research.</p>
+	</div>
+</div>
+
+
+			<a name="contact"></a>
+<div id="contact" class="railBin">
+	<h3>Contact the series team</h3>
+	<ul>
+		<li>Reporter: <a href="mailto:writerkev@hotmail.com?subject=The%20Crossing">Kevin Vaughan</a></li>
+		<li>Photographer: <a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing">Chris Schneider</a></li>
+		<li>Video: <a href="mailto:timskillern@gmail.com?subject=The%20Crossing">Tim Skillern</a> & <a href="mailto:laressa@denverpromostudios.com?subject=The%20Crossing">Laressa Bachelor</a></li>
+		<li>Print designer: <a href="mailto:armandoarrieta10@gmail.com?subject=The%20Crossing">Armando Arrieta</a></li>
+		<li>Web designer: <a href="mailto:kharpe01@syr.edu?subject=The%20Crossing">Ken Harper</a></li>
+		<li>Web producer: <a href="mailto:">Forrest Stewart</a></li>
+		<li>Web developer: <a href="mailto:ck.nguyen79@gmail.com?subject=The%20Crossing">Chris Nguyen</a></li>
+		<li>Copy editor: <a href="mailto:diannerose@comcast.net?subject=The%20Crossing">Dianne Rose</a></li>
+		<li>Photo editor: <a href="mailto:dkrakel@gmail.com?subject=The%20Crossing">Dean Krakel</a></li>
+		<li>Imager: <a href="mailto:mariegriffin@gmail.com?subject=The%20Crossing">Marie Griffin</a></li>
+		<li>Interactive editor: <a href="mailto:michaelnoe@gmail.com?subject=The%20Crossing">Mike Noe</a></li>
+		<li>Project editor: <a href="mailto:carolhanner@gmail.com?subject=The%20Crossing">Carol Hanner</a></li>
+	</ul>
+</div>
+
+		</div>
+
+		<div id="textContainer">
+			<div style="font-size: 14pt; font-weight: bold; color: #473B2D;">
+	THE CROSSING: <span style="font-weight: normal; color: #8B6F57;">LAST RUN</span>
+</div>
+
+	<div style="font-size: 10pt; font-weight: bold; color: #8B6F57;">CHAPTER 20 OF 33</div>
+
+
+			<br>
+			<div style="font-size: 10pt; font-weight: bold; color: #473B2D;">
+	By
+	<a href="mailto:writerkev@hotmail.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Kevin Vaughan</a>
+	<br>
+	Photos by
+	<a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Chris Schneider</a>
+</div>
+
+
+			<p>Sometime around 6 a.m. on Nov. 20, 1965, the Union Pacific's City of Denver streamliner roared past the place where 20 children had died. Herbert Frank Sommers manned the lead engine.</p>
+<p>Though he was 68, Herb still rode the rails, still guided thundering diesel locomotives up and down the tracks. Still worked the stretch where he had seen utter horror on Dec. 14, 1961, the day his engine slammed into a school bus, tearing it to pieces.</p>
+<p>That crossing had been like thousands of others in rural America &mdash; a dirt road with only a railroad "crossbuck" sign along the track, a place of tremendous danger for motorists and train crews alike.</p>
+<p>Every crossing like that one was a potential nightmare for engineers like Herb. Cars could go wherever a driver pointed them. Trains could go only where the tracks took them. Cars could stop quickly &mdash; in a few hundred feet, even at high speed. A fast-moving train could take hundreds of feet just to slow from its cruising speed and as much as a mile to come to a stop.</p>
+<p>On this day, nearly four years after the deadliest traffic accident in Colorado history, everything looked the same except the road, which had been moved. Traffic now crossed the tracks at a different place.</p>
+<p>It was five days before Thanksgiving. Herb had only an hour to live.</p>
+<p><strong>Hot, dirty work</strong></p>
+<p>Born in Cass County, Ind., Herb came to Denver as a boy with his parents, a sister and two brothers. His father sold real estate.</p>
+<p>Herb's parents died when he was a teenager, but he stayed in Colorado while his younger brother and sisters moved back to Indiana to live with relatives.</p>
+<p>The Union Pacific hired Herb on Oct. 12, 1918, and he went to work as a fireman. He was 21 years old.</p>
+<p>He married Anna Sack Miller in Littleton on June 13, 1922.</p>
+<p>His early years with the railroad were trying. When there wasn't enough work, he was furloughed &mdash; "suspended" in railroad talk. When things picked up, he was recalled.</p>
+<p>Union Pacific suspended and recalled him 11 times during his first 17 years on the job. But he stuck with it, and on Oct. 1, 1941, the railroad promoted him to engineer.</p>
+<p>The work could be hot and dirty. And dangerous.</p>
+<p>A few miles outside Sterling, Herb was at the throttle of a freight train when an axle snapped in the middle of the night on Feb. 27, 1953. Eleven cars jumped the rails, tearing out more than a quarter mile of tracks.</p>
+<p>On the fall morning of Sept. 23, 1954, Herb was backing a steam locomotive down the tracks outside the tiny town of Atwood in Colorado's northeast corner.</p>
+<p>The engine pulled a line of 15 cars loaded with crushed rock. It was a work train, moving about 20 mph toward a repair job.</p>
+<p>A few minutes after 8 a.m., 26-year-old Donald Welch slid behind the wheel of his butane tanker truck, waved goodbye to his two children and drove right into the path of the train. The engine slammed into the cab of the truck, crushing it and killing Welch.</p>
+<p>Another time, Herb was headed west near Firestone when a car smashed into the side of his freight train. Two of the three men in the car died.</p>
+<p>All of those crashes were horrible. But none approached the scale of what happened on Dec. 14, 1961, when the City of Denver, with Herb at the controls, tore through that school bus a few miles from Greeley.</p>
+<p>After the collision, after the train stopped nearly a mile down the rails, Herb pulled on his jacket and clambered out of the cab of his locomotive to find other members of the crew, to tell them they'd hit a school bus.</p>
+<p>He met the conductor, Raymond W. Courtney, along the tracks.</p>
+<p>They decided to back the train down the tracks, to try to find a telephone. Herb moved the train, stopping a few hundred yards from the remains of the bus. Other crew members rushed back with blankets to cover the dead, while Herb stayed with his locomotive.</p>
+<p>An hour later, authorities told Herb to go ahead and take the train and its passengers to Denver. Once there, he and the train crew got into cars and drove to Greeley for an early-afternoon hearing in a third-floor courtroom, organized so prosecutors could take testimony to try to determine exactly what happened.</p>
+<p>As Herb sat in the courtroom, he still wore his railroad overalls, his plaid shirt buttoned at the neck.</p>
+<p>His thinning hair was combed back neatly. He wore glasses.</p>
+<p>"I was absolutely helpless," Herb told reporters. "There was nothing I could do."</p>
+<p>He was sure that bus driver Duane Harms had not stopped before pulling in front of his locomotive. He was just as firm during Harms' trial a few months later, when the bus driver was acquitted of manslaughter.</p>
+<p><strong>Back to work</strong></p>
+<p>As shook up as Herb was, railroading was the only life he knew. He went back to work.</p>
+<p>He had reached an enviable position. As a senior engineer, he had his choice of the best jobs. And working a streamliner was the envy of young engineers.</p>
+<p>Well before dawn on Nov. 20, 1965, Herb awoke in Sterling, met the City of Denver at the station, climbed into the cab and began the final leg of the overnight Chicago-to-Denver run.</p>
+<p>By 6 a.m., he was just outside Greeley, where the train had hit the bus. An hour later, he was closing in on Denver.</p>
+<p>At 7:07 a.m., as the City of Denver streaked along at more than 70 mph, the lead locomotive approached a crossing at East 96th Avenue in Adams County. Herb was eight miles from Union Station.</p>
+<p>A gasoline tanker truck, freshly loaded with more than 9,000 gallons of fuel, jerked onto the tracks. It was halfway across when Herb's locomotive slammed into it.</p>
+<p>The impact ruptured the tanker, splashing a wave of gasoline over the lead engine and throwing the 40-year-old truck driver, Neal E. Davis, into a ditch. In an instant, a fireball shot from the locomotive, and flames raced through the brown grass along the tracks.</p>
+<p>The erupting fuel sent a shudder through a shed at the Denver Products Terminal, 150 yards from the tracks, and plant worker Willard C. Livermore rushed to the window.</p>
+<p>"At first I thought it was an earthquake, but when I looked out the window, all I could see was fire and smoke," Livermore said.</p>
+<p>"The train was still moving down the tracks. Its front was a huge ball of fire which flared out down about one-third of the length of the train."</p>
+<p>Livermore ran for the crossing.</p>
+<p>Raymond W. Courtney, the conductor who'd also been on the train that hit the school bus, felt a "slight bump."</p>
+<p>"Passengers had a funny look on their faces," he said. "Then I turned around and looked up toward the front of the train, and I saw a wave of flames."</p>
+<p>The train slowed to a stop nearly a mile from the spot where it had plowed into the tanker.</p>
+<p>Livermore found Davis on the ground, about 20 feet from the cab of his truck, severely burned. The flames had seared the clothes off Davis. Only his belt and the soles of his shoes remained.</p>
+<p>Firefighters rushed to the fiery locomotives at the head of the train, dousing the fire that remained. When they climbed into the charred cab of the lead locomotive, they found Herb and his fireman, 54-year-old Robert Nalty, the father of three daughters, dead.</p>
+<p>Three days later, Herb was buried in Fairmount Cemetery.</p>
+<p>Seven days later, Davis, the truck driver with a wife and three children, died at Colorado General Hospital.</p>
+<p><strong>A loss too great to bear</strong></p>
+<p>The pain of losing her husband of more than 43 years swallowed Anna Sommers.</p>
+<p>On Feb. 11, 1966, she carefully composed two letters. One was addressed to her sister and brother-in-law, Helen and Ryman Linge. The other was written to Herb's younger brother, Daniel.</p>
+<p>The widow assured everyone she loved them.</p>
+<p>She apologized for what she was about to do. She talked about how much she missed Herb. She detailed the type of funeral she wanted &mdash; just like Herb's.</p>
+<p>She said her attorney could handle all the details. She laid out the diet of her dog, Duke, and asked two friends to take care of him. Then she took a .38-caliber snub-nosed revolver and shot herself in the head.</p>
+<p>On Valentine's Day 1966, mourners gathered at a memorial service for Anna at the Moore Memorial Chapel on Clarkson Street in Denver.</p>
+<p>It was the same building where they had said goodbye to her husband less than three months earlier.</p>
+<p>Anna was taken to Fairmount Cemetery, where she was buried next to Herb beneath a headstone with a bronze medallion bearing the crest of the Brotherhood of Locomotive Firemen and Enginemen.</p>
+<p><b>NEXT:</b> <a href="/crossing_preview/chapters/21/" style="color: #000000;">Pushing on</a></p>
+
+
+		</div>
+	</div>
+
+	<br>
+
+	<div class="footer">
+	<!-- agreement -->
+	<p style="float: right; text-align: right;">2007 &copy; Rocky Mountain New Archives, Western History Collection, Denver Public Library<br /><a href="disclaimer.html">User Agreement</a><br /><a href="#contact">Questions? Comments? Talk to Us</a></p>
+	<!-- /agreement -->
+</div>
+
+</body>
+</center>
+</html>

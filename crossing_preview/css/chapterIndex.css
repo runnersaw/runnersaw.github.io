@@ -1,0 +1,13 @@
+#chapterIndexContainer { max-width: 750px; display: flex; flex-wrap: wrap; gap: 10px; padding-top: 10px; padding-bottom: 10px; }
+
+.chapterIndexItem { background-image: url(/crossing_preview/images/bgstatic.jpg); background-size: cover; flex-basis: 40%; flex-grow: 1; font-size: 12px; letter-spacing: .1em; line-height: 16px; color: #ccc; display: flex; }
+
+@media only screen and (max-width: 768px) { .chapterIndexItem { flex-basis: unset; flex-grow: unset; width: 100%; } }
+
+@media only screen and (max-width: 300px) { .chapterIndexItem { flex-direction: column; } }
+
+.chapterListItemImageContainer { display: inline-block; margin-top: 10px; max-width: 50%; }
+
+.chapterListItemContentContainer { display: inline-block; text-align: left; }
+
+/*# sourceMappingURL=chapterIndex.css.map */

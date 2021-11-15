@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88115230-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<title>The Crossing Story</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/crossing_preview/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/chapters.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/fonts.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/interactiveContent.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/crossing_preview/js/interactiveContent.js"></script>
+
+</head>
+<center>
+<body bgcolor="##000000">
+
+	<div class="header">
+	</div>
+
+	<div id="flashcontent" style="display: none; position: relative; z-index: 1; background-color:##000000; color: #ffffff; font-family: Arial; font-weight: bold; font-size: 18pt; width: 750px; @& width: 750px; background-image: url(/crossing_preview/images/backgroundNew.jpg);">
+		To view this content you must download and install Adobe Flash Player <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">here</a>.
+	</div>
+
+	<div id="interactiveContent">
+    <div id="interactiveContentBackground" class="interactiveContentCollapsedInitial">
+        
+            <div id="interactiveContentBackgroundOverlayImage" class="invisible">
+                <img id="interactiveContentImage" src="/crossing_preview/images/part1/interactive_background.jpg" draggable="false">
+            </div>
+        
+    </div>
+    <div id="interactiveContentMenuContainerBackground">
+        <div id="interactiveContentMenuContainer" class="interactiveContentMenuContainerInitial">
+            <div id="interactiveContentMenu">
+                <div id="interactiveContentMenuTitle">
+                    ECHOES
+                </div>
+
+                
+                    <div id="interactiveContentMenuChapter">
+                        CHAPTER 1 OF 33
+                    </div>
+                
+
+                <div id="interactiveContentMenuSubtitle">
+                    A child who survived the crash now drives a school bus. He is one of many whose lives unfolded in surprising ways.
+                </div>
+
+                <div id="interactiveContentMenuButtonContainer">
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="storyClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Story</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="videoClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Video</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="documentsClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Documents</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="photosClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Photos</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="discussClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Discuss</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="seriesIndexClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Series Index</p4>
+                            </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div id="interactiveVideoPlayer" class="interactiveContentFullSize invisible hidden">
+            <div id="videoPlayerContainer">
+                <div id="videoPlayerPlaceholder" onclick="playVideoClicked()">
+                    <div id="videoPlayerPlaceholderContainer" style="background-image: url(/crossing_preview/images/part1/video_placeholder.jpg">
+                        <div id="videoPlayerPlaceholderText-1" class="videoPlayerPlaceholderText">
+                            <h2 id="videoPlayerPlaceholderTextHeader-1" class="videoPlayerPlaceholderTextHeader">ECHOES</h2>
+                            <div id="videoPlayerPlaceholderTextContent-1" class="videoPlayerPlaceholderTextContent">
+                                <div id="videoPlayerPlaceholderTextDivider-1" class="videoPlayerPlaceholderTextDivider"></div>
+                                <p id="videoPlayerPlaceholderTextByline">Video by Tim Skillern</p>
+                                <p>Survivors and witnesses describe the devastation of the crash.</p>
+                                <p id="videoPlayerPlaceholderTextClickToPlay">Click play to begin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <video id="videoPlayer" preload="none">
+                    <source src="/videos/part1/video1.mp4">
+                </video>
+            </div>
+            <div id="videoPlayerControls">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <a onclick="closeVideoClicked()">
+                        CHAPTER MENU
+                    </a>
+                </div>
+                <a onclick="playVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
+                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                </a>
+                <a onclick="closeVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
+                </a>
+                <div id="playbackBar">
+                    <div id="playbackSelector"></div>
+                </div>
+                <p4 id="timeText">0:00</p4>
+            </div>
+        </div>
+    
+    <div id="interactivePhotoPlayer" class="interactiveContentFullSize invisible hidden">
+        <div id="photoPlayerContainer">
+            <div id="photoPlayerPhotoContainer">
+                
+                
+                    
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part1/lg/1.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part1/lg/2.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part1/lg/3.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part1/lg/4.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part1/lg/5.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part1/lg/6.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part1/lg/7.jpg">
+                        
+                    
+                
+            </div>
+            <div id="photoSlideCaption" class="invisible hidden">
+                
+                    
+                        
+                            <p4 id="photoSlideCaptionText-1" class="photoSlideCaptionText hidden">
+                                The Union Pacific tracks southeast of Greeley are quiet on a recent cloudy afternoon. On this spot on Dec. 14, 1961, a passenger train slashed through a school bus in the state's deadliest traffic accident. The road was later moved and no longer crosses the tracks in that spot. (CHRIS SCHNEIDER/ROCKY MOUNTAIN NEWS)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-2" class="photoSlideCaptionText hidden">
+                                Investigators, medics and onlookers examine the scene shortly after Union Pacific's City of Denver passenger train hit the school bus. The front section of the bus is in the center. The rear section is on the left side, near the utility poles.(COLORADO STATE PATROL/1961)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-3" class="photoSlideCaptionText hidden">
+                                A child's shoe and bloody schoolbooks remain amid the debris after the crash. The collision scattered wreckage, children and their belongings for more than 400 feet along the railroad tracks. (BOB WATERS/1961)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-4" class="photoSlideCaptionText hidden">
+                                An unidentified worker helps pick up debris in the aftermath of the collision. In the hours after the crash, hundreds of people streamed to the crossing. (BOB WATERS/1961)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-5" class="photoSlideCaptionText hidden">
+                                The front section of the bus, ripped open by the collision, rests on its side along the tracks as gawkers wander around the site. Most of the students seated in the front section of the bus survived. Most of those who died were seated near the back. (RED EDGERTON/1961)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-6" class="photoSlideCaptionText hidden">
+                                Investigators and volunteers walk along the tracks a few hours after the crash. It took authorities several hours to identify the 20 students who died. (BARBER PHOTOGRAPHY/1961)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-7" class="photoSlideCaptionText hidden">
+                                Two women cling to each other in the wake of the accident. As word of the crash spread, panicked parents rushed to the crossing. Some found their children dead. Others endured hours of confusion before learning whether their kids had survived. (JIM HITCH/GREELEY TRIBUNE/1961)
+                            </p4>
+                        
+                    
+                
+            </div>
+        </div>
+        <div id="photoPlayerControls">
+            <div>
+                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                <a onclick="closePhotoClicked()">
+                    <p>CHAPTER MENU</p>
+                </a>
+            </div>
+            <a onclick="previousPhotoClicked()">
+                <img src='/crossing_preview/images/rewind.svg'>
+            </a>
+            <a onclick="playPhotoClicked()">
+                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
+                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+            </a>
+            <a onclick="nextPhotoClicked()">
+                <img src='/crossing_preview/images/fast_forward.svg'>
+            </a>
+            <a onclick="captionsClicked()">
+                <p4>Captions</p4>
+            </a>
+            <p4 id="photoSlideshowState"></p4>
+        </div>
+    </div>
+</div>
+
+
+	<div id="contentContainer" align="left">
+
+		<div id="rightRail" class="rightRail">
+			<div class="photoBucket">
+				<div id="photoBucketImageContainer">
+					<img id="photoBucketImage" src="/crossing_preview/images/part1/story1.jpg" border="1">
+				</div>
+				Chris Schneider &copy; The Rocky
+
+				<div class="photoBucketCaption">
+					On these tracks in 1961, a Union Pacific train slammed into a school bus and killed 20 children. Since then, the road southeast of Greeley has been moved so that it crosses the tracks at a safer place.
+					<ul><li>
+						
+							<a href="#" onclick="photosClicked();" style="color: #000000; font-size: 12px; font-weight: bold;">More chapter 1 photos</a>
+						
+					</li></ul>
+				</div>
+			</div>
+
+			<div class="railBin">
+	<h3>Crossing chapters</h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color: #fff; font-weight: bold;">
+		Jump to:&nbsp;&nbsp;
+		<select id="jumper" onchange="if(this.value != '')location=this.value;">
+			<option value="/chapters/"></option>
+			<option id="jump_1" value="/chapters/1/">Chapter 1: ECHOES</option>
+			<option id="jump_2" value="/chapters/2/">Chapter 2: SIX DEGREES</option>
+			<option id="jump_3" value="/chapters/3/">Chapter 3: A TYPICAL MORNING</option>
+			<option id="jump_4" value="/chapters/4/">Chapter 4: ON THE CUSP</option>
+			<option id="jump_5" value="/chapters/5/">Chapter 5: 63 INCHES</option>
+			<option id="jump_6" value="/chapters/6/">Chapter 6: ALL OUT</option>
+			<option id="jump_7" value="/chapters/7/">Chapter 7: MEMORIES</option>
+			<option id="jump_8" value="/chapters/8/">Chapter 8: QUESTIONS</option>
+			<option id="jump_9" value="/chapters/9/">Chapter 9: TRIAL</option>
+			<option id="jump_10" value="/chapters/10/">Chapter 10: VERDICT</option>
+			<option id="jump_11" value="/chapters/11/">Chapter 11: REVERBERATIONS</option>
+			<option id="jump_12" value="/chapters/12/">Chapter 12: TESTED FAITH</option>
+			<option id="jump_13" value="/chapters/13/">Chapter 13: HOPE</option>
+			<option id="jump_14" value="/chapters/14/">Chapter 14: MELODY</option>
+			<option id="jump_15" value="/chapters/15/">Chapter 15: SILENCE</option>
+			<option id="jump_16" value="/chapters/16/">Chapter 16: DRIVER'S SEAT</option>
+			<option id="jump_17" value="/chapters/17/">Chapter 17: ALIVE</option>
+			<option id="jump_18" value="/chapters/18/">Chapter 18: LOSING EVERYTHING</option>
+			<option id="jump_19" value="/chapters/19/">Chapter 19: DEC. 14	</option>
+			<option id="jump_20" value="/chapters/20/">Chapter 20: LAST RUN</option>
+			<option id="jump_21" value="/chapters/21/">Chapter 21: PUSHING ON</option>
+			<option id="jump_22" value="/chapters/22/">Chapter 22: COMPLICATED GRIEF</option>
+			<option id="jump_23" value="/chapters/23/">Chapter 23: COINCIDENCE?</option>
+			<option id="jump_24" value="/chapters/24/">Chapter 24: IN THE SHADOWS</option>
+			<option id="jump_25" value="/chapters/25/">Chapter 25: MOVING ON</option>
+			<option id="jump_26" value="/chapters/26/">Chapter 26: HEARTBREAK</option>
+			<option id="jump_27" value="/chapters/27/">Chapter 27: NEVER SAY NEVER</option>
+			<option id="jump_28" value="/chapters/28/">Chapter 28: A CHRISTMAS WISH</option>
+			<option id="jump_29" value="/chapters/29/">Chapter 29: NEW LIFE</option>
+			<option id="jump_30" value="/chapters/30/">Chapter 30: FILLING THE VOID</option>
+			<option id="jump_31" value="/chapters/31/">Chapter 31: THE JUDGE</option>
+			<option id="jump_32" value="/chapters/32/">Chapter 32: PERSPECTIVE</option>
+			<option id="jump_33" value="/chapters/33/">Chapter 33: LEGACY</option>
+			<option id="jump_34" value="/chapters/34/">EPILOGUE</option>
+			<option id="jump_35" value="/extras/1/">EXTRAS</option>
+		</select>
+	</span>
+</div>
+
+
+			<div class="railBin">
+	<h3>Tools</h3>
+	<h4>Chapter 1 menu</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="/chapters/index/#part1">Series index</a></li>
+					<li><a href="#" onclick="chapterIndexClicked();">Chapter index</a></li>
+				</ul>
+			</td>
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Discuss</a></li>
+					<li><a href="/crossing_preview/images/part1/docs/Chapter1_anno.pdf" target="_blank">Sources</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<h4>Story tools</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Contact us</a></li>
+					<li><a href="/crossing_preview/images/part1/docs/print01.pdf" target="_blank">Story in print</a> (.pdf)</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+			
+				<div class="railBin" style="height: 130px;">
+	<h3>Video</h3>
+	<a href="#" onclick="videoClicked();">
+		<img src="/crossing_preview/videos/part1/still1.jpg" style="float: left; border: 1px solid #000; margin: 5px 10px 0 10px;" title="Survivors and witnesses describe the devastation of the crash.">
+	</a>
+	<p style="color: #DCD4B3;">Survivors and witnesses describe the devastation of the crash.</p>
+	<img src="/crossing_preview/images/arrow.gif" />
+	<a href="#" onclick="videoClicked();">Watch video</a>
+</div>
+
+			
+
+			
+				<a name="docs"></a>
+<div id="docs" class="railBin">
+	<h3>Documents & related links</h3>
+
+	<h4>Chapter 1 documents</h4>
+	<div style="margin-bottom: 8px;"></div>
+	<ul>
+		<li>
+			<a href="/crossing_preview/images/part1/docs/brochure.pdf#page=2" target="_blank">School bus brochure from Weld County District Attorney's Office file</a>
+		</li>
+		<li>
+			<a href="/crossing_preview/images/part1/docs/bus_rules.pdf" target="_blank">Portions of Colorado school bus regulations, 1959, from Weld County District Attorney's Office file. Underlines and notations by DA's office.</a>
+		</li>
+	</ul>
+
+	<h4>Related links</h4>
+	<div style="margin-bottom: 8px;"></div>
+	<ul>
+		<li>
+			<a href="/crossing_preview/extras/2">Temple: 'The Crossing' tells a powerful story</a>
+		</li>
+	</ul>
+</div>
+
+			
+
+			<div class="railBin">
+	<h3>Related content</h3>
+	<img src="/crossing_preview/images/survivors.jpg" style="float: left; border: 1px solid ##000; margin: -3px 10px 0 10px; @& margin: 0px 10px 0 10px;"><p style="color: #DCD4B3;">
+	<h4 style="margin-top: -10px;">Crossing forums</h4>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/DenverForumC.m4v">Forum at the Rocky Mountain News in Denver.</a>
+	<br>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/GreeleyForumC.mp4">Forum at the Union Colony Civic Center in Greeley.</a>
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="color: #fff; font-weight: bold;">
+			Podcasts:&nbsp;&nbsp;
+			<select name="podcasts" onchange="if(this.value != '')location=this.value;" style="margin-left: 20px;">
+				<option value="">--Select a Crossing podcast--</option>
+				<option value="/podcasts/01.mp3">Chapter 1</option>
+				<option value="/podcasts/02.mp3">Chapter 2</option>
+				<option value="/podcasts/03.mp3">Chapter 3</option>
+				<option value="/podcasts/04.mp3">Chapter 4</option>
+				<option value="/podcasts/05.mp3">Chapter 5</option>
+				<option value="/podcasts/06.mp3">Chapter 6</option>
+				<option value="/podcasts/07.mp3">Chapter 7</option>
+				<option value="/podcasts/08.mp3">Chapter 8</option>
+				<option value="/podcasts/09.mp3">Chapter 9</option>
+				<option value="/podcasts/10.mp3">Chapter 10</option>
+				<option value="/podcasts/11.mp3">Chapter 11</option>
+				<option value="/podcasts/12.mp3">Chapter 12</option>
+				<option value="/podcasts/13.mp3">Chapter 13</option>
+				<option value="/podcasts/14.mp3">Chapter 14</option>
+				<option value="/podcasts/15.mp3">Chapter 15</option>
+				<option value="/podcasts/16.mp3">Chapter 16</option>
+				<option value="/podcasts/17.mp3">Chapter 17</option>
+				<option value="/podcasts/18.mp3">Chapter 18</option>
+				<option value="/podcasts/19.mp3">Chapter 19</option>
+				<option value="/podcasts/20.mp3">Chapter 20</option>
+				<option value="/podcasts/21.mp3">Chapter 21</option>
+				<option value="/podcasts/22.mp3">Chapter 22</option>
+				<option value="/podcasts/23.mp3">Chapter 23</option>
+				<option value="/podcasts/24.mp3">Chapter 24</option>
+				<option value="/podcasts/25.mp3">Chapter 25</option>
+				<option value="/podcasts/26.mp3">Chapter 26</option>
+				<option value="/podcasts/27.mp3">Chapter 27</option>
+				<option value="/podcasts/28.mp3">Chapter 28</option>
+				<option value="/podcasts/29.mp3">Chapter 29</option>
+				<option value="/podcasts/30.mp3">Chapter 30</option>
+				<option value="/podcasts/31.mp3">Chapter 31</option>
+				<option value="/podcasts/32.mp3">Chapter 32</option>
+				<option value="/podcasts/33.mp3">Chapter 33</option>
+				<option value="/podcasts/34.mp3">Epilogue</option>
+			</select>
+		</span>
+	</p>
+</div>
+
+
+			<div class="railBin">
+	<h3>Acknowledgements</h3>
+	<div style="margin-left: 10px;">
+		<p style="color: #DCD4B3; font-size: 8pt;">"The Crossing" could only be told with the help of many people:</p>
+		<p style="color: #DCD4B3; font-size: 8pt;">- The more than 80 people touched by the tragedy of Dec. 14, 1961, who agreed to tell their stories.<br>- Bill and Mary Bohlender, who helped unearth numerous historic documents and provided numerous insights.<br>- Virginia Shelton and Mary Shelton Shafer, who provided numerous insights and access to attorney Jim Shelton's files.<br>- Keith Blue, who provided numerous insights.<br>- Peggy Ford and the staff at the City of Greeley Museums, Barbara Dey and the Hart Library staff at the Colorado History Museum and former Rocky librarian Carol Kasel, who all assisted with research.</p>
+	</div>
+</div>
+
+
+			<a name="contact"></a>
+<div id="contact" class="railBin">
+	<h3>Contact the series team</h3>
+	<ul>
+		<li>Reporter: <a href="mailto:writerkev@hotmail.com?subject=The%20Crossing">Kevin Vaughan</a></li>
+		<li>Photographer: <a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing">Chris Schneider</a></li>
+		<li>Video: <a href="mailto:timskillern@gmail.com?subject=The%20Crossing">Tim Skillern</a> & <a href="mailto:laressa@denverpromostudios.com?subject=The%20Crossing">Laressa Bachelor</a></li>
+		<li>Print designer: <a href="mailto:armandoarrieta10@gmail.com?subject=The%20Crossing">Armando Arrieta</a></li>
+		<li>Web designer: <a href="mailto:kharpe01@syr.edu?subject=The%20Crossing">Ken Harper</a></li>
+		<li>Web producer: <a href="mailto:">Forrest Stewart</a></li>
+		<li>Web developer: <a href="mailto:ck.nguyen79@gmail.com?subject=The%20Crossing">Chris Nguyen</a></li>
+		<li>Copy editor: <a href="mailto:diannerose@comcast.net?subject=The%20Crossing">Dianne Rose</a></li>
+		<li>Photo editor: <a href="mailto:dkrakel@gmail.com?subject=The%20Crossing">Dean Krakel</a></li>
+		<li>Imager: <a href="mailto:mariegriffin@gmail.com?subject=The%20Crossing">Marie Griffin</a></li>
+		<li>Interactive editor: <a href="mailto:michaelnoe@gmail.com?subject=The%20Crossing">Mike Noe</a></li>
+		<li>Project editor: <a href="mailto:carolhanner@gmail.com?subject=The%20Crossing">Carol Hanner</a></li>
+	</ul>
+</div>
+
+		</div>
+
+		<div id="textContainer">
+			<div style="font-size: 14pt; font-weight: bold; color: #473B2D;">
+	THE CROSSING: <span style="font-weight: normal; color: #8B6F57;">ECHOES</span>
+</div>
+
+	<div style="font-size: 10pt; font-weight: bold; color: #8B6F57;">CHAPTER 1 OF 33</div>
+
+
+			<br>
+			<div style="font-size: 10pt; font-weight: bold; color: #473B2D;">
+	By
+	<a href="mailto:writerkev@hotmail.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Kevin Vaughan</a>
+	<br>
+	Photos by
+	<a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Chris Schneider</a>
+</div>
+
+
+			<p>A slender school bus driver with a sun-beaten face and cowboy hands pulls up to the tracks.</p>
+<p>It is the first of 29 times he will navigate railroad crossings on this day in the cornfields and pastures of rural Weld County, close to the farm where he grew up.</p>
+<p>It is the first of 29 times he will flash back to a frigid morning from his childhood, to a lonely crossing that cuts through his memory, to tragedy.</p>
+<p>"That train came up through there that day," he says, peering out into a cold, dreary drizzle.</p>
+<p>He slides open a window to his left, pushes a button next to his seat. The door pops open in a blast of air.</p>
+<p>He listens for the shriek of a train whistle, for the rumble of a locomotive. He searches for the piercing beam of an engine's headlight, for movement on the rails, for trouble.</p>
+<p>The emergency flashers on the bus blink. Click. Click. Click. A row of grain cars sits idly on an adjacent rail line. A pickup's headlights puncture the gloom in the distance.</p>
+<p>Down the misty tracks, he sees nothing, hears nothing.</p>
+<p>In his mind, he sees back to 1961, to the day a yellow Union Pacific passenger train, streaking down these same tracks at close to 80 mph, slashed through a school bus less than five miles away.</p>
+<p>To the explosive collision that hurled 20 children, including his brother, to their deaths.</p>
+<p>In his mind, he hears a farmer's voice, telling him he'll be all right.</p>
+<p>He was 11 years old that day. He is 56 now. After a moment at the crossing, he slides the window closed, hits a switch to his left. The door snaps shut. He steps on the accelerator, and the bus groans forward.</p>
+<p><b>Dec. 14, 1961.</b> <em>The yellow school bus grinds along a crumbly dirt road, moving through the Auburn farming community five miles outside Greeley. Frost coats its windows after a night out in the cold.</em></p>
+<p><em>For generations, the farm kids had walked to the three-room Auburn school. But now it was closed. Now they had to climb up the steps of the bus, had to slide into its green vinyl seats for a roundabout ride to the schools in town.</em></p>
+<p>In the conference room of an administrative building a few miles outside Ca&#241;on City, a man sits beneath two inspirational posters, tears in his eyes.</p>
+<p>With neatly combed salt-and-pepper hair and wire-framed glasses, he looks like he should be standing in a classroom. And for much of his adult life, he was a teacher.</p>
+<p>Shop was his thing, and there among the lathes and the mills and the drill presses, he was alive, guiding his students, helping them build something functional, maybe even beautiful.</p>
+<p>It was the reward of putting himself through college, of fighting and clawing to get off the 320-acre farm where he grew up with a bushel of brothers and sisters and more heartbreak than anyone should be asked to endure.</p>
+<p>Outside the window is a tall silver fence, topped with coils of glistening razor wire.</p>
+<p>On one side of his green pullover shirt is a little clear pocket with a white tag tucked inside.</p>
+<p>He is prisoner No. 83609, and he's more than 12 years into a 40-year sentence because of what happened on Dec. 14, 1992, the anniversary of the worst traffic accident in Colorado history.</p>
+<p>The day he drove to school with bloody bedsheets in his pickup. The day a police officer handcuffed him and took him to jail.</p>
+<p>But he is not thinking about that, not just now.</p>
+<p>He is thinking of that December morning from his childhood, when a speeding train tore into a school bus a few miles from Greeley. He is asked if he would be in prison now if it weren't for what happened on that day in 1961.</p>
+<p>"Your whole life could have been different," he says.</p>
+<p><strong>Dec. 14, 1961.</strong> <em>Inside the small brick house, three rough-and-tumble boys shovel cereal into their mouths, anxious to get going. Normally, before leaving for school, they kneel on the kitchen floor with their mother for prayer. This day, there isn't time.</em></p>
+<p><em>One of the boys goes to the front window and peers past the trellis outside.</em></p>
+<p><em>"Here comes the bus," he calls to his brothers, and they are out the door, running for the corner, sack lunches in their hands.</em></p>
+<p>A woman in a pink plaid blouse gently runs her fingers back and forth along the faint horizontal cleft beneath her mouth.</p>
+<p>She feels a small lump, a piece of metal or glass &mdash; a physical reminder of her injuries.</p>
+<p>That's the easy part &mdash; finding the bump beneath the skin. What's harder is answering the questions that have surfaced through the years.</p>
+<p>She sits in the big, sunny living room of her longtime home on the edge of Greeley, silent for a moment, searching for the words that might help explain that day.</p>
+<p>The day she got up from her seat at the back of the bus and moved forward. The day her little brother moved from the front to the back. The day she lived and he died.</p>
+<p>The day her two friends &mdash; one sitting on either side of her &mdash; lost their lives.</p>
+<p>"It's like, why did I live and why did they die?" she says.</p>
+<p>"Especially my friends I was sitting with that day. Why was I the one to live of the three of us?"</p>
+<p>She stares off for a moment.</p>
+<p>"I don't think that you can prevent those thoughts from happening," she says.</p>
+<p>"What prompted Steven and I to almost literally trade places on the bus in two stops? It's like, why did we move? You just wonder."</p>
+<p>A few moments later, she is quiet. "Why were we prompted to change places?" she asks.</p>
+<p>"Why was it me who lived, and he died?"</p>
+<p>She looks away, sits in silence, unable to find an answer.</p>
+<p><b>Dec. 14, 1961.</b> <em>The City of Denver streamliner rushes toward Auburn at 80 mph.</em></p>
+<p><em>A noisy, powerful beast stretching 1,540 feet, she thumps past lonesome fields and quiet towns.</em></p>
+<p><em>Inside, she carries 173 passengers on the last leg of the overnight trip from Chicago to Denver. Some of them head for the dining car to eat breakfast in luxury, with pressed tablecloths and gleaming china.</em></p>
+<p><em>But the City of Denver's brute strength and her mechanical beauty cannot change one thing: She is late.</em></p>
+<p>A lanky man in a Detroit Tigers baseball cap stands on the front porch of a simple white home in Southern California.</p>
+<p>He offers a faint smile and a firm handshake.</p>
+<p>After that awful day at the crossing, he ran from the death and the sadness and the bad feelings, fled Colorado, fled heartbreak. But heartbreak chased him down.</p>
+<p>Today, in what should be a comfortable life with his wife, he seldom sees her. She is confined to a mental institution, often unaware of what is going on around her, unwilling to take medication that might make her more rational.</p>
+<p>His grown daughter spends her days inside his darkened home, behind the curtains drawn tight. Mental illness has hold of her, too, and she rarely ventures outside.</p>
+<p>"We all have our struggles," he says.</p>
+<p>All of these people are strangers, really. Yet they are bound by the same moment in the brown farm fields southeast of Greeley, in a place called Auburn, at the crossing. Even now, the pain of that day is difficult to comprehend.</p>
+<p>Five families lost two children each, and two of those families had no other kids. Cousins died. One boy's life ended on his 10th birthday. Brothers and sisters lived, while their siblings perished.</p>
+<p>For those left behind, that dark day reverberates in different ways. Some can't talk about it without feeling the burn of tears in their eyes.</p>
+<p>Some remember it with a detachment almost devoid of emotion, as though it happened to someone else.</p>
+<p>Some give it credit for helping them do good things in their lives.</p>
+<p>But no matter where they are and what they do, they all wonder the same thing from time to time:</p>
+<p>How would things be different if the train hadn't hit the bus?</p>
+<p>They all have moments when a locomotive's shrill whistle or a bright yellow school bus takes them back. Back to a wintry morning outside Greeley, when snow powdered the ground, a haze hung in the early-morning light and the temperature hovered at 6 degrees. Back to the day a sleek, speedy passenger train and a boxy, slow school bus both headed west.</p>
+<p>Back to a Thursday. To Dec. 14, 1961.</p>
+<p><strong>NEXT:</strong> <a href="/crossing_preview/chapters/2/" style="color: #000000;">Six degrees</a></p>
+
+		</div>
+	</div>
+
+	<br>
+
+	<div class="footer">
+	<!-- agreement -->
+	<p style="float: right; text-align: right;">2007 &copy; Rocky Mountain New Archives, Western History Collection, Denver Public Library<br /><a href="disclaimer.html">User Agreement</a><br /><a href="#contact">Questions? Comments? Talk to Us</a></p>
+	<!-- /agreement -->
+</div>
+
+</body>
+</center>
+</html>

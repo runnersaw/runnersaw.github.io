@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88115230-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<title>The Crossing Story</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/crossing_preview/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/chapters.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/fonts.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/interactiveContent.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/crossing_preview/js/interactiveContent.js"></script>
+
+</head>
+<center>
+<body bgcolor="##000000">
+
+	<div class="header">
+	</div>
+
+	<div id="flashcontent" style="display: none; position: relative; z-index: 1; background-color:##000000; color: #ffffff; font-family: Arial; font-weight: bold; font-size: 18pt; width: 750px; @& width: 750px; background-image: url(/crossing_preview/images/backgroundNew.jpg);">
+		To view this content you must download and install Adobe Flash Player <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">here</a>.
+	</div>
+
+	<div id="interactiveContent">
+    <div id="interactiveContentBackground" class="interactiveContentCollapsedInitial">
+        
+            <img id="interactiveContentImageNonInteractive" class="invisible" src="/crossing_preview/images/part28/interactive_background.jpg" draggable="false">
+        
+    </div>
+    <div id="interactiveContentMenuContainerBackground">
+        <div id="interactiveContentMenuContainer" class="interactiveContentMenuContainerInitial">
+            <div id="interactiveContentMenu">
+                <div id="interactiveContentMenuTitle">
+                    A CHRISTMAS WISH
+                </div>
+
+                
+                    <div id="interactiveContentMenuChapter">
+                        CHAPTER 28 OF 33
+                    </div>
+                
+
+                <div id="interactiveContentMenuSubtitle">
+                    Nancy Alles ended up in a body cast after the accident, but she wouldn't give up on being home for Christmas.
+                </div>
+
+                <div id="interactiveContentMenuButtonContainer">
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="storyClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Story</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton interactiveContentMenuButtonDisabled">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Video</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="documentsClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Documents</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="photosClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Photos</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="discussClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Discuss</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="seriesIndexClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Series Index</p4>
+                            </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div id="interactiveVideoPlayer" class="invisible hidden disabled"></div>
+    
+    <div id="interactivePhotoPlayer" class="interactiveContentFullSize invisible hidden">
+        <div id="photoPlayerContainer">
+            <div id="photoPlayerPhotoContainer">
+                
+                
+                    
+                
+            </div>
+            <div id="photoSlideCaption" class="invisible hidden">
+                
+                    
+                
+            </div>
+        </div>
+        <div id="photoPlayerControls">
+            <div>
+                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                <a onclick="closePhotoClicked()">
+                    <p>CHAPTER MENU</p>
+                </a>
+            </div>
+            <a onclick="previousPhotoClicked()">
+                <img src='/crossing_preview/images/rewind.svg'>
+            </a>
+            <a onclick="playPhotoClicked()">
+                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
+                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+            </a>
+            <a onclick="nextPhotoClicked()">
+                <img src='/crossing_preview/images/fast_forward.svg'>
+            </a>
+            <a onclick="captionsClicked()">
+                <p4>Captions</p4>
+            </a>
+            <p4 id="photoSlideshowState"></p4>
+        </div>
+    </div>
+</div>
+
+
+	<div id="contentContainer" align="left">
+
+		<div id="rightRail" class="rightRail">
+			<div class="photoBucket">
+				<div id="photoBucketImageContainer">
+					<img id="photoBucketImage" src="/crossing_preview/images/part28/story28.jpg" border="1">
+				</div>
+				Chris Schneider &copy; The Rocky
+
+				<div class="photoBucketCaption">
+					Nancy Alles Stroh, standing on the tracks outside Greeley where the train-bus crash occurred, suffered a broken back but recovered. She lost two cousins, but she does not dwell on the accident: "Once in a while when I go across a railroad track, I'll think about it."
+					<ul><li>
+						
+							<a href="#" onclick="photosClicked();" style="color: #000000; font-size: 12px; font-weight: bold;">More chapter 28 photos</a>
+						
+					</li></ul>
+				</div>
+			</div>
+
+			<div class="railBin">
+	<h3>Crossing chapters</h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color: #fff; font-weight: bold;">
+		Jump to:&nbsp;&nbsp;
+		<select id="jumper" onchange="if(this.value != '')location=this.value;">
+			<option value="/chapters/"></option>
+			<option id="jump_1" value="/chapters/1/">Chapter 1: ECHOES</option>
+			<option id="jump_2" value="/chapters/2/">Chapter 2: SIX DEGREES</option>
+			<option id="jump_3" value="/chapters/3/">Chapter 3: A TYPICAL MORNING</option>
+			<option id="jump_4" value="/chapters/4/">Chapter 4: ON THE CUSP</option>
+			<option id="jump_5" value="/chapters/5/">Chapter 5: 63 INCHES</option>
+			<option id="jump_6" value="/chapters/6/">Chapter 6: ALL OUT</option>
+			<option id="jump_7" value="/chapters/7/">Chapter 7: MEMORIES</option>
+			<option id="jump_8" value="/chapters/8/">Chapter 8: QUESTIONS</option>
+			<option id="jump_9" value="/chapters/9/">Chapter 9: TRIAL</option>
+			<option id="jump_10" value="/chapters/10/">Chapter 10: VERDICT</option>
+			<option id="jump_11" value="/chapters/11/">Chapter 11: REVERBERATIONS</option>
+			<option id="jump_12" value="/chapters/12/">Chapter 12: TESTED FAITH</option>
+			<option id="jump_13" value="/chapters/13/">Chapter 13: HOPE</option>
+			<option id="jump_14" value="/chapters/14/">Chapter 14: MELODY</option>
+			<option id="jump_15" value="/chapters/15/">Chapter 15: SILENCE</option>
+			<option id="jump_16" value="/chapters/16/">Chapter 16: DRIVER'S SEAT</option>
+			<option id="jump_17" value="/chapters/17/">Chapter 17: ALIVE</option>
+			<option id="jump_18" value="/chapters/18/">Chapter 18: LOSING EVERYTHING</option>
+			<option id="jump_19" value="/chapters/19/">Chapter 19: DEC. 14	</option>
+			<option id="jump_20" value="/chapters/20/">Chapter 20: LAST RUN</option>
+			<option id="jump_21" value="/chapters/21/">Chapter 21: PUSHING ON</option>
+			<option id="jump_22" value="/chapters/22/">Chapter 22: COMPLICATED GRIEF</option>
+			<option id="jump_23" value="/chapters/23/">Chapter 23: COINCIDENCE?</option>
+			<option id="jump_24" value="/chapters/24/">Chapter 24: IN THE SHADOWS</option>
+			<option id="jump_25" value="/chapters/25/">Chapter 25: MOVING ON</option>
+			<option id="jump_26" value="/chapters/26/">Chapter 26: HEARTBREAK</option>
+			<option id="jump_27" value="/chapters/27/">Chapter 27: NEVER SAY NEVER</option>
+			<option id="jump_28" value="/chapters/28/">Chapter 28: A CHRISTMAS WISH</option>
+			<option id="jump_29" value="/chapters/29/">Chapter 29: NEW LIFE</option>
+			<option id="jump_30" value="/chapters/30/">Chapter 30: FILLING THE VOID</option>
+			<option id="jump_31" value="/chapters/31/">Chapter 31: THE JUDGE</option>
+			<option id="jump_32" value="/chapters/32/">Chapter 32: PERSPECTIVE</option>
+			<option id="jump_33" value="/chapters/33/">Chapter 33: LEGACY</option>
+			<option id="jump_34" value="/chapters/34/">EPILOGUE</option>
+			<option id="jump_35" value="/extras/1/">EXTRAS</option>
+		</select>
+	</span>
+</div>
+
+
+			<div class="railBin">
+	<h3>Tools</h3>
+	<h4>Chapter 28 menu</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="/chapters/index/#part28">Series index</a></li>
+					<li><a href="#" onclick="chapterIndexClicked();">Chapter index</a></li>
+				</ul>
+			</td>
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Discuss</a></li>
+					<li><a href="/crossing_preview/images/part28/docs/Chapter28_anno.pdf" target="_blank">Sources</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<h4>Story tools</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Contact us</a></li>
+					<li><a href="/crossing_preview/images/part28/docs/print28.pdf" target="_blank">Story in print</a> (.pdf)</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+			
+
+			
+				
+
+
+			
+
+			<div class="railBin">
+	<h3>Related content</h3>
+	<img src="/crossing_preview/images/survivors.jpg" style="float: left; border: 1px solid ##000; margin: -3px 10px 0 10px; @& margin: 0px 10px 0 10px;"><p style="color: #DCD4B3;">
+	<h4 style="margin-top: -10px;">Crossing forums</h4>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/DenverForumC.m4v">Forum at the Rocky Mountain News in Denver.</a>
+	<br>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/GreeleyForumC.mp4">Forum at the Union Colony Civic Center in Greeley.</a>
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="color: #fff; font-weight: bold;">
+			Podcasts:&nbsp;&nbsp;
+			<select name="podcasts" onchange="if(this.value != '')location=this.value;" style="margin-left: 20px;">
+				<option value="">--Select a Crossing podcast--</option>
+				<option value="/podcasts/01.mp3">Chapter 1</option>
+				<option value="/podcasts/02.mp3">Chapter 2</option>
+				<option value="/podcasts/03.mp3">Chapter 3</option>
+				<option value="/podcasts/04.mp3">Chapter 4</option>
+				<option value="/podcasts/05.mp3">Chapter 5</option>
+				<option value="/podcasts/06.mp3">Chapter 6</option>
+				<option value="/podcasts/07.mp3">Chapter 7</option>
+				<option value="/podcasts/08.mp3">Chapter 8</option>
+				<option value="/podcasts/09.mp3">Chapter 9</option>
+				<option value="/podcasts/10.mp3">Chapter 10</option>
+				<option value="/podcasts/11.mp3">Chapter 11</option>
+				<option value="/podcasts/12.mp3">Chapter 12</option>
+				<option value="/podcasts/13.mp3">Chapter 13</option>
+				<option value="/podcasts/14.mp3">Chapter 14</option>
+				<option value="/podcasts/15.mp3">Chapter 15</option>
+				<option value="/podcasts/16.mp3">Chapter 16</option>
+				<option value="/podcasts/17.mp3">Chapter 17</option>
+				<option value="/podcasts/18.mp3">Chapter 18</option>
+				<option value="/podcasts/19.mp3">Chapter 19</option>
+				<option value="/podcasts/20.mp3">Chapter 20</option>
+				<option value="/podcasts/21.mp3">Chapter 21</option>
+				<option value="/podcasts/22.mp3">Chapter 22</option>
+				<option value="/podcasts/23.mp3">Chapter 23</option>
+				<option value="/podcasts/24.mp3">Chapter 24</option>
+				<option value="/podcasts/25.mp3">Chapter 25</option>
+				<option value="/podcasts/26.mp3">Chapter 26</option>
+				<option value="/podcasts/27.mp3">Chapter 27</option>
+				<option value="/podcasts/28.mp3">Chapter 28</option>
+				<option value="/podcasts/29.mp3">Chapter 29</option>
+				<option value="/podcasts/30.mp3">Chapter 30</option>
+				<option value="/podcasts/31.mp3">Chapter 31</option>
+				<option value="/podcasts/32.mp3">Chapter 32</option>
+				<option value="/podcasts/33.mp3">Chapter 33</option>
+				<option value="/podcasts/34.mp3">Epilogue</option>
+			</select>
+		</span>
+	</p>
+</div>
+
+
+			<div class="railBin">
+	<h3>Acknowledgements</h3>
+	<div style="margin-left: 10px;">
+		<p style="color: #DCD4B3; font-size: 8pt;">"The Crossing" could only be told with the help of many people:</p>
+		<p style="color: #DCD4B3; font-size: 8pt;">- The more than 80 people touched by the tragedy of Dec. 14, 1961, who agreed to tell their stories.<br>- Bill and Mary Bohlender, who helped unearth numerous historic documents and provided numerous insights.<br>- Virginia Shelton and Mary Shelton Shafer, who provided numerous insights and access to attorney Jim Shelton's files.<br>- Keith Blue, who provided numerous insights.<br>- Peggy Ford and the staff at the City of Greeley Museums, Barbara Dey and the Hart Library staff at the Colorado History Museum and former Rocky librarian Carol Kasel, who all assisted with research.</p>
+	</div>
+</div>
+
+
+			<a name="contact"></a>
+<div id="contact" class="railBin">
+	<h3>Contact the series team</h3>
+	<ul>
+		<li>Reporter: <a href="mailto:writerkev@hotmail.com?subject=The%20Crossing">Kevin Vaughan</a></li>
+		<li>Photographer: <a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing">Chris Schneider</a></li>
+		<li>Video: <a href="mailto:timskillern@gmail.com?subject=The%20Crossing">Tim Skillern</a> & <a href="mailto:laressa@denverpromostudios.com?subject=The%20Crossing">Laressa Bachelor</a></li>
+		<li>Print designer: <a href="mailto:armandoarrieta10@gmail.com?subject=The%20Crossing">Armando Arrieta</a></li>
+		<li>Web designer: <a href="mailto:kharpe01@syr.edu?subject=The%20Crossing">Ken Harper</a></li>
+		<li>Web producer: <a href="mailto:">Forrest Stewart</a></li>
+		<li>Web developer: <a href="mailto:ck.nguyen79@gmail.com?subject=The%20Crossing">Chris Nguyen</a></li>
+		<li>Copy editor: <a href="mailto:diannerose@comcast.net?subject=The%20Crossing">Dianne Rose</a></li>
+		<li>Photo editor: <a href="mailto:dkrakel@gmail.com?subject=The%20Crossing">Dean Krakel</a></li>
+		<li>Imager: <a href="mailto:mariegriffin@gmail.com?subject=The%20Crossing">Marie Griffin</a></li>
+		<li>Interactive editor: <a href="mailto:michaelnoe@gmail.com?subject=The%20Crossing">Mike Noe</a></li>
+		<li>Project editor: <a href="mailto:carolhanner@gmail.com?subject=The%20Crossing">Carol Hanner</a></li>
+	</ul>
+</div>
+
+		</div>
+
+		<div id="textContainer">
+			<div style="font-size: 14pt; font-weight: bold; color: #473B2D;">
+	THE CROSSING: <span style="font-weight: normal; color: #8B6F57;">A CHRISTMAS WISH</span>
+</div>
+
+	<div style="font-size: 10pt; font-weight: bold; color: #8B6F57;">CHAPTER 28 OF 33</div>
+
+
+			<br>
+			<div style="font-size: 10pt; font-weight: bold; color: #473B2D;">
+	By
+	<a href="mailto:writerkev@hotmail.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Kevin Vaughan</a>
+	<br>
+	Photos by
+	<a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Chris Schneider</a>
+</div>
+
+
+			<p>The book is sturdy, bound in a crisp off-white cover. Embossed in gold on the front is its title: "April Showers Brought ... Me!" Written in 1966, when she was a sophomore in high school, it is the autobiography of Nancy Alles.</p>
+<p>The chapters, typed neatly on onion-skin pages, have titles any 16-year-old might write, from "My Birth and Family" to "My Summer Vacations" to "My Future Plans."</p>
+<p>But one chapter stands out.</p>
+<p>Chapter 3, "Dark Memories," begins simply: "The most tragic day in my life occurred on Dec. 14, 1961. On this dreadful day a school bus and a Union Pacific train met at a railroad crossing."</p>
+<p>The collision left her wrapped in a body cast for three months, followed by a back brace for six more. It killed her two cousins, Cindy Dorn and Linda Alles.</p>
+<p>"I am unable to remember any portion of the actual accident or anything that followed it for three days," she wrote in her book. "I was unconscious during this time. I am very thankful that I was spared the dreadful sights of the accident and the days that followed it.</p>
+<p>"I was one of the fortunate ones. I suffered four broken vertebrae and two broken ribs, however."</p>
+<p>Forty years after typing those words, Nancy Alles Stroh sits in a blue swivel-rocker in the living room of her home in Oshkosh, Wis. The sun spills down from two skylights and pours through the patio doors that look out on a golf course. Over the past 15 years she has fulfilled her teenage ambition to teach home economics.</p>
+<p>She is a pleasant woman who smiles easily, who laughs at memories, who bakes a strawberry pie for visitors, who volunteers to cook at her church camp each summer.</p>
+<p>She has faced difficult times. Her marriage gave her two beautiful daughters but ended in divorce. Last April her younger brother, Randy, suffered a heart attack and died on the Weld County farm where she grew up, where her family has been rooted for three generations.</p>
+<p>Her religious faith is strong. She prays before each meal. As she talks, she sits beneath a framed needlework piece that reads, <p>"Life is fragile, handle with prayer."</p>
+<p>"I know for sure that out of the worst situation God can bring good from it," she says. "Every bad thing that happens, they are not because God made them happen."</p>
+<p>Nancy Alles grew up surrounded by aunts and uncles and cousins who also were her neighbors.</p>
+<p>All four of her grandparents were German-Russian immigrants, and they all lived in the Auburn area just a few miles outside Greeley. Her home sat on land where her father, Herman Alles, grew up.</p>
+<p>Across the washboard road was the home of her dad's brother, Ruben Alles, his wife, Marie, and their five children. One was her cousin Olinda Louella &mdash; Linda to everyone &mdash; who was a year younger than Nancy.</p>
+<p>Down the road and around a corner, north of the Auburn school, was the farm of her father's sister, Esther Dorn, and her husband, Herman. They had two children, Wayne and Cindy, who was seven months younger than Nancy.</p>
+<p>A grandmother lived a mile away. All around were the farms of her aunts and uncles, eight in all. Today, as Nancy flips through a childhood scrapbook with small black-and-white school pictures pasted on its gray pages, she points to one person after another and says, "He's a cousin" and "She's a cousin."</p>
+<p>Her parents farmed 160 acres. Corn. Alfalfa. Pinto beans. Sugar beets. They grew vegetables in the garden for their table, raised cattle and chickens for their meat, milked their own cows.</p>
+<p><b>Doing chores</b></p>
+<p>Some days, young Nancy picked weeds out in the field or collected eggs in the henhouse, a job she didn't like, especially when she had to grab a hoe handle and poke a hen to get her to move off the nest.</p>
+<p>Other days, she plucked feathers from newly butchered chickens. She hated that job. As she talks about it, she crinkles up her face, remembering the smell of a dead chicken dunked in boiling water to make it easier to pluck.</p>
+<p>For fun, she rode her bicycle down the dirt path that cut through her farm to an irrigation ditch, out to a bumpy gravel road, up to the Auburn school.</p>
+<p>She baby-sat for her little brother, Randy, who would hide from her.</p>
+<p>"I'd call and call, and then I'd find him and be so mad," she says. "He'd laugh &mdash; he thought that was so funny."</p>
+<p>Food was plentiful, spiced by the old country &mdash; coffee cake they called <i>dina kuchen</i>, krautburgers, dumplings filled with cottage cheese or cherries, noodle soup with butter balls on top, and <i>grebble</i>, a fried pastry dough sprinkled with sugar. There were quilting bees at her grandmother's home, where young Nancy's job was to thread the needles for her aunts.</p>
+<p>Her parents knew loss. Three years before Nancy was born, their first child, Larry, got sick with croup and a bad cold. They called a doctor that night. They were told to bring him in the next day.</p>
+<p>By morning, Larry was gone.</p>
+<p>Herman and Louise Alles endured. They were blessed with Nancy and Randy, a productive farm and a steadfast faith.</p>
+<p><b>A plaster cast</b></p>
+<p>On Dec. 14, 1961, the three cousins got on the bus. Nancy and Cindy were 11; Linda was 10.</p>
+<p>In Nancy's memory, it was "just the typical talking and laughing and being kids" kind of morning.</p>
+<p>After driver Duane Harms picked up the 36th child, he approached the crossing. Nancy remembers stopping. She doesn't remember what happened next.</p>
+<p>"I just remember kind of waking up and hearing moaning and groaning and crying, and then a man came and helped me get to my feet and put me in the back of the station wagon and I went to the hospital," she says.</p>
+<p>For three days, she was in and out of consciousness.</p>
+<p>Once she was more alert, she wondered where she was and why she was there. A plaster cast covered her body from armpits to hips.</p>
+<p>Her parents tried to explain what happened. That's when she found out her two cousins had died.</p>
+<p>At the Dorns' small home, Cindy's parents found the cuckoo clock on her bedroom wall had stopped after the accident. It stopped a tick before 8 a.m. &mdash; the exact moment the train bashed into the bus.</p>
+<p>For a long time, Cindy's parents didn't touch her room. When they finally went through it, they found Christmas cards that Cindy made and hid away &mdash; holiday greetings she never got to deliver.</p>
+<p>Nancy stayed home for three months, working with a tutor, wearing out fly swatters she slipped down her back to scratch the incessant itching beneath the cast.</p>
+<p>She grappled with questions. Why did she survive? Why were Cindy and Linda gone?</p>
+<p>"I remember almost feeling guilty that I was here and they were gone," she says. "I just felt so bad for them."</p>
+<p>Her Aunt Esther, Cindy's mom, struggled with the death of her only daughter.</p>
+<p>"I couldn't help but think, I'm sure as you're watching me grow up, you must be thinking, 'That's what Cindy would look like,'" Nancy says.</p>
+<p>Esther would make little comments: "Cindy used to like to do that at Christmas," and "I remember a time when Cindy did that."</p>
+<p><b>A happy morning</b></p>
+<p>Not all the memories of the accident are dark.</p>
+<p>As Christmas approached, Nancy was still in the hospital, facing a long recovery. She wanted to be home.</p>
+<p>Her parents rented a hospital bed, and on Dec. 23, nine days after the crash, she rode home in the back of an ambulance. She found the hospital bed in the living room, its headboard just a few inches from the Christmas tree covered in brightly colored lights.</p>
+<p>She cannot remember the gifts she got &mdash; at least not the ones wrapped up under the tree. But she can clearly remember Christmas morning. Her parents stepped up next to her bed and reached out for her.</p>
+<p>A moment later, for the first time since the accident, she stood up.</p>
+<p><b>NEXT:</b> <a href="/crossing_preview/chapters/29/" style="color: #000000;">New life</a></p>
+
+</p>
+
+		</div>
+	</div>
+
+	<br>
+
+	<div class="footer">
+	<!-- agreement -->
+	<p style="float: right; text-align: right;">2007 &copy; Rocky Mountain New Archives, Western History Collection, Denver Public Library<br /><a href="disclaimer.html">User Agreement</a><br /><a href="#contact">Questions? Comments? Talk to Us</a></p>
+	<!-- /agreement -->
+</div>
+
+</body>
+</center>
+</html>

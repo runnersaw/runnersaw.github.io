@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88115230-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<title>The Crossing Story</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/crossing_preview/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/chapters.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/fonts.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/interactiveContent.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/crossing_preview/js/interactiveContent.js"></script>
+
+</head>
+<center>
+<body bgcolor="##000000">
+
+	<div class="header">
+	</div>
+
+	<div id="flashcontent" style="display: none; position: relative; z-index: 1; background-color:##000000; color: #ffffff; font-family: Arial; font-weight: bold; font-size: 18pt; width: 750px; @& width: 750px; background-image: url(/crossing_preview/images/backgroundNew.jpg);">
+		To view this content you must download and install Adobe Flash Player <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">here</a>.
+	</div>
+
+	<div id="interactiveContent">
+    <div id="interactiveContentBackground" class="interactiveContentCollapsedInitial">
+        
+            <img id="interactiveContentImageNonInteractive" class="invisible" src="/crossing_preview/images/part4/interactive_background.jpg" draggable="false">
+        
+    </div>
+    <div id="interactiveContentMenuContainerBackground">
+        <div id="interactiveContentMenuContainer" class="interactiveContentMenuContainerInitial">
+            <div id="interactiveContentMenu">
+                <div id="interactiveContentMenuTitle">
+                    ON THE CUSP
+                </div>
+
+                
+                    <div id="interactiveContentMenuChapter">
+                        CHAPTER 4 OF 33
+                    </div>
+                
+
+                <div id="interactiveContentMenuSubtitle">
+                    In the nation, in Colorado and in the farming community of Auburn, 1961 was a time of great change.
+                </div>
+
+                <div id="interactiveContentMenuButtonContainer">
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="storyClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Story</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="videoClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Video</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="documentsClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Documents</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="photosClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Photos</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="discussClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Discuss</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="seriesIndexClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Series Index</p4>
+                            </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div id="interactiveVideoPlayer" class="interactiveContentFullSize invisible hidden">
+            <div id="videoPlayerContainer">
+                <div id="videoPlayerPlaceholder" onclick="playVideoClicked()">
+                    <div id="videoPlayerPlaceholderContainer" style="background-image: url(/crossing_preview/images/part4/video_placeholder.jpg">
+                        <div id="videoPlayerPlaceholderText-4" class="videoPlayerPlaceholderText">
+                            <h2 id="videoPlayerPlaceholderTextHeader-4" class="videoPlayerPlaceholderTextHeader">ON THE CUSP</h2>
+                            <div id="videoPlayerPlaceholderTextContent-4" class="videoPlayerPlaceholderTextContent">
+                                <div id="videoPlayerPlaceholderTextDivider-4" class="videoPlayerPlaceholderTextDivider"></div>
+                                <p id="videoPlayerPlaceholderTextByline">Video by Tim Skillern</p>
+                                <p>A closer look at the lives of three families affected by the tragedy.</p>
+                                <p id="videoPlayerPlaceholderTextClickToPlay">Click play to begin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <video id="videoPlayer" preload="none">
+                    <source src="/videos/part4/video4.mp4">
+                </video>
+            </div>
+            <div id="videoPlayerControls">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <a onclick="closeVideoClicked()">
+                        CHAPTER MENU
+                    </a>
+                </div>
+                <a onclick="playVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
+                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                </a>
+                <a onclick="closeVideoClicked()">
+                    <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
+                </a>
+                <div id="playbackBar">
+                    <div id="playbackSelector"></div>
+                </div>
+                <p4 id="timeText">0:00</p4>
+            </div>
+        </div>
+    
+    <div id="interactivePhotoPlayer" class="interactiveContentFullSize invisible hidden">
+        <div id="photoPlayerContainer">
+            <div id="photoPlayerPhotoContainer">
+                
+                
+                    
+                
+            </div>
+            <div id="photoSlideCaption" class="invisible hidden">
+                
+                    
+                
+            </div>
+        </div>
+        <div id="photoPlayerControls">
+            <div>
+                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                <a onclick="closePhotoClicked()">
+                    <p>CHAPTER MENU</p>
+                </a>
+            </div>
+            <a onclick="previousPhotoClicked()">
+                <img src='/crossing_preview/images/rewind.svg'>
+            </a>
+            <a onclick="playPhotoClicked()">
+                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
+                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+            </a>
+            <a onclick="nextPhotoClicked()">
+                <img src='/crossing_preview/images/fast_forward.svg'>
+            </a>
+            <a onclick="captionsClicked()">
+                <p4>Captions</p4>
+            </a>
+            <p4 id="photoSlideshowState"></p4>
+        </div>
+    </div>
+</div>
+
+
+	<div id="contentContainer" align="left">
+
+		<div id="rightRail" class="rightRail">
+			<div class="photoBucket">
+				<div id="photoBucketImageContainer">
+					<img id="photoBucketImage" src="/crossing_preview/images/part4/story4.jpg" border="1">
+				</div>
+				Courtesy Greeley History Museum
+
+				<div class="photoBucketCaption">
+					Children pose in front of the old Auburn school in this undated photo. Consolidations meant that many small schools in Colorado, like this three-room building, were closed. Beginning in 1961, the children of the Auburn community were bused to Greeley schools.
+					<ul><li>
+						
+							<a href="#" onclick="photosClicked();" style="color: #000000; font-size: 12px; font-weight: bold;">More chapter 4 photos</a>
+						
+					</li></ul>
+				</div>
+			</div>
+
+			<div class="railBin">
+	<h3>Crossing chapters</h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color: #fff; font-weight: bold;">
+		Jump to:&nbsp;&nbsp;
+		<select id="jumper" onchange="if(this.value != '')location=this.value;">
+			<option value="/chapters/"></option>
+			<option id="jump_1" value="/chapters/1/">Chapter 1: ECHOES</option>
+			<option id="jump_2" value="/chapters/2/">Chapter 2: SIX DEGREES</option>
+			<option id="jump_3" value="/chapters/3/">Chapter 3: A TYPICAL MORNING</option>
+			<option id="jump_4" value="/chapters/4/">Chapter 4: ON THE CUSP</option>
+			<option id="jump_5" value="/chapters/5/">Chapter 5: 63 INCHES</option>
+			<option id="jump_6" value="/chapters/6/">Chapter 6: ALL OUT</option>
+			<option id="jump_7" value="/chapters/7/">Chapter 7: MEMORIES</option>
+			<option id="jump_8" value="/chapters/8/">Chapter 8: QUESTIONS</option>
+			<option id="jump_9" value="/chapters/9/">Chapter 9: TRIAL</option>
+			<option id="jump_10" value="/chapters/10/">Chapter 10: VERDICT</option>
+			<option id="jump_11" value="/chapters/11/">Chapter 11: REVERBERATIONS</option>
+			<option id="jump_12" value="/chapters/12/">Chapter 12: TESTED FAITH</option>
+			<option id="jump_13" value="/chapters/13/">Chapter 13: HOPE</option>
+			<option id="jump_14" value="/chapters/14/">Chapter 14: MELODY</option>
+			<option id="jump_15" value="/chapters/15/">Chapter 15: SILENCE</option>
+			<option id="jump_16" value="/chapters/16/">Chapter 16: DRIVER'S SEAT</option>
+			<option id="jump_17" value="/chapters/17/">Chapter 17: ALIVE</option>
+			<option id="jump_18" value="/chapters/18/">Chapter 18: LOSING EVERYTHING</option>
+			<option id="jump_19" value="/chapters/19/">Chapter 19: DEC. 14	</option>
+			<option id="jump_20" value="/chapters/20/">Chapter 20: LAST RUN</option>
+			<option id="jump_21" value="/chapters/21/">Chapter 21: PUSHING ON</option>
+			<option id="jump_22" value="/chapters/22/">Chapter 22: COMPLICATED GRIEF</option>
+			<option id="jump_23" value="/chapters/23/">Chapter 23: COINCIDENCE?</option>
+			<option id="jump_24" value="/chapters/24/">Chapter 24: IN THE SHADOWS</option>
+			<option id="jump_25" value="/chapters/25/">Chapter 25: MOVING ON</option>
+			<option id="jump_26" value="/chapters/26/">Chapter 26: HEARTBREAK</option>
+			<option id="jump_27" value="/chapters/27/">Chapter 27: NEVER SAY NEVER</option>
+			<option id="jump_28" value="/chapters/28/">Chapter 28: A CHRISTMAS WISH</option>
+			<option id="jump_29" value="/chapters/29/">Chapter 29: NEW LIFE</option>
+			<option id="jump_30" value="/chapters/30/">Chapter 30: FILLING THE VOID</option>
+			<option id="jump_31" value="/chapters/31/">Chapter 31: THE JUDGE</option>
+			<option id="jump_32" value="/chapters/32/">Chapter 32: PERSPECTIVE</option>
+			<option id="jump_33" value="/chapters/33/">Chapter 33: LEGACY</option>
+			<option id="jump_34" value="/chapters/34/">EPILOGUE</option>
+			<option id="jump_35" value="/extras/1/">EXTRAS</option>
+		</select>
+	</span>
+</div>
+
+
+			<div class="railBin">
+	<h3>Tools</h3>
+	<h4>Chapter 4 menu</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="/chapters/index/#part4">Series index</a></li>
+					<li><a href="#" onclick="chapterIndexClicked();">Chapter index</a></li>
+				</ul>
+			</td>
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Discuss</a></li>
+					<li><a href="/crossing_preview/images/part4/docs/Chapter4_anno.pdf" target="_blank">Sources</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<h4>Story tools</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Contact us</a></li>
+					<li><a href="/crossing_preview/images/part4/docs/print04.pdf" target="_blank">Story in print</a> (.pdf)</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+			
+				<div class="railBin" style="height: 130px;">
+	<h3>Video</h3>
+	<a href="#" onclick="videoClicked();">
+		<img src="/crossing_preview/videos/part4/still4.jpg" style="float: left; border: 1px solid #000; margin: 5px 10px 0 10px;" title="A closer look at the lives of three families affected by the tragedy.">
+	</a>
+	<p style="color: #DCD4B3;">A closer look at the lives of three families affected by the tragedy.</p>
+	<img src="/crossing_preview/images/arrow.gif" />
+	<a href="#" onclick="videoClicked();">Watch video</a>
+</div>
+
+			
+
+			
+				
+
+
+			
+
+			<div class="railBin">
+	<h3>Related content</h3>
+	<img src="/crossing_preview/images/survivors.jpg" style="float: left; border: 1px solid ##000; margin: -3px 10px 0 10px; @& margin: 0px 10px 0 10px;"><p style="color: #DCD4B3;">
+	<h4 style="margin-top: -10px;">Crossing forums</h4>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/DenverForumC.m4v">Forum at the Rocky Mountain News in Denver.</a>
+	<br>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/GreeleyForumC.mp4">Forum at the Union Colony Civic Center in Greeley.</a>
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="color: #fff; font-weight: bold;">
+			Podcasts:&nbsp;&nbsp;
+			<select name="podcasts" onchange="if(this.value != '')location=this.value;" style="margin-left: 20px;">
+				<option value="">--Select a Crossing podcast--</option>
+				<option value="/podcasts/01.mp3">Chapter 1</option>
+				<option value="/podcasts/02.mp3">Chapter 2</option>
+				<option value="/podcasts/03.mp3">Chapter 3</option>
+				<option value="/podcasts/04.mp3">Chapter 4</option>
+				<option value="/podcasts/05.mp3">Chapter 5</option>
+				<option value="/podcasts/06.mp3">Chapter 6</option>
+				<option value="/podcasts/07.mp3">Chapter 7</option>
+				<option value="/podcasts/08.mp3">Chapter 8</option>
+				<option value="/podcasts/09.mp3">Chapter 9</option>
+				<option value="/podcasts/10.mp3">Chapter 10</option>
+				<option value="/podcasts/11.mp3">Chapter 11</option>
+				<option value="/podcasts/12.mp3">Chapter 12</option>
+				<option value="/podcasts/13.mp3">Chapter 13</option>
+				<option value="/podcasts/14.mp3">Chapter 14</option>
+				<option value="/podcasts/15.mp3">Chapter 15</option>
+				<option value="/podcasts/16.mp3">Chapter 16</option>
+				<option value="/podcasts/17.mp3">Chapter 17</option>
+				<option value="/podcasts/18.mp3">Chapter 18</option>
+				<option value="/podcasts/19.mp3">Chapter 19</option>
+				<option value="/podcasts/20.mp3">Chapter 20</option>
+				<option value="/podcasts/21.mp3">Chapter 21</option>
+				<option value="/podcasts/22.mp3">Chapter 22</option>
+				<option value="/podcasts/23.mp3">Chapter 23</option>
+				<option value="/podcasts/24.mp3">Chapter 24</option>
+				<option value="/podcasts/25.mp3">Chapter 25</option>
+				<option value="/podcasts/26.mp3">Chapter 26</option>
+				<option value="/podcasts/27.mp3">Chapter 27</option>
+				<option value="/podcasts/28.mp3">Chapter 28</option>
+				<option value="/podcasts/29.mp3">Chapter 29</option>
+				<option value="/podcasts/30.mp3">Chapter 30</option>
+				<option value="/podcasts/31.mp3">Chapter 31</option>
+				<option value="/podcasts/32.mp3">Chapter 32</option>
+				<option value="/podcasts/33.mp3">Chapter 33</option>
+				<option value="/podcasts/34.mp3">Epilogue</option>
+			</select>
+		</span>
+	</p>
+</div>
+
+
+			<div class="railBin">
+	<h3>Acknowledgements</h3>
+	<div style="margin-left: 10px;">
+		<p style="color: #DCD4B3; font-size: 8pt;">"The Crossing" could only be told with the help of many people:</p>
+		<p style="color: #DCD4B3; font-size: 8pt;">- The more than 80 people touched by the tragedy of Dec. 14, 1961, who agreed to tell their stories.<br>- Bill and Mary Bohlender, who helped unearth numerous historic documents and provided numerous insights.<br>- Virginia Shelton and Mary Shelton Shafer, who provided numerous insights and access to attorney Jim Shelton's files.<br>- Keith Blue, who provided numerous insights.<br>- Peggy Ford and the staff at the City of Greeley Museums, Barbara Dey and the Hart Library staff at the Colorado History Museum and former Rocky librarian Carol Kasel, who all assisted with research.</p>
+	</div>
+</div>
+
+
+			<a name="contact"></a>
+<div id="contact" class="railBin">
+	<h3>Contact the series team</h3>
+	<ul>
+		<li>Reporter: <a href="mailto:writerkev@hotmail.com?subject=The%20Crossing">Kevin Vaughan</a></li>
+		<li>Photographer: <a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing">Chris Schneider</a></li>
+		<li>Video: <a href="mailto:timskillern@gmail.com?subject=The%20Crossing">Tim Skillern</a> & <a href="mailto:laressa@denverpromostudios.com?subject=The%20Crossing">Laressa Bachelor</a></li>
+		<li>Print designer: <a href="mailto:armandoarrieta10@gmail.com?subject=The%20Crossing">Armando Arrieta</a></li>
+		<li>Web designer: <a href="mailto:kharpe01@syr.edu?subject=The%20Crossing">Ken Harper</a></li>
+		<li>Web producer: <a href="mailto:">Forrest Stewart</a></li>
+		<li>Web developer: <a href="mailto:ck.nguyen79@gmail.com?subject=The%20Crossing">Chris Nguyen</a></li>
+		<li>Copy editor: <a href="mailto:diannerose@comcast.net?subject=The%20Crossing">Dianne Rose</a></li>
+		<li>Photo editor: <a href="mailto:dkrakel@gmail.com?subject=The%20Crossing">Dean Krakel</a></li>
+		<li>Imager: <a href="mailto:mariegriffin@gmail.com?subject=The%20Crossing">Marie Griffin</a></li>
+		<li>Interactive editor: <a href="mailto:michaelnoe@gmail.com?subject=The%20Crossing">Mike Noe</a></li>
+		<li>Project editor: <a href="mailto:carolhanner@gmail.com?subject=The%20Crossing">Carol Hanner</a></li>
+	</ul>
+</div>
+
+		</div>
+
+		<div id="textContainer">
+			<div style="font-size: 14pt; font-weight: bold; color: #473B2D;">
+	THE CROSSING: <span style="font-weight: normal; color: #8B6F57;">ON THE CUSP</span>
+</div>
+
+	<div style="font-size: 10pt; font-weight: bold; color: #8B6F57;">CHAPTER 4 OF 33</div>
+
+
+			<br>
+			<div style="font-size: 10pt; font-weight: bold; color: #473B2D;">
+	By
+	<a href="mailto:writerkev@hotmail.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Kevin Vaughan</a>
+	<br>
+	Photos by
+	<a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Chris Schneider</a>
+</div>
+
+
+			<p>As he faced the railroad tracks at 7:59 a.m. on Dec. 14, 1961, doing a job he never wanted, school bus driver Duane Harms was perched at a precipice.</p>
+<p>Life as it had always been in the Auburn farming community hung there with him, its final seconds quickly slipping away.</p>
+<p>A 23-year-old with a newborn daughter, Harms had been content as a janitor at Delta Elementary outside Greeley. The work kept him busy, and it was only temporary, anyway, while his wife finished college and earned her teaching certificate. But his boss wanted him to drive the bus, and after days of wrangling he'd finally agreed to add that to his cleaning duties.</p>
+<p>The people of Auburn had been content, too, with their three-room country school, where generations of kids had learned to read and write and add and subtract. Many could walk to the blond-brick schoolhouse. Some rode their horses, tying them up out back between the old outhouses.</p>
+<p>But those times were gone. The Auburn school was shuttered. Now, the boys and girls stamped their feet and fidgeted against the brutally cold morning, farm kids on the edge of the road, waiting to board the bus.</p>
+<p>Girls wore print dresses and bundled up in wool coats and hand-knitted mittens and caps. Boys pulled rubber galoshes over their shoes.</p>
+<p>They carried their books &mdash; <em>Learning To Use Arithmetic</em> and <em>Roads to Everywhere</em> &mdash; under their arms with their three-ring binders.</p>
+<p>They clutched sack lunches.</p>
+<p>They were living on the cusp of tremendous change &mdash; in the country, in Colorado, in Auburn. John F. Kennedy &mdash; the youngest American president and the first born in the 20th century &mdash; was celebrating his first Christmas season in the White House. Just the night before, he and first lady Jacqueline Bouvier Kennedy attended a party for White House employees in the East Room.</p>
+<p>In Colorado, a wave of school district consolidations had swept the state.</p>
+<p>Less than two generations before, the state had more than 2,000 districts, many with only one building.</p>
+<p>By the mid-1950s, a legislative study had declared reorganization of Colorado's school districts the state's top educational priority. Between 1956 and 1961, nearly 700 had been eliminated. Only 275 remained.</p>
+<p>One victim was the Auburn district, about five miles southeast of Greeley.</p>
+<p><strong>Little money but not poor</strong></p>
+<p>The farm families of Auburn scratched out a life in the flat fields, sometimes working 20 hours a day, fixing whatever broke, sewing their own clothes, making do with what they had. Many rented their homes and land, and some farm workers lived in houses provided by their employers.</p>
+<p>They grew their own vegetables, butchered their own chickens.</p>
+<p>Most of them &mdash; children and grandchildren of German-Russian and Swedish immigrants who came to America with nothing &mdash; considered themselves fortunate.</p>
+<p>Art and Juanita Larson certainly did.</p>
+<p>She put in 28 or 29 days a month as a nurse's aide at Weld County General Hospital in Greeley. He drove a delivery truck six days a week. Their monthly income &mdash; $200 &mdash; allowed them to buy their 23-acre farm in Auburn in 1957.</p>
+<p>They lived in a three-room home cobbled together from two old shacks that once housed farm laborers. Their four kids slept in one room in bunk beds. Art and Juanita slept in a bed in the living room. In their kitchen sat a luxury that would have been unthinkable only a few years before &mdash; an electric range. Juanita hadn't forgotten her childhood, scavenging in the fields for dry cow chips to burn in a wood stove.</p>
+<p>Now Juanita drove home after her overnight shift at the hospital, stood in front of her electric range and cooked breakfast.</p>
+<p>Saturdays and Sundays meant bacon and eggs, toast, warmed-up potatoes or hash browns. On school days like this one, she fixed oatmeal or Cream of Wheat.</p>
+<p>A kerosene heater fought an ongoing battle against the cold that leaked through the old, creaky windows in the drafty house. The neighbor kids got their first driving lessons in the family's 1940 International pickup. With the truck's low "granny gear," the kids couldn't stall the engine, and they couldn't go more than 2 or 3 mph.</p>
+<p>The Larson farm sat a half mile from the Union Pacific tracks, which cut diagonally through Auburn in a straight, six-mile line into LaSalle.</p>
+<p><strong>Near the end of an era</strong></p>
+<p>Twice a day the City of Denver streamliner pounded down those rails, close enough that the people of Auburn could see her hurry past. Each morning, she thumped by, heading west, an hour away from the end of her Chicago-to-Denver run. Each afternoon, she hammered by on her way to the Windy City.</p>
+<p>The train had been christened amid fanfare and champagne on June 18, 1936, as a joint venture of two railroad lines. That afternoon, Fredrika Sargent, whose father was president of the Chicago and Northwestern Railway Co., took two whacks with a bottle of champagne over the nose of an engine in Chicago, inaugurating the line. Less than a minute later, at Denver's Union Station, Janet Grace Johnson, daughter of Colorado Gov. "Big Ed" Johnson, busted a bottle of champagne over the prow of a sister locomotive.</p>
+<p>Then they were off &mdash; the twin maiden voyages of the City of Denver.</p>
+<p>The 12-car train in Chicago covered the 1,048 miles to Denver in 16 hours &mdash; an average of 65.5 miles per hour, including stops.</p>
+<p>She was the fastest long-distance passenger train in the world. And in the days before air travel was safe, easy and inexpensive, before the interstate highway system snaked around the country, she shuttled her passengers across the land in luxury.</p>
+<p>As close as she was to the people of Auburn &mdash; close enough that they could feel the power in her diesel locomotives &mdash; she was out reach for most of them. A one-way, first-class ticket was $39.95, plus taxes. Her passengers ate seven-course meals on Union Pacific china. Sipped coffee in comfort as the train thrummed along at 80 mph. Wiped their mouths with linen napkins.</p>
+<p>They gazed out of the glass-domed coaches as the landscape streamed past. Slept comfortably in Pullman cars. Rarely heard the rumble of the locomotives or the full-throated wail of her air horns at crossings.</p>
+<p>But on this day, as the City of Denver dashed through the farm fields of Auburn, the train was doomed. It would be a decade before her obituary was finally written, but the Boeing 707 was already in the air, and it could make the Chicago-to-Denver hop in less than three hours.</p>
+<p>Herbert F. Sommers, the 64-year-old engineer at the throttle of the City of Denver, was a creature of that dying era. For more than 40 years, the railroad was all he had ever known. Two months before Pearl Harbor, he'd been promoted to engineer.</p>
+<p>For years, he'd lived the nomadic life of a railroad man, shuttling freight trains up and down the rails at all hours of the day and night. Then, as the autumn of 1961 arrived, he snagged a coveted slot on the City of Denver.</p>
+<p>About three months later, at 7:59 a.m. on Dec. 14, 1961, his locomotive, its horn blasting, roared for the angled crossing 2 1/2 miles from LaSalle, where Duane Harms had to twist around in his seat to see if a train was coming.</p>
+<p>At the crossing, Harms thought everything was clear for him and the 36 children aboard his school bus. He wrapped his right hand around the big polished lever in the middle of the dashboard, shoving the door closed.</p>
+<p>As Harms let out the clutch, the bus trembled and started for the tracks.</p>
+<p>Jerry Hembry, a 16-year-old in the front seat next to the door, raised his arm and wiped the frost from the window next to him.</p>
+<p>He glanced down the tracks, saw nothing coming, then turned and looked forward. As the front wheels of the bus bumped across the rails, he turned to his right again.</p>
+<p>In that instant, he saw the bright yellow headlight and the bright yellow nose of the City of Denver's lead engine bearing down on them.</p>
+<p>He instinctively grabbed for the shiny steel pole to his left and shouted: "Train!"</p>
+<p><b>NEXT:</b> <a href="/crossing_preview/chapters/5/" style="color: #000000;">63 inches</a></p>
+
+		</div>
+	</div>
+
+	<br>
+
+	<div class="footer">
+	<!-- agreement -->
+	<p style="float: right; text-align: right;">2007 &copy; Rocky Mountain New Archives, Western History Collection, Denver Public Library<br /><a href="disclaimer.html">User Agreement</a><br /><a href="#contact">Questions? Comments? Talk to Us</a></p>
+	<!-- /agreement -->
+</div>
+
+</body>
+</center>
+</html>

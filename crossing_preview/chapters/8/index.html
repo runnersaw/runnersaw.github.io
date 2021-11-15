@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88115230-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<title>The Crossing Story</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/crossing_preview/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/chapters.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/fonts.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/crossing_preview/css/interactiveContent.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/crossing_preview/js/interactiveContent.js"></script>
+
+</head>
+<center>
+<body bgcolor="##000000">
+
+	<div class="header">
+	</div>
+
+	<div id="flashcontent" style="display: none; position: relative; z-index: 1; background-color:##000000; color: #ffffff; font-family: Arial; font-weight: bold; font-size: 18pt; width: 750px; @& width: 750px; background-image: url(/crossing_preview/images/backgroundNew.jpg);">
+		To view this content you must download and install Adobe Flash Player <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">here</a>.
+	</div>
+
+	<div id="interactiveContent">
+    <div id="interactiveContentBackground" class="interactiveContentCollapsedInitial">
+        
+            <img id="interactiveContentImageNonInteractive" class="invisible" src="/crossing_preview/images/part8/interactive_background.jpg" draggable="false">
+        
+    </div>
+    <div id="interactiveContentMenuContainerBackground">
+        <div id="interactiveContentMenuContainer" class="interactiveContentMenuContainerInitial">
+            <div id="interactiveContentMenu">
+                <div id="interactiveContentMenuTitle">
+                    QUESTIONS
+                </div>
+
+                
+                    <div id="interactiveContentMenuChapter">
+                        CHAPTER 8 OF 33
+                    </div>
+                
+
+                <div id="interactiveContentMenuSubtitle">
+                    Prosecutor Bill Bohlender questions Duane Harms, and a court hearing is held without the bus driver.
+                </div>
+
+                <div id="interactiveContentMenuButtonContainer">
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="storyClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Story</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton interactiveContentMenuButtonDisabled">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Video</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="documentsClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Documents</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="photosClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Photos</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="discussClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Discuss</p4>
+                            </div>
+                        
+                    
+                        
+                            <div class="interactiveContentMenuButton" onclick="seriesIndexClicked()">
+                                <img class="interactiveContentMenuButtonImage" src="/crossing_preview/images/arrow.gif">
+                                <p4 class="interactiveContentMenuButtonText">Series Index</p4>
+                            </div>
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <div id="interactiveVideoPlayer" class="invisible hidden disabled"></div>
+    
+    <div id="interactivePhotoPlayer" class="interactiveContentFullSize invisible hidden">
+        <div id="photoPlayerContainer">
+            <div id="photoPlayerPhotoContainer">
+                
+                
+                    
+                
+            </div>
+            <div id="photoSlideCaption" class="invisible hidden">
+                
+                    
+                
+            </div>
+        </div>
+        <div id="photoPlayerControls">
+            <div>
+                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                <a onclick="closePhotoClicked()">
+                    <p>CHAPTER MENU</p>
+                </a>
+            </div>
+            <a onclick="previousPhotoClicked()">
+                <img src='/crossing_preview/images/rewind.svg'>
+            </a>
+            <a onclick="playPhotoClicked()">
+                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
+                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+            </a>
+            <a onclick="nextPhotoClicked()">
+                <img src='/crossing_preview/images/fast_forward.svg'>
+            </a>
+            <a onclick="captionsClicked()">
+                <p4>Captions</p4>
+            </a>
+            <p4 id="photoSlideshowState"></p4>
+        </div>
+    </div>
+</div>
+
+
+	<div id="contentContainer" align="left">
+
+		<div id="rightRail" class="rightRail">
+			<div class="photoBucket">
+				<div id="photoBucketImageContainer">
+					<img id="photoBucketImage" src="/crossing_preview/images/part8/story8.jpg" border="1">
+				</div>
+				Bill Peery &copy; Rocky Mountain News/1961
+
+				<div class="photoBucketCaption">
+					Duane Harms clutches his neck as he sits in the office of Assistant District Attorney Karl Ahlborn the day after the accident.
+					<ul><li>
+						
+							<a href="#" onclick="photosClicked();" style="color: #000000; font-size: 12px; font-weight: bold;">More chapter 8 photos</a>
+						
+					</li></ul>
+				</div>
+			</div>
+
+			<div class="railBin">
+	<h3>Crossing chapters</h3>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<span style="color: #fff; font-weight: bold;">
+		Jump to:&nbsp;&nbsp;
+		<select id="jumper" onchange="if(this.value != '')location=this.value;">
+			<option value="/chapters/"></option>
+			<option id="jump_1" value="/chapters/1/">Chapter 1: ECHOES</option>
+			<option id="jump_2" value="/chapters/2/">Chapter 2: SIX DEGREES</option>
+			<option id="jump_3" value="/chapters/3/">Chapter 3: A TYPICAL MORNING</option>
+			<option id="jump_4" value="/chapters/4/">Chapter 4: ON THE CUSP</option>
+			<option id="jump_5" value="/chapters/5/">Chapter 5: 63 INCHES</option>
+			<option id="jump_6" value="/chapters/6/">Chapter 6: ALL OUT</option>
+			<option id="jump_7" value="/chapters/7/">Chapter 7: MEMORIES</option>
+			<option id="jump_8" value="/chapters/8/">Chapter 8: QUESTIONS</option>
+			<option id="jump_9" value="/chapters/9/">Chapter 9: TRIAL</option>
+			<option id="jump_10" value="/chapters/10/">Chapter 10: VERDICT</option>
+			<option id="jump_11" value="/chapters/11/">Chapter 11: REVERBERATIONS</option>
+			<option id="jump_12" value="/chapters/12/">Chapter 12: TESTED FAITH</option>
+			<option id="jump_13" value="/chapters/13/">Chapter 13: HOPE</option>
+			<option id="jump_14" value="/chapters/14/">Chapter 14: MELODY</option>
+			<option id="jump_15" value="/chapters/15/">Chapter 15: SILENCE</option>
+			<option id="jump_16" value="/chapters/16/">Chapter 16: DRIVER'S SEAT</option>
+			<option id="jump_17" value="/chapters/17/">Chapter 17: ALIVE</option>
+			<option id="jump_18" value="/chapters/18/">Chapter 18: LOSING EVERYTHING</option>
+			<option id="jump_19" value="/chapters/19/">Chapter 19: DEC. 14	</option>
+			<option id="jump_20" value="/chapters/20/">Chapter 20: LAST RUN</option>
+			<option id="jump_21" value="/chapters/21/">Chapter 21: PUSHING ON</option>
+			<option id="jump_22" value="/chapters/22/">Chapter 22: COMPLICATED GRIEF</option>
+			<option id="jump_23" value="/chapters/23/">Chapter 23: COINCIDENCE?</option>
+			<option id="jump_24" value="/chapters/24/">Chapter 24: IN THE SHADOWS</option>
+			<option id="jump_25" value="/chapters/25/">Chapter 25: MOVING ON</option>
+			<option id="jump_26" value="/chapters/26/">Chapter 26: HEARTBREAK</option>
+			<option id="jump_27" value="/chapters/27/">Chapter 27: NEVER SAY NEVER</option>
+			<option id="jump_28" value="/chapters/28/">Chapter 28: A CHRISTMAS WISH</option>
+			<option id="jump_29" value="/chapters/29/">Chapter 29: NEW LIFE</option>
+			<option id="jump_30" value="/chapters/30/">Chapter 30: FILLING THE VOID</option>
+			<option id="jump_31" value="/chapters/31/">Chapter 31: THE JUDGE</option>
+			<option id="jump_32" value="/chapters/32/">Chapter 32: PERSPECTIVE</option>
+			<option id="jump_33" value="/chapters/33/">Chapter 33: LEGACY</option>
+			<option id="jump_34" value="/chapters/34/">EPILOGUE</option>
+			<option id="jump_35" value="/extras/1/">EXTRAS</option>
+		</select>
+	</span>
+</div>
+
+
+			<div class="railBin">
+	<h3>Tools</h3>
+	<h4>Chapter 8 menu</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="/chapters/index/#part8">Series index</a></li>
+					<li><a href="#" onclick="chapterIndexClicked();">Chapter index</a></li>
+				</ul>
+			</td>
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Discuss</a></li>
+					<li><a href="/crossing_preview/images/part8/docs/Chapter8_anno.pdf" target="_blank">Sources</a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+	<h4>Story tools</h4>
+	<table class="table2">
+		<tr class="tr2">
+			<td class="td2">
+				<ul>
+					<li><a href="#contact">Contact us</a></li>
+					<li><a href="/crossing_preview/images/part8/docs/print08.pdf" target="_blank">Story in print</a> (.pdf)</li>
+				</ul>
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+			
+
+			
+				
+
+<a name="docs"></a>
+<div id="docs" class="railBin">
+	<h3>Documents</h3>
+	<h4>Chapter 8 documents</h4>
+	<div style="margin-bottom: 8px;"></div>
+	<ul>
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+				
+					<li>
+						<a href="/images/part8/docs/transcript_hearing.pdf" target="_blank">Transcript of a hearing held on Dec. 14, 1961, by the Weld County District Attorney's Office</a>
+					</li>
+				
+					<li>
+						<a href="/images/part8/docs/arrest_warrant.pdf" target="_blank">Arrest warrant for Duane Harms</a>
+					</li>
+				
+					<li>
+						<a href="/images/part8/docs/Bindel_statement.pdf" target="_blank">Farmer Albert Bindel's statement to investigators</a>
+					</li>
+				
+					<li>
+						<a href="/images/part8/docs/sitzman_statement.pdf" target="_blank">John L. Sitzman's statement to investigators</a>
+					</li>
+				
+					<li>
+						<a href="/images/part8/docs/larson_statement.pdf" target="_blank">Art Larson's statement to investigators</a>
+					</li>
+				
+			
+		
+		    
+		
+		    
+		
+		    
+		
+		    
+		
+	</ul>
+</div>
+
+
+			
+
+			<div class="railBin">
+	<h3>Related content</h3>
+	<img src="/crossing_preview/images/survivors.jpg" style="float: left; border: 1px solid ##000; margin: -3px 10px 0 10px; @& margin: 0px 10px 0 10px;"><p style="color: #DCD4B3;">
+	<h4 style="margin-top: -10px;">Crossing forums</h4>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/DenverForumC.m4v">Forum at the Rocky Mountain News in Denver.</a>
+	<br>
+	<img src="/crossing_preview/images/arrow.gif" /><a href="videos/GreeleyForumC.mp4">Forum at the Union Colony Civic Center in Greeley.</a>
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+		<span style="color: #fff; font-weight: bold;">
+			Podcasts:&nbsp;&nbsp;
+			<select name="podcasts" onchange="if(this.value != '')location=this.value;" style="margin-left: 20px;">
+				<option value="">--Select a Crossing podcast--</option>
+				<option value="/podcasts/01.mp3">Chapter 1</option>
+				<option value="/podcasts/02.mp3">Chapter 2</option>
+				<option value="/podcasts/03.mp3">Chapter 3</option>
+				<option value="/podcasts/04.mp3">Chapter 4</option>
+				<option value="/podcasts/05.mp3">Chapter 5</option>
+				<option value="/podcasts/06.mp3">Chapter 6</option>
+				<option value="/podcasts/07.mp3">Chapter 7</option>
+				<option value="/podcasts/08.mp3">Chapter 8</option>
+				<option value="/podcasts/09.mp3">Chapter 9</option>
+				<option value="/podcasts/10.mp3">Chapter 10</option>
+				<option value="/podcasts/11.mp3">Chapter 11</option>
+				<option value="/podcasts/12.mp3">Chapter 12</option>
+				<option value="/podcasts/13.mp3">Chapter 13</option>
+				<option value="/podcasts/14.mp3">Chapter 14</option>
+				<option value="/podcasts/15.mp3">Chapter 15</option>
+				<option value="/podcasts/16.mp3">Chapter 16</option>
+				<option value="/podcasts/17.mp3">Chapter 17</option>
+				<option value="/podcasts/18.mp3">Chapter 18</option>
+				<option value="/podcasts/19.mp3">Chapter 19</option>
+				<option value="/podcasts/20.mp3">Chapter 20</option>
+				<option value="/podcasts/21.mp3">Chapter 21</option>
+				<option value="/podcasts/22.mp3">Chapter 22</option>
+				<option value="/podcasts/23.mp3">Chapter 23</option>
+				<option value="/podcasts/24.mp3">Chapter 24</option>
+				<option value="/podcasts/25.mp3">Chapter 25</option>
+				<option value="/podcasts/26.mp3">Chapter 26</option>
+				<option value="/podcasts/27.mp3">Chapter 27</option>
+				<option value="/podcasts/28.mp3">Chapter 28</option>
+				<option value="/podcasts/29.mp3">Chapter 29</option>
+				<option value="/podcasts/30.mp3">Chapter 30</option>
+				<option value="/podcasts/31.mp3">Chapter 31</option>
+				<option value="/podcasts/32.mp3">Chapter 32</option>
+				<option value="/podcasts/33.mp3">Chapter 33</option>
+				<option value="/podcasts/34.mp3">Epilogue</option>
+			</select>
+		</span>
+	</p>
+</div>
+
+
+			<div class="railBin">
+	<h3>Acknowledgements</h3>
+	<div style="margin-left: 10px;">
+		<p style="color: #DCD4B3; font-size: 8pt;">"The Crossing" could only be told with the help of many people:</p>
+		<p style="color: #DCD4B3; font-size: 8pt;">- The more than 80 people touched by the tragedy of Dec. 14, 1961, who agreed to tell their stories.<br>- Bill and Mary Bohlender, who helped unearth numerous historic documents and provided numerous insights.<br>- Virginia Shelton and Mary Shelton Shafer, who provided numerous insights and access to attorney Jim Shelton's files.<br>- Keith Blue, who provided numerous insights.<br>- Peggy Ford and the staff at the City of Greeley Museums, Barbara Dey and the Hart Library staff at the Colorado History Museum and former Rocky librarian Carol Kasel, who all assisted with research.</p>
+	</div>
+</div>
+
+
+			<a name="contact"></a>
+<div id="contact" class="railBin">
+	<h3>Contact the series team</h3>
+	<ul>
+		<li>Reporter: <a href="mailto:writerkev@hotmail.com?subject=The%20Crossing">Kevin Vaughan</a></li>
+		<li>Photographer: <a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing">Chris Schneider</a></li>
+		<li>Video: <a href="mailto:timskillern@gmail.com?subject=The%20Crossing">Tim Skillern</a> & <a href="mailto:laressa@denverpromostudios.com?subject=The%20Crossing">Laressa Bachelor</a></li>
+		<li>Print designer: <a href="mailto:armandoarrieta10@gmail.com?subject=The%20Crossing">Armando Arrieta</a></li>
+		<li>Web designer: <a href="mailto:kharpe01@syr.edu?subject=The%20Crossing">Ken Harper</a></li>
+		<li>Web producer: <a href="mailto:">Forrest Stewart</a></li>
+		<li>Web developer: <a href="mailto:ck.nguyen79@gmail.com?subject=The%20Crossing">Chris Nguyen</a></li>
+		<li>Copy editor: <a href="mailto:diannerose@comcast.net?subject=The%20Crossing">Dianne Rose</a></li>
+		<li>Photo editor: <a href="mailto:dkrakel@gmail.com?subject=The%20Crossing">Dean Krakel</a></li>
+		<li>Imager: <a href="mailto:mariegriffin@gmail.com?subject=The%20Crossing">Marie Griffin</a></li>
+		<li>Interactive editor: <a href="mailto:michaelnoe@gmail.com?subject=The%20Crossing">Mike Noe</a></li>
+		<li>Project editor: <a href="mailto:carolhanner@gmail.com?subject=The%20Crossing">Carol Hanner</a></li>
+	</ul>
+</div>
+
+		</div>
+
+		<div id="textContainer">
+			<div style="font-size: 14pt; font-weight: bold; color: #473B2D;">
+	THE CROSSING: <span style="font-weight: normal; color: #8B6F57;">QUESTIONS</span>
+</div>
+
+	<div style="font-size: 10pt; font-weight: bold; color: #8B6F57;">CHAPTER 8 OF 33</div>
+
+
+			<br>
+			<div style="font-size: 10pt; font-weight: bold; color: #473B2D;">
+	By
+	<a href="mailto:writerkev@hotmail.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Kevin Vaughan</a>
+	<br>
+	Photos by
+	<a href="mailto:chris@chrisschneiderphotography.com?subject=The%20Crossing" style="color: #473B2D; text-decoration: underline;">Chris Schneider</a>
+</div>
+
+
+			<p>A few hours after a train sheared his school bus in two, after doctors patched up the gash in his leg and stuck a Band-Aid on the cut near his temple, a shocked and bewildered Duane Harms sat down in a room at the Weld County Sheriff's Office.</p>
+<p>He faced a crew-cut young deputy district attorney named Bill Bohlender. A court reporter sat nearby, his fingers on the keypad.</p>
+<p>Bohlender was ready to go over every moment of the deadliest traffic accident in Colorado history. It was five years before the landmark U.S. Supreme Court ruling in Miranda vs. Arizona, and Bohlender did not tell Harms that anything he said might be used against him in a trial. Bohlender just started asking questions.</p>
+<p>Harms recounted every detail, but he wavered on one question: Did you stop at the crossing before driving onto the tracks?</p>
+<p>"I always stop at that crossing," Harms said. "That's why I think I did this morning."</p>
+<p>They went over it again and again.</p>
+<p>"I'm quite sure I stopped, but I wouldn't swear to it because I just don't remember that well," he said. "I always stop."</p>
+<p>He talked about the view at the intersection.</p>
+<p>"I looked left," Harms said. "That's not hard ... I looked right. It's hard to see ... There are some poles there, and you have to look back over your right shoulder to see the tracks. The windows were frosted ... but there was a little space in the upper part I could see through the rearview mirror."</p>
+<p>Bohlender asked Harms if his view was obscured.</p>
+<p>"Well," Harms replied, "I should say yes, that's true. Yes, because actually I should have gotten clear out, because it's at such an angle there that in order to see anything at all a fellow should get out of the bus."</p>
+<p>Have you ever gotten out before?</p>
+<p>"No," Harms said. "The only thing I've ever done is open the door and wait to see if I could hear anything."</p>
+<p>The interview ended. Harms, the father of a 3-week-old daughter, was released to the custody of his parents and the family's minister.</p>
+<p><b>A matter of record</b></p>
+<p>At 1:45 p.m., in a third-floor courtroom at the Weld County courthouse in Greeley, prosecutor Karl Ahlborn opened a hearing on the crash. No one had been charged, but he wanted to get the basic facts on the record.</p>
+<p>The room teemed with reporters, photographers, gawkers, the first state trooper on the scene, the crew of the Union Pacific train and a farmer, Albert Bindel, who lived a few hundred yards from the accident site.</p>
+<p>Duane Harms wasn't asked to attend because authorities had his account under oath. Only his statement represented him.</p>
+<p>Four members of the train crew sat side by side on the front bench. Herbert F. Sommers, the engineer, wore his bib overalls, a burning cigarette in his right hand.</p>
+<p>Brakeman George C. Campbell and conductor Raymond W. Courtney still wore their dark work suits, ties clinched at their necks, small "UP" pins on their lapels.</p>
+<p>Fireman Melvin C. Swanson, who was sitting across the locomotive cab from Sommers when the train bashed into the bus, wore a cardigan over his white, open-collared shirt.</p>
+<p>Sommers testified first, explaining why the train was an hour and 45 minutes late. It was "the Christmas rush," he said. The train had been even later the day before.</p>
+<p>He described the approach of the bus.</p>
+<p>"He slowed down," Sommers said, "apparently like he was going to stop, and got right up to the shoulder of the track and appeared like he slowed down to about 5 miles an hour and stepped on the gas and drove right in front of us."</p>
+<p>Ahlborn asked if Sommers was certain the bus didn't stop.</p>
+<p>"Absolutely certain," Sommers replied.</p>
+<p>Swanson, the only other crew member to see the collision, testified next.</p>
+<p>"Well, I seen the bus approaching the right of way there, and he slowed down," Swanson said. "I thought he was going to stop and was hoping he was going to stop, and to my surprise he went right in front of us."</p>
+<p>Bindel testified last. The farmer said he was getting his children ready for school just before the crash.</p>
+<p>"As I was getting them rigged out to go to school, I saw the school bus pass by, and also hearing the train coming down the track, I stepped around the corner of the house, and the bus pulled up to the railroad track, and its red lights were on and ..."</p>
+<p>"What red lights are you talking about?" Ahlborn asked, interrupting him.</p>
+<p>"The back part of the bus is all I saw," Bindel said, "and, as near as I saw, the bus was stopped still."</p>
+<p>Ahlborn pressed him.</p>
+<p>"I noticed the red light where he had stopped," Bindel said, "and I said to myself, 'Well, the bus has stopped.' "</p>
+<p>Then he acknowledged it was possible the bus didn't come to a complete stop.</p>
+<p>"I won't leave that word 'maybe' out," he said. "From where I was and what I could see, the bus had stopped, and I still say that's right."</p>
+<p>Later that night, <em>Greeley Tribune</em> reporter Jim Hitch stopped by Weld County General Hospital. He visited the third-floor room of Jerry Hembry, the sophomore who had been sitting in the front seat of the bus, who had yelled "train!" at the last moment. The crash dislocated Jerry's shoulder and broke his collarbone, but he was positive Harms had stopped.</p>
+<p>"The bus stopped and then started up again," Hembry said from his bed. "I looked up and saw the train's light. The next thing I knew we were hit."</p>
+<p><b>'My deepest sympathies'</b></p>
+<p>The next morning, Harms, wearing a tweed sport coat over a plaid shirt, sat in prosecutor Ahlborn's office, ashen-faced, his father next to him. Ahlborn's staff and Gilbert Carrel, chief of the Colorado State Patrol, sorted through the details. Carrel puffed on a fat cigar. Glossy photographs of the crash were spread out on Ahlborn's desk.</p>
+<p>Ahlborn told Harms he would be charged with manslaughter. Barely 27 hours had passed since the accident. As he waited for his $1,000 bond to be posted, Harms talked briefly to a reporter.</p>
+<p>"I sure feel really bad about it," he said. "My deepest sympathies go to them."</p>
+<p>Harms' father, Wilber, stepped to his defense.</p>
+<p>"He is as good a driver as anyone they could ever have," he said. "He learned to drive at 16 in a wheat field. And he was so careful during high school the other children used to make fun of him."</p>
+<p>About 150 people from Harms' hometown of Fleming signed a letter to the people of Greeley.</p>
+<p><i>He was thoughtful and kind. He never did a thing to hurt a fellow student. The community held him in highest regards and wants him to know now it stands behind him.</i></p>
+<p>It was only the beginning. But in that first day after the accident, Harms was blessed with a clear-thinking advocate.</p>
+<p>He was Jim Shelton, a well-respected Greeley lawyer appointed to represent Harms.</p>
+<p>At 9:30 a.m. the following Monday, Shelton arose in Judge Donald Carpenter's fourth-floor courtroom and moved just as aggressively to defend Harms as Ahlborn had in pursuing charges.</p>
+<p>"My client is still in a state of confusion, shock and anguish and cannot at this time make an intelligent decision," Shelton told the judge, who postponed the arraignment until Jan. 2.</p>
+<p>Afterward, as Harms sat quietly holding his wife's hand, Shelton stood before a group of reporters.</p>
+<p>"My client has bared his soul to the district attorney's office in several hours of questioning," Shelton said. "He has been a man about it, he hasn't alibied and he has been willing to accept his responsibilities."</p>
+<p>Harms, Shelton said, suffered the "heartache and sorrow of the parents."</p>
+<p>"He only wants to do what the parents desire. If they want to talk to him, or ask questions, he's ready," Shelton said.</p>
+<p><b>Planning a defense</b></p>
+<p>The trial was months away, but Shelton already knew how he'd play it. Just four days after the accident, he outlined his planned defense. It was based on a 1956 state Supreme Court decision reversing the manslaughter conviction of a Greeley bus driver who had hit and killed a 10-year-old girl.</p>
+<p>The court ruled that to prove manslaughter, prosecutors had to show that the driver "recklessly and wantonly failed to exercise the care and caution a reasonably prudent person would have exercised under similar circumstances" and exhibited a "reckless and wanton disregard for the safety of others."</p>
+<p>Getting up early to warm the school bus, Shelton said, "does not indicate a willful, wanton or reckless attitude for the safety and comfort of those children."</p>
+<p>"He had a mental attitude of concern, and the matter of his mental attitude is the key to his guilt or innocence," Shelton said.</p>
+<p>"The situation at the scene is one that was just waiting for an accident to happen. I, and the whole community, are partly responsible for what did happen. But Harms is the driver, and he'll take the consequences of his actions."</p>
+<p>Duane and Judy Harms stepped into the hallway. Art and Juanita Larson &#151; preparing to bury their son, Steve, and praying that their daughter, Alice, would recover &#151; met the young couple.</p>
+<p>"We don't hold any grudges," Art Larson told the young bus driver. "We think you're a wonderful man. We'll see to it that you get fair treatment."</p>
+<p><b>NEXT:</b> <a href="/crossing_preview/chapters/9/" style="color: #000000;">Trial</a></p>
+
+		</div>
+	</div>
+
+	<br>
+
+	<div class="footer">
+	<!-- agreement -->
+	<p style="float: right; text-align: right;">2007 &copy; Rocky Mountain New Archives, Western History Collection, Denver Public Library<br /><a href="disclaimer.html">User Agreement</a><br /><a href="#contact">Questions? Comments? Talk to Us</a></p>
+	<!-- /agreement -->
+</div>
+
+</body>
+</center>
+</html>

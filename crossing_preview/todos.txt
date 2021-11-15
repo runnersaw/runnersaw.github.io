@@ -1,0 +1,16 @@
+TODOs
+
+make video scrubbable
+add icons for video playback
+add photos for chapters 2 - x
+add icons for photo slideshow
+black out non-existent content (documents)
+move interactive menu to right (chapter 5? and others)
+chapter 14 video attribution (and others)
+chapter 2 and 3 background image
+chapter 34 background image
+add volume control to video
+fix caption styling
+Add captions for photos 2-x
+Remove Thumbs.db
+Remove unnecessary assets
