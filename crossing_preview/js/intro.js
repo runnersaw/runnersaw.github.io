@@ -110,6 +110,6 @@ window.addEventListener('load', (event) => {
   }, 35000);
 
   setTimeout(function () {
-    window.location.assign(window.location.origin + "/crossing_preview/chapters/index");
+    window.location.assign(window.location.origin + "/chapters/index");
   }, 39000);
 });
