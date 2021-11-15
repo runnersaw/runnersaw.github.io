@@ -306,7 +306,7 @@ function discussClicked() {
 }
 
 function seriesIndexClicked() {
-	window.open('/chapters/index/', '_self');
+	window.open('/crossing_preview/chapters/index/', '_self');
 }
 
 function chapterIndexClicked() {
