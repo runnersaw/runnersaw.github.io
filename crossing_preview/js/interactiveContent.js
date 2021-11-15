@@ -1,4 +1,3 @@
-
 /* STARTUP */
 
 const SLIDESHOW_PHOTO_DURATION = 6000;
@@ -306,7 +305,7 @@ function discussClicked() {
 }
 
 function seriesIndexClicked() {
-	window.open('/chapters/index/', '_self');
+	window.open('/crossing_preview/chapters/index/', '_self');
 }
 
 function chapterIndexClicked() {
