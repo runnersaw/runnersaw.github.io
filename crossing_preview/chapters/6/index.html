@@ -117,22 +117,48 @@
                     <source src="/crossing_preview/videos/part6/video6.mp4">
                 </video>
             </div>
-            <div id="videoPlayerControls">
-                <div>
-                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                    <a onclick="closeVideoClicked()">
-                        CHAPTER MENU
-                    </a>
-                </div>
+            <div id="videoPlayerControls" class="interactiveMediaControls">
+                <a onclick="closeVideoClicked()">
+                    <div>
+                        <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                        <p class="chapterMenuButton">CHAPTER MENU</p>
+                    </div>
+                </a>
+                <div class="interactiveMediaControlsDivider"></div>
                 <a onclick="playVideoClicked()">
-                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
-                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                    <div id="playVideoButtonImage">
+                        <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                    </div>
+                    <div id="pauseVideoButtonImage" class="hidden">
+                        <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                    </div>
                 </a>
                 <a onclick="closeVideoClicked()">
                     <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
                 </a>
                 <div id="playbackBar">
-                    <div id="playbackSelector"></div>
+                    <div id="playbackSelector">
+                        <svg width="15" height="10">
+  <defs>
+    <linearGradient id="gradient" gradientTransform="rotate(90)">
+      <stop offset="0%"  stop-color="black" />
+      <stop offset="40%" stop-color="#75574A" />
+      <stop offset="60%" stop-color="#75574A" />
+      <stop offset="100%" stop-color="black" />
+    </linearGradient>
+  </defs>
+  <path d="M0 0 L15 0 L15 10 L0 10 L0 0 Z" fill="url('#gradient')"></path>
+  <path d="M6 0 L6 10 L9 10 L9 0 L6 0 Z" fill="#00000020"></path>
+  <path d="M7 0 L7 10 L8 10 L8 0 L7 0 Z" fill="#810C0C"></path>
+</svg>
+
+                    </div>
                 </div>
                 <p4 id="timeText">0:00</p4>
             </div>
@@ -145,33 +171,262 @@
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part6/lg/1.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part6/lg/2.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part6/lg/3.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part6/lg/4.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part6/lg/5.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part6/lg/6.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part6/lg/7.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part6/lg/8.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part6/lg/9.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part6/lg/10.jpg">
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
             <div id="photoSlideCaption" class="invisible hidden">
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <p4 id="photoSlideCaptionText-1" class="photoSlideCaptionText hidden">
+                                Accident survivor Bruce Ford, shown at his ranch near Kersey, was told not to hit his head after being injured in the train-bus crash. He went on to become a rodeo legend, a five-time world bareback champion. (CHRIS SCHNEIDER/THE ROCKY)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-2" class="photoSlideCaptionText hidden">
+                                Loretta Ford sits with her sons, Bruce, left, and Glen. Loretta and her late husband, Jim Ford, were among the first at the scene of the train-bus collision. They found their son, Jimmy, dead and Bruce and Glen injured.  (CHRIS SCHNEIDER/THE ROCKY)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-3" class="photoSlideCaptionText hidden">
+                                Jimmy Ford spent hours with his brothers, playing baseball, riding horses and romping across the family's farm. (COURTESY LORETTA FORD)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-4" class="photoSlideCaptionText hidden">
+                                Bruce Ford, 9, the youngest of three brothers on the bus, suffered a serious head injury but recovered quickly. Several boys sitting near him died in the accident. (COURTESY LORETTA FORD)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-5" class="photoSlideCaptionText hidden">
+                                Glen Ford was 11 the day a train hit his school bus. He suffered minor injuries in the crash, which killed his brother, Jimmy, and seriously injured his brother, Bruce. (COURTESY LORETTA FORD)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-6" class="photoSlideCaptionText hidden">
+                                Jimmy Ford stands with his horse on the family's farm in the Auburn area. Jimmy loved to ride, and after his death his two brothers made their living on the rodeo circuit. (COURTESY LORETTA FORD)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-7" class="photoSlideCaptionText hidden">
+                                Jim Ford waves from the back of a horse in this undated family photo. A bricklayer by trade, he passed on his love of horses to his three sons. (COURTESY LORETTA FORD)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-8" class="photoSlideCaptionText hidden">
+                                Bruce Ford feeds horses on his ranch near Kersey. A legend on the rodeo circuit, he has operated a successful horse-trading business since retiring from competition. (DEAN KRAKEL/ROCKY MOUNTAIN NEWS/1984)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-9" class="photoSlideCaptionText hidden">
+                                Bruce Ford fights for control during a bareback competition. He spent nearly 30 years on the rodeo circuit and is one of only two men to win five world bareback championships. (Professional Rodeo Cowboys Association)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-10" class="photoSlideCaptionText hidden">
+                                Bruce Ford holds his bareback championship belt buckle from 1983. He also won the title in 1979, 1980, 1982 and 1987. He competed in the National Finals Rodeo 19 times. (DEAN KRAKEL/ROCKY MOUNTAIN NEWS/1984)
+                            </p4>
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
         </div>
-        <div id="photoPlayerControls">
-            <div>
-                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                <a onclick="closePhotoClicked()">
-                    CHAPTER MENU
-                </a>
-            </div>
+        <div id="photoPlayerControls" class="interactiveMediaControls">
+            <a onclick="closePhotoClicked()">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <p class="chapterMenuButton">CHAPTER MENU</p>
+                </div>
+            </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="previousPhotoClicked()">
-                <img src='/crossing_preview/images/rewind.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M0.7 8L7.95 2.45L7.95 14.55L0.7 8 Z M12.1 8L19.35 1.45L19.35 14.55L12.1 8 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="playPhotoClicked()">
-                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
-                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                <div id="playPhotoButtonImage">
+                    <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                </div>
+                <div id="pausePhotoButtonImage" class="hidden">
+                    <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="nextPhotoClicked()">
-                <img src='/crossing_preview/images/fast_forward.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M7.95 8L0.7 1.45L0.7 14.55L7.95 8 Z M19.35 8L12.1 1.45L12.1 14.55L19.35 8 Z"></path>
+</svg>
+
+                </div>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="captionsClicked()">
-                <p4>Captions</p4>
+                <p4>Caption</p4>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <p4 id="photoSlideshowState"></p4>
         </div>
     </div>

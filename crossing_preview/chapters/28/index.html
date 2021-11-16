@@ -107,33 +107,234 @@
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part28/lg/1.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part28/lg/2.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part28/lg/3.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part28/lg/4.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part28/lg/5.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part28/lg/6.jpg">
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
             <div id="photoSlideCaption" class="invisible hidden">
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <p4 id="photoSlideCaptionText-1" class="photoSlideCaptionText hidden">
+                                Nancy Alles Stroh stands on the Union Pacific tracks at the place where her school bus was hit by a passenger train on Dec. 14, 1961. Nancy suffered broken vertebrae and ribs. Today, she teaches home economics in Oshkosh, Wis. (CHRIS SCHNEIDER/THE ROCKY)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-2" class="photoSlideCaptionText hidden">
+                                A broken swing set sits in the yard on the farm where Nancy Alles Stroh grew up. The farm has been in her family for three generations. (CHRIS SCHNEIDER/THE ROCKY)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-3" class="photoSlideCaptionText hidden">
+                                Nancy Alles Stroh keeps the get-well cards she received after being injured as a child. The cards are pasted neatly in a scrapbook. (CHRIS SCHNEIDER/THE ROCKY)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-4" class="photoSlideCaptionText hidden">
+                                Cindy Dorn, a cousin to Nancy Alles Stroh and Linda Alles, was one of the first students to get on the bus on Dec. 14, 1961. She died in the crash. (COURTESY NANCY ALLES STROH)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-5" class="photoSlideCaptionText hidden">
+                                Nancy Alles, above, joined her cousin, Cindy Dorn, on the bus. (COURTESY NANCY ALLES STROH)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-6" class="photoSlideCaptionText hidden">
+                                Linda Alles, above, lived just across the road from her cousin, Nancy Alles, when the two were growing up in the Auburn area. Linda joined her cousins Nancy Alles and Cindy Dorn on the bus. (COURTESY NANCY ALLES STROH)
+                            </p4>
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
         </div>
-        <div id="photoPlayerControls">
-            <div>
-                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                <a onclick="closePhotoClicked()">
-                    CHAPTER MENU
-                </a>
-            </div>
+        <div id="photoPlayerControls" class="interactiveMediaControls">
+            <a onclick="closePhotoClicked()">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <p class="chapterMenuButton">CHAPTER MENU</p>
+                </div>
+            </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="previousPhotoClicked()">
-                <img src='/crossing_preview/images/rewind.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M0.7 8L7.95 2.45L7.95 14.55L0.7 8 Z M12.1 8L19.35 1.45L19.35 14.55L12.1 8 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="playPhotoClicked()">
-                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
-                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                <div id="playPhotoButtonImage">
+                    <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                </div>
+                <div id="pausePhotoButtonImage" class="hidden">
+                    <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="nextPhotoClicked()">
-                <img src='/crossing_preview/images/fast_forward.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M7.95 8L0.7 1.45L0.7 14.55L7.95 8 Z M19.35 8L12.1 1.45L12.1 14.55L19.35 8 Z"></path>
+</svg>
+
+                </div>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="captionsClicked()">
-                <p4>Captions</p4>
+                <p4>Caption</p4>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <p4 id="photoSlideshowState"></p4>
         </div>
     </div>

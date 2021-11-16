@@ -107,33 +107,227 @@
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part22/lg/1.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part22/lg/2.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part22/lg/3.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part22/lg/4.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part22/lg/5.jpg">
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
             <div id="photoSlideCaption" class="invisible hidden">
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <p4 id="photoSlideCaptionText-1" class="photoSlideCaptionText hidden">
+                                Vicky Munson Allmer holds a doll given to her by her parents while she was in the hospital after the bus-train crash of Dec. 14, 1961. She and two of her brothers got on the bus early that day, but all three survived the accident. (CHRIS SCHNEIDER/THE ROCKY)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-2" class="photoSlideCaptionText hidden">
+                                Jean Munson sits next to her son, Johnny, in the hospital after he was injured in the accident at the crossing. (BOB TALKIN/ROCKY MOUNTAIN NEWS/1961)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-3" class="photoSlideCaptionText hidden">
+                                Johnny Munson got on the bus early with his brother and sister. (COURTESY VICKY MUNSON ALLMER)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-4" class="photoSlideCaptionText hidden">
+                                Gary Munson took a seat just behind bus driver Duane Harms. (COURTESY VICKY MUNSON ALLMER)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-5" class="photoSlideCaptionText hidden">
+                                Vicky Munson, 6, boarded the bus with her two brothers. (COURTESY VICKY MUNSON ALLMER)
+                            </p4>
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
         </div>
-        <div id="photoPlayerControls">
-            <div>
-                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                <a onclick="closePhotoClicked()">
-                    CHAPTER MENU
-                </a>
-            </div>
+        <div id="photoPlayerControls" class="interactiveMediaControls">
+            <a onclick="closePhotoClicked()">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <p class="chapterMenuButton">CHAPTER MENU</p>
+                </div>
+            </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="previousPhotoClicked()">
-                <img src='/crossing_preview/images/rewind.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M0.7 8L7.95 2.45L7.95 14.55L0.7 8 Z M12.1 8L19.35 1.45L19.35 14.55L12.1 8 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="playPhotoClicked()">
-                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
-                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                <div id="playPhotoButtonImage">
+                    <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                </div>
+                <div id="pausePhotoButtonImage" class="hidden">
+                    <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="nextPhotoClicked()">
-                <img src='/crossing_preview/images/fast_forward.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M7.95 8L0.7 1.45L0.7 14.55L7.95 8 Z M19.35 8L12.1 1.45L12.1 14.55L19.35 8 Z"></path>
+</svg>
+
+                </div>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="captionsClicked()">
-                <p4>Captions</p4>
+                <p4>Caption</p4>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <p4 id="photoSlideshowState"></p4>
         </div>
     </div>

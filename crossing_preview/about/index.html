@@ -107,33 +107,188 @@
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
             <div id="photoSlideCaption" class="invisible hidden">
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
         </div>
-        <div id="photoPlayerControls">
-            <div>
-                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                <a onclick="closePhotoClicked()">
-                    CHAPTER MENU
-                </a>
-            </div>
+        <div id="photoPlayerControls" class="interactiveMediaControls">
+            <a onclick="closePhotoClicked()">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <p class="chapterMenuButton">CHAPTER MENU</p>
+                </div>
+            </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="previousPhotoClicked()">
-                <img src='/crossing_preview/images/rewind.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M0.7 8L7.95 2.45L7.95 14.55L0.7 8 Z M12.1 8L19.35 1.45L19.35 14.55L12.1 8 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="playPhotoClicked()">
-                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
-                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                <div id="playPhotoButtonImage">
+                    <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                </div>
+                <div id="pausePhotoButtonImage" class="hidden">
+                    <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="nextPhotoClicked()">
-                <img src='/crossing_preview/images/fast_forward.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M7.95 8L0.7 1.45L0.7 14.55L7.95 8 Z M19.35 8L12.1 1.45L12.1 14.55L19.35 8 Z"></path>
+</svg>
+
+                </div>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="captionsClicked()">
-                <p4>Captions</p4>
+                <p4>Caption</p4>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <p4 id="photoSlideshowState"></p4>
         </div>
     </div>

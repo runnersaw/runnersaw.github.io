@@ -117,22 +117,48 @@
                     <source src="/crossing_preview/videos/part11/video11.mp4">
                 </video>
             </div>
-            <div id="videoPlayerControls">
-                <div>
-                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                    <a onclick="closeVideoClicked()">
-                        CHAPTER MENU
-                    </a>
-                </div>
+            <div id="videoPlayerControls" class="interactiveMediaControls">
+                <a onclick="closeVideoClicked()">
+                    <div>
+                        <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                        <p class="chapterMenuButton">CHAPTER MENU</p>
+                    </div>
+                </a>
+                <div class="interactiveMediaControlsDivider"></div>
                 <a onclick="playVideoClicked()">
-                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
-                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                    <div id="playVideoButtonImage">
+                        <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                    </div>
+                    <div id="pauseVideoButtonImage" class="hidden">
+                        <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                    </div>
                 </a>
                 <a onclick="closeVideoClicked()">
                     <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
                 </a>
                 <div id="playbackBar">
-                    <div id="playbackSelector"></div>
+                    <div id="playbackSelector">
+                        <svg width="15" height="10">
+  <defs>
+    <linearGradient id="gradient" gradientTransform="rotate(90)">
+      <stop offset="0%"  stop-color="black" />
+      <stop offset="40%" stop-color="#75574A" />
+      <stop offset="60%" stop-color="#75574A" />
+      <stop offset="100%" stop-color="black" />
+    </linearGradient>
+  </defs>
+  <path d="M0 0 L15 0 L15 10 L0 10 L0 0 Z" fill="url('#gradient')"></path>
+  <path d="M6 0 L6 10 L9 10 L9 0 L6 0 Z" fill="#00000020"></path>
+  <path d="M7 0 L7 10 L8 10 L8 0 L7 0 Z" fill="#810C0C"></path>
+</svg>
+
+                    </div>
                 </div>
                 <p4 id="timeText">0:00</p4>
             </div>
@@ -145,33 +171,220 @@
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part11/lg/1.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part11/lg/2.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part11/lg/3.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part11/lg/4.jpg">
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
             <div id="photoSlideCaption" class="invisible hidden">
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <p4 id="photoSlideCaptionText-1" class="photoSlideCaptionText hidden">
+                                Colleen Yetter Lackey, left, and her sister, LaDean Yetter Long, shown near their parents' home outside LaSalle in Weld County, continue to feel the pain of losing many of their friends in the train-bus crash of Dec. 14, 1961. The sisters got up late that morning and missed the bus, but their cousin, Jerry Hembry, ran for the bus and made it. He survived. (CHRIS SCHNEIDER/THE ROCKY)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-2" class="photoSlideCaptionText hidden">
+                                Colleen Yetter, 13, and her 6-year-old sister, LaDean, sit in the waiting room at Weld County General Hospital a few hours after the train-bus collision. The two were up late the night before at a church rehearsal and missed the bus that morning. (BOB TALKIN/ROCKY MOUNTAIN NEWS/1961)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-3" class="photoSlideCaptionText hidden">
+                                Colleen Yetter Lackey went on to be Miss Greeley Rodeo and have many happy times in her life. But she never completely escaped the pain of Dec. 14, 1961, and the deaths of many of her friends, including Linda Walso, who always sat with Colleen on the bus. (COURTESY ELDON AND GENEVIEVE YETTER)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-4" class="photoSlideCaptionText hidden">
+                                Eldon Yetter looks through a family photo album. The morning of Dec. 14, 1961, he was initially angry at his two daughters for missing their school bus -- but that emotion quickly turned to relief that they were not on board during the crash. (CHRIS SCHNEIDER/THE ROCKY)
+                            </p4>
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
         </div>
-        <div id="photoPlayerControls">
-            <div>
-                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                <a onclick="closePhotoClicked()">
-                    CHAPTER MENU
-                </a>
-            </div>
+        <div id="photoPlayerControls" class="interactiveMediaControls">
+            <a onclick="closePhotoClicked()">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <p class="chapterMenuButton">CHAPTER MENU</p>
+                </div>
+            </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="previousPhotoClicked()">
-                <img src='/crossing_preview/images/rewind.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M0.7 8L7.95 2.45L7.95 14.55L0.7 8 Z M12.1 8L19.35 1.45L19.35 14.55L12.1 8 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="playPhotoClicked()">
-                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
-                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                <div id="playPhotoButtonImage">
+                    <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                </div>
+                <div id="pausePhotoButtonImage" class="hidden">
+                    <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="nextPhotoClicked()">
-                <img src='/crossing_preview/images/fast_forward.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M7.95 8L0.7 1.45L0.7 14.55L7.95 8 Z M19.35 8L12.1 1.45L12.1 14.55L19.35 8 Z"></path>
+</svg>
+
+                </div>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="captionsClicked()">
-                <p4>Captions</p4>
+                <p4>Caption</p4>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <p4 id="photoSlideshowState"></p4>
         </div>
     </div>

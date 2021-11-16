@@ -117,22 +117,48 @@
                     <source src="/crossing_preview/videos/part9/video9.mp4">
                 </video>
             </div>
-            <div id="videoPlayerControls">
-                <div>
-                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                    <a onclick="closeVideoClicked()">
-                        CHAPTER MENU
-                    </a>
-                </div>
+            <div id="videoPlayerControls" class="interactiveMediaControls">
+                <a onclick="closeVideoClicked()">
+                    <div>
+                        <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                        <p class="chapterMenuButton">CHAPTER MENU</p>
+                    </div>
+                </a>
+                <div class="interactiveMediaControlsDivider"></div>
                 <a onclick="playVideoClicked()">
-                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
-                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                    <div id="playVideoButtonImage">
+                        <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                    </div>
+                    <div id="pauseVideoButtonImage" class="hidden">
+                        <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                    </div>
                 </a>
                 <a onclick="closeVideoClicked()">
                     <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
                 </a>
                 <div id="playbackBar">
-                    <div id="playbackSelector"></div>
+                    <div id="playbackSelector">
+                        <svg width="15" height="10">
+  <defs>
+    <linearGradient id="gradient" gradientTransform="rotate(90)">
+      <stop offset="0%"  stop-color="black" />
+      <stop offset="40%" stop-color="#75574A" />
+      <stop offset="60%" stop-color="#75574A" />
+      <stop offset="100%" stop-color="black" />
+    </linearGradient>
+  </defs>
+  <path d="M0 0 L15 0 L15 10 L0 10 L0 0 Z" fill="url('#gradient')"></path>
+  <path d="M6 0 L6 10 L9 10 L9 0 L6 0 Z" fill="#00000020"></path>
+  <path d="M7 0 L7 10 L8 10 L8 0 L7 0 Z" fill="#810C0C"></path>
+</svg>
+
+                    </div>
                 </div>
                 <p4 id="timeText">0:00</p4>
             </div>
@@ -145,33 +171,248 @@
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part9/lg/1.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part9/lg/2.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part9/lg/3.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part9/lg/4.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part9/lg/5.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part9/lg/6.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part9/lg/7.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part9/lg/8.jpg">
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
             <div id="photoSlideCaption" class="invisible hidden">
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <p4 id="photoSlideCaptionText-1" class="photoSlideCaptionText hidden">
+                                The Union Pacific's City of Denver streamliner idles on the tracks near LaSalle after it smashed into the school bus. The lead locomotive sustained relatively minor damage in the crash, which demolished the bus and killed 20 children. (COLORADO STATE PATROL/1961)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-2" class="photoSlideCaptionText hidden">
+                                Defense attorney Jim Shelton addresses Judge Donald Carpenter during the manslaughter trial of school bus driver Duane Harms, seated to the right of Shelton. Behind Shelton are prosecutors Karl Ahlborn and Bill Bohlender. (MIKE O'MEARA/ROCKY MOUNTAIN NEWS/1962)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-3" class="photoSlideCaptionText hidden">
+                                One of defense attorney Jim Shelton's trial exhibits shows the angle at which the road and the tracks intersected. Bus driver Duane Harms, coming from the east, had to twist around in his seat and look behind him to see if a train was approaching. (COURTESY VIRGINIA SHELTON)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-4" class="photoSlideCaptionText hidden">
+                                This photo depicts the view from a bus stopped at the crossing. From the driver's seat, the rails appear in the fourth and fifth windows on the right side of the bus. On Dec. 14, 1961, those windows were frosted because of the 6-degree temperature. (COLORADO STATE PATROL/1961)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-5" class="photoSlideCaptionText hidden">
+                                The Union Pacific City of Denver streamliner approaches the crossing in this photograph taken in early 1962. Depending on where a driver stopped, the utility poles could obscure the view of an approaching train. (WELD COUNTY DISTRICT ATTORNEY/1962)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-6" class="photoSlideCaptionText hidden">
+                                This view west toward the crossing shows the house of Jerry Baxter, left, and farmer Albert Bindel's home, right. Bindel stepped out into his yard and looked to the west moments before the train-bus collision and believed driver Duane Harms had stopped. (WELD COUNTY DISTRICT ATTORNEY/1961)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-7" class="photoSlideCaptionText hidden">
+                                This photograph, used as a defense exhibit, shows attorney Jim Shelton, right, and bus driver Duane Harms, just behind him wearing the bus driver's hat, in a school bus at the crossing with three unidentified men. (COURTESY VIRGINIA SHELTON)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-8" class="photoSlideCaptionText hidden">
+                                Defense attorney Jim Shelton, left, stands outside court with bus driver Duane Harms; his wife, Judy; and his parents, Wilber and Lavena Harms, on Jan. 2, 1962, after Harms' arraignment. Shelton, who was appointed to represent Harms, threw all his legal experience into the case against the young bus driver. (BILL PEERY/ROCKY MOUNTAIN NEWS/1962)
+                            </p4>
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
         </div>
-        <div id="photoPlayerControls">
-            <div>
-                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                <a onclick="closePhotoClicked()">
-                    CHAPTER MENU
-                </a>
-            </div>
+        <div id="photoPlayerControls" class="interactiveMediaControls">
+            <a onclick="closePhotoClicked()">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <p class="chapterMenuButton">CHAPTER MENU</p>
+                </div>
+            </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="previousPhotoClicked()">
-                <img src='/crossing_preview/images/rewind.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M0.7 8L7.95 2.45L7.95 14.55L0.7 8 Z M12.1 8L19.35 1.45L19.35 14.55L12.1 8 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="playPhotoClicked()">
-                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
-                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                <div id="playPhotoButtonImage">
+                    <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                </div>
+                <div id="pausePhotoButtonImage" class="hidden">
+                    <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="nextPhotoClicked()">
-                <img src='/crossing_preview/images/fast_forward.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M7.95 8L0.7 1.45L0.7 14.55L7.95 8 Z M19.35 8L12.1 1.45L12.1 14.55L19.35 8 Z"></path>
+</svg>
+
+                </div>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="captionsClicked()">
-                <p4>Captions</p4>
+                <p4>Caption</p4>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <p4 id="photoSlideshowState"></p4>
         </div>
     </div>

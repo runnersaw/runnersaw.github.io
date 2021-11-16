@@ -117,22 +117,48 @@
                     <source src="/crossing_preview/videos/part4/video4.mp4">
                 </video>
             </div>
-            <div id="videoPlayerControls">
-                <div>
-                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                    <a onclick="closeVideoClicked()">
-                        CHAPTER MENU
-                    </a>
-                </div>
+            <div id="videoPlayerControls" class="interactiveMediaControls">
+                <a onclick="closeVideoClicked()">
+                    <div>
+                        <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                        <p class="chapterMenuButton">CHAPTER MENU</p>
+                    </div>
+                </a>
+                <div class="interactiveMediaControlsDivider"></div>
                 <a onclick="playVideoClicked()">
-                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
-                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                    <div id="playVideoButtonImage">
+                        <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                    </div>
+                    <div id="pauseVideoButtonImage" class="hidden">
+                        <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                    </div>
                 </a>
                 <a onclick="closeVideoClicked()">
                     <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
                 </a>
                 <div id="playbackBar">
-                    <div id="playbackSelector"></div>
+                    <div id="playbackSelector">
+                        <svg width="15" height="10">
+  <defs>
+    <linearGradient id="gradient" gradientTransform="rotate(90)">
+      <stop offset="0%"  stop-color="black" />
+      <stop offset="40%" stop-color="#75574A" />
+      <stop offset="60%" stop-color="#75574A" />
+      <stop offset="100%" stop-color="black" />
+    </linearGradient>
+  </defs>
+  <path d="M0 0 L15 0 L15 10 L0 10 L0 0 Z" fill="url('#gradient')"></path>
+  <path d="M6 0 L6 10 L9 10 L9 0 L6 0 Z" fill="#00000020"></path>
+  <path d="M7 0 L7 10 L8 10 L8 0 L7 0 Z" fill="#810C0C"></path>
+</svg>
+
+                    </div>
                 </div>
                 <p4 id="timeText">0:00</p4>
             </div>
@@ -145,33 +171,241 @@
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part4/lg/1.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part4/lg/2.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part4/lg/3.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part4/lg/4.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part4/lg/5.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part4/lg/6.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part4/lg/7.jpg">
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
             <div id="photoSlideCaption" class="invisible hidden">
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                        
+                            <p4 id="photoSlideCaptionText-1" class="photoSlideCaptionText hidden">
+                                Duane Harms, 23, began driving a school bus in the fall of 1961 in the Auburn farming area southeast of Greeley. This photograph was taken for use at his trial after the crash, in which 20 children died on Dec. 14, 1961. (COURTESY VIRGINIA SHELTON)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-2" class="photoSlideCaptionText hidden">
+                                A young Linda Walso sits with her parents, Bernice and Maynard Walso. Linda was among the children in the Auburn area who began riding the school bus with driver Duane Harms in the fall of 1961. (COURTESY KAREN WALSO SCHOTT)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-3" class="photoSlideCaptionText hidden">
+                                Marilyn Paxton, left, and her younger sister, Jan, dress up for the camera in this family photo. The two girls, who loved to dance and have their pictures taken, moved to the Auburn area in 1961.  They both rode the bus on Dec. 14, 1961. (COURTESY ALICE PAXTON)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-4" class="photoSlideCaptionText hidden">
+                                The farm of Morris and Leah Brown sat along a county road one mile east of the Auburn school. Their daughter, Cheryl, was on the bus the day it was hit. The area was dominated by small family farms in the early 1960s. (COURTESY CHERYL BROWN HIATT)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-5" class="photoSlideCaptionText hidden">
+                                Children mug for the camera on the fence outside the strawberry-blond brick Auburn school. The three-room school was the center of the farming community that surrounded it. But in 1961, it was closed as a wave of school district consolidations swept Colorado. (CITY OF GREELEY MUSEUMS)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-6" class="photoSlideCaptionText hidden">
+                                Union Pacific engine No. 955 pulls the City of St. Louis streamliner near Rock River, Wyo., on Oct. 4, 1956. The same engine was the lead on the City of Denver passenger train that thundered through the Auburn community on Dec. 14, 1961.  (JAMES L. EHERNBERGER COLLECTION)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-7" class="photoSlideCaptionText hidden">
+                                A school bus sits outside Delta Elementary School. On Dec. 14, 1961, Duane Harms was driving a school bus with 36 children aboard when a train hit it. Twenty-eight of the children were headed for the Delta school.  (WELD COUNTY DISTRICT ATTORNEY/1961)
+                            </p4>
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
         </div>
-        <div id="photoPlayerControls">
-            <div>
-                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                <a onclick="closePhotoClicked()">
-                    CHAPTER MENU
-                </a>
-            </div>
+        <div id="photoPlayerControls" class="interactiveMediaControls">
+            <a onclick="closePhotoClicked()">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <p class="chapterMenuButton">CHAPTER MENU</p>
+                </div>
+            </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="previousPhotoClicked()">
-                <img src='/crossing_preview/images/rewind.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M0.7 8L7.95 2.45L7.95 14.55L0.7 8 Z M12.1 8L19.35 1.45L19.35 14.55L12.1 8 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="playPhotoClicked()">
-                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
-                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                <div id="playPhotoButtonImage">
+                    <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                </div>
+                <div id="pausePhotoButtonImage" class="hidden">
+                    <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="nextPhotoClicked()">
-                <img src='/crossing_preview/images/fast_forward.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M7.95 8L0.7 1.45L0.7 14.55L7.95 8 Z M19.35 8L12.1 1.45L12.1 14.55L19.35 8 Z"></path>
+</svg>
+
+                </div>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="captionsClicked()">
-                <p4>Captions</p4>
+                <p4>Caption</p4>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <p4 id="photoSlideshowState"></p4>
         </div>
     </div>

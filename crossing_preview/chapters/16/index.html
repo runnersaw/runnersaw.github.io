@@ -117,22 +117,48 @@
                     <source src="/crossing_preview/videos/part16/video16.mp4">
                 </video>
             </div>
-            <div id="videoPlayerControls">
-                <div>
-                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                    <a onclick="closeVideoClicked()">
-                        CHAPTER MENU
-                    </a>
-                </div>
+            <div id="videoPlayerControls" class="interactiveMediaControls">
+                <a onclick="closeVideoClicked()">
+                    <div>
+                        <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                        <p class="chapterMenuButton">CHAPTER MENU</p>
+                    </div>
+                </a>
+                <div class="interactiveMediaControlsDivider"></div>
                 <a onclick="playVideoClicked()">
-                    <img id="playVideoButtonImage" src='/crossing_preview/images/play.svg'>
-                    <img id="pauseVideoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                    <div id="playVideoButtonImage">
+                        <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                    </div>
+                    <div id="pauseVideoButtonImage" class="hidden">
+                        <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                    </div>
                 </a>
                 <a onclick="closeVideoClicked()">
                     <img id="playVideoButtonImage" src='/crossing_preview/images/sound.svg'>
                 </a>
                 <div id="playbackBar">
-                    <div id="playbackSelector"></div>
+                    <div id="playbackSelector">
+                        <svg width="15" height="10">
+  <defs>
+    <linearGradient id="gradient" gradientTransform="rotate(90)">
+      <stop offset="0%"  stop-color="black" />
+      <stop offset="40%" stop-color="#75574A" />
+      <stop offset="60%" stop-color="#75574A" />
+      <stop offset="100%" stop-color="black" />
+    </linearGradient>
+  </defs>
+  <path d="M0 0 L15 0 L15 10 L0 10 L0 0 Z" fill="url('#gradient')"></path>
+  <path d="M6 0 L6 10 L9 10 L9 0 L6 0 Z" fill="#00000020"></path>
+  <path d="M7 0 L7 10 L8 10 L8 0 L7 0 Z" fill="#810C0C"></path>
+</svg>
+
+                    </div>
                 </div>
                 <p4 id="timeText">0:00</p4>
             </div>
@@ -145,33 +171,234 @@
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part16/lg/1.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part16/lg/2.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part16/lg/3.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part16/lg/4.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part16/lg/5.jpg">
+                        
+                            <!-- Avoid loading photos until requested. -->
+                            <img class="unloadedPhoto photoSlide" data-src="/crossing_preview/images/part16/lg/6.jpg">
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
             <div id="photoSlideCaption" class="invisible hidden">
                 
                     
                 
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                        
+                            <p4 id="photoSlideCaptionText-1" class="photoSlideCaptionText hidden">
+                                Glen Ford guides his school bus along a two-lane road south of Kersey. The middle of three Ford brothers whose bus was hit by a train on Dec. 14, 1961, Glen spent years on the rodeo circuit. Then, in 1984, he took a job driving a school bus. (CHRIS SCHNEIDER/THE ROCKY)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-2" class="photoSlideCaptionText hidden">
+                                Although he was killed on Dec. 14, 1961, Jimmy Ford remains a constant presence in the lives of his brothers and mother. (COURTESY LORETTA FORD)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-3" class="photoSlideCaptionText hidden">
+                                Glen Ford says he had to get back on the bus after the accident of Dec. 14, 1961, to get over his fear, just as he would get back on a horse after being thrown off. (COURTESY LORETTA FORD)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-4" class="photoSlideCaptionText hidden">
+                                After the accident, Bruce Ford says, he had a &quot;panic button&quot; in him for a while whenever his school bus approached railroad tracks. (COURTESY LORETTA FORD)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-5" class="photoSlideCaptionText hidden">
+                                Bruce and Glen Ford pose on their horses not long after the train-bus accident. Horses have always been a part of life for the Ford family. (COURTESY LORETTA FORD)
+                            </p4>
+                        
+                            <p4 id="photoSlideCaptionText-6" class="photoSlideCaptionText hidden">
+                                Glen Ford stands in the bus pen in Kersey where he begins each school day. Glen, a survivor of the train-bus crash of Dec. 14, 1961, has spent more than 20 years driving a bus for the Platte Valley School District. (CHRIS SCHNEIDER/THE ROCKY)
+                            </p4>
+                        
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
             </div>
         </div>
-        <div id="photoPlayerControls">
-            <div>
-                <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
-                <a onclick="closePhotoClicked()">
-                    CHAPTER MENU
-                </a>
-            </div>
+        <div id="photoPlayerControls" class="interactiveMediaControls">
+            <a onclick="closePhotoClicked()">
+                <div>
+                    <img src='/crossing_preview/images/arrow.gif' style='border: 0; vertical-align: middle;'>
+                    <p class="chapterMenuButton">CHAPTER MENU</p>
+                </div>
+            </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="previousPhotoClicked()">
-                <img src='/crossing_preview/images/rewind.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M0.7 8L7.95 2.45L7.95 14.55L0.7 8 Z M12.1 8L19.35 1.45L19.35 14.55L12.1 8 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="playPhotoClicked()">
-                <img id="playPhotoButtonImage" src='/crossing_preview/images/play.svg'>
-                <img id="pausePhotoButtonImage" class="hidden" src='/crossing_preview/images/pause.svg'>
+                <div id="playPhotoButtonImage">
+                    <svg width="16" height="16">
+  <path d="M11.75 8L4.5 1.45L4.5 14.55L11.75 8 Z"></path>
+</svg>
+
+                </div>
+                <div id="pausePhotoButtonImage" class="hidden">
+                    <svg width="16" height="16">
+  <path d="M15.5 0.5L15.5 15.5L9.5 15.5L9.5 0.5L15.5 0.5 Z M6.5 0.5L6.5 15.5L0.5 15.5L0.5 0.5L6.5 0.5 Z"></path>
+</svg>
+
+                </div>
             </a>
             <a onclick="nextPhotoClicked()">
-                <img src='/crossing_preview/images/fast_forward.svg'>
+                <div>
+                    <svg width="20" height="16">
+  <path d="M7.95 8L0.7 1.45L0.7 14.55L7.95 8 Z M19.35 8L12.1 1.45L12.1 14.55L19.35 8 Z"></path>
+</svg>
+
+                </div>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <a onclick="captionsClicked()">
-                <p4>Captions</p4>
+                <p4>Caption</p4>
             </a>
+            <div class="interactiveMediaControlsDivider"></div>
             <p4 id="photoSlideshowState"></p4>
         </div>
     </div>
