@@ -4,6 +4,12 @@
 	License: Creative Commons Attribution 3.0 Unported
 	License URL: http://creativecommons.org/licenses/by/3.0/
 ---*/
+
+/**
+DISCLAIMER!!!!
+
+IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS CSS - IT IS A HUGE UGLY MESS!
+**/
 html,body{
 	font-family: 'Lato', sans-serif;
 }
@@ -55,8 +61,9 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	width: 30px;
 	height: 30px;
 }
-.container{
-	width:70%;
+.container {
+	width: 70%;
+	max-width: 1024px;
 	height: 100%;
 }
 .nav{
@@ -99,11 +106,6 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 }
 .bannerhead p{
     font-size: 1.5em;
-}
-.bannerhead{
-	position: relative;
-	width: 90%;
-	float:right;
 }
 .banner-info{
 	width: 100%;
@@ -184,18 +186,23 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	padding-top: 1px;
 	padding-bottom: 1px;
 	margin-bottom: 10px;
+	max-width: 384px;
+	margin-left: auto;
+	margin-right: auto;
 }
-.skill-grid h3{
+.skill-grid-column:last-child {
+	margin-bottom: 32px;
+}
+.skill-grid h3 {
 	color:#FFF;
-	font-size:1.8em;
 }
 .skill-grids .col-md-3 {
 	padding-left: 5px;
 	padding-right: 5px;
 }
 .skill-text {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 #canvas{
 	position:relative;
@@ -209,6 +216,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 }
 .portfolio-grid {
 	margin-bottom:3em;
+	max-width: 512px;
 }
 .portfolio-section h2{
 	color:#91898D;
@@ -223,18 +231,10 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 .portfolio-grid p{
 	color:#504A4C;
 	line-height:1.5em;
-	height:4em;
+	margin: 0;
 }
-.portfolio-grid h2{
-	position: relative;
-    margin-top: 0;
-    margin-bottom: 0;
-    top: 50%;
-	-ms-transform: translateY(-50%);
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
+.portfolio-grid h2 {
+	margin: 0;
 }
 .portfolio-grid img{
 	width:100%;
@@ -243,11 +243,11 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 .portfolio-grid a img {
 	max-width: 310px;
 }
-.portfolio-title {
-	height:80px;
+.portfolio-image {
+	padding: 0 16px;
 }
-.portfolio-date {
-	height:20px;
+.portfolio-title {
+	padding-top: 32px;
 }
 .portfolio-button {
 	cursor:pointer;
@@ -325,12 +325,6 @@ a.rightarrow{
 
 /* BIG */
 @media (max-width:1200px){
-	.portfolio-grid p {
-		height:6em;
-	}
-	.portfolio-title {
-		height: 100px;
-	}
 }
 
 @media (max-width:1024px){
@@ -344,13 +338,9 @@ a.rightarrow{
 
 @media (max-width:992px){
 	.portfolio-grid {
-		margin-bottom:1em;
-	}
-	.portfolio-title {
-		height:80px;
-	}
-	.portfolio-grid p {
-		height:3em;
+		margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
 	}
 }
 
@@ -434,12 +424,6 @@ a.rightarrow{
 	.skill-grid h3 {
 		font-size: 1.5em;
 	}
-	.portfolio-title {
-		height:100px;
-	}
-	.portfolio-grid p {
-		height:5em;
-	}
 }
 
 /* REALLY TINY */
@@ -478,8 +462,5 @@ a.rightarrow{
 	.footer-right input[type="submit"] {
 		float: none;
 		width:100%
-	}
-	.portfolio-grid p {
-		height:8em;
 	}
 }

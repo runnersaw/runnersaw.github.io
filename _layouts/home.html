@@ -4,6 +4,11 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+<!--
+DISCLAIMER!!!!
+
+IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML ORIGINALLY - IT IS A HUGE UGLY MESS!
+-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,7 +27,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 					<div class="nav">
 						<ul>
-							<li><a class="scroll" href="mailto:sawyer.vaughan@students.olin.edu">CONTACT</a></li>
+							<li><a class="scroll" href="mailto:sawyer.vaughan@gmail.com">CONTACT</a></li>
 						</ul>
 					</div>
 					<div class="clear"></div>
@@ -33,8 +38,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="banner-info">
 						<div class="bannerhead">
 							<h2>I am <span>Sawyer Vaughan</span></h2>
-							<h3>Software Engineer</h3>
-							<p>I am a Software Engineer currently working at Google. I graduated with an Electrical and Computer Engineering degree from Olin College of Engineering.</p>
+							<h3>Senior Software Engineer</h3>
+							<p>I am a software engineer currently looking for a new opportunity. Previously, I was a Senior Software Engineer at Google. I graduated with an Electrical and Computer Engineering degree from Olin College of Engineering.</p>
 						</div>
 					</div>
 					<div class="clear"></div>
@@ -46,8 +51,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="header-section text-center">
 					<h2 class="section-title"><span class="section-lines"> </span>ABOUT<span class="section-lines"> </span></h2>
 				</div>
-				<span><p>I am an Software Engineer working at Google. I enjoy working on electrical and embedded systems, but programming is my passion.</p></span>
-				<br>
 
 				{% for job in site.data.jobs %}
 				<div class="years">
@@ -70,7 +73,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div id="canvas">
 							<div class="skill-grids text-center">
 							{% for skill in site.data.skills %}
-								<div class="col-md-3">
+								<div class="col-md-3 skill-grid-column">
 									<div class="skill-grid skills-black">
 										<h3 class="skill-text">{{ skill.skill }}</h3>
 									</div>
@@ -98,7 +101,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<a href="{{ post.external_link }}" class="project-link">
 					{% endif %}
 						<div class="portfolio-grid col-md-4 portfolio-button">
-							<img src="{{ post.displayimage }}">
+							<img class="portfolio-image" src="{{ post.displayimage }}">
 							<div class="portfolio-title">
 								<h2>{{ post.project }}</h2>
 							</div>
@@ -123,4 +126,3 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 </body>
 </html>
-
