@@ -214,10 +214,6 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	background:#ffffff;
 	text-align:center;
 }
-.portfolio-grid {
-	margin-bottom:3em;
-	max-width: 512px;
-}
 .portfolio-section h2{
 	color:#91898D;
 }
@@ -227,6 +223,17 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 .portfolio-grids{
 	padding-top:2em;
 	padding-bottom:2em;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	gap: 24px;
+}
+.portfolio-grid {
+	max-width: 512px;
+	min-width: 196px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: calc(50% - 12px);
 }
 .portfolio-grid p{
 	color:#504A4C;
@@ -251,19 +258,22 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 }
 .portfolio-button {
 	cursor:pointer;
+	height: 100%;
+	position: relative;
+	/* Account for the button which is position: absolute. */
+	padding-bottom: 46px;
 }
-div.rightarrow span{
+div.rightarrow{
 	height:30px;
 	width:32px;
 	background:url(/assets/images/rightarw.png);
 	background-repeat: no-repeat;
+	margin-bottom:8px;
 	display:inline-block;
-	cursor: pointer;
-}
-div.rightarrow{
-	margin-top:1em;
-	margin-bottom:1em;
-	display:inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
 }
 #display-box {
 	z-index: 10000;
@@ -336,14 +346,6 @@ div.rightarrow{
 	}
 }
 
-@media (max-width:992px){
-	.portfolio-grid {
-		margin-bottom: 1em;
-    margin-left: auto;
-    margin-right: auto;
-	}
-}
-
 /* MEDIUM SIZE */
 @media (max-width:768px){
 	.banner {
@@ -361,9 +363,6 @@ div.rightarrow{
 	.portfolio-grids {
 		padding-top: 1em;
 		padding-bottom:1em;
-	}
-	.portfolio-grid {
-		margin: 0 0 2em 0;
 	}
 	.footer {
 		padding: 0 0 10em;

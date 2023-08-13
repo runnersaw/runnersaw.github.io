@@ -95,8 +95,8 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 
 				{% for post in site.posts %}
 					{% assign link = post.permalink | default: post.external_link %}
-					<a href="https://sawyervaughan.com" class="project-link">
-						<div class="portfolio-grid col-md-4 portfolio-button">
+					<a href="https://sawyervaughan.com" class="portfolio-grid project-link">
+						<div class="portfolio-button">
 							<img class="portfolio-image" src="{{ post.displayimage }}" />
 							<div class="portfolio-title">
 								<h2>{{ post.project }}</h2>
@@ -105,7 +105,7 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 								<h4>{{ post.time }}</h4>
 							</div>
 							<p>{{ post.shortdescription }}</p>
-							<div class="rightarrow"><span> </span></div>
+							<div class="rightarrow"></div>
 						</div>
 					</a>
 				{% endfor %}
