@@ -180,29 +180,24 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 .skill-grids{
 	padding:1em 0;
 	margin-bottom:2.5em;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
 }
 .skill-grid {
 	background-color: #000000;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	margin-bottom: 10px;
-	max-width: 384px;
 	margin-left: auto;
 	margin-right: auto;
-}
-.skill-grid-column:last-child {
-	margin-bottom: 32px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	width: 196px;
+	border-radius: 8px;
 }
 .skill-grid h3 {
 	color:#FFF;
 }
-.skill-grids .col-md-3 {
-	padding-left: 5px;
-	padding-right: 5px;
-}
 .skill-text {
-	margin-top: 16px;
-	margin-bottom: 16px;
+	margin: 16px;	
 }
 #canvas{
 	position:relative;
@@ -435,9 +430,6 @@ div.rightarrow{
 	}
 	.about div.container{
 		padding:0;
-	}
-	.skill-grid {
-		padding: 1em 0;
 	}
 	.footer {
 		padding: 0 0 6em;

@@ -65,22 +65,16 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 
 		<div id="skills" class="skills">
 			<div class="container">
-				<div class="skills-grids">
-					<div class="skill-section text-center">
-						<h2 class="section-title"><span class="section-lines"> </span>SKILLS<span class="section-lines"> </span></h2>
-					</div>
-					<div class="services_grids">
-						<div id="canvas">
-							<div class="skill-grids text-center">
-							{% for skill in site.data.skills %}
-								<div class="col-md-3 skill-grid-column">
-									<div class="skill-grid skills-black">
-										<h3 class="skill-text">{{ skill.skill }}</h3>
-									</div>
-								</div>
-							{% endfor %}
-							</div>
+				<div class="skill-section text-center">
+					<h2 class="section-title"><span class="section-lines"> </span>SKILLS<span class="section-lines"> </span></h2>
+				</div>
+				<div id="canvas">
+					<div class="skill-grids text-center">
+					{% for skill in site.data.skills %}
+						<div class="skill-grid skills-black">
+							<h3 class="skill-text">{{ skill.skill }}</h3>
 						</div>
+					{% endfor %}
 					</div>
 				</div>
 			</div>
