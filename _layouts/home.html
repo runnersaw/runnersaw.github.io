@@ -89,7 +89,7 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 
 				{% for post in site.posts %}
 					{% assign link = post.permalink | default: post.external_link %}
-					<a href="https://sawyervaughan.com" class="portfolio-grid project-link">
+					<a href="{{ link }}" class="portfolio-grid project-link">
 						<div class="portfolio-button">
 							<img class="portfolio-image" src="{{ post.displayimage }}" />
 							<div class="portfolio-title">

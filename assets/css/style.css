@@ -224,11 +224,10 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	gap: 24px;
 }
 .portfolio-grid {
-	max-width: 512px;
-	min-width: 196px;
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: calc(50% - 12px);
+	width: calc(50% - 12px);
+	background: #f8f8f8;
+	border-radius: 24px;
+	padding: 24px;
 }
 .portfolio-grid p{
 	color:#504A4C;
@@ -240,13 +239,11 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 }
 .portfolio-grid img{
 	width:100%;
-	max-width:250px;
+	max-width:224px;
+	border-radius: 12px;
 }
 .portfolio-grid a img {
 	max-width: 310px;
-}
-.portfolio-image {
-	padding: 0 16px;
 }
 .portfolio-title {
 	padding-top: 32px;
@@ -263,7 +260,6 @@ div.rightarrow{
 	width:32px;
 	background:url(/assets/images/rightarw.png);
 	background-repeat: no-repeat;
-	margin-bottom:8px;
 	display:inline-block;
 	position: absolute;
 	bottom: 0;
@@ -358,6 +354,9 @@ div.rightarrow{
 	.portfolio-grids {
 		padding-top: 1em;
 		padding-bottom:1em;
+	}
+	.portfolio-grid {
+		width: 100%;
 	}
 	.footer {
 		padding: 0 0 10em;
