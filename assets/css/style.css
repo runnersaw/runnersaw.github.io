@@ -252,7 +252,7 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 .portfolio-button {
 	cursor:pointer;
 }
-a.rightarrow span{
+div.rightarrow span{
 	height:30px;
 	width:32px;
 	background:url(/assets/images/rightarw.png);
@@ -260,7 +260,7 @@ a.rightarrow span{
 	display:inline-block;
 	cursor: pointer;
 }
-a.rightarrow{
+div.rightarrow{
 	margin-top:1em;
 	margin-bottom:1em;
 	display:inline-block;
