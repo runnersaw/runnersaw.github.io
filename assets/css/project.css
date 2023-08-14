@@ -22,32 +22,29 @@
 	text-decoration:none;
 }
 .project-title {
-	margin-top:2em;
-	margin-bottom:2em;
-}
-.project-title h2 {
+	margin-top: 40px;
+	margin-bottom: 16px;
 	color: #888888;
-	margin:0;
-	padding:0;
+	padding: 0;
 	font-size: 3em;
 	text-align: center;
 }
-.project-role {
-	float: left;
-	display: inline-block;
-}
 .project-date {
-	float: right;
-	display: inline-block;
+	text-align: center;
 }
-.project-below {
-	height:2.5em;
-	width:100%;
-	display: inline-block;
+.project-skill-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+}
+.project-skill {
+	font-size: 1.2em;
+	padding: 4px 16px;
+	background: #ddd;
+	border-radius: 8px;
 }
 .project-description {
-	float: left;
-	display: inline-block;
 	margin-bottom: 4em;
 }
 .image {
@@ -56,8 +53,8 @@
     margin-right: auto;
     max-height: 300px;
     max-width: 100%;
-    margin-top:1em;
-    margin-bottom:1em;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .large-image {
     display: block;
@@ -87,10 +84,6 @@
 
 /* MEDIUM SIZE */
 @media (max-width:768px){
-	.project-title {
-		margin-top:1em;
-		margin-bottom:1em;
-	}
 }
 
 /* SMALL */
@@ -101,20 +94,6 @@
 	}
 	.back-button ul li {
 		margin: 1.2em 0.5em;
-	}
-	.project-role {
-		float: none;
-		display: block;
-	}
-	.project-date {
-		float: none;
-		display: block;
-	}
-	.project-role h4 {
-		text-align: center;
-	}
-	.project-date h4 {
-		text-align: center;
 	}
 }
 

@@ -3,7 +3,6 @@ layout: page
 title: Partyspot
 permalink: /partyspot/
 project: Partyspot
-role: Android Development
 time: 2014
 image: /assets/images/partyspot-header-bg.png
 displayimage: /assets/images/partyspot-header.png

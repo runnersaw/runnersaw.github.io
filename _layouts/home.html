@@ -20,7 +20,7 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 			<div class="header">
 				<div class="container">
 					<div class="social-icons">
-						<a href="https://www.linkedin.com/pub/sawyer-vaughan/a4/723/43b" target="_blank" rel="noopener"><img class="link-img" src="/assets/images/in.png"></a>
+						<a href="https://www.linkedin.com/in/sawyervaughan" target="_blank" rel="noopener"><img class="link-img" src="/assets/images/in.png"></a>
 						<a href="https://github.com/runnersaw" target="_blank" rel="noopener"><img class="link-img" src="/assets/images/gh.png" style="opacity:0.55;"></a>
 						<a href="/assets/files/final_resume.pdf" target="_blank" rel="noopener"><img class="link-img" src="/assets/images/resume.png" style="opacity:0.4;"></a>
 					</div>
@@ -54,9 +54,9 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 
 				{% for job in site.data.jobs %}
 				<div class="years">
-					<h4><b>{{ job.year }}</b></h4>
+					<h4>{{ job.year }}</h4>
 					<span><h3>{{ job.title }} | <strong>{{ job.company }}</strong></h3></span>
-					<p><i>{{ job.description }}</i></p>
+					<p>{{ job.description }}</p>
 				</div>
 				{% endfor %}
 

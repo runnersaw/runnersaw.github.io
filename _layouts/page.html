@@ -32,17 +32,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="project">
 				<div class="container">
 					<div class="project-info">
-						<div class="project-title">
-							<h2>{{ page.project }}</h2>
-						</div>
-						<div class="project-below">
-							<div class="project-role">
-								<h4>{{ page.role }}</h4>
+						<h2 class="project-title">{{ page.project }}</h2>
+						<h4 class="project-date">{{ page.time }}</h4>
+						{% if page.skills %}
+							<div class="project-skill-container">
+								{% for skill in page.skills %}
+									<p class="project-skill">{{ skill }}</p>
+								{% endfor %}
 							</div>
-							<div class="project-date">
-								<h4>{{ page.time }}</h4>
-							</div>
-						</div>
+						{% endif %}
 						<div class="project-image">
 						{% if page.image %}
 							<img class="image" src="{{ page.image }}">
