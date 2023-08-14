@@ -16,47 +16,45 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 </head>
 <body>
 	<div id="top-top" class="headerbg">
-		<div id="popup"></div>
-			<div class="header">
-				<div class="container">
-					<div class="social-icons">
-						<a href="https://www.linkedin.com/pub/sawyer-vaughan/a4/723/43b" target="_blank" rel="noopener"><img class="link-img" src="/assets/images/in.png"></a>
-						<a href="https://github.com/runnersaw" target="_blank" rel="noopener"><img class="link-img" src="/assets/images/gh.png" style="opacity:0.55;"></a>
-						<a href="/assets/files/final_resume.pdf" target="_blank" rel="noopener"><img class="link-img" src="/assets/images/resume.png" style="opacity:0.4;"></a>
-					</div>
+		<div class="header">
+			<div class="container">
+				<div class="social-icons">
+					<a href="https://www.linkedin.com/in/sawyervaughan" target="_blank" rel="noopener"><img class="link-img" src="/assets/images/in.png"></a>
+					<a href="https://github.com/runnersaw" target="_blank" rel="noopener"><img class="link-img" src="/assets/images/gh.png" style="opacity:0.55;"></a>
+					<a href="/assets/files/final_resume.pdf" target="_blank" rel="noopener"><img class="link-img" src="/assets/images/resume.png" style="opacity:0.4;"></a>
+				</div>
 
-					<div class="nav">
-						<ul>
-							<li><a class="scroll" href="mailto:sawyer.vaughan@gmail.com">CONTACT</a></li>
-						</ul>
-					</div>
-					<div class="clear"></div>
+				<div class="nav nav-right">
+					<ul>
+						<li><a class="scroll" href="mailto:sawyer.vaughan@gmail.com">CONTACT</a></li>
+					</ul>
 				</div>
+				<div class="clear"></div>
 			</div>
-			<div class="banner">
-				<div class="container">
-					<div class="banner-info">
-						<div class="bannerhead">
-							<h2>I am <span>Sawyer Vaughan</span></h2>
-							<h3>Senior Software Engineer</h3>
-							<p>I am a software engineer currently looking for a new opportunity. Previously, I was a Senior Software Engineer at Google. I graduated with an Electrical and Computer Engineering degree from Olin College of Engineering.</p>
-						</div>
+		</div>
+		<div class="banner">
+			<div class="container">
+				<div class="banner-info">
+					<div class="bannerhead">
+						<h2><span>Sawyer Vaughan</span></h2>
+						<h3>Senior Software Engineer</h3>
+						<p>I am a software engineer currently looking for a new opportunity. Previously, I was a Senior Software Engineer at Google. I graduated with an Electrical and Computer Engineering degree from Olin College of Engineering.</p>
 					</div>
-					<div class="clear"></div>
 				</div>
+				<div class="clear"></div>
 			</div>
 		</div>
 		<div id="about" class="about">
 			<div class="container">
 				<div class="header-section text-center">
-					<h2 class="section-title"><span class="section-lines"> </span>ABOUT<span class="section-lines"> </span></h2>
+					<h2 class="section-title"><span class="section-lines"> </span>WORK<span class="section-lines"> </span></h2>
 				</div>
 
 				{% for job in site.data.jobs %}
 				<div class="years">
-					<h4><b>{{ job.year }}</b></h4>
-					<span><h4>{{ job.title }} | <strong>{{ job.company }}</strong></h4></span>
-					<p><i>{{ job.description }}</i></p>
+					<h4>{{ job.year }}</h4>
+					<span><h3>{{ job.title }} | <strong>{{ job.company }}</strong></h3></span>
+					<p>{{ job.description }}</p>
 				</div>
 				{% endfor %}
 
@@ -65,22 +63,16 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 
 		<div id="skills" class="skills">
 			<div class="container">
-				<div class="skills-grids">
-					<div class="skill-section text-center">
-						<h2 class="section-title"><span class="section-lines"> </span>SKILLS<span class="section-lines"> </span></h2>
-					</div>
-					<div class="services_grids">
-						<div id="canvas">
-							<div class="skill-grids text-center">
-							{% for skill in site.data.skills %}
-								<div class="col-md-3 skill-grid-column">
-									<div class="skill-grid skills-black">
-										<h3 class="skill-text">{{ skill.skill }}</h3>
-									</div>
-								</div>
-							{% endfor %}
-							</div>
+				<div class="skill-section text-center">
+					<h2 class="section-title"><span class="section-lines"> </span>SKILLS<span class="section-lines"> </span></h2>
+				</div>
+				<div id="canvas">
+					<div class="skill-grids text-center">
+					{% for skill in site.data.skills %}
+						<div class="skill-grid skills-black">
+							<h3 class="skill-text skill-level-{{ skill.level }}">{{ skill.skill }}</h3>
 						</div>
+					{% endfor %}
 					</div>
 				</div>
 			</div>
@@ -94,30 +86,47 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 				<div class="portfolio-grids">
 
 				{% for post in site.posts %}
-					{% if post.permalink %}
-					<a href="{{ post.permalink }}" class="project-link">
-					{% endif %}
-					{% if post.external_link %}
-					<a href="{{ post.external_link }}" class="project-link">
-					{% endif %}
-						<div class="portfolio-grid col-md-4 portfolio-button">
-							<img class="portfolio-image" src="{{ post.displayimage }}">
+					{% assign link = post.permalink | default: post.external_link %}
+					<a href="{{ link }}" class="portfolio-grid project-link">
+						<div class="portfolio-button">
+							<div class="portfolio-image-container">
+								<img class="portfolio-image" src="{{ post.displayimage }}" />
+							</div>
 							<div class="portfolio-title">
 								<h2>{{ post.project }}</h2>
 							</div>
 							<div class="portfolio-date">
 								<h4>{{ post.time }}</h4>
 							</div>
+							{% if post.skills or post.work_in_progress %}
+								<div class="portfolio-skill-container">
+									{% for skill in post.skills %}
+										<p class="portfolio-skill">{{ skill }}</p>
+									{% endfor %}
+									{% if post.work_in_progress %}
+										<p class="portfolio-skill skill-warning">Work in progress</p>
+									{% endif %}
+									{% if post.production %}
+										<p class="portfolio-skill skill-green">Production</p>
+									{% endif %}
+									{% if post.maintenance_mode %}
+										<p class="portfolio-skill skill-warning">Maintenance mode</p>
+									{% endif %}
+									{% if post.shut_down %}
+										<p class="portfolio-skill skill-alert">Shut down</p>
+									{% endif %}
+									{% if post.hackathon %}
+										<p class="portfolio-skill skill-green">Hackathon project</p>
+									{% endif %}
+									{% if post.school_project %}
+										<p class="portfolio-skill skill-green">School project</p>
+									{% endif %}
+								</div>
+							{% endif %}
 							<p>{{ post.shortdescription }}</p>
-							<a class="rightarrow"><span> </span></a>
+							<div class="rightarrow"></div>
 						</div>
-					<!-- Might as well make sure we match tags -->
-					{% if post.permalink %}
 					</a>
-					{% endif %}
-					{% if post.external_link %}
-					<a/>
-					{% endif %}
 				{% endfor %}
 
 				</div>
