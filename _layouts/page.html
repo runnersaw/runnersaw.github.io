@@ -34,11 +34,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="project-info">
 						<h2 class="project-title">{{ page.project }}</h2>
 						<h4 class="project-date">{{ page.time }}</h4>
-						{% if page.skills %}
+						{% if page.skills or post.work_in_progress %}
 							<div class="project-skill-container">
 								{% for skill in page.skills %}
 									<p class="project-skill">{{ skill }}</p>
 								{% endfor %}
+								{% if page.work_in_progress %}
+									<p class="project-skill project-skill-warning">Work in progress</p>
+								{% endif %}
 							</div>
 						{% endif %}
 						<div class="project-image">

@@ -47,7 +47,7 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 		<div id="about" class="about">
 			<div class="container">
 				<div class="header-section text-center">
-					<h2 class="section-title"><span class="section-lines"> </span>ABOUT<span class="section-lines"> </span></h2>
+					<h2 class="section-title"><span class="section-lines"> </span>WORK<span class="section-lines"> </span></h2>
 				</div>
 
 				{% for job in site.data.jobs %}
@@ -89,18 +89,23 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 					{% assign link = post.permalink | default: post.external_link %}
 					<a href="{{ link }}" class="portfolio-grid project-link">
 						<div class="portfolio-button">
-							<img class="portfolio-image" src="{{ post.displayimage }}" />
+							<div class="portfolio-image-container">
+								<img class="portfolio-image" src="{{ post.displayimage }}" />
+							</div>
 							<div class="portfolio-title">
 								<h2>{{ post.project }}</h2>
 							</div>
 							<div class="portfolio-date">
 								<h4>{{ post.time }}</h4>
 							</div>
-							{% if post.skills %}
+							{% if post.skills or post.work_in_progress %}
 								<div class="portfolio-skill-container">
 									{% for skill in post.skills %}
 										<p class="portfolio-skill">{{ skill }}</p>
 									{% endfor %}
+									{% if post.work_in_progress %}
+										<p class="portfolio-skill portfolio-skill-warning">Work in progress</p>
+									{% endif %}
 								</div>
 							{% endif %}
 							<p>{{ post.shortdescription }}</p>

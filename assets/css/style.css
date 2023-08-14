@@ -261,16 +261,26 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 .portfolio-grid h2 {
 	margin: 0;
 }
-.portfolio-grid img{
+.portfolio-image-container {
 	width:100%;
 	max-width:224px;
-	border-radius: 12px;
+	aspect-ratio: 224 / 185;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	position: relative;
 }
-.portfolio-grid a img {
-	max-width: 310px;
+.portfolio-image {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 12px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 .portfolio-title {
-	padding-top: 32px;
+	padding-top: 24px;
 }
 .portfolio-button {
 	cursor:pointer;
@@ -290,6 +300,9 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	padding: 4px 8px;
 	background: #ddd;
 	border-radius: 4px;
+}
+.portfolio-skill-warning {
+	background: #fcc;
 }
 div.rightarrow {
 	height:30px;

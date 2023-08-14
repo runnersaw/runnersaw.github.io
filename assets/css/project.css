@@ -27,6 +27,9 @@
 	background: #ddd;
 	border-radius: 8px;
 }
+.project-skill-warning {
+	background: #fcc;
+}
 .project-description {
 	margin-bottom: 4em;
 }
