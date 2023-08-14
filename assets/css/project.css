@@ -4,23 +4,6 @@
 	License: Creative Commons Attribution 3.0 Unported
 	License URL: http://creativecommons.org/licenses/by/3.0/
 ---*/
-.back-button{
-	float:left;
-}
-.back-button ul {
-	padding-left:0;
-}
-.back-button ul li{
-	display:inline-block;
-	margin:1em 0 0 1.5em;
-}
-.back-button ul li a{
-	color:#B5A9B7;
-}
-.back-button ul li a:hover{
-	color:gray;
-	text-decoration:none;
-}
 .project-title {
 	margin-top: 40px;
 	margin-bottom: 16px;
@@ -94,33 +77,12 @@
 
 /* SMALL */
 @media (max-width:640px){
-	.back-button ul{
-		margin:0;
-		padding:0;
-	}
-	.back-button ul li {
-		margin: 1.2em 0.5em;
-	}
 }
 
 /* TINY */
 @media (max-width:480px){
-	.back-button ul{
-		margin:0;
-		padding:0;
-	}
-	.back-button ul li {
-		margin: 0.8em 0.5em;
-	}
-	.back-button {
-		text-align:center;
-	}
 }
 
 /* REALLY TINY */
 @media (max-width:320px){
-	.back-button ul{
-		margin:0;
-		padding:0;
-	}
 }
