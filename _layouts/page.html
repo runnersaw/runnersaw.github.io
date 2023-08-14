@@ -45,6 +45,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						{% if page.image %}
 							<img class="image" src="{{ page.image }}">
 						{% endif %}
+						{% if page.loop_video %}
+							<video class="image larger-image" autoplay muted loop playsinline disablepictureinpicture disableremoteplayback>
+								<source src="{{ page.loop_video }}" type="video/mp4" />
+							</video>
+						{% endif %}
 						{% if page.video %}
 							<iframe class="image" width="560" height="315" src="{{ page.video }}" frameborder="0" allowfullscreen></iframe>
 						{% endif %}

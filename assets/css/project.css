@@ -56,6 +56,9 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.larger-image {
+	max-height: 400px;
+}
 .large-image {
     display: block;
     margin-left: auto;
@@ -70,6 +73,9 @@
 }
 .project-below div h4 {
 	font-weight: bold;
+}
+.project-full-description {
+	font-size: 1.2em;
 }
 
 /* BIG */
