@@ -199,6 +199,15 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 .skill-text {
 	margin: 16px;	
 }
+.skill-level-3 {
+	font-weight: bold;
+}
+.skill-level-2 {
+	font-weight: normal;
+}
+.skill-level-1 {
+	font-weight: 300;
+}
 #canvas{
 	position:relative;
 }
@@ -254,6 +263,18 @@ body input[type="text"],body input[type="submit"],body textarea,body input[type=
 	position: relative;
 	/* Account for the button which is position: absolute. */
 	padding-bottom: 46px;
+}
+.portfolio-skill-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+	margin-bottom: 8px;
+}
+.portfolio-skill {
+	padding: 4px 8px;
+	background: #ddd;
+	border-radius: 4px;
 }
 div.rightarrow{
 	height:30px;

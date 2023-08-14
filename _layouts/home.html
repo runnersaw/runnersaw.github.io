@@ -55,7 +55,7 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 				{% for job in site.data.jobs %}
 				<div class="years">
 					<h4><b>{{ job.year }}</b></h4>
-					<span><h4>{{ job.title }} | <strong>{{ job.company }}</strong></h4></span>
+					<span><h3>{{ job.title }} | <strong>{{ job.company }}</strong></h3></span>
 					<p><i>{{ job.description }}</i></p>
 				</div>
 				{% endfor %}
@@ -72,7 +72,7 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 					<div class="skill-grids text-center">
 					{% for skill in site.data.skills %}
 						<div class="skill-grid skills-black">
-							<h3 class="skill-text">{{ skill.skill }}</h3>
+							<h3 class="skill-text skill-level-{{ skill.level }}">{{ skill.skill }}</h3>
 						</div>
 					{% endfor %}
 					</div>
@@ -98,6 +98,13 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 							<div class="portfolio-date">
 								<h4>{{ post.time }}</h4>
 							</div>
+							{% if post.skills %}
+								<div class="portfolio-skill-container">
+									{% for skill in post.skills %}
+										<p class="portfolio-skill">{{ skill }}</p>
+									{% endfor %}
+								</div>
+							{% endif %}
 							<p>{{ post.shortdescription }}</p>
 							<div class="rightarrow"></div>
 						</div>
