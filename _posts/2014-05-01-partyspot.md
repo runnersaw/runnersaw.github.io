@@ -11,5 +11,6 @@ shortdescription: An Android app using the Spotify SDK that includes collaborati
 skills:
 - Android
 - Java
+school_project: true
 categories: jekyll update
 ---

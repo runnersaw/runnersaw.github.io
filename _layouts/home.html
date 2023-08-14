@@ -104,7 +104,22 @@ IF YOU'RE LOOKING AT THIS, I'D LIKE YOU TO KNOW THAT I DID NOT WRITE THIS HTML O
 										<p class="portfolio-skill">{{ skill }}</p>
 									{% endfor %}
 									{% if post.work_in_progress %}
-										<p class="portfolio-skill portfolio-skill-warning">Work in progress</p>
+										<p class="portfolio-skill skill-warning">Work in progress</p>
+									{% endif %}
+									{% if post.production %}
+										<p class="portfolio-skill skill-green">Production</p>
+									{% endif %}
+									{% if post.maintenance_mode %}
+										<p class="portfolio-skill skill-warning">Maintenance mode</p>
+									{% endif %}
+									{% if post.shut_down %}
+										<p class="portfolio-skill skill-alert">Shut down</p>
+									{% endif %}
+									{% if post.hackathon %}
+										<p class="portfolio-skill skill-green">Hackathon project</p>
+									{% endif %}
+									{% if post.school_project %}
+										<p class="portfolio-skill skill-green">School project</p>
 									{% endif %}
 								</div>
 							{% endif %}

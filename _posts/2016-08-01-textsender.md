@@ -11,5 +11,6 @@ shortdescription: A jailbreak tweak that provides text sending and actionable no
 skills:
 - iOS
 - Objective-C
+shut_down: true
 categories: jekyll update
 ---
