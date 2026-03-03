@@ -1,9 +1,15 @@
 [
 	{
+		"company":"OpenTable",
+		"year":"2023-Present",
+		"title":"Staff iOS Engineer",
+		"description":"I am a Staff iOS Engineer on the Marketing Tech team at OpenTable.<br><br><a href='/assets/files/final_resume.pdf' target='_blank' rel='noopener' class='about-link'>See my resume for more information.</a>"
+	},
+	{
 		"company":"Google",
 		"year":"2017-2023",
 		"title":"Senior Software Engineer",
-		"description":"I was a Senior Software Engineer on the iOS at Google team, working with dozens of Google teams to write and launch integrations with iOS features.<br><br><a href='/assets/files/final_resume.pdf' target='_blank' rel='noopener' class='about-link'>See my resume for more information.</a>"
+		"description":"I was a Senior Software Engineer on the iOS at Google team, working with dozens of Google teams to write and launch integrations with iOS features."
 	},
 	{
 		"company":"Onshape",
